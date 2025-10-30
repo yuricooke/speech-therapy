@@ -1,0 +1,115 @@
+/* [project]/src/components/Partnerships.module.scss.module.css [app-client] (css) */
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__title {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__subtitle {
+  color: var(--text-primary);
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnershipsGrid {
+  margin-bottom: 4rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCard {
+  background: var(--gray-light);
+  text-align: center;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px #0000001a;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__logoPlaceholder {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerName {
+  color: var(--text-primary);
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCategory {
+  color: var(--gray-dark);
+  font-size: .9rem;
+  font-style: italic;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications {
+  background: var(--secondary-color);
+  text-align: center;
+  border-radius: 16px;
+  padding: 3rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications h3 {
+  color: var(--primary);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certList {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certItem {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px #0000001a;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certItem strong {
+  color: var(--primary);
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+  display: block;
+}
+
+@media (width <= 768px) {
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__title {
+    font-size: 2rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications {
+    padding: 2rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications h3 {
+    font-size: 1.5rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certList {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_Partnerships_module_scss_module_css_f9ee138c._.single.css.map*/

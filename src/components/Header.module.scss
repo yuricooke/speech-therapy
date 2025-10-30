@@ -1,0 +1,223 @@
+.header {
+  position: sticky; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  padding: 16px 0;
+
+  &.visible {
+    transform: translateY(0);
+  }
+
+  &.hidden {
+    transform: translateY(-100%);
+  }
+}
+
+
+.wrapper {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+
+  padding: 0.5rem 1rem;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    padding: 0 15px;
+    height: 60px;
+  }
+}
+
+
+.logo {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 42px;
+  }
+
+  @media (max-width: 480px) {
+    width: 90px;
+    height: 38px;
+  }
+}
+
+.logoImage {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+
+
+.logoButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:focus {
+    outline: 2px solid #2f8c8a;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+.logoText {
+  color: #2f8c8a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.5px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.logoSubtext {
+  color: #666;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: -2px;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 40px;
+
+  @media (max-width: 768px) {
+    display: none; // Hide on mobile - could be replaced with hamburger menu
+  }
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+
+  @media (max-width: 1024px) {
+    gap: 20px;
+  }
+}
+
+.navItem {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  position: relative;
+
+  &:hover {
+    color: #2f8c8a;
+    background: rgba(47, 140, 138, 0.1);
+  }
+
+  &:focus {
+    outline: 2px solid #2f8c8a;
+    outline-offset: 2px;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+
+.languageSelector {
+  flex-shrink: 0;
+}
+
+.languageSelect {
+  padding: 8px 12px;
+  border: 2px solid #2f8c8a;
+  border-radius: 6px;
+  background: white;
+  color: #2f8c8a;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 60px;
+
+  &:hover {
+    background: #2f8c8a;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(47, 140, 138, 0.3);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(47, 140, 138, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    padding: 6px 8px;
+    font-size: 12px;
+    min-width: 50px;
+  }
+}
+
+// Mobile menu styles (for future implementation)
+@media (max-width: 768px) {
+  .container {
+    justify-content: space-between;
+  }
+  
+  // Add mobile menu toggle button styles here if needed
+  .mobileMenuToggle {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #2f8c8a;
+    
+    &:focus {
+      outline: 2px solid #2f8c8a;
+      outline-offset: 2px;
+    }
+  }
+}
+
+// Smooth scrolling behavior moved to global styles

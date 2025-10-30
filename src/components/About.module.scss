@@ -1,0 +1,616 @@
+.about {
+  background: var(--primary-dark);
+  position: relative;
+  padding: 4rem 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 1;
+  }
+
+  :global(.container) {
+    position: relative;
+    z-index: 2;
+  }
+
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 4rem;
+    align-items: start;
+
+  }
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 4/3;
+  }
+
+  .placeholder {
+    width: 300px;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .textContent {
+    .title {
+      color: var(--accent-light);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .name {
+      color: var(--white);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 400;
+    }
+
+    .experience {
+      color: var(--accent-light);
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: justify;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .personalNote {
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: justify;
+      color: rgba(255, 255, 255, 0.9);
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      border-left: 4px solid var(--accent);
+      backdrop-filter: blur(10px);
+    }
+  }
+
+  .experienceSection {
+    padding: 4rem 0;
+    margin: 5rem 0;
+    position: relative;
+
+    .experienceTitle {
+      text-align: center;
+      color: var(--white);
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .countriesTimeline {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin: 4rem auto;
+      max-width: 900px;
+      padding: 3rem 2rem;
+      min-height: 120px;
+
+      // Linha da timeline branca com fade
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 30px;
+        left: 8%;
+        right: 8%;
+        height: 4px;
+        background: linear-gradient(90deg, 
+          rgba(255, 255, 255, 0) 0%, 
+          rgba(255, 255, 255, 0.3) 15%, 
+          rgba(255, 255, 255, 0.8) 50%, 
+          rgba(255, 255, 255, 0.3) 85%, 
+          rgba(255, 255, 255, 0) 100%);
+        border-radius: 3px;
+        z-index: 1;
+        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+      }
+
+      .countryItem {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        z-index: 2;
+        padding: 1rem 0.5rem;
+
+        // Círculo da timeline
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -22px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 12px;
+          height: 12px;
+          background: rgba(255, 255, 255, 0.9);
+          border-radius: 50%;
+          transition: all 0.4s ease;
+          border: 2px solid rgba(255, 255, 255, 0.7);
+          z-index: 3;
+        }
+
+        &:hover {
+          .countryFlag {
+            filter: brightness(1.1);
+          }
+
+          .countryName {
+            color: rgba(var(--accent-rgb), 0.9);
+          }
+        }
+
+        &.active {
+          &::after {
+            background: var(--accent);
+            width: 18px;
+            height: 18px;
+            box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.8);
+            border-width: 3px;
+          }
+
+          .countryFlag {
+            filter: brightness(1.2) drop-shadow(0 4px 12px rgba(var(--accent-rgb), 0.5));
+          }
+
+          .countryName {
+            color: var(--accent);
+            font-weight: 700;
+            text-shadow: 0 2px 8px rgba(var(--accent-rgb), 0.4);
+          }
+        }
+
+        .countryFlag {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+          transition: all 0.4s ease;
+          display: block;
+          filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+        }
+
+        .countryName {
+          color: var(--white);
+          font-size: 1rem;
+          font-weight: 600;
+          transition: all 0.4s ease;
+          text-align: center;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .experiencesContainer {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 2rem;
+
+      .experienceDetails {
+        animation: fadeIn 0.5s ease;
+
+        .selectedCountryTitle {
+          text-align: center;
+          color: var(--accent);
+          font-size: 1.8rem;
+          margin-bottom: 2rem;
+          font-weight: 600;
+        }
+
+        .experiencesList {
+          display: grid;
+          gap: 1.5rem;
+
+          .experienceCard {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+
+            &:hover {
+              background: rgba(255, 255, 255, 0.12);
+              transform: translateY(-2px);
+              box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            }
+
+            .experienceCompany {
+              color: var(--accent);
+              font-size: 1.3rem;
+              margin-bottom: 0.5rem;
+              font-weight: 600;
+            }
+
+            .experiencePosition {
+              color: var(--white);
+              font-size: 1.1rem;
+              margin-bottom: 1rem;
+              font-weight: 400;
+              line-height: 1.4;
+            }
+
+            .experienceDescription {
+              color: rgba(255, 255, 255, 0.9);
+              font-size: 0.95rem;
+              line-height: 1.6;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .multilingualism {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .multilingualContent {
+    .multiTitle {
+      color: var(--accent);
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .multiSubtitle {
+      color: var(--white);
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      font-weight: 400;
+    }
+
+    .multiDescription {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      text-align: justify;
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+
+  .questions {
+    h4 {
+      color: var(--accent);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .questionsList {
+      list-style: none;
+      margin-bottom: 1.5rem;
+
+      li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.9);
+
+        &::before {
+          content: '•';
+          color: var(--accent);
+          font-weight: bold;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+
+    .moreInfo {
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.8);
+      border-left: 4px solid var(--accent);
+      padding-left: 1rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .workshopImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .placeholder {
+      width: 250px;
+      height: 300px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  50% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 3rem 0;
+
+    .aboutContent {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      text-align: center;
+
+      .imageContainer {
+        position: static;
+        order: -1;
+      }
+    }
+
+    .multilingualism {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .multilingualism {
+      padding: 2rem;
+    }
+
+    .experienceSection {
+      padding: 3rem 0;
+      margin: 3rem 0;
+
+      .experienceTitle {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .countriesTimeline {
+        padding: 2rem 1rem;
+        max-width: 700px;
+
+        &::before {
+          left: 5%;
+          right: 5%;
+          height: 3px;
+          background: linear-gradient(90deg, 
+            rgba(255, 255, 255, 0) 0%, 
+            rgba(255, 255, 255, 0.2) 20%, 
+            rgba(255, 255, 255, 0.7) 50%, 
+            rgba(255, 255, 255, 0.2) 80%, 
+            rgba(255, 255, 255, 0) 100%);
+          box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+        }
+
+        .countryItem {
+          padding: 0.8rem 0.3rem;
+
+          &::after {
+            width: 10px;
+            height: 10px;
+            bottom: -20px;
+          }
+
+          &.active::after {
+            width: 14px;
+            height: 14px;
+            bottom: -22px;
+          }
+
+          .countryFlag {
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
+          }
+
+          .countryName {
+            font-size: 0.85rem;
+          }
+        }
+      }
+
+      .experiencesContainer {
+        padding: 0 1rem;
+
+        .experienceDetails {
+          .selectedCountryTitle {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 2rem 0;
+
+    .textContent {
+      .title {
+        font-size: 2rem;
+      }
+
+      .name {
+        font-size: 1.5rem;
+      }
+
+      .personalNote {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+      }
+    }
+
+    .multilingualContent {
+      .multiTitle {
+        font-size: 2rem;
+      }
+
+      .multiSubtitle {
+        font-size: 1.5rem;
+      }
+    }
+
+    .placeholder {
+      width: 250px;
+      height: 300px;
+    }
+
+    .questions {
+      text-align: left;
+    }
+
+    .experienceSection {
+      padding: 2rem 0;
+      margin: 2rem 0;
+
+      .experienceTitle {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+      }
+
+              .countriesTimeline {
+          flex-direction: column;
+          max-width: 320px;
+          padding: 1.5rem 0.5rem;
+          align-items: center;
+
+          // Linha vertical para mobile com fade
+          &::before {
+            top: 5%;
+            bottom: 5%;
+            left: 30px;
+            right: auto;
+            width: 3px;
+            height: auto;
+            background: linear-gradient(180deg, 
+              rgba(255, 255, 255, 0) 0%, 
+              rgba(255, 255, 255, 0.3) 20%, 
+              rgba(255, 255, 255, 0.8) 50%, 
+              rgba(255, 255, 255, 0.3) 80%, 
+              rgba(255, 255, 255, 0) 100%);
+            transform: none;
+            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+          }
+
+          .countryItem {
+            flex-direction: row;
+            align-items: center;
+            gap: 1.2rem;
+            margin-bottom: 2rem;
+            width: 100%;
+            padding: 0.8rem;
+
+            // Círculo para mobile
+            &::after {
+              position: absolute;
+              left: 20px;
+              bottom: auto;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 10px;
+              height: 10px;
+            }
+
+            &.active::after {
+              width: 14px;
+              height: 14px;
+              left: 18px;
+            }
+
+            .countryFlag {
+              font-size: 2rem;
+              margin: 0;
+              margin-left: 2.5rem;
+              flex-shrink: 0;
+            }
+
+            .countryName {
+              font-size: 1rem;
+              text-align: left;
+              margin: 0;
+              white-space: normal;
+            }
+          }
+        }
+
+      .experiencesContainer {
+        padding: 0 0.5rem;
+
+        .experienceDetails {
+          .selectedCountryTitle {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+          }
+
+          .experienceCard {
+            padding: 1rem;
+
+            .experienceCompany {
+              font-size: 1.1rem;
+            }
+
+            .experiencePosition {
+              font-size: 1rem;
+            }
+
+            .experienceDescription {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+} 

@@ -1,0 +1,13 @@
+@use '../variables/colors' as *;
+
+@mixin gradient-primary {
+  background: linear-gradient(220deg, $primary 0%, $primary-light 100%);
+}
+
+@mixin gradient-secondary {
+  background: linear-gradient(220deg, $secondary-color 0%, $white 100%);
+}
+
+@mixin gradient-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+} 

@@ -1,0 +1,39 @@
+@use '../variables/fonts' as *;
+@use '../variables/breakpoints' as *;
+
+@mixin heading-1 {
+  font-family: $font-heading;
+  font-size: $font-size-5xl;
+  line-height: $line-height-tight;
+  font-weight: $semi-bold;
+}
+
+@mixin heading-2 {
+  font-family: $font-heading;
+  font-size: $font-size-4xl;
+  line-height: $line-height-snug;
+  font-weight: $semi-bold;
+}
+
+@mixin heading-3 {
+  font-family: $font-heading;
+  font-size: $font-size-2xl;
+  line-height: $line-height-normal;
+  font-weight: $semi-bold;
+}
+
+@mixin body-text {
+  font-family: $font-body;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  font-weight: $regular;
+}
+
+@mixin responsive-text($size, $line-height) {
+  font-size: $size;
+  line-height: $line-height;
+
+  @media #{$mq-md-max} {
+    font-size: calc($size * 0.875);
+  }
+} 

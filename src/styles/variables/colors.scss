@@ -1,0 +1,80 @@
+// Color Variables
+$turquoise: #31BBCA;
+$blue: #4389C8;
+$lilac: #C793E0;
+$indigo: #4561AD;
+
+$text-turquoise: #259DA3;
+$text-blue: #356DA0;
+$text-lilac: #833193;
+$text-indigo: #4561AD;
+
+$turquoise-light: rgba($turquoise, 0.45);
+$blue-light: rgba($blue, 0.45);
+$lilac-light: rgba($lilac, 0.45);
+$indigo-light: rgba($indigo, 0.45);
+
+
+$primary: rgba($turquoise, 0.45);
+$primary-light: $turquoise-light;
+$primary-dark: rgba($turquoise, 0.8); 
+$primary-text: $text-turquoise;
+$accent: #E91E63;
+$accent-light: #f7338b;
+$accent-dark: #C71585;
+$neutral: #f1f1e9;
+$text-primary: #414141;
+$text-secondary: #65eded;
+$background: #fff;
+$white: #ffffff;
+$black: #000000;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$white: #ffffff;
+
+
+
+
+// CSS Custom Properties
+:root {
+  --primary: #{$primary};
+  --primary-light: #{$primary-light};
+  --primary-dark: #{$primary-dark};
+  --primary-text: #{$primary-text};
+  --accent: #{$accent};
+  --accent-light: #{$accent-light};
+  --accent-dark: #{$accent-dark};
+  --accent-rgb: 233, 30, 99;
+  --primary-rgb: 21, 66, 98;
+  --neutral: #{$neutral};
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --background: #{$background};
+  --white: #{$white};
+  --black: #{$black};
+  --gray-light: #{$gray-100};
+  --gray-medium: #{$gray-200};
+  --gray-dark: #{$gray-600};
+  --gray-800: #{$gray-800}; 
+  --blue: #{$blue};
+  --lilac: #{$lilac};
+  --indigo: #{$indigo};
+  --turquoise: #{$turquoise};
+  --text-turquoise: #{$text-turquoise};
+  --text-blue: #{$text-blue};
+  --text-lilac: #{$text-lilac};
+  --text-indigo: #{$text-indigo};
+
+}
+
+body.theme-accent {
+  background-color: var(--primary-light);
+}

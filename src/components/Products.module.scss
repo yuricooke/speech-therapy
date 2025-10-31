@@ -2,16 +2,18 @@
 
 
 .products {
-  background: var(--primary-dark);
+  background-color: var(--blue-dark);
+  background-image: linear-gradient(to bottom, var(--blue-dark) 75%, var(--white)90%);
 
+  padding-bottom: 15rem;
   .header {
 
-    margin-bottom: 4rem;
+
   }
   
   .title {
     
-    color: var(--accent-light);
+    color: var(--tertiary);
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
@@ -27,107 +29,36 @@
     position: relative;
     z-index: 10;
     width: 100%;
-    height: 800px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
     margin-block: 2rem;
     overflow: visible;
-
   }
 
-  .centralSun {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: linear-gradient(
-      135deg, 
-      rgba(255, 255, 255, 0.75) 0%, 
-      rgba(255, 255, 255, 0.5) 50%,
-      rgba(255, 255, 255, 0.75) 100%
-    );
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(25px) saturate(1.2);
+  // New linear services row
+  .servicesRow {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 
-      0 0 60px rgba(255, 255, 255, 0.2),
-      0 0 120px rgba(255, 255, 255, 0.1),
-      0 25px 50px rgba(0, 0, 0, 0.3),
-      inset 0 1px 20px rgba(255, 255, 255, 0.4);
-    z-index: 10;
-    animation: sunGlow 4s ease-in-out infinite;
+    flex-wrap: wrap;  
+    gap: 1.5rem;
+    justify-content: space-between;
+
+    padding: 0.5rem 0;
   }
 
-  .sunContent {
-    text-align: center;
-    color: var(--primary);
+  .serviceItem {
+    flex: 0 0 calc(16.66% - 1.25rem);
+    min-width: 180px;
+    display: flex;
   }
 
-  .sunLogo {
-    width: 150px;
-    height: 150px;
-    
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
-
-  .sunTitle {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0;
-    color: var(--primary);
-  }
-
-  .therapyOrbit {
-    position: relative;
-
-    
-    &::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 640px;
-      height: 640px;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-      box-shadow: 
-        0 0 20px rgba(255, 255, 255, 0.1),
-        inset 0 0 20px rgba(255, 255, 255, 0.05);
-      animation: orbitGlow 8s ease-in-out infinite;
-    }
-  }
-
-  .therapyPlanet {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: 0 0;
-    transform: 
-      translate(-50%, -50%) 
-      rotate(var(--orbit-angle)) 
-      translateY(-320px) 
-      rotate(calc(-1 * var(--orbit-angle)));
-    
-    animation: planetFloat 6s ease-in-out infinite;
-    animation-delay: var(--animation-delay);
-  }
+  // Remove circular orbit idea; linear layout replaces it
 
   .planetCard {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    min-height: 140px;
+    border-radius: 16px;
     background: linear-gradient(
       135deg, 
       rgba(255, 255, 255, 0.12) 0%, 
@@ -146,7 +77,7 @@
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     
     &:hover {
-      transform: scale(1.1);
+      transform: translateY(-4px) scale(1.02);
       background: linear-gradient(
         135deg, 
         rgba(255, 255, 255, 0.2) 0%, 
@@ -202,67 +133,7 @@
 
 
 
-  .sunRay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 3px;
-    height: 300px;
-    background: linear-gradient(
-      to bottom,
-      transparent,
-      rgba(255, 255, 255, 0) 15%,
-      rgba(255, 255, 255, 0) 30%,
-      rgba(255, 255, 255, 0.4) 50%,
-      rgba(255, 255, 255, 0.2) 70%,
-      rgba(255, 255, 255, 0.1) 85%,
-      transparent
-    );
-    transform: translateX(-50%) rotate(var(--ray-angle));
-    transform-origin: top center;
-    opacity: 0.3;
-    border-radius: 2px;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
-    z-index: 5;
-    pointer-events: none;
-    
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 6px;
-      height: 6px;
-      background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 255, 255, 0.8) 50%,
-        transparent 100%
-      );
-      border-radius: 50%;
-      transform: translateX(-50%);
-      animation: solarPulse 3s ease-in-out infinite;
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-    }
-    
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 4px;
-      height: 4px;
-      background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.8) 0%,
-        rgba(255, 255, 255, 0.4) 70%,
-        transparent 100%
-      );
-      border-radius: 50%;
-      transform: translateX(-50%);
-      animation: planetPulse 4s ease-in-out infinite;
-    }
-  }
+  // Rays removed with the sun
 
   .floatingParticles {
     position: absolute;
@@ -439,56 +310,11 @@
     }
   }
 
-  @keyframes sunGlow {
-    0%, 100% { 
-      box-shadow: 
-        0 0 60px rgba(255, 255, 255, 0.2),
-        0 0 120px rgba(255, 255, 255, 0.1),
-        0 25px 50px rgba(0, 0, 0, 0.3),
-        inset 0 1px 20px rgba(255, 255, 255, 0.4);
-    }
-    50% { 
-      box-shadow: 
-        0 0 80px rgba(255, 255, 255, 0.3),
-        0 0 150px rgba(255, 255, 255, 0.15),
-        0 30px 60px rgba(0, 0, 0, 0.4),
-        inset 0 1px 25px rgba(255, 255, 255, 0.5);
-    }
-  }
+  // Sun animation removed
 
-  @keyframes planetFloat {
-    0%, 100% { 
-      transform: 
-        translate(-50%, -50%) 
-        rotate(var(--orbit-angle)) 
-        translateY(-320px) 
-        rotate(calc(-1 * var(--orbit-angle)))
-        translateY(0px);
-    }
-    50% { 
-      transform: 
-        translate(-50%, -50%) 
-        rotate(var(--orbit-angle)) 
-        translateY(-320px) 
-        rotate(calc(-1 * var(--orbit-angle)))
-        translateY(-12px);
-    }
-  }
+  // Float around orbit removed
 
-  @keyframes orbitGlow {
-    0%, 100% { 
-      opacity: 0;
-      box-shadow: 
-        0 0 20px rgba(255, 255, 255, 0.1),
-        inset 0 0 20px rgba(255, 255, 255, 0.05);
-    }
-    50% { 
-      opacity: 0.6;
-      box-shadow: 
-        0 0 30px rgba(255, 255, 255, 0.2),
-        inset 0 0 30px rgba(255, 255, 255, 0.1);
-    }
-  }
+  // Orbit glow removed
 
 
 
@@ -505,29 +331,9 @@
     }
   }
 
-  @keyframes solarPulse {
-    0%, 100% { 
-      opacity: 0.9;
-      transform: translateX(-50%) scale(1);
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
-    }
-    50% { 
-      opacity: 1;
-      transform: translateX(-50%) scale(1.3);
-      box-shadow: 0 0 18px rgba(255, 255, 255, 0.7);
-    }
-  }
+  // Solar pulse removed
 
-  @keyframes planetPulse {
-    0%, 100% { 
-      opacity: 0.6;
-      transform: translateX(-50%) scale(1);
-    }
-    50% { 
-      opacity: 0.9;
-      transform: translateX(-50%) scale(1.2);
-    }
-  }
+  // Planet pulse removed
 
   @keyframes floatParticle {
     0% { 
@@ -848,65 +654,18 @@
 
 @media (max-width: 1024px) {
   .products {
-    .orbitalDiagram {
-      height: 700px;
+    .servicesRow {
+      flex-wrap: wrap;
     }
 
-    .centralSun {
-      width: 160px;
-      height: 160px;
-    }
-
-
-    .sunTitle {
-      font-size: 0.9rem;
-    }
-
-    .therapyOrbit {
-      width: 600px;
-      height: 600px;
-    }
-
-    .therapyPlanet {
-      transform: 
-        translate(-50%, -50%) 
-        rotate(var(--orbit-angle)) 
-        translateY(-280px) 
-        rotate(calc(-1 * var(--orbit-angle)));
-    }
-
-    .therapyOrbit::before {
-      width: 560px;
-      height: 560px;
-    }
-
-    .sunRay {
-      height: 280px;
-    }
-
-    @keyframes planetFloat {
-      0%, 100% { 
-        transform: 
-          translate(-50%, -50%) 
-          rotate(var(--orbit-angle)) 
-          translateY(-280px) 
-          rotate(calc(-1 * var(--orbit-angle)))
-          translateY(0px);
-      }
-      50% { 
-        transform: 
-          translate(-50%, -50%) 
-          rotate(var(--orbit-angle)) 
-          translateY(-280px) 
-          rotate(calc(-1 * var(--orbit-angle)))
-          translateY(-10px);
-      }
+    .serviceItem {
+      flex: 1 1 calc(33.33% - 1.5rem);
+      min-width: 220px;
     }
 
     .planetCard {
-      width: 120px;
-      height: 120px;
-      padding: 0.8rem;
+      min-height: 130px;
+      padding: 1rem;
     }
 
     .planetIcon {
@@ -915,17 +674,13 @@
     }
 
     .planetTitle {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
 
     .planetButton {
       padding: 0.25rem 0.6rem;
-      font-size: 0.65rem;
+      font-size: 0.75rem;
     }
-
-
-
-
 
     .billingualTherapy {
       grid-template-columns: 1fr;
@@ -944,57 +699,31 @@
 
     .orbitalDiagram {
       height: auto;
-      min-height: 500px;
-      margin-bottom: 3rem;
-      flex-direction: column;
-      gap: 0;
-      padding: 2rem 1rem;
-      align-items: center;
-    }
-
-    .centralSun {
-      display: none; // Hide sun on mobile
-    }
-
-    .therapyOrbit {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      align-items: stretch; // Full width alignment
+      margin-bottom: 2rem;
       padding: 0 1rem;
-      
-      &::before {
-        display: none; // Remove orbital ring on mobile
-      }
+      align-items: stretch;
     }
 
-    .therapyPlanet {
-      position: relative;
-      top: auto;
-      left: auto;
-      transform: none;
-      animation: none;
-      width: 100%;
-      margin: 0;
+    .servicesRow {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .serviceItem {
+      flex: 1 1 calc(50% - 1rem);
+      min-width: 220px;
     }
 
     .planetCard {
       width: 100%;
-      height: 100px;
-      border-radius: 20px;
-      padding: 1.5rem;
+      min-height: 110px;
+      border-radius: 16px;
+      padding: 1.2rem;
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 1.5rem;
+      flex-direction: column;
+      justify-content: space-between;
       text-align: left;
       margin: 0;
-      
-      &:hover {
-        transform: translateY(-4px) scale(1.02);
-      }
     }
 
     .planetIcon {
@@ -1017,43 +746,7 @@
       border-radius: 15px;
     }
 
-    .sunRay {
-      display: none; // Hide rays on mobile for cleaner look
-    }
-
-    // Gentle float animation for mobile
-    @keyframes mobileFloat {
-      0%, 100% { 
-        transform: translateY(0px);
-      }
-      50% { 
-        transform: translateY(-6px);
-      }
-    }
-
-    .therapyPlanet {
-      animation: mobileFloat 6s ease-in-out infinite;
-      
-      &:nth-child(2) {
-        animation-delay: 1s;
-      }
-      
-      &:nth-child(3) {
-        animation-delay: 2s;
-      }
-      
-      &:nth-child(4) {
-        animation-delay: 3s;
-      }
-      
-      &:nth-child(5) {
-        animation-delay: 4s;
-      }
-      
-      &:nth-child(6) {
-        animation-delay: 5s;
-      }
-    }
+    // Removed mobile orbit float
 
     .modalContent {
       margin: 1rem;
@@ -1106,24 +799,25 @@
 @media (max-width: 480px) {
   .products {
     .orbitalDiagram {
-      padding: 1rem 0.5rem;
-    }
-
-    .centralSun {
-      display: none; // Hide sun on small mobile too
-    }
-
-    .therapyOrbit {
-      gap: 1rem;
       padding: 0 0.5rem;
+    }
+
+    .servicesRow {
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .serviceItem {
+      flex: 1 1 100%;
+      min-width: 0;
     }
 
     .planetCard {
       width: 100%;
-      height: 90px;
+      min-height: 96px;
       padding: 1rem 1.2rem;
-      gap: 1rem;
-      border-radius: 16px;
+      gap: 0.75rem;
+      border-radius: 14px;
     }
 
     .planetIcon {

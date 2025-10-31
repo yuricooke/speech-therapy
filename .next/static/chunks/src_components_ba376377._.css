@@ -18,7 +18,7 @@
 }
 
 .Header-module-scss-module__t7BEda__wrapper {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 1rem;
   flex-direction: row;
   justify-content: space-between;
@@ -101,7 +101,7 @@
 }
 
 .Header-module-scss-module__t7BEda__logoSubtext {
-  color: #666;
+  color: var(--text-lilac);
   letter-spacing: 2px;
   margin-top: -2px;
   font-size: 12px;
@@ -143,7 +143,7 @@
 
 .Header-module-scss-module__t7BEda__navItem {
   cursor: pointer;
-  color: #333;
+  color: var(--text-blue);
   background: none;
   border: none;
   border-radius: 6px;
@@ -233,6 +233,7 @@
 
 /* [project]/src/components/Hero.module.scss.module.css [app-client] (css) */
 .Hero-module-scss-module__lXQcIW__hero {
+  background-image: linear-gradient(to bottom, var(--white) 75%, var(--quaternary-light) 90%, var(--quaternary-light) 100%);
   margin-top: 2rem;
   padding: 0;
 }
@@ -243,14 +244,14 @@
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__image figure, .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__image picture {
-  aspect-ratio: 1344 / 756;
+  aspect-ratio: 1344 / 600;
   width: 100%;
   height: 100%;
 }
 
 @media (width <= 1024px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__image figure, .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__image picture {
-    aspect-ratio: 1 / 1.25;
+    aspect-ratio: 16 / 9;
   }
 }
 
@@ -263,7 +264,8 @@
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__content {
   z-index: 2;
-  background-image: linear-gradient(to left, var(--white), var(--white) 60%, transparent 100%);
+  background-image: linear-gradient(-45deg, var(--white) 0%, var(--white) 90%, transparent 90%);
+  width: 80%;
   color: var(--black);
   border-radius: 3rem;
   flex-direction: column;
@@ -277,15 +279,31 @@
 
 @media (width <= 1200px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__content {
-    padding-inline: 1rem;
-    border-radius: 0;
     width: 100%;
     max-width: 100%;
     margin-top: 0;
-    padding: 1.5rem 0;
+    padding: 2.5rem 1.5rem;
     bottom: 0;
     left: 0;
   }
+}
+
+.Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balaoContainer {
+  flex-direction: row;
+  gap: 1rem;
+  display: flex;
+}
+
+.Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__logoText {
+  width: 40%;
+  margin-top: -6rem;
+  margin-left: -1rem;
+}
+
+.Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__logoText img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balao {
@@ -303,7 +321,7 @@
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__tagline {
-  color: var(--accent-light);
+  color: var(--indigo);
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 14px;
@@ -341,16 +359,15 @@
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button {
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  background-color: #0000;
+  color: var(--white);
+  background-color: var(--tertiary);
   border-radius: 10px;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   padding: .75rem 2rem;
   font-size: 1rem;
   text-decoration: none;
-  transition: all .3s;
+  transition: transform .3s;
   display: flex;
 }
 
@@ -360,8 +377,8 @@
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button svg path {
-  stroke: var(--accent);
-  fill: var(--white);
+  stroke: var(--white);
+  fill: #0000;
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button span {
@@ -369,20 +386,19 @@
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button:hover {
-  background-color: var(--accent-dark);
-  color: var(--white);
+  outline: 1px solid var(--text-tertiary);
+  color: var(--text-tertiary);
+  background-color: #0000;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px #0003;
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button:hover svg path {
-  stroke: var(--white);
-  fill: var(--white);
+  stroke: var(--text-tertiary);
 }
 
 @media (width <= 1024px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button {
-    width: 100%;
     padding-block: .5rem;
     padding-inline: 1rem;
   }
@@ -391,6 +407,7 @@
 
 /* [project]/src/components/Overview.module.scss.module.css [app-client] (css) */
 .Overview-module-scss-module___FWama__overview {
+  background: linear-gradient(to bottom, var(--quaternary-light) 30%, var(--blue-dark) 100%);
   padding: 80px 0;
 }
 
@@ -404,7 +421,7 @@
   border-radius: 12px;
   flex-direction: column;
   height: 100%;
-  padding: 32px 24px;
+  padding: .75rem;
   transition: all .3s;
   display: flex;
 }
@@ -416,63 +433,67 @@
 }
 
 .Overview-module-scss-module___FWama__cardHeader {
-  margin-bottom: 24px;
+  margin-bottom: 1.25rem;
 }
 
 .Overview-module-scss-module___FWama__cardIcon {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
-  width: 56px;
-  height: 56px;
-  color: var(--white);
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 20px;
-  font-weight: 700;
-  display: flex;
+  aspect-ratio: 600 / 400;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.Overview-module-scss-module___FWama__cardIcon img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .Overview-module-scss-module___FWama__cardBody {
-  text-align: center;
   flex: 1;
   margin-bottom: 24px;
 }
 
 .Overview-module-scss-module___FWama__cardTitle {
-  color: var(--primary);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  color: var(--text-indigo);
   min-height: 52px;
   margin-bottom: 16px;
   font-size: 20px;
-  font-weight: 700;
   line-height: 1.3;
   display: flex;
 }
 
 .Overview-module-scss-module___FWama__cardDescription {
-  color: var(--text-secondary);
-  font-size: 15px;
+  color: var(--gray-800);
   line-height: 1.6;
 }
 
 .Overview-module-scss-module___FWama__cardFooter {
-  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  display: flex;
 }
 
 .Overview-module-scss-module___FWama__readMoreBtn {
+  border: none;
+  border-radius: 10px;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
+  padding: 10px 20px;
+  font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
   transition: all .3s;
   display: inline-flex;
 }
 
 .Overview-module-scss-module___FWama__readMoreBtn:after {
   content: "→";
+  font-size: 1.5rem;
+  line-height: 1;
   transition: transform .3s;
 }
 
@@ -504,12 +525,6 @@
     padding: 24px 20px;
   }
 
-  .Overview-module-scss-module___FWama__cardIcon {
-    width: 48px;
-    height: 48px;
-    font-size: 18px;
-  }
-
   .Overview-module-scss-module___FWama__cardTitle {
     font-size: 16px;
   }
@@ -522,15 +537,13 @@
 
 /* [project]/src/components/Products.module.scss.module.css [app-client] (css) */
 .Products-module-scss-module__U43jna__products {
-  background: var(--primary-dark);
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__header {
-  margin-bottom: 4rem;
+  background-color: var(--blue-dark);
+  background-image: linear-gradient(to bottom, var(--blue-dark) 75%, var(--white) 90%);
+  padding-bottom: 15rem;
 }
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__title {
-  color: var(--accent-light);
+  color: var(--tertiary);
   margin-bottom: 1rem;
   font-size: 2.5rem;
 }
@@ -543,85 +556,27 @@
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__orbitalDiagram {
   z-index: 10;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
   width: 100%;
-  height: 800px;
   margin-block: 2rem;
   display: flex;
   position: relative;
   overflow: visible;
 }
 
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__centralSun {
-  backdrop-filter: blur(25px) saturate(1.2);
-  z-index: 10;
-  background: linear-gradient(135deg, #ffffffbf 0%, #ffffff80 50%, #ffffffbf 100%);
-  border: 2px solid #ffffff4d;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 200px;
-  animation: 4s ease-in-out infinite Products-module-scss-module__U43jna__sunGlow;
+.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__servicesRow {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: .5rem 0;
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 60px #fff3, 0 0 120px #ffffff1a, 0 25px 50px #0000004d, inset 0 1px 20px #fff6;
 }
 
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunContent {
-  text-align: center;
-  color: var(--primary);
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunLogo {
-  width: 150px;
-  height: 150px;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunLogo img {
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunTitle {
-  color: var(--primary);
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit {
-  position: relative;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit:before {
-  content: "";
-  border: 1px solid #ffffff26;
-  border-radius: 50%;
-  width: 640px;
-  height: 640px;
-  animation: 8s ease-in-out infinite Products-module-scss-module__U43jna__orbitGlow;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 20px #ffffff1a, inset 0 0 20px #ffffff0d;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet {
-  transform-origin: 0 0;
-  transform: translate(-50%, -50%) rotate(var(--orbit-angle)) translateY(-320px) rotate(calc(-1 * var(--orbit-angle)));
-  animation: 6s ease-in-out infinite Products-module-scss-module__U43jna__planetFloat;
-  animation-delay: var(--animation-delay);
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__serviceItem {
+  flex: 0 0 calc(16.66% - 1.25rem);
+  min-width: 180px;
+  display: flex;
 }
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard {
@@ -630,12 +585,13 @@
   cursor: pointer;
   background: linear-gradient(135deg, #ffffff1f 0%, #ffffff14 50%, #ffffff0f 100%);
   border: 2px solid #fff3;
-  border-radius: 50%;
+  border-radius: 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 140px;
-  height: 140px;
+  width: 100%;
+  height: auto;
+  min-height: 140px;
   padding: 1rem;
   transition: all .4s cubic-bezier(.175, .885, .32, 1.275);
   display: flex;
@@ -644,7 +600,7 @@
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard:hover {
   background: linear-gradient(135deg, #fff3 0%, #ffffff26 50%, #ffffff1a 100%);
   border-color: #fff6;
-  transform: scale(1.1);
+  transform: translateY(-4px)scale(1.02);
   box-shadow: 0 15px 35px #0000004d, 0 0 25px #ffffff4d;
 }
 
@@ -682,49 +638,6 @@
   color: var(--white);
   background: #ffffff4d;
   border-color: #ffffff80;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunRay {
-  width: 3px;
-  height: 300px;
-  transform: translateX(-50%) rotate(var(--ray-angle));
-  transform-origin: top;
-  opacity: .3;
-  z-index: 5;
-  pointer-events: none;
-  background: linear-gradient(#0000, #fff0 15% 30%, #fff6 50%, #fff3 70%, #ffffff1a 85%, #0000);
-  border-radius: 2px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  box-shadow: 0 0 8px #ffffff4d;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunRay:before {
-  content: "";
-  background: radial-gradient(circle, #fff 0%, #fffc 50%, #0000 100%);
-  border-radius: 50%;
-  width: 6px;
-  height: 6px;
-  animation: 3s ease-in-out infinite Products-module-scss-module__U43jna__solarPulse;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  box-shadow: 0 0 10px #fff9;
-}
-
-.Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunRay:after {
-  content: "";
-  background: radial-gradient(circle, #fffc 0%, #fff6 70%, #0000 100%);
-  border-radius: 50%;
-  width: 4px;
-  height: 4px;
-  animation: 4s ease-in-out infinite Products-module-scss-module__U43jna__planetPulse;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__floatingParticles {
@@ -897,38 +810,6 @@
   right: 70%;
 }
 
-@keyframes Products-module-scss-module__U43jna__sunGlow {
-  0%, 100% {
-    box-shadow: 0 0 60px #fff3, 0 0 120px #ffffff1a, 0 25px 50px #0000004d, inset 0 1px 20px #fff6;
-  }
-
-  50% {
-    box-shadow: 0 0 80px #ffffff4d, 0 0 150px #ffffff26, 0 30px 60px #0006, inset 0 1px 25px #ffffff80;
-  }
-}
-
-@keyframes Products-module-scss-module__U43jna__planetFloat {
-  0%, 100% {
-    transform: translate(-50%, -50%) rotate(var(--orbit-angle)) translateY(-320px) rotate(calc(-1 * var(--orbit-angle))) translateY(0px);
-  }
-
-  50% {
-    transform: translate(-50%, -50%) rotate(var(--orbit-angle)) translateY(-320px) rotate(calc(-1 * var(--orbit-angle))) translateY(-12px);
-  }
-}
-
-@keyframes Products-module-scss-module__U43jna__orbitGlow {
-  0%, 100% {
-    opacity: 0;
-    box-shadow: 0 0 20px #ffffff1a, inset 0 0 20px #ffffff0d;
-  }
-
-  50% {
-    opacity: .6;
-    box-shadow: 0 0 30px #fff3, inset 0 0 30px #ffffff1a;
-  }
-}
-
 @keyframes Products-module-scss-module__U43jna__orbitPulse {
   0%, 100% {
     opacity: .6;
@@ -938,32 +819,6 @@
   50% {
     opacity: 1;
     transform: translateX(-50%)scale(1.5);
-  }
-}
-
-@keyframes Products-module-scss-module__U43jna__solarPulse {
-  0%, 100% {
-    opacity: .9;
-    transform: translateX(-50%)scale(1);
-    box-shadow: 0 0 12px #ffffff80;
-  }
-
-  50% {
-    opacity: 1;
-    transform: translateX(-50%)scale(1.3);
-    box-shadow: 0 0 18px #ffffffb3;
-  }
-}
-
-@keyframes Products-module-scss-module__U43jna__planetPulse {
-  0%, 100% {
-    opacity: .6;
-    transform: translateX(-50%)scale(1);
-  }
-
-  50% {
-    opacity: .9;
-    transform: translateX(-50%)scale(1.2);
   }
 }
 
@@ -1271,51 +1126,18 @@
 }
 
 @media (width <= 1024px) {
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__orbitalDiagram {
-    height: 700px;
+  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__servicesRow {
+    flex-wrap: wrap;
   }
 
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__centralSun {
-    width: 160px;
-    height: 160px;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunTitle {
-    font-size: .9rem;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit {
-    width: 600px;
-    height: 600px;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet {
-    transform: translate(-50%, -50%) rotate(var(--orbit-angle)) translateY(-280px) rotate(calc(-1 * var(--orbit-angle)));
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit:before {
-    width: 560px;
-    height: 560px;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunRay {
-    height: 280px;
-  }
-
-  @keyframes Products-module-scss-module__U43jna__planetFloat {
-    0%, 100% {
-      transform: translate(-50%, -50%) rotate(var(--orbit-angle)) translateY(-280px) rotate(calc(-1 * var(--orbit-angle))) translateY(0px);
-    }
-
-    50% {
-      transform: translate(-50%, -50%) rotate(var(--orbit-angle)) translateY(-280px) rotate(calc(-1 * var(--orbit-angle))) translateY(-10px);
-    }
+  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__serviceItem {
+    flex: calc(33.33% - 1.5rem);
+    min-width: 220px;
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard {
-    width: 120px;
-    height: 120px;
-    padding: .8rem;
+    min-height: 130px;
+    padding: 1rem;
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetIcon {
@@ -1324,12 +1146,12 @@
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetTitle {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetButton {
     padding: .25rem .6rem;
-    font-size: .65rem;
+    font-size: .75rem;
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__billingualTherapy {
@@ -1346,58 +1168,32 @@
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__orbitalDiagram {
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
-    height: auto;
-    min-height: 500px;
-    margin-bottom: 3rem;
-    padding: 2rem 1rem;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__centralSun {
-    display: none;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit {
-    flex-direction: column;
     align-items: stretch;
-    gap: 1.5rem;
-    width: 100%;
     height: auto;
+    margin-bottom: 2rem;
     padding: 0 1rem;
-    display: flex;
   }
 
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit:before {
-    display: none;
+  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__servicesRow {
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet {
-    width: 100%;
-    margin: 0;
-    animation: none;
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
+  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__serviceItem {
+    flex: calc(50% - 1rem);
+    min-width: 220px;
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard {
     text-align: left;
-    border-radius: 20px;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.5rem;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    height: 100px;
+    min-height: 110px;
     margin: 0;
-    padding: 1.5rem;
+    padding: 1.2rem;
     display: flex;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard:hover {
-    transform: translateY(-4px)scale(1.02);
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetIcon {
@@ -1418,44 +1214,6 @@
     flex-shrink: 0;
     padding: .4rem .8rem;
     font-size: .75rem;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__sunRay {
-    display: none;
-  }
-
-  @keyframes Products-module-scss-module__U43jna__mobileFloat {
-    0%, 100% {
-      transform: translateY(0);
-    }
-
-    50% {
-      transform: translateY(-6px);
-    }
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet {
-    animation: 6s ease-in-out infinite Products-module-scss-module__U43jna__mobileFloat;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet:nth-child(2) {
-    animation-delay: 1s;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet:nth-child(3) {
-    animation-delay: 2s;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet:nth-child(4) {
-    animation-delay: 3s;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet:nth-child(5) {
-    animation-delay: 4s;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyPlanet:nth-child(6) {
-    animation-delay: 5s;
   }
 
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__modalContent {
@@ -1505,23 +1263,24 @@
 
 @media (width <= 480px) {
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__orbitalDiagram {
-    padding: 1rem .5rem;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__centralSun {
-    display: none;
-  }
-
-  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__therapyOrbit {
-    gap: 1rem;
     padding: 0 .5rem;
   }
 
+  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__servicesRow {
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+
+  .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__serviceItem {
+    flex: 100%;
+    min-width: 0;
+  }
+
   .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard {
-    border-radius: 16px;
-    gap: 1rem;
+    border-radius: 14px;
+    gap: .75rem;
     width: 100%;
-    height: 90px;
+    min-height: 96px;
     padding: 1rem 1.2rem;
   }
 

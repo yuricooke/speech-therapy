@@ -5,21 +5,21 @@
   font-family: $font-heading;
   font-size: $font-size-5xl;
   line-height: $line-height-tight;
-  font-weight: $semi-bold;
+  font-weight: $medium;
 }
 
 @mixin heading-2 {
   font-family: $font-heading;
   font-size: $font-size-4xl;
   line-height: $line-height-snug;
-  font-weight: $semi-bold;
+  font-weight: $medium;
 }
 
 @mixin heading-3 {
   font-family: $font-heading;
   font-size: $font-size-2xl;
   line-height: $line-height-normal;
-  font-weight: $semi-bold;
+  font-weight: $medium;
 }
 
 @mixin body-text {

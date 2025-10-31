@@ -81,7 +81,7 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
           {/* Logo */}
           <div className={styles.logo}>
             <Link href="/" className={styles.logoButton}>
-              <img src="/logo.svg" alt="Logo" className={styles.logoImage} />
+              <img src="/balao-sombra.svg" alt="Logo" className={styles.logoImage} />
             </Link>
           </div>
 

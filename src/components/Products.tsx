@@ -25,48 +25,22 @@ export default function Products({ language }: ProductsProps) {
         </div>
 
         <div className={styles.orbitalDiagram}>
-          {/* Central Sun - Logo */}
-          <div className={styles.centralSun}>
-            <div className={styles.sunContent}>
-              <div className={styles.sunLogo}>
-                <img src="/Logo.svg" alt="Two Languages Are Better Than One Logo" />
-              </div>
-             
-            </div>
-            
-            {/* Sun Rays */}
-            {therapyServices.map((service, index) => (
-              <div 
-                key={`ray-${service.id}`}
-                className={styles.sunRay}
-                style={{
-                  '--ray-angle': `${(360 / therapyServices.length) * index}deg`
-                } as React.CSSProperties}
-              ></div>
-            ))}
-          </div>
-
-          {/* Therapy Orbit */}
-          <div className={styles.therapyOrbit}>
-            {therapyServices.map((service, index) => (
-              <div 
-                key={service.id} 
-                className={`${styles.therapyPlanet} ${styles[`planet${index + 1}`]}`}
-                style={{
-                  '--orbit-angle': `${(360 / therapyServices.length) * index}deg`,
-                  '--animation-delay': `${index * 0.5}s`
-                } as React.CSSProperties}
+          {/* Services row (linear layout) */}
+          <div className={styles.servicesRow}>
+            {therapyServices.map((service) => (
+              <div
+                key={service.id}
+                className={styles.serviceItem}
                 onClick={() => setSelectedService(service)}
               >
-                                 <div className={styles.planetCard}>
-
-                   <h4 className={styles.planetTitle}>{service.title}</h4>
-                   <button className={styles.planetButton}>
-                     {language === 'en' ? 'Explore' : 
-                      language === 'pt' ? 'Explorar' : 
-                      'Erkunden'}
-                   </button>
-                 </div>
+                <div className={styles.planetCard}>
+                  <h4 className={styles.planetTitle}>{service.title}</h4>
+                  <button className={styles.planetButton}>
+                    {language === 'en' ? 'Explore' :
+                     language === 'pt' ? 'Explorar' :
+                     'Erkunden'}
+                  </button>
+                </div>
               </div>
             ))}
           </div>

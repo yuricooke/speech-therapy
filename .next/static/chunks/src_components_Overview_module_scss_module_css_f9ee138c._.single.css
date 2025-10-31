@@ -1,5 +1,6 @@
 /* [project]/src/components/Overview.module.scss.module.css [app-client] (css) */
 .Overview-module-scss-module___FWama__overview {
+  background: linear-gradient(to bottom, var(--quaternary-light) 30%, var(--blue-dark) 100%);
   padding: 80px 0;
 }
 
@@ -13,7 +14,7 @@
   border-radius: 12px;
   flex-direction: column;
   height: 100%;
-  padding: 32px 24px;
+  padding: .75rem;
   transition: all .3s;
   display: flex;
 }
@@ -25,63 +26,67 @@
 }
 
 .Overview-module-scss-module___FWama__cardHeader {
-  margin-bottom: 24px;
+  margin-bottom: 1.25rem;
 }
 
 .Overview-module-scss-module___FWama__cardIcon {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
-  width: 56px;
-  height: 56px;
-  color: var(--white);
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 20px;
-  font-weight: 700;
-  display: flex;
+  aspect-ratio: 600 / 400;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.Overview-module-scss-module___FWama__cardIcon img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .Overview-module-scss-module___FWama__cardBody {
-  text-align: center;
   flex: 1;
   margin-bottom: 24px;
 }
 
 .Overview-module-scss-module___FWama__cardTitle {
-  color: var(--primary);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  color: var(--text-indigo);
   min-height: 52px;
   margin-bottom: 16px;
   font-size: 20px;
-  font-weight: 700;
   line-height: 1.3;
   display: flex;
 }
 
 .Overview-module-scss-module___FWama__cardDescription {
-  color: var(--text-secondary);
-  font-size: 15px;
+  color: var(--gray-800);
   line-height: 1.6;
 }
 
 .Overview-module-scss-module___FWama__cardFooter {
-  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  display: flex;
 }
 
 .Overview-module-scss-module___FWama__readMoreBtn {
+  border: none;
+  border-radius: 10px;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
+  padding: 10px 20px;
+  font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
   transition: all .3s;
   display: inline-flex;
 }
 
 .Overview-module-scss-module___FWama__readMoreBtn:after {
   content: "→";
+  font-size: 1.5rem;
+  line-height: 1;
   transition: transform .3s;
 }
 
@@ -111,12 +116,6 @@
 
   .Overview-module-scss-module___FWama__card {
     padding: 24px 20px;
-  }
-
-  .Overview-module-scss-module___FWama__cardIcon {
-    width: 48px;
-    height: 48px;
-    font-size: 18px;
   }
 
   .Overview-module-scss-module___FWama__cardTitle {

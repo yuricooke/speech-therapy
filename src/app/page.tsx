@@ -8,6 +8,7 @@ import Overview from '@/components/Overview';
 import Products from '@/components/Products';
 import About from '@/components/About';
 import Partnerships from '@/components/Partnerships';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import TechDetails from '@/components/TechDetails';
 import GridOverlay from '@/components/GridOverlay';
@@ -48,6 +49,7 @@ export default function Home() {
         <Products language={language} />
         <About language={language} />
         <Partnerships language={language} />
+        <Contact language={language} />
         <Footer language={language} />
       </main>
       

@@ -11,6 +11,7 @@ interface HeroProps {
     title: string;
     description: string;
     backgroundImage?: string;
+    imagePosition?: string; // Control object-position of the image (e.g., 'center', 'top', 'bottom', 'left', 'right', '50% 20%', etc.)
   };
 }
 
@@ -32,6 +33,9 @@ export default function Hero({ language, customContent }: HeroProps) {
                 src={`/${customContent?.backgroundImage || 'tati.jpg'}`}
                 alt="Child in learning environment"
                 role="presentation"
+                style={{
+                  objectPosition: customContent?.imagePosition || 'center'
+                }}
               />
             </picture>
           </figure>

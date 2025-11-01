@@ -1,7 +1,7 @@
 
 .overview {
   padding: 80px 0;
-  background: linear-gradient(to bottom,  var(--quaternary-light)30%, var(--blue-dark)100%);
+  background: linear-gradient(to bottom,  var(--quaternary-light)15%, var(--blue-dark)80%);
 }
 
 .content {
@@ -19,11 +19,16 @@
   flex-direction: column;
   transition: all 0.3s ease;
   border: 1px solid rgba(26, 80, 119, 0.1);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 
   &:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
     border-color: var(--primary-light);
+    text-decoration: none;
+    color: inherit;
   }
 }
 

@@ -93,6 +93,7 @@ export interface Content {
         title: string;
         description: string;
         backgroundImage: string;
+        imagePosition?: string; // Control object-position of the hero image
       };
       content: string;
     };

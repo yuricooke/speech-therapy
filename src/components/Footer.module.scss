@@ -1,124 +1,71 @@
+@use '../styles/variables/colors' as *;
+
 .footer {
-  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+  background-color: var(--text-primary);
   color: var(--white);
-  padding: 3rem 0 1rem;
-
+  padding: 1rem 0 1rem;
+  
   .footerContent {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 3rem;
-    margin-bottom: 2rem;
-  }
-
-  .contactInfo {
-    .title {
-      font-size: 1.8rem;
-      margin-bottom: 1.5rem;
-      color: var(--secondary-color);
-    }
-
-    .contactDetails {
-      .contactItem {
-        margin-bottom: 1.5rem;
-
-        strong {
-          display: block;
-          margin-bottom: 0.5rem;
-          color: var(--secondary-color);
-        }
-
-        p {
-          margin: 0;
-          line-height: 1.6;
-
-          a {
-            color: var(--white);
-            
-            &:hover {
-              color: var(--secondary-color);
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .quickLinks,
-  .services,
-  .social {
-    h3, h4 {
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
-      color: var(--secondary-color);
-    }
-
-    h4 {
-      font-size: 1.1rem;
-      margin-top: 1.5rem;
-    }
-
-    ul {
-      list-style: none;
-
-      li {
-        margin-bottom: 0.8rem;
-
-        a {
-          color: rgba(255, 255, 255, 0.9);
-          transition: color 0.3s ease;
-
-          &:hover {
-            color: var(--secondary-color);
-          }
-        }
-      }
-    }
-  }
-
-  .socialLinks {
-    margin-bottom: 1.5rem;
-
-    .socialLink {
-      display: inline-block;
-      padding: 0.8rem 1.5rem;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 8px;
-      color: var(--white);
-      transition: all 0.3s ease;
-
-      &:hover {
-        background: rgba(255, 255, 255, 0.2);
-        color: var(--secondary-color);
-      }
-    }
-  }
-
-  .languageLinks {
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
 
-    a {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 0.9rem;
-      transition: color 0.3s ease;
+  .logoContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
 
-      &:hover,
-      &.active {
-        color: var(--secondary-color);
-        font-weight: 600;
-      }
+  .balaoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  
+
+  .balao {
+    margin-top: -8rem;
+
+
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    @media (max-width: 1200px) {
+      margin-top: -3rem;
+      margin-left: 0;
+    }
+
+    @media (max-width: 768px) {
+      margin-top: -3rem;
+      margin-left: 0;
+
     }
   }
 
   .footerBottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
     padding-top: 2rem;
     display: flex;
-    justify-content: space-between;
+
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
 
     .copyright,
     .credentials {
@@ -135,52 +82,14 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .footer {
-    .footerContent {
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-  }
-}
-
 @media (max-width: 768px) {
   .footer {
     padding: 2rem 0 1rem;
-
-    .footerContent {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-      text-align: center;
-    }
-
-    .contactInfo {
-      .title {
-        font-size: 1.5rem;
-      }
-    }
 
     .footerBottom {
       flex-direction: column;
       text-align: center;
       gap: 1rem;
-    }
-
-    .languageLinks {
-      flex-direction: row;
-      justify-content: center;
-      gap: 1rem;
-    }
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    .socialLinks {
-      .socialLink {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
-      }
     }
   }
 } 

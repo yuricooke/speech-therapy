@@ -1,64 +1,149 @@
+@use '../styles/variables/colors' as *;
+
 .partnerships {
+  background: linear-gradient(180deg, var(--white) 25%, rgba($accent, 0.2) 100%);;
+  padding-inline: 3rem;
   
   .header {
-    text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+
   }
 
   .title {
-    color: var(--primary);
+    color: var(--text-primary);
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
 
   .subtitle {
     font-size: 1.2rem;
-    color: var(--text-primary);
+    color: var(--accent);
     max-width: 700px;
-    margin: 0 auto;
+
   }
 
-  .partnershipsGrid {
-    margin-bottom: 4rem;
+  .sliderWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
   }
 
-  .partnerCard {
-    background: var(--gray-light);
-    padding: 2rem;
-    border-radius: 12px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    }
-  }
-
-  .logoPlaceholder {
-    width: 80px;
-    height: 80px;
-    background: var(--primary);
+  .sliderButton {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    border: 2px solid var(--accent);
+    background: var(--white);
+    color: var(--accent);
+    font-size: 2rem;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 1.5rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--accent);
+      color: var(--white);
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  .slider {
+    flex: 1;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .slide {
+    min-width: 100%;
+    scroll-snap-align: start;
+    padding: 1rem 1rem;
+  }
+
+  .partnerCard {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .logoPlaceholder {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .partnerInfo {
+    flex: 1;
   }
 
   .partnerName {
     color: var(--text-primary);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    font-weight: 600;
   }
 
   .partnerCategory {
-    color: var(--gray-dark);
-    font-size: 0.9rem;
-    font-style: italic;
+    color: var(--accent);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--accent);
+      opacity: 0.7;
+    }
+
+    &.active {
+      background: var(--accent);
+      width: 32px;
+      border-radius: 6px;
+    }
   }
 
   .certifications {
@@ -97,21 +182,50 @@
 
 @media (max-width: 768px) {
   .partnerships {
+    padding-inline: 1rem;
+
+    .header {
+      margin-bottom: 2rem;
+    }
+
     .title {
       font-size: 2rem;
     }
 
-    .certifications {
-      padding: 2rem;
+    .subtitle {
+      font-size: 1rem;
+    }
 
-      h3 {
-        font-size: 1.5rem;
-      }
+    .sliderWrapper {
+      gap: 0.5rem;
+    }
 
-      .certList {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-      }
+    .sliderButton {
+      width: 40px;
+      height: 40px;
+      font-size: 1.5rem;
+    }
+
+    .partnerCard {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem;
+      gap: 1.5rem;
+    }
+
+    .logoPlaceholder {
+      width: 100px;
+      height: 100px;
+      font-size: 1.5rem;
+      margin: 0 auto;
+    }
+
+    .partnerName {
+      font-size: 1.2rem;
+    }
+
+    .partnerCategory {
+      font-size: 0.9rem;
     }
   }
 } 

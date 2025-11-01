@@ -323,7 +323,8 @@ export const siteContent: SiteContent = {
           tagline: "Specialized Therapy",
           title: "Bilingual or Multilingual Therapy",
           description: "The main objective of my bilingual and multilingual therapy is to welcome the patient through their mother tongue. The Therapist & Patient bond is established in a special way when the patient realizes they are understood in what they say, think and feel.",
-          backgroundImage: "therapy.jpeg"
+          backgroundImage: "therapy.jpeg",
+          imagePosition: "center"
         },
         content: `
           <h2>What is the objective of my bilingual/multilingual therapy?</h2>
@@ -354,7 +355,8 @@ export const siteContent: SiteContent = {
           tagline: "Professional Assessment", 
           title: "Assessment",
           description: "Differentiated and specialized assessment for bilingual and multilingual patients, considering unique cultural and linguistic aspects.",
-          backgroundImage: "aconselhamento.jpeg"
+          backgroundImage: "aconselhamento.jpeg",
+          imagePosition: "center"
         },
         content: `
           <h2>How is speech-language assessment performed in general?</h2>
@@ -385,7 +387,8 @@ export const siteContent: SiteContent = {
           tagline: "Family Support",
           title: "Counseling",
           description: "Counseling sessions for families about bilingual development, late talkers and speech and language disorders.",
-          backgroundImage: "counseling.jpeg"
+          backgroundImage: "counseling.jpeg",
+          imagePosition: "bottom"
         },
         content: `
           <h2>Counseling # 1: Helping your child grow bilingual or multilingual</h2>
@@ -430,7 +433,8 @@ export const siteContent: SiteContent = {
           tagline: "Professional Training",
           title: "Workshops for Schools and Teachers",
           description: "Training for educators on bilingual development, identifying difficulties and classroom support strategies.",
-          backgroundImage: "workshop.jpeg"
+          backgroundImage: "workshop.jpeg",
+          imagePosition: "top"
         },
         content: `
           <h2>Workshop # 1: "Understanding and supporting bilingual speech and language development in the classroom"</h2>
@@ -795,7 +799,8 @@ export const siteContent: SiteContent = {
             tagline: "Spezialisierte Therapie",
             title: "Zweisprachige oder Mehrsprachige Therapie",
             description: "Das Hauptziel meiner zweisprachigen und mehrsprachigen Therapie ist die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf besondere Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt.",
-            backgroundImage: "therapy.jpeg"
+            backgroundImage: "therapy.jpeg",
+            imagePosition: "center"
           },
         content: `
           <h2>Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?</h2>
@@ -826,7 +831,8 @@ export const siteContent: SiteContent = {
             tagline: "Professionelle Bewertung",
             title: "Bewertung",
             description: "Differenzierte und spezialisierte Bewertung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung einzigartiger kultureller und sprachlicher Aspekte.",
-            backgroundImage: "aconselhamento.jpeg"
+            backgroundImage: "aconselhamento.jpeg",
+            imagePosition: "center"
           },
         content: `
           <h2>Wie wird die Sprach-Sprach-Bewertung allgemein durchgeführt?</h2>
@@ -857,7 +863,8 @@ export const siteContent: SiteContent = {
             tagline: "Familienunterstützung",
             title: "Beratung",
             description: "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers und Sprach- und Sprachstörungen.",
-            backgroundImage: "counseling.jpeg"
+            backgroundImage: "counseling.jpeg",
+            imagePosition: "bottom"
           },
         content: `
           <h2>Beratung # 1: Ihrem Kind helfen, zweisprachig oder mehrsprachig aufzuwachsen</h2>
@@ -902,7 +909,8 @@ export const siteContent: SiteContent = {
           tagline: "Professionelle Schulung",
           title: "Workshops für Schulen und Lehrer",
           description: "Schulung für Pädagogen über zweisprachige Entwicklung, Identifizierung von Schwierigkeiten und Unterstützungsstrategien im Klassenzimmer.",
-          backgroundImage: "workshop.jpeg"
+          backgroundImage: "workshop.jpeg",
+          imagePosition: "top"
         },
         content: `
           <h2>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprach- und Sprachentwicklung im Klassenzimmer"</h2>
@@ -1267,7 +1275,8 @@ export const siteContent: SiteContent = {
             tagline: "Spezialisierte Therapie",
             title: "Zweisprachige oder Mehrsprachige Therapie",
             description: "Das Hauptziel meiner zweisprachigen und mehrsprachigen Therapie ist die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf besondere Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt.",
-            backgroundImage: "therapy.jpeg"
+            backgroundImage: "therapy.jpeg",
+            imagePosition: "center"
           },
         content: `
           <h2>Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?</h2>
@@ -1298,7 +1307,8 @@ export const siteContent: SiteContent = {
             tagline: "Professionelle Bewertung",
             title: "Bewertung",
             description: "Differenzierte und spezialisierte Bewertung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung einzigartiger kultureller und sprachlicher Aspekte.",
-            backgroundImage: "aconselhamento.jpeg"
+            backgroundImage: "aconselhamento.jpeg",
+            imagePosition: "center"
           },
         content: `
           <h2>Wie wird die Sprach-Sprach-Bewertung allgemein durchgeführt?</h2>
@@ -1329,7 +1339,8 @@ export const siteContent: SiteContent = {
             tagline: "Familienunterstützung",
             title: "Beratung",
             description: "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers und Sprach- und Sprachstörungen.",
-            backgroundImage: "counseling.jpeg"
+            backgroundImage: "counseling.jpeg",
+            imagePosition: "bottom"
           },
         content: `
           <h2>Beratung # 1: Ihrem Kind helfen, zweisprachig oder mehrsprachig aufzuwachsen</h2>
@@ -1374,7 +1385,8 @@ export const siteContent: SiteContent = {
           tagline: "Professionelle Schulung",
           title: "Workshops für Schulen und Lehrer",
           description: "Schulung für Pädagogen über zweisprachige Entwicklung, Identifizierung von Schwierigkeiten und Unterstützungsstrategien im Klassenzimmer.",
-          backgroundImage: "workshop.jpeg"
+          backgroundImage: "workshop.jpeg",
+          imagePosition: "top"
         },
         content: `
           <h2>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprach- und Sprachentwicklung im Klassenzimmer"</h2>

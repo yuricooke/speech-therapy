@@ -35,7 +35,7 @@ export default function Overview({ language }: OverviewProps) {
           <div className="row">
             {cards.map((card) => (
               <div key={card.slug} className="col-md-6 col-lg-3">
-                <div className={styles.card}>
+                <Link href={`/pages/${card.slug}`} className={styles.card}>
                   <div className={styles.cardHeader}>
                     <div className={styles.cardIcon}>
                       <img
@@ -49,11 +49,11 @@ export default function Overview({ language }: OverviewProps) {
                     <p className={styles.cardDescription}>{card.description}</p>
                   </div>
                   <div className={styles.cardFooter}>
-                    <Link href={`/pages/${card.slug}`} className={`btn  ${styles.readMoreBtn}`}>
+                    <span className={`btn ${styles.readMoreBtn}`}>
                       {language === 'pt' ? 'Ler mais' : language === 'en' ? 'Read more' : 'Mehr lesen'}
-                    </Link>
+                    </span>
                   </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

@@ -54,6 +54,7 @@ export default function ClientPage({ slug }: ClientPageProps) {
     title: pageData.hero.title,
     description: pageData.hero.description,
     backgroundImage: pageData.hero.backgroundImage,
+    imagePosition: pageData.hero.imagePosition, // Pass imagePosition if defined
     content: pageData.content
   };
 

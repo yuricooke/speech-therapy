@@ -107,10 +107,9 @@
   .noteBox {
     display: grid;
     grid-template-columns: 25% 1fr;
-
-
     gap: 2rem;
     margin-inline: auto;
+    margin-block-end: 2rem;
     width: 80%;
     border-top: 3px dotted var(--tertiary);
     border-bottom: 3px dotted var(--tertiary);
@@ -135,23 +134,59 @@
     }
   }
 
-  .noteText {
-   @include quote-text;
-   color: var(--text-indigo);
+   .noteText {
+    @include quote-text;
+    color: var(--text-indigo);
 
+  }
+
+  .qualifications {
+    background: rgba($accent, 0.2);
+    padding: 3rem;
+    border-radius: 16px;
+    
+    margin: 3rem 0;
+
+    .qualificationsTitle {
+      color: var(--accent);
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .qualificationsList {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .qualificationItem {
+      background: var(--white);
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      
+      strong {
+        color: var(--accent);
+        display: block;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+    }
   }
 
   .experienceSection {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 4rem 3rem;
+    padding: 1rem 3rem;
+
+    border-radius: 16px;
 
     position: relative;
 
     .experienceTitle {
       color: var(--accent);
-      @include heading-2;
+      font-size: 2rem;
 
       position: relative;
       z-index: 2;
@@ -567,6 +602,19 @@
 
     .questions {
       text-align: left;
+    }
+
+    .qualifications {
+      padding: 2rem;
+
+      .qualificationsTitle {
+        font-size: 1.5rem;
+      }
+
+      .qualificationsList {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
     }
 
     .experienceSection {

@@ -1,5 +1,8 @@
 'use client';
 
+import { useCallback, useEffect, useState } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures';
 import { Language } from '@/types';
 import { siteContent } from '@/utils/content';
 import styles from './HeroSubPage.module.scss';
@@ -11,6 +14,7 @@ interface HeroSubPageProps {
     title: string;
     description: string;
     backgroundImage?: string;
+    imagePosition?: string; // Control object-position of the image
     content?: string;
   };
 }
@@ -21,6 +25,48 @@ export default function HeroSubPage({ language, customContent }: HeroSubPageProp
     ...defaultContent,
     ...customContent
   } : defaultContent;
+
+  // Sample images for slider - you can make this configurable later
+  const sliderImages = [
+    { src: '/tati.jpg', caption: 'Speech Therapy Session' },
+    { src: '/kids.png', caption: 'Children Learning' },
+    { src: '/therapy.jpeg', caption: 'Therapy Environment' },
+    { src: '/workshop.jpeg', caption: 'Workshop Activity' },
+  ];
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({ 
+    align: 'start',
+    loop: false,
+    dragFree: false, // Changed to false for better snap alignment
+    containScroll: 'trimSnaps', // Ensure proper alignment at edges
+  }, [
+    WheelGesturesPlugin({ forceWheelAxis: 'x' }) // Enable touchpad/mouse wheel scroll
+  ]);
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const onSelect = () => {
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    };
+
+    emblaApi.on('select', onSelect);
+    onSelect();
+
+    return () => {
+      emblaApi.off('select', onSelect);
+    };
+  }, [emblaApi]);
 
   return (
     <section id="hero" className={styles.hero}>
@@ -33,6 +79,9 @@ export default function HeroSubPage({ language, customContent }: HeroSubPageProp
                   src={`/${customContent.backgroundImage}`}
                   alt="Child in learning environment"
                   role="presentation"
+                  style={{
+                    objectPosition: customContent?.imagePosition || 'center'
+                  }}
                 />
               ) : (
                 <div className={styles.placeholder}>
@@ -53,6 +102,52 @@ export default function HeroSubPage({ language, customContent }: HeroSubPageProp
               <h1 className={styles.title}>{content.title}</h1>
             </div>
             <p className={styles.description} dangerouslySetInnerHTML={{ __html: content.description }} />
+          </div>
+
+          {/* Image Slider */}
+          <div className={styles.sliderContainer}>
+            <div className={styles.sliderWrapper} ref={emblaRef}>
+              <div className={styles.slider}>
+                {sliderImages.map((image, index) => (
+                  <figure key={index} className={styles.slide}>
+                    <img
+                      src={image.src}
+                      alt={image.caption}
+                      className={styles.slideImage}
+                    />
+                    <figcaption className={styles.slideCaption}>{image.caption}</figcaption>
+                  </figure>
+                ))}
+                {/* Empty card for spacing at the end */}
+                <div className={styles.slideEmpty}></div>
+              </div>
+            </div>
+            <div className={styles.sliderControls}>
+              <button
+                className={styles.sliderButton}
+                onClick={scrollPrev}
+                aria-label="Previous slide"
+              >
+                ‹
+              </button>
+              <div className={styles.sliderDots}>
+                {sliderImages.map((_, index) => (
+                  <button
+                    key={index}
+                    className={`${styles.dot} ${index === selectedIndex ? styles.active : ''}`}
+                    onClick={() => emblaApi?.scrollTo(index)}
+                    aria-label={`Go to slide ${index + 1}`}
+                  />
+                ))}
+              </div>
+              <button
+                className={styles.sliderButton}
+                onClick={scrollNext}
+                aria-label="Next slide"
+              >
+                ›
+              </button>
+            </div>
           </div>
 
           {/* Conteúdo expandido se for página de conteúdo */}

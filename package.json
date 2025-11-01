@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/nodemailer": "^7.0.3",
     "bootstrap": "^5.3.6",
+    "embla-carousel-react": "^8.6.0",
+    "embla-carousel-wheel-gestures": "^8.1.0",
     "next": "15.3.3",
+    "nodemailer": "^7.0.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sass": "^1.89.2"

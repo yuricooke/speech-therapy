@@ -3,22 +3,14 @@
 
 .products {
   background-color: var(--blue-dark);
-
-
-  .header {
-
-
-  }
   
   .title {
-    
     color: var(--tertiary);
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
 
   .subtitle {
-
     font-size: 1.2rem;
     max-width: 600px;
     color: var(--white);
@@ -37,17 +29,13 @@
 
   // New linear services row
   .servicesRow {
-    display: flex;
-    flex-wrap: wrap;  
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 1.5rem;
-    justify-content: space-between;
-
     padding: 0.5rem 0;
   }
 
   .serviceItem {
-    flex: 0 0 calc(16.66% - 1.25rem);
-    min-width: 180px;
     display: flex;
   }
 
@@ -502,18 +490,18 @@
       height: 32px;
       background: var(--accent);
       border-radius: 50%;
-      opacity: 0.7;
     }
   }
 
   .modalBody {
     padding: 0 2rem 2rem;
-    color: var(--primary);
+    color: var(--gray-800);
     
     p {
       font-size: 1rem;
       line-height: 1.6;
       margin-bottom: 1.5rem;
+      color: var(--gray-800);
     }
   }
 
@@ -524,7 +512,7 @@
       p {
         font-size: 1rem;
         line-height: 1.6;
-        color: var(--primary);
+        color: var(--gray-800);
       }
     }
     
@@ -543,7 +531,7 @@
       p {
         font-size: 0.95rem;
         line-height: 1.6;
-        color: var(--primary);
+        color: var(--gray-800);
         margin-bottom: 0.8rem;
       }
     }
@@ -559,7 +547,7 @@
         position: relative;
         font-size: 0.9rem;
         line-height: 1.5;
-        color: var(--primary);
+        color: var(--gray-800);
         
         &::before {
           content: '•';
@@ -581,6 +569,7 @@
         margin-bottom: 0.6rem;
         font-size: 0.9rem;
         line-height: 1.4;
+        color: var(--gray-800);
         
         strong {
           color: var(--accent);
@@ -597,7 +586,7 @@
       border-radius: 0 4px 4px 0;
       font-style: italic;
       font-size: 0.9rem;
-      color: var(--primary);
+      color: var(--gray-800);
     }
   }
 
@@ -609,6 +598,7 @@
     p {
       margin-bottom: 1rem;
       font-size: 0.9rem;
+      color: var(--gray-800);
     }
   }
 
@@ -654,12 +644,11 @@
 @media (max-width: 1024px) {
   .products {
     .servicesRow {
-      flex-wrap: wrap;
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .serviceItem {
-      flex: 1 1 calc(33.33% - 1.5rem);
-      min-width: 220px;
+      min-width: 0;
     }
 
     .planetCard {
@@ -704,13 +693,12 @@
     }
 
     .servicesRow {
-      flex-wrap: wrap;
+      grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
     }
 
     .serviceItem {
-      flex: 1 1 calc(50% - 1rem);
-      min-width: 220px;
+      min-width: 0;
     }
 
     .planetCard {

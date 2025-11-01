@@ -1,7 +1,13 @@
+@use '../styles/variables/colors' as *;
+@use '../styles/variables/fonts' as *;
+@use '../styles/mixins/typography' as *;
+
 .about {
   background: var(--primary-dark);
+  background-image: linear-gradient(180deg, var(--blue-dark) 0%, var(--white)20%);
   position: relative;
   padding: 4rem 0;
+
 
   &::before {
     content: '';
@@ -20,22 +26,31 @@
   }
 
   .aboutContent {
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    gap: 4rem;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background: var(--white);
+    padding: 3rem;
+    border-radius: 3rem 3rem 0 0;
+    box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.1);
+  }
 
+  .contentWrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 350px 1fr;
+    gap: 2rem;
   }
 
   .imageContainer {
     display: flex;
     justify-content: center;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/9;
   }
 
   .placeholder {
-    width: 300px;
-    height: 480px;
+    // width: 300px;
+    aspect-ratio: 16/9;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     display: flex;
@@ -44,66 +59,100 @@
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+
     backdrop-filter: blur(15px);
     border: 2px solid rgba(255, 255, 255, 0.2);
     position: relative;
     overflow: hidden;
 
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
   }
 
   .textContent {
     .title {
-      color: var(--accent-light);
+      color: var(--turquoise-light);
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
 
     .name {
-      color: var(--white);
+      color: var(--text-indigo);
       font-size: 2rem;
       margin-bottom: 1rem;
       font-weight: 400;
     }
 
     .experience {
-      color: var(--accent-light);
+      color: var(--accent);
       font-size: 1.1rem;
       font-weight: 600;
-      margin-bottom: 1.5rem;
-    }
 
-    .description {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      text-align: justify;
-      color: rgba(255, 255, 255, 0.9);
-    }
-
-    .personalNote {
-      font-size: 1rem;
-      line-height: 1.6;
-      text-align: justify;
-      color: rgba(255, 255, 255, 0.9);
-      margin-top: 1.5rem;
-      padding: 1rem;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 8px;
-      border-left: 4px solid var(--accent);
-      backdrop-filter: blur(10px);
     }
   }
 
+  .description {
+    font-size: 1.25rem;
+    line-height: 1.7;
+
+    color: var(--gray-800);
+
+  }
+
+  .noteBox {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+
+
+    gap: 2rem;
+    margin-inline: auto;
+    width: 80%;
+    border-top: 3px dotted var(--tertiary);
+    border-bottom: 3px dotted var(--tertiary);
+    padding-block: 2rem;
+    padding-inline: 4rem;
+  }
+
+  .noteIcon {
+    flex-shrink: 0;
+
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+  }
+
+  .noteText {
+   @include quote-text;
+   color: var(--text-indigo);
+
+  }
+
   .experienceSection {
-    padding: 4rem 0;
-    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 3rem;
+
     position: relative;
 
     .experienceTitle {
-      text-align: center;
-      color: var(--white);
-      font-size: 2.5rem;
-      margin-bottom: 3rem;
+      color: var(--accent);
+      @include heading-2;
+
       position: relative;
       z-index: 2;
     }
@@ -111,55 +160,57 @@
     .countriesTimeline {
       position: relative;
       display: flex;
+      flex-direction: row-reverse;
       justify-content: space-around;
       align-items: flex-end;
-      margin: 4rem auto;
+      margin: 0rem auto;
       max-width: 900px;
-      padding: 3rem 2rem;
+
+      padding-bottom: 1rem;
       min-height: 120px;
 
-      // Linha da timeline branca com fade
+      // Linha da timeline com fade
       &::before {
         content: '';
         position: absolute;
-        bottom: 30px;
+
         left: 8%;
         right: 8%;
         height: 4px;
-        background: linear-gradient(90deg, 
-          rgba(255, 255, 255, 0) 0%, 
-          rgba(255, 255, 255, 0.3) 15%, 
-          rgba(255, 255, 255, 0.8) 50%, 
-          rgba(255, 255, 255, 0.3) 85%, 
-          rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(90deg,
+            rgba($primary, 0.8) 0%,
+            rgba($accent, 0.6) 15%,
+            rgba($primary, 0.6) 50%,
+            rgba($accent, 0.6) 85%,
+            rgba($primary, 0.8) 100%);
         border-radius: 3px;
         z-index: 1;
-        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       }
 
       .countryItem {
         position: relative;
         display: flex;
-        flex-direction: column;
+        gap: 0.5rem;
         align-items: center;
         cursor: pointer;
         transition: all 0.4s ease;
         z-index: 2;
-        padding: 1rem 0.5rem;
+        padding:0 0.5rem 1rem 0.5rem;
 
         // Círculo da timeline
         &::after {
           content: '';
           position: absolute;
-          bottom: -22px;
+          bottom: -6px;
           left: 50%;
           transform: translateX(-50%);
           width: 12px;
           height: 12px;
-          background: rgba(255, 255, 255, 0.9);
+          background: var(--gray-300);
           border-radius: 50%;
           transition: all 0.4s ease;
-          border: 2px solid rgba(255, 255, 255, 0.7);
+          border: 2px solid var(--gray-400);
           z-index: 3;
         }
 
@@ -176,8 +227,7 @@
         &.active {
           &::after {
             background: var(--accent);
-            width: 18px;
-            height: 18px;
+            
             box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.8);
             border-width: 3px;
           }
@@ -195,14 +245,14 @@
 
         .countryFlag {
           font-size: 3rem;
-          margin-bottom: 1rem;
+
           transition: all 0.4s ease;
           display: block;
           filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
         }
 
         .countryName {
-          color: var(--white);
+          color: var(--gray-800);
           font-size: 1rem;
           font-weight: 600;
           transition: all 0.4s ease;
@@ -230,20 +280,24 @@
 
         .experiencesList {
           display: grid;
+          grid-template-columns: repeat( auto-fit, minmax(3, 1fr));
           gap: 1.5rem;
 
+          @media (max-width: 768px) {
+            flex-direction: column;
+          }
+
           .experienceCard {
-            background: rgba(255, 255, 255, 0.08);
+            background: var(--gray-100);
             border-radius: 15px;
             padding: 1.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            border: 1px solid var(--gray-200);
             transition: all 0.3s ease;
 
             &:hover {
-              background: rgba(255, 255, 255, 0.12);
+              background: var(--gray-200);
               transform: translateY(-2px);
-              box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
             }
 
             .experienceCompany {
@@ -254,7 +308,7 @@
             }
 
             .experiencePosition {
-              color: var(--white);
+              color: var(--gray-800);
               font-size: 1.1rem;
               margin-bottom: 1rem;
               font-weight: 400;
@@ -262,7 +316,7 @@
             }
 
             .experienceDescription {
-              color: rgba(255, 255, 255, 0.9);
+              color: var(--gray-700);
               font-size: 0.95rem;
               line-height: 1.6;
             }
@@ -270,6 +324,7 @@
         }
       }
     }
+
   }
 
   .multilingualism {
@@ -365,6 +420,7 @@
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -375,9 +431,11 @@
   0% {
     transform: translateX(-100%) translateY(-100%) rotate(45deg);
   }
+
   50% {
     transform: translateX(100%) translateY(100%) rotate(45deg);
   }
+
   100% {
     transform: translateX(-100%) translateY(-100%) rotate(45deg);
   }
@@ -425,13 +483,13 @@
           left: 5%;
           right: 5%;
           height: 3px;
-          background: linear-gradient(90deg, 
-            rgba(255, 255, 255, 0) 0%, 
-            rgba(255, 255, 255, 0.2) 20%, 
-            rgba(255, 255, 255, 0.7) 50%, 
-            rgba(255, 255, 255, 0.2) 80%, 
-            rgba(255, 255, 255, 0) 100%);
-          box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+          background: linear-gradient(90deg,
+              rgba($primary, 0) 0%,
+              rgba($primary, 0.2) 20%,
+              rgba($primary, 0.7) 50%,
+              rgba($primary, 0.2) 80%,
+              rgba($primary, 0) 100%);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
 
         .countryItem {
@@ -520,70 +578,70 @@
         margin-bottom: 1.5rem;
       }
 
-              .countriesTimeline {
-          flex-direction: column;
-          max-width: 320px;
-          padding: 1.5rem 0.5rem;
-          align-items: center;
+      .countriesTimeline {
+        flex-direction: column;
+        max-width: 320px;
+        padding: 1.5rem 0.5rem;
+        align-items: center;
 
-          // Linha vertical para mobile com fade
-          &::before {
-            top: 5%;
-            bottom: 5%;
-            left: 30px;
-            right: auto;
-            width: 3px;
-            height: auto;
-            background: linear-gradient(180deg, 
-              rgba(255, 255, 255, 0) 0%, 
-              rgba(255, 255, 255, 0.3) 20%, 
-              rgba(255, 255, 255, 0.8) 50%, 
-              rgba(255, 255, 255, 0.3) 80%, 
-              rgba(255, 255, 255, 0) 100%);
-            transform: none;
-            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+        // Linha vertical para mobile com fade
+        &::before {
+          top: 5%;
+          bottom: 5%;
+          left: 30px;
+          right: auto;
+          width: 3px;
+          height: auto;
+          background: linear-gradient(180deg,
+              rgba($primary, 0) 0%,
+              rgba($primary, 0.3) 20%,
+              rgba($primary, 0.8) 50%,
+              rgba($primary, 0.3) 80%,
+              rgba($primary, 0) 100%);
+          transform: none;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .countryItem {
+          flex-direction: row;
+          align-items: center;
+          gap: 1.2rem;
+          margin-bottom: 2rem;
+          width: 100%;
+          padding: 0.8rem;
+
+          // Círculo para mobile
+          &::after {
+            position: absolute;
+            left: 20px;
+            bottom: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 10px;
+            height: 10px;
           }
 
-          .countryItem {
-            flex-direction: row;
-            align-items: center;
-            gap: 1.2rem;
-            margin-bottom: 2rem;
-            width: 100%;
-            padding: 0.8rem;
+          &.active::after {
+            width: 14px;
+            height: 14px;
+            left: 18px;
+          }
 
-            // Círculo para mobile
-            &::after {
-              position: absolute;
-              left: 20px;
-              bottom: auto;
-              top: 50%;
-              transform: translateY(-50%);
-              width: 10px;
-              height: 10px;
-            }
+          .countryFlag {
+            font-size: 2rem;
+            margin: 0;
+            margin-left: 2.5rem;
+            flex-shrink: 0;
+          }
 
-            &.active::after {
-              width: 14px;
-              height: 14px;
-              left: 18px;
-            }
-
-            .countryFlag {
-              font-size: 2rem;
-              margin: 0;
-              margin-left: 2.5rem;
-              flex-shrink: 0;
-            }
-
-            .countryName {
-              font-size: 1rem;
-              text-align: left;
-              margin: 0;
-              white-space: normal;
-            }
+          .countryName {
+            font-size: 1rem;
+            text-align: left;
+            margin: 0;
+            white-space: normal;
           }
         }
+      }
 
       .experiencesContainer {
         padding: 0 0.5rem;
@@ -613,4 +671,4 @@
       }
     }
   }
-} 
+}

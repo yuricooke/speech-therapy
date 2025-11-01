@@ -376,7 +376,7 @@ const siteContent = {
         about: {
             title: "About Me",
             name: "Tatiana Cooke Munkes",
-            description: "I am a multilingual speech language therapist recognized by the health department authorities of the state of Hamburg, Germany. I have 30 years of professional experience acquired in Brazil, England, Switzerland, United States and Germany, as a speech therapist and psychopedagogist. I offer assessment, therapy and counseling in Portuguese, German and English for bilingual and multilingual families.",
+            description: "I am a multilingual speech language therapist recognized by the health department authorities of the state of Hamburg, Germany. I have 30 years of professional experience acquired in Brazil, England, Switzerland, USA and Germany, as a speech therapist and psychopedagogist. I offer assessment, therapy and counseling in Portuguese, German and English for bilingual and multilingual families.",
             experience: "30+ years of experience in multilingual therapy and education",
             personalNote: "I have two children that I have been educating together with my husband in these three languages for more than 20 years. The opportunity to live in several countries expanded our understanding of the true meaning of integration into society respecting its linguistic and sociocultural aspects.",
             countries: [
@@ -437,7 +437,7 @@ const siteContent = {
                 },
                 {
                     id: 4,
-                    country: "United States",
+                    country: "USA",
                     location: "New York City",
                     period: "Previous",
                     flag: "🇺🇸",
@@ -848,7 +848,7 @@ const siteContent = {
         about: {
             title: "About Me",
             name: "Tatiana Cooke Munkes",
-            description: "Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de saúde do estado de Hamburgo, Alemanha. Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, Estados Unidos e Alemanha, como fonoaudióloga e psicopedagoga. Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilíngues e multilíngues.",
+            description: "Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de saúde do estado de Hamburgo, Alemanha. Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, USA e Alemanha, como fonoaudióloga e psicopedagoga. Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilíngues e multilíngues.",
             experience: "Mais de 30 anos de experiência em terapia e educação multilíngue",
             personalNote: "Tenho dois filhos que educo juntamente com meu marido nestas três línguas há mais de 20 anos. A oportunidade de morar em vários países expandiu a nossa compreensão do verdadeiro significado de uma integração na sociedade respeitando seus aspectos linguísticos e socioculturais.",
             countries: [
@@ -909,7 +909,7 @@ const siteContent = {
                 },
                 {
                     id: 4,
-                    country: "Estados Unidos",
+                    country: "USA",
                     location: "New York City",
                     period: "Anterior",
                     flag: "🇺🇸",
@@ -1381,7 +1381,7 @@ const siteContent = {
                 },
                 {
                     id: 4,
-                    country: "Vereinigte Staaten",
+                    country: "USA",
                     location: "New York City",
                     period: "Früher",
                     flag: "🇺🇸",
@@ -1745,7 +1745,7 @@ const siteContent = {
 }; // para ABOUT ME, Substituir por uma timeline com:
  // Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de
  // saúde do estado de Hamburgo, Alemanha.
- // Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, Estados Unidos e
+ // Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, USA e
  // Alemanha, como fonoaudióloga e psicopedagoga.
  // Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilingues e
  // multilíngues.

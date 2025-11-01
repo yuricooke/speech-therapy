@@ -29,6 +29,14 @@
   font-weight: $regular;
 }
 
+@mixin quote-text {
+  font-family: $font-heading;
+  font-size: 1.375rem;
+  line-height: $line-height-normal;
+  font-weight: $thin;
+
+}
+
 @mixin responsive-text($size, $line-height) {
   font-size: $size;
   line-height: $line-height;

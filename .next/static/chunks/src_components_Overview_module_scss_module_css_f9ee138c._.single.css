@@ -46,7 +46,7 @@
 
 .Overview-module-scss-module___FWama__cardBody {
   flex: 1;
-  margin-bottom: 24px;
+  margin-bottom: 1rem;
 }
 
 .Overview-module-scss-module___FWama__cardTitle {
@@ -60,6 +60,7 @@
 
 .Overview-module-scss-module___FWama__cardDescription {
   color: var(--gray-800);
+  margin-bottom: 0;
   line-height: 1.6;
 }
 

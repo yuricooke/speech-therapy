@@ -95,7 +95,7 @@ All content is managed in `src/utils/content.ts` with full multilingual support.
 
 ## Professional Background
 
-Tatiana Cooke Munkes is a multilingual speech language therapist recognized by the authorities of the health department of the state of Hamburg, Germany, with over 25 years of experience working in Brazil, England, Switzerland, United States, and Germany.
+Tatiana Cooke Munkes is a multilingual speech language therapist recognized by the authorities of the health department of the state of Hamburg, Germany, with over 25 years of experience working in Brazil, England, Switzerland, USA, and Germany.
 
 ---
 

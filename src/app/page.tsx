@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Language } from '@/types';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -14,14 +14,16 @@ import GridOverlay from '@/components/GridOverlay';
 // Removed unused imports
 
 export default function Home() {
-  const [language, setLanguage] = useState<Language>(() => {
-    // Try to get language from localStorage, default to 'en'
-    if (typeof window !== 'undefined') {
-      const savedLanguage = localStorage.getItem('selectedLanguage') as Language;
-      return savedLanguage && ['en', 'pt', 'de'].includes(savedLanguage) ? savedLanguage : 'en';
+  // Initialize with 'en' on both server and client to prevent hydration mismatch
+  const [language, setLanguage] = useState<Language>('en');
+  
+  // Load language from localStorage after hydration
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('selectedLanguage') as Language;
+    if (savedLanguage && ['en', 'pt', 'de'].includes(savedLanguage)) {
+      setLanguage(savedLanguage);
     }
-    return 'en';
-  });
+  }, []);
   const [showTechDetails, setShowTechDetails] = useState(false);
   const [isGridVisible, setIsGridVisible] = useState(false);
 

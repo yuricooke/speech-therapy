@@ -154,20 +154,6 @@
   position: relative;
 }
 
-@media only screen and (width >= 576px) {
-  .container {
-    max-width: 90%;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-}
-
-@media only screen and (width >= 768px) {
-  .container {
-    max-width: 100vw;
-  }
-}
-
 @media only screen and (width >= 993px) {
   .container {
     max-width: 100vw;
@@ -1470,9 +1456,11 @@ a:hover {
   background-color: #0000;
   justify-content: start;
   align-items: center;
+  max-width: 100dvw;
   margin: 0;
   padding: 0;
   display: flex;
+  overflow-x: hidden;
 }
 
 .divider img {
@@ -1495,6 +1483,23 @@ a:hover {
   stroke: var(--color-4);
   stroke-width: 0;
   margin-top: -5px;
+  display: block;
+}
+
+.dots {
+  justify-content: center;
+  align-items: center;
+  margin-top: -3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  position: relative;
+}
+
+.dots img {
+  object-fit: contain;
+  object-position: center;
+  width: 25%;
+  margin-bottom: 2rem;
   display: block;
 }
 

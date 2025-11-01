@@ -200,16 +200,16 @@ a {
 }
 
 .divider {
-
   display: flex;
   justify-content: start;
   align-items: center;
   margin: 0;
   padding: 0;
   background-color: transparent;
+  max-width: 100dvw;
+  overflow-x: hidden;
 
   img {
-
     height: 5rem;
     object-fit: contain;
     object-position: center;
@@ -232,3 +232,22 @@ a {
     }
   }
 } 
+
+.dots {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3rem;
+  padding-bottom: 3rem;
+
+
+
+  img {
+    width: 25%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin-bottom: 2rem;
+  }
+}

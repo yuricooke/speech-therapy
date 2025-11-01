@@ -1,8 +1,6 @@
 /* [project]/src/components/Products.module.scss.module.css [app-client] (css) */
 .Products-module-scss-module__U43jna__products {
   background-color: var(--blue-dark);
-  background-image: linear-gradient(to bottom, var(--blue-dark) 75%, var(--white) 90%);
-  padding-bottom: 15rem;
 }
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__title {

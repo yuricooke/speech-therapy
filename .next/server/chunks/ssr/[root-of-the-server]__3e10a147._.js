@@ -376,7 +376,7 @@ const siteContent = {
         about: {
             title: "About Me",
             name: "Tatiana Cooke Munkes",
-            description: "I am a multilingual speech language therapist recognized by the health department authorities of the state of Hamburg, Germany. I have 30 years of professional experience acquired in Brazil, England, Switzerland, United States and Germany, as a speech therapist and psychopedagogist. I offer assessment, therapy and counseling in Portuguese, German and English for bilingual and multilingual families.",
+            description: "I am a multilingual speech language therapist recognized by the health department authorities of the state of Hamburg, Germany. I have 30 years of professional experience acquired in Brazil, England, Switzerland, USA and Germany, as a speech therapist and psychopedagogist. I offer assessment, therapy and counseling in Portuguese, German and English for bilingual and multilingual families.",
             experience: "30+ years of experience in multilingual therapy and education",
             personalNote: "I have two children that I have been educating together with my husband in these three languages for more than 20 years. The opportunity to live in several countries expanded our understanding of the true meaning of integration into society respecting its linguistic and sociocultural aspects.",
             countries: [
@@ -437,7 +437,7 @@ const siteContent = {
                 },
                 {
                     id: 4,
-                    country: "United States",
+                    country: "USA",
                     location: "New York City",
                     period: "Previous",
                     flag: "🇺🇸",
@@ -848,7 +848,7 @@ const siteContent = {
         about: {
             title: "About Me",
             name: "Tatiana Cooke Munkes",
-            description: "Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de saúde do estado de Hamburgo, Alemanha. Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, Estados Unidos e Alemanha, como fonoaudióloga e psicopedagoga. Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilíngues e multilíngues.",
+            description: "Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de saúde do estado de Hamburgo, Alemanha. Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, USA e Alemanha, como fonoaudióloga e psicopedagoga. Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilíngues e multilíngues.",
             experience: "Mais de 30 anos de experiência em terapia e educação multilíngue",
             personalNote: "Tenho dois filhos que educo juntamente com meu marido nestas três línguas há mais de 20 anos. A oportunidade de morar em vários países expandiu a nossa compreensão do verdadeiro significado de uma integração na sociedade respeitando seus aspectos linguísticos e socioculturais.",
             countries: [
@@ -909,7 +909,7 @@ const siteContent = {
                 },
                 {
                     id: 4,
-                    country: "Estados Unidos",
+                    country: "USA",
                     location: "New York City",
                     period: "Anterior",
                     flag: "🇺🇸",
@@ -1381,7 +1381,7 @@ const siteContent = {
                 },
                 {
                     id: 4,
-                    country: "Vereinigte Staaten",
+                    country: "USA",
                     location: "New York City",
                     period: "Früher",
                     flag: "🇺🇸",
@@ -1745,7 +1745,7 @@ const siteContent = {
 }; // para ABOUT ME, Substituir por uma timeline com:
  // Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de
  // saúde do estado de Hamburgo, Alemanha.
- // Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, Estados Unidos e
+ // Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, USA e
  // Alemanha, como fonoaudióloga e psicopedagoga.
  // Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilingues e
  // multilíngues.
@@ -2981,6 +2981,7 @@ __turbopack_context__.v({
   "about": "About-module-scss-module__TqVY0W__about",
   "aboutContent": "About-module-scss-module__TqVY0W__aboutContent",
   "active": "About-module-scss-module__TqVY0W__active",
+  "contentWrapper": "About-module-scss-module__TqVY0W__contentWrapper",
   "countriesTimeline": "About-module-scss-module__TqVY0W__countriesTimeline",
   "countryFlag": "About-module-scss-module__TqVY0W__countryFlag",
   "countryItem": "About-module-scss-module__TqVY0W__countryItem",
@@ -3005,6 +3006,9 @@ __turbopack_context__.v({
   "multilingualContent": "About-module-scss-module__TqVY0W__multilingualContent",
   "multilingualism": "About-module-scss-module__TqVY0W__multilingualism",
   "name": "About-module-scss-module__TqVY0W__name",
+  "noteBox": "About-module-scss-module__TqVY0W__noteBox",
+  "noteIcon": "About-module-scss-module__TqVY0W__noteIcon",
+  "noteText": "About-module-scss-module__TqVY0W__noteText",
   "personalNote": "About-module-scss-module__TqVY0W__personalNote",
   "placeholder": "About-module-scss-module__TqVY0W__placeholder",
   "questions": "About-module-scss-module__TqVY0W__questions",
@@ -3043,94 +3047,165 @@ function About({ language }) {
             className: "container",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "dots",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: "/dots.svg",
+                        alt: "Divider"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/About.tsx",
+                        lineNumber: 20,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/About.tsx",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].aboutContent,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].imageContainer,
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].placeholder,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/tatiana.avif",
-                                    alt: "Tatiana"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 22,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 21,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/About.tsx",
-                            lineNumber: 20,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].textContent,
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].contentWrapper,
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].title,
-                                    children: content.title
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].imageContainer,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].placeholder,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/tati.jpg",
+                                            alt: "Tatiana"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/About.tsx",
+                                            lineNumber: 27,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/About.tsx",
+                                        lineNumber: 26,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].name,
-                                    children: content.name
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].textContent,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].title,
+                                            children: content.title
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/About.tsx",
+                                            lineNumber: 32,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].name,
+                                            children: content.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/About.tsx",
+                                            lineNumber: 33,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].experience,
+                                            children: content.experience
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/About.tsx",
+                                            lineNumber: 34,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 31,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].experience,
-                                    children: content.experience
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 29,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].description,
-                                    children: content.description
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 30,
-                                    columnNumber: 13
-                                }, this),
-                                content.personalNote && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].personalNote,
-                                    children: content.personalNote
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 32,
-                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/About.tsx",
-                            lineNumber: 26,
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].description,
+                            children: content.description
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/About.tsx",
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/About.tsx",
-                    lineNumber: 19,
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].noteBox,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].noteIcon,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                width: "577",
+                                height: "411",
+                                viewBox: "0 0 577 411",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                        opacity: "0.46",
+                                        d: "M228.983 309.952C255.894 338.594 269.448 409.868 274.262 410.035C279.021 410.201 275.793 358.505 342.696 337.927C409.628 317.349 479.982 312.51 533.165 282.199C586.348 251.915 615.625 157.978 473.052 79.5856C330.507 1.19327 150.864 59.3131 135.223 151.61C119.555 243.906 202.155 281.309 229.066 309.924H229.011L228.983 309.952Z",
+                                        fill: "#4489C9"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/About.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                        opacity: "0.42",
+                                        d: "M174.826 333.839C236.024 349.551 255.811 380.418 269.754 405.168C283.697 429.918 263.965 367.487 296.638 313.928C344.784 234.98 455.074 222.939 447.866 90.6533C445.584 48.5233 343.837 -46.3316 182.034 26.9439C33.8386 94.0737 -27.4153 224.134 11.3798 295.074C37.8183 343.405 113.599 318.099 174.798 333.811L174.826 333.839Z",
+                                        fill: "#36BCCA"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/About.tsx",
+                                        lineNumber: 47,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/About.tsx",
+                                lineNumber: 45,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/About.tsx",
+                            lineNumber: 44,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].noteText,
+                            children: content.personalNote
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/About.tsx",
+                            lineNumber: 51,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/About.tsx",
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 content.countries && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].experienceSection,
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].experienceTitle,
                             children: language === 'en' ? 'Professional Experience' : language === 'pt' ? 'Experiência Profissional' : 'Berufserfahrung'
                         }, void 0, false, {
                             fileName: "[project]/src/components/About.tsx",
-                            lineNumber: 39,
+                            lineNumber: 56,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3144,7 +3219,7 @@ function About({ language }) {
                                             children: country.flag
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 52,
+                                            lineNumber: 69,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3152,18 +3227,18 @@ function About({ language }) {
                                             children: country.country
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 70,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, country.id, true, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 64,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/About.tsx",
-                            lineNumber: 45,
+                            lineNumber: 62,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3182,7 +3257,7 @@ function About({ language }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 80,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3195,7 +3270,7 @@ function About({ language }) {
                                                             children: experience.company
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/About.tsx",
-                                                            lineNumber: 69,
+                                                            lineNumber: 86,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -3203,7 +3278,7 @@ function About({ language }) {
                                                             children: experience.position
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/About.tsx",
-                                                            lineNumber: 70,
+                                                            lineNumber: 87,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3211,35 +3286,35 @@ function About({ language }) {
                                                             children: experience.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/About.tsx",
-                                                            lineNumber: 71,
+                                                            lineNumber: 88,
                                                             columnNumber: 27
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 85,
                                                     columnNumber: 25
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 83,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, country.id, true, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 79,
                                     columnNumber: 19
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/About.tsx",
-                            lineNumber: 58,
+                            lineNumber: 75,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/About.tsx",
-                    lineNumber: 38,
+                    lineNumber: 55,
                     columnNumber: 11
                 }, this)
             ]
@@ -4747,13 +4822,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GridOve
 ;
 ;
 function Home() {
-    const [language, setLanguage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>{
-        // Try to get language from localStorage, default to 'en'
-        if ("TURBOPACK compile-time falsy", 0) {
-            "TURBOPACK unreachable";
+    // Initialize with 'en' on both server and client to prevent hydration mismatch
+    const [language, setLanguage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('en');
+    // Load language from localStorage after hydration
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const savedLanguage = localStorage.getItem('selectedLanguage');
+        if (savedLanguage && [
+            'en',
+            'pt',
+            'de'
+        ].includes(savedLanguage)) {
+            setLanguage(savedLanguage);
         }
-        return 'en';
-    });
+    }, []);
     const [showTechDetails, setShowTechDetails] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [isGridVisible, setIsGridVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const toggleGrid = ()=>{
@@ -4773,7 +4854,7 @@ function Home() {
                 onLanguageChange: handleLanguageChange
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -4782,48 +4863,48 @@ function Home() {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Overview$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 45,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 46,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 47,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 48,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 49,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 43,
+                lineNumber: 45,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4862,7 +4943,7 @@ function Home() {
                         children: "📐"
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 63,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4892,13 +4973,13 @@ function Home() {
                         children: "⚙️"
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 90,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 53,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TechDetails$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4906,7 +4987,7 @@ function Home() {
                 onClose: ()=>setShowTechDetails(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 120,
+                lineNumber: 122,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GridOverlay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4914,7 +4995,7 @@ function Home() {
                 onToggle: toggleGrid
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 126,
+                lineNumber: 128,
                 columnNumber: 7
             }, this)
         ]

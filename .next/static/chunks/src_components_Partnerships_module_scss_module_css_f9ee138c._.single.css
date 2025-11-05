@@ -1,0 +1,229 @@
+/* [project]/src/components/Partnerships.module.scss.module.css [app-client] (css) */
+.Partnerships-module-scss-module__3pKPxG__partnerships {
+  background: linear-gradient(180deg, var(--white) 25%, #f7ebd066 100%);
+  padding-inline: 3rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__header {
+  margin-bottom: 1rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__title {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__subtitle {
+  color: var(--accent);
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__sliderWrapper {
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__sliderButton {
+  border: 2px solid var(--accent);
+  background: var(--white);
+  width: 50px;
+  height: 50px;
+  color: var(--accent);
+  cursor: pointer;
+  border-radius: 50%;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__sliderButton:hover {
+  background: var(--accent);
+  color: var(--white);
+  transform: scale(1.1);
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__sliderButton:active {
+  transform: scale(.95);
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__slider {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex: 1;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__slider::-webkit-scrollbar {
+  display: none;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__slide {
+  scroll-snap-align: start;
+  min-width: 100%;
+  padding: 1rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCard {
+  background: var(--white);
+  border-radius: 16px;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  display: flex;
+  box-shadow: 0 0 15px #0000001a;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__logoPlaceholder {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #fff;
+  border-radius: 16px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  box-shadow: 0 5px 15px #0000001a;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerInfo {
+  flex: 1;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerName {
+  color: var(--text-primary);
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCategory {
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__dots {
+  justify-content: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__dot {
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  background: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  transition: all .3s;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__dot:hover {
+  background: var(--accent);
+  opacity: .7;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__dot.Partnerships-module-scss-module__3pKPxG__active {
+  background: var(--accent);
+  border-radius: 6px;
+  width: 32px;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications {
+  background: var(--secondary-color);
+  text-align: center;
+  border-radius: 16px;
+  padding: 3rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications h3 {
+  color: var(--primary);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certList {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certItem {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px #0000001a;
+}
+
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__certifications .Partnerships-module-scss-module__3pKPxG__certItem strong {
+  color: var(--primary);
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+  display: block;
+}
+
+@media (width <= 768px) {
+  .Partnerships-module-scss-module__3pKPxG__partnerships {
+    padding-inline: 1rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__header {
+    margin-bottom: 2rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__title {
+    font-size: 2rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__subtitle {
+    font-size: 1rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__sliderWrapper {
+    gap: .5rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__sliderButton {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCard {
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__logoPlaceholder {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerName {
+    font-size: 1.2rem;
+  }
+
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCategory {
+    font-size: .9rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_Partnerships_module_scss_module_css_f9ee138c._.single.css.map*/

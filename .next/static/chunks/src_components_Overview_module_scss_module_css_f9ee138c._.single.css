@@ -1,0 +1,136 @@
+/* [project]/src/components/Overview.module.scss.module.css [app-client] (css) */
+.Overview-module-scss-module___FWama__overview {
+  background: linear-gradient(to bottom, var(--quaternary-light) 15%, var(--blue-dark) 80%);
+  padding: 80px 0;
+}
+
+.Overview-module-scss-module___FWama__content .Overview-module-scss-module___FWama__row {
+  gap: 24px 0;
+}
+
+.Overview-module-scss-module___FWama__card {
+  background: var(--white);
+  height: 100%;
+  color: inherit;
+  cursor: pointer;
+  border: 1px solid #1a50771a;
+  border-radius: 12px;
+  flex-direction: column;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+}
+
+.Overview-module-scss-module___FWama__card:hover {
+  border-color: var(--primary-light);
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px #00000026;
+}
+
+.Overview-module-scss-module___FWama__cardHeader {
+  margin-bottom: 1.25rem;
+}
+
+.Overview-module-scss-module___FWama__cardIcon {
+  aspect-ratio: 600 / 400;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.Overview-module-scss-module___FWama__cardIcon img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.Overview-module-scss-module___FWama__cardBody {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.Overview-module-scss-module___FWama__cardTitle {
+  color: var(--text-indigo);
+  min-height: 52px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.3;
+  display: flex;
+}
+
+.Overview-module-scss-module___FWama__cardDescription {
+  color: var(--gray-800);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.Overview-module-scss-module___FWama__cardFooter {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.Overview-module-scss-module___FWama__readMoreBtn {
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-flex;
+}
+
+.Overview-module-scss-module___FWama__readMoreBtn:after {
+  content: "→";
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: transform .3s;
+}
+
+.Overview-module-scss-module___FWama__readMoreBtn:hover:after {
+  transform: translateX(4px);
+}
+
+@media (width <= 991px) {
+  .Overview-module-scss-module___FWama__overview {
+    padding: 60px 0;
+  }
+
+  .Overview-module-scss-module___FWama__card {
+    margin-bottom: 24px;
+  }
+
+  .Overview-module-scss-module___FWama__cardTitle {
+    min-height: auto;
+    font-size: 18px;
+  }
+}
+
+@media (width <= 767px) {
+  .Overview-module-scss-module___FWama__overview {
+    padding: 40px 0;
+  }
+
+  .Overview-module-scss-module___FWama__card {
+    padding: 24px 20px;
+  }
+
+  .Overview-module-scss-module___FWama__cardTitle {
+    font-size: 16px;
+  }
+
+  .Overview-module-scss-module___FWama__cardDescription {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=src_components_Overview_module_scss_module_css_f9ee138c._.single.css.map*/

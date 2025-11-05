@@ -17,7 +17,7 @@ export default function Footer({ }: FooterProps) {
         <div className={styles.logoContainer}>
           <Link href="/" className={styles.balaoContainer}>
             <div className={styles.balao}>
-              <img src="/balao-sombra.svg" alt="Logo" />
+              <img src="/logo-footer.svg" alt="Logo" />
             </div>
             
           </Link>

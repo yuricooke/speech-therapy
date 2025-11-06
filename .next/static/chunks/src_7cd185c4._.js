@@ -458,7 +458,7 @@ const siteContent = {
             items: [
                 {
                     title: "Bilingual or Multilingual Therapy",
-                    description: "Specialized therapy that welcomes the patient through their mother tongue, creating a special Terapeuta & Paciente bond for better development.",
+                    description: "Specialized therapy that welcomes the patient through their mother tongue, creating a special Therapist & Patient bond for better development.",
                     fullDescription: "What is the objective of my bilingual/multilingual therapy?<br><br>My bilingual and multilingual therapy has as its main objective welcoming the patient through their mother tongue. The Therapist & Patient bond is established in a welcoming way when the patient realizes they are understood in what they SPEAK, THINK and FEEL! Every patient who feels safer and more welcomed consequently presents better motivation, POSITIVELY impacting their therapeutic prognosis. This is undoubtedly the great advantage or the 'Golden Key' of bilingual or multilingual therapy.<br><br> How is bilingual/multilingual therapy performed?<br><br>For bilingual and multilingual patients, the languages that will be used during therapy will be determined according to the needs of each patient and their families. <br><br>Parents, family members and caregivers will be made aware of therapy programs and methods, as well as rehabilitation objectives, thus being able to support therapy at home. With family cooperation, we can achieve therapy objectives more quickly.",
                     slug: "bilingual-multilingual-therapy",
                     heroImage: "therapy.jpeg"
@@ -846,7 +846,7 @@ const siteContent = {
             <li>What about children with special needs, how to stimulate multiple languages?</li>
           </ul>
 
-          <h2>Counseling # 2: Bilinguismo, Multilinguismo e Late Talkers</h2>
+          <h2>Counseling # 2: Bilingualism, Multilingualism and Late Talkers</h2>
           <p>This counseling session is for families raising a bilingual/multilingual child with speech delay in more than one language.</p>
           <ul>
             <li>Who is a Late Talker?</li>
@@ -963,11 +963,11 @@ const siteContent = {
             ]
         },
         products: {
-            title: "Therapy Services",
-            subtitle: "Comprehensive multilingual speech and language therapy services"
+            title: "Serviços de Terapia",
+            subtitle: "Serviços completos de terapia de fala e linguagem multilíngue"
         },
         about: {
-            title: "About Me",
+            title: "Sobre Mim",
             name: "Tatiana Cooke Munkes",
             description: "Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de saúde do estado de Hamburgo, Alemanha. Tenho 30 anos de experiência profissional adquiridos no Brasil, Inglaterra, Suíça, USA e Alemanha, como fonoaudióloga e psicopedagoga. Ofereço avaliação, terapia e aconselhamento em português, alemão e inglês para famílias bilíngues e multilíngues.",
             experience: "Mais de 30 anos de experiência em terapia e educação multilíngue",
@@ -1068,328 +1068,328 @@ const siteContent = {
         therapyServices: [
             {
                 id: "orofacial",
-                title: "Orofazial",
-                description: "Orofaziale Therapie für Muskelfunktion und Koordination",
-                link: "/de/orofazial",
+                title: "Orofacial",
+                description: "Terapia orofacial para função muscular e coordenação",
+                link: "/pt/orofacial",
                 detailedContent: {
-                    overview: "Die Sprechorgane (Gesicht, Lippen, Zunge, Zähne, Gaumen, Oberkiefer, Unterkiefer) sind für das ordnungsgemäße Funktionieren der primären Funktionen verantwortlich: Atmung und Schlucken sowie die sekundäre Funktion: Sprechen.",
-                    disorders: "Wenn diese Organe Veränderungen in ihrer Struktur und Funktionalität aufweisen, können Schwierigkeiten beim Schlucken, Atmen und Sprechen auftreten.",
+                    overview: "Os órgãos da fala (face, lábios, língua, dentes, palato, maxila, mandíbula) são responsáveis pelo funcionamento adequado das funções primárias: respiração e deglutição, bem como da função secundária: fala.",
+                    disorders: "Quando esses órgãos apresentam alguma alteração em sua estrutura e funcionalidade, podem ocorrer dificuldades na deglutição, respiração e fala.",
                     commonIssues: [
-                        "Schlechte Zungenposition innerhalb der Mundhöhle",
-                        "Zunge breit im unteren Teil des Mundes und leicht nach vorne positioniert (vorstehend)",
-                        "Mundatmung als Folge",
-                        "Zungenprojektion beim Schlucken oder Sprechen"
+                        "Posição inadequada da língua dentro da cavidade oral",
+                        "Língua posicionada de forma ampla na parte inferior da boca e ligeiramente para frente (projetada)",
+                        "Respiração bucal como consequência",
+                        "Projeção da língua ao engolir ou falar"
                     ],
                     signs: [
-                        "Mundatmung und offene Lippen die meiste Zeit",
-                        "Schnarchen, Apnoe, Schlafprobleme aufgrund von Mundatmung und offenen Lippen",
-                        "Schwierigkeiten beim Verschließen der Lippen während des Schluckens",
-                        "Begrenzte Zungenbewegungen",
-                        "Veränderungen in den Zahnbögen, Zähnen und Kiefer",
-                        "Schwierigkeiten beim Kauen und Schlucken mit guter Lippen- und Zungenpositionierung",
-                        "Übermäßiger Speichelfluss über das Alter von 2 Jahren",
-                        "Zungenprojektion während des Sprechens"
+                        "Respiração bucal e lábios abertos na maior parte do tempo",
+                        "Ronco, apneia, problemas de sono devido à respiração bucal e lábios abertos",
+                        "Dificuldades para fechar os lábios durante a deglutição",
+                        "Movimentos limitados da língua",
+                        "Alterações nos arcos dentários, dentes e mandíbula",
+                        "Dificuldades para mastigar e engolir com posicionamento adequado dos lábios e língua",
+                        "Salivação excessiva acima de 2 anos de idade",
+                        "Projeção da língua durante a fala"
                     ],
-                    treatment: "Die Behandlung zielt auf das Gleichgewicht der Körperhaltung sowie gute Beweglichkeit, Kraft, Tonus und Sensibilität der Sprechorgane ab.",
-                    germanTerms: "In der ärztlichen Verschreibung sollte auf Deutsch geschrieben werden: Myofunktionelle Störung."
+                    treatment: "O tratamento visa o equilíbrio da postura corporal, bem como boa mobilidade, força, tônus e sensibilidade dos órgãos da fala.",
+                    germanTerms: "Na prescrição médica deve ser escrito em alemão: Myofunktionelle Störung."
                 }
             },
             {
                 id: "swallowing",
-                title: "Schlucken & Ernährung",
-                description: "Bewertung und Behandlung von Schluck- und Fütterungsstörungen",
-                link: "/de/schlucken-ernaehrung",
+                title: "Deglutição & Alimentação",
+                description: "Avaliação e tratamento de distúrbios de deglutição e alimentação",
+                link: "/pt/degluticao-alimentacao",
                 detailedContent: {
-                    overview: "Dysphagie oder Schwierigkeiten beim Schlucken von flüssigen, pastösen oder festen Nahrungsmitteln können bei Babys, Kindern, Jugendlichen und Erwachsenen auftreten. Wir finden auch Fälle von Selektivität und Nahrungsverweigerung.",
+                    overview: "Disfagia ou dificuldade para engolir alimentos líquidos, pastosos ou sólidos pode ocorrer em bebês, crianças, adolescentes e adultos. Também encontramos casos de seletividade e recusa alimentar.",
                     risks: [
-                        "Mangel an Gewichtszunahme und Wachstum",
-                        "Dehydrierung und Unterernährung",
-                        "Nahrung und Flüssigkeiten in die Atemwege aspiriert (Lungen)",
-                        "Pneumonien und andere Atemwegserkrankungen"
+                        "Falta de ganho de peso e crescimento",
+                        "Desidratação e desnutrição",
+                        "Alimentos e líquidos aspirados para as vias aéreas (pulmões)",
+                        "Pneumonia e outras doenças respiratórias"
                     ],
-                    selectivity: "Selektivität und Nahrungsverweigerung können mit Schmerzen, Frustration, Verlegenheit, Nahrungsdesinteresse, sensorischen Schwierigkeiten und Appetitlosigkeit verbunden sein.",
+                    selectivity: "A seletividade e recusa alimentar podem estar associadas a dor, frustração, constrangimento, desinteresse por alimentos, dificuldades sensoriais e falta de apetite.",
                     signs: [
-                        "Hat Probleme beim Saugen und Schlucken während des Stillens",
-                        "Weint, wird während der Mahlzeiten gereizt",
-                        "Schläft während des Stillens; wird beim Saugen an der Brust oder Flasche leicht müde",
-                        "Spannt den Körper an und verändert die Wirbelsäulenhaltung während der Fütterung",
-                        "Hat Atemprobleme beim Essen und Trinken",
-                        "Verweigert zu essen und zu trinken",
-                        "Isst nur bestimmte Konsistenzen",
-                        "Braucht sehr lange zum Essen",
-                        "Behält Nahrungsreste in der Mundhöhle",
-                        "Hat Probleme beim Kauen; einseitiges Kauen",
-                        "Zeigt Ersticken, Husten oder Würgereflex",
-                        "Produziert viel Speichel oder Flüssigkeiten tropfen aus Mund oder Nase",
-                        "Zeigt Stimmveränderungen während oder nach den Mahlzeiten",
-                        "Erbrechen und Notwendigkeit zu spucken während der Mahlzeiten",
-                        "Fühlt sich extrem satt, schwer, müde während der Mahlzeiten"
+                        "Tem problemas com sucção e deglutição durante a amamentação",
+                        "Chora, fica irritado durante as refeições",
+                        "Dorme durante a amamentação; fica facilmente cansado ao sugar",
+                        "Tensiona o corpo alterando a postura da coluna durante a alimentação",
+                        "Tem dificuldades respiratórias ao comer e beber",
+                        "Recusa-se a comer e beber",
+                        "Come apenas algumas consistências",
+                        "Demora muito tempo para comer",
+                        "Mantém resíduos de comida na cavidade oral",
+                        "Tem problemas para mastigar; mastigação unilateral",
+                        "Apresenta engasgo, tosse ou reflexo de vômito",
+                        "Produz muita saliva, ou líquidos escorrem da boca ou nariz",
+                        "Apresenta alterações na voz durante ou após as refeições",
+                        "Ocorrência de vômitos e necessidade de cuspir durante as refeições",
+                        "Sente-se extremamente satisfeito, pesado, fatigado durante as refeições"
                     ],
-                    germanTerms: "In der ärztlichen Verschreibung sollte der Kinderarzt die Diagnose Dysphagie oder Schluckstörung auf Deutsch erwähnen. Bei Selektivität und Nahrungsverweigerung: Fütterstörung."
+                    germanTerms: "Na prescrição médica, o pediatra deve mencionar o diagnóstico Disfagia (Dysphagie) ou Distúrbio de Deglutição (Schluckstörung). Para Seletividade e Recusa Alimentar: Fütterstörung."
                 }
             },
             {
                 id: "auditory",
-                title: "Auditive Verarbeitung",
-                description: "Bewertung und Therapie für auditive Verarbeitungsstörungen",
-                link: "/de/auditive-verarbeitung",
+                title: "Processamento Auditivo",
+                description: "Avaliação e terapia para distúrbios do processamento auditivo",
+                link: "/pt/processamento-auditivo",
                 detailedContent: {
-                    overview: "Stellen Sie sich für eine Minute die Frustration vor, nicht zu verstehen, was gesagt wird. Denken Sie auch daran, dass Sie kein Hörproblem haben, perfekt hören und intelligent sind. Warum können Sie nicht verstehen?",
-                    condition: "Das ist die Frustration von Patienten mit auditiver Verarbeitungsstörung. Die Ohren und das Gehirn sind nicht synchronisiert, und das Gehirn versteht nicht, was gesprochen wird.",
-                    problem: "Ton wird nicht nützlich registriert und viele auditive Informationen werden nicht korrekt verarbeitet. Sechs grundlegende Fähigkeiten können daran gehindert werden, sich in der auditiven Verarbeitung angemessen zu entwickeln.",
+                    overview: "Imagine por um minuto a frustração de não entender o que está sendo dito. Pense que você não tem problema de audição, ouve perfeitamente e é inteligente. Por que você não consegue entender?",
+                    condition: "Esta é a frustração de pacientes com distúrbio do processamento auditivo. Os ouvidos e o cérebro não estão sincronizados, e o cérebro não entende o que é falado.",
+                    problem: "O som não é registrado de forma útil e muitas informações auditivas não são processadas corretamente. Seis habilidades básicas podem ser impedidas de se desenvolver adequadamente no processamento auditivo.",
                     skills: [
-                        "Auditive Aufmerksamkeit und Wachsamkeit",
-                        "Auditive Diskrimination",
-                        "Auditives Gedächtnis",
-                        "Auditive Sequenzierung",
-                        "Geschwindigkeit der auditiven Verarbeitung",
-                        "Auditives Verständnis"
+                        "Atenção e vigilância auditiva",
+                        "Discriminação auditiva",
+                        "Memória auditiva",
+                        "Sequenciamento auditivo",
+                        "Velocidade de processamento auditivo",
+                        "Compreensão auditiva"
                     ],
-                    importance: "Auditive Verarbeitungsstörungen müssen behandelt werden, damit Kinder gute Kommunikation mit anderen haben, neue Informationen in der Schule lernen und auditive Aufgaben mit weniger Schwierigkeiten ausführen können.",
-                    germanTerms: "In der ärztlichen Verschreibung sollte der Kinderarzt die Diagnose Zentrale Auditive Verarbeitungs- und Wahrnehmungsstörungen (AVWS) auf Deutsch angeben."
+                    importance: "O distúrbio do processamento auditivo deve ser tratado para que as crianças possam ter boa comunicação com os outros, aprender novas informações na escola e realizar tarefas auditivas com menos dificuldades.",
+                    germanTerms: "Na prescrição médica, o pediatra deve informar o diagnóstico de Distúrbio do Processamento Auditivo Central (Auditive Verarbeitungs- und Wahrnehmungsstörungen-AVWS) em alemão."
                 }
             },
             {
                 id: "speech",
-                title: "Sprache",
-                description: "Sprachtherapie für Artikulation und Kommunikation",
-                link: "/de/sprache",
+                title: "Fala",
+                description: "Terapia da fala para articulação e comunicação",
+                link: "/pt/fala",
                 detailedContent: {
-                    overview: "Sprache bezieht sich auf die Artikulation von Phonemen oder Lauten von Wörtern, wenn Ihr Kind kommuniziert. Sprachveränderungen können phonetisch und/oder phonologisch sein.",
-                    phoneticAlterations: "Phonetische (artikulatorische) Sprachveränderungen sind durch Schwierigkeiten gekennzeichnet, die korrekte Bewegung eines bestimmten Phonems auszuführen. Das Kind sagt 'Suva', 'Socolate' anstatt 'Chuva', 'Chocolate'.",
-                    phonologicalAlterations: "Phonologische Veränderungen beinhalten Schwierigkeiten oder Unreife im phonologischen Bewusstsein dieser Laute. Das Kind macht keine angemessene auditive Diskrimination zwischen Lauten.",
-                    ageGuidelines: "Kinder sollten Laute korrekt um 3 Jahre und 6 Monate aussprechen. Wir raten Eltern von zweisprachigen und mehrsprachigen Kindern im Allgemeinen, eine Marge von 6 Monaten über das Durchschnittsalter hinaus zu geben.",
+                    overview: "A fala refere-se à articulação de fonemas ou sons das palavras quando seu filho se comunica. As alterações da fala podem ser fonéticas e/ou fonológicas.",
+                    phoneticAlterations: "As alterações fonéticas (articulatórias) da fala são caracterizadas pela dificuldade de realizar o movimento correto de um fonema específico. A criança diz 'suva', 'Socolate' em vez de 'chuva', 'chocolate'.",
+                    phonologicalAlterations: "As alterações fonológicas envolvem dificuldade ou imaturidade na consciência fonológica dos sons. A criança não faz discriminação auditiva adequada entre os sons.",
+                    ageGuidelines: "As crianças devem pronunciar os sons corretamente por volta de 3 anos e 6 meses. Geralmente aconselhamos os pais de crianças bilíngues e multilíngues a dar uma margem de 6 meses além da idade média para a aquisição dos sons da fala.",
                     developmentChart: {
-                        "1J6M": "/b/ Ball; /m/ Mama",
-                        "2J": "/p/ Papa; /t/ Tatu; /d/ Finger; /n/ Baby",
-                        "2J6M": "/k/ Pferd; /g/ Katze; 'nh' LKW",
-                        "3J": "/f/ Fee; /v/ Kuh; /s/ Frosch; /z/ Zebra",
-                        "3J6M": "'ch' Regen; 'x' Ananas; 'j' Alligator, 'g' Gelatine",
-                        "4J": "'r' (starker Klang) Ratte",
-                        "5J": "'r' (weicher Klang) Papagei"
+                        "1a6m": "/b/ bola; /m/ mamãe",
+                        "2a": "/p/ papai; /t/ tatu; /d/ dedo; /n/ nenê",
+                        "2a6m": "/k/ cavalo; /g/ gato; 'nh' caminhão",
+                        "3a": "/f/ fada; /v/ vaca; /s/ sapo; /z/ zebra",
+                        "3a6m": "'ch' chuva; 'x' abacaxi; 'j' jacaré, 'g' gelatina",
+                        "4a": "'r' (som forte) rato",
+                        "5a": "'r' (som suave) papagaio"
                     },
-                    germanTerms: "In der ärztlichen Verschreibung sollten Sprachstörungen auf Deutsch als Aussprachstörung oder Phonetische-Phonologische Störung erwähnt werden."
+                    germanTerms: "Na prescrição médica, os Distúrbios da Fala devem ser mencionados em alemão como Aussprachstörung ou Phonetische-Phonologische Störung."
                 }
             },
             {
                 id: "language",
-                title: "Sprache",
-                description: "Sprachentwicklung und mehrsprachige Unterstützung",
-                link: "/de/sprachentwicklung",
+                title: "Linguagem",
+                description: "Desenvolvimento da linguagem e suporte multilíngue",
+                link: "/pt/linguagem",
                 detailedContent: {
-                    overview: "Wenn Ihr Kind mündlich durch Worte mit Ihnen kommuniziert, verwendet es seine verbale expressive Sprache. Wenn es Gesten verwendet oder zeigt, versucht es zu kommunizieren, aber auf non-verbale Weise.",
-                    receptive: "Wenn Ihr Kind versteht, was gesagt wird, nutzt es verschiedene rezeptive Sprachfähigkeiten, um Gespräche und Dialoge zu verstehen.",
-                    disorders: "Wenn expressive Sprache (verbal und non-verbal) und rezeptive Sprache (Verständnis) sich nicht angemessen entwickeln, kann Ihr Kind Kommunikationsschwierigkeiten und mögliche Störungen zeigen.",
+                    overview: "Quando seu filho se comunica com você oralmente através de palavras, está usando sua linguagem expressiva verbal. Se usar gestos ou apontar, está tentando se comunicar, mas de forma não verbal.",
+                    receptive: "Quando seu filho entende o que está sendo dito, está usando várias habilidades de linguagem receptiva para entender conversas e diálogos.",
+                    disorders: "Quando a linguagem expressiva (verbal e não verbal) e a linguagem receptiva (compreensão) não estão se desenvolvendo adequadamente, seu filho pode apresentar dificuldades de comunicação e possíveis distúrbios tanto na linguagem expressiva quanto na receptiva.",
                     signs: [
-                        "Zeigt Schwierigkeiten, Wünsche und Bedürfnisse aufgrund von Vokabelmangel zu erklären",
-                        "Ist zwei Jahre alt und spricht weniger als 50 Wörter",
-                        "Spricht isolierte Wörter oder Phrasen mit nur zwei Wörtern",
-                        "Zeigt grammatische Fehler beim Versuch, etwas zu erklären",
-                        "Hat Schwierigkeiten, Ideen zu sequenzieren und in eine Erzählung zu bringen",
-                        "Spricht nur mit bestimmten Personen und an bestimmten Orten; zögert zu kommunizieren",
-                        "Hat Schwierigkeiten zu verstehen, was Sie sagen",
-                        "Hat Schwierigkeiten in der sozialen Kommunikation mit Freunden in der Schule",
-                        "Hat Schwierigkeiten, soziale Kommunikationsregeln zu verstehen (z.B.: Gesprächsturnus respektieren, guter Augenkontakt, Körpersprache)"
+                        "Mostra dificuldades para explicar desejos e necessidades devido à falta de vocabulário",
+                        "Tem dois anos de idade e fala menos de 50 palavras",
+                        "Fala palavras isoladas ou frases com apenas duas palavras",
+                        "Apresenta erros gramaticais ao tentar explicar algo",
+                        "Tem dificuldade para sequenciar ideias e colocá-las em uma narrativa",
+                        "Fala apenas com certas pessoas e em certos lugares; relutante em se comunicar",
+                        "Tem dificuldade para entender o que você diz",
+                        "Tem dificuldades na comunicação social com amigos na escola",
+                        "Tem dificuldades para entender regras de comunicação social (ex.: respeitar turnos para falar, bom contato visual, linguagem corporal)"
                     ],
-                    treatment: "Wenn Ihr Kind einige der oben genannten Anzeichen zeigt, können Sie beim Kinderarzt eine Verschreibung (Verordnung) für Sprachtherapie (Logopädische Behandlung) anfordern.",
-                    germanTerms: "In Deutschland nennen wir diesen Zustand Sprachentwicklungsstörung oder Sprachentwicklungsverzögerung."
+                    treatment: "Se seu filho apresentar alguns dos sinais mencionados acima, você pode solicitar uma prescrição (Verordnung) do pediatra para terapia da fala (Logopädische Behandlung).",
+                    germanTerms: "Na Alemanha, chamamos essa condição de Sprachentwicklungsstörung (Distúrbio do Desenvolvimento da Linguagem) ou Sprachentwicklungsverzögerung (Atraso no Desenvolvimento da Linguagem)."
                 }
             },
             {
                 id: "stuttering",
-                title: "Stottern",
-                description: "Behandlung von Stottern und Redeflussstörungen",
-                link: "/de/stottern",
+                title: "Gagueira",
+                description: "Tratamento para gagueira e distúrbios de fluência",
+                link: "/pt/gagueira",
                 detailedContent: {
-                    overview: "Die Effizienz der mündlichen Kommunikation wird größtenteils durch unsere Fähigkeit bestimmt, flüssige Sprache zu produzieren. Sprachflüssigkeit kann durch Disfluenzen auf verschiedene Weise beeinträchtigt werden.",
-                    normalDisfluency: "Wir alle zeigen manchmal disfluente Sprache. Wir wiederholen Wörter oder verwenden Füllwörter wie 'äh', 'ähm' unter anderem. Wenn einige Sprachdisfluenzen länger anhalten und sich unwillkürlich manifestieren, nennen wir diese Disfluenzen Entwicklungsstottern.",
-                    impact: "Stottern umfasst nicht nur Aspekte disfluenter Sprache, sondern kann auch Körperspannungen verursachen und die Lebensqualität des Kindes und der Person beeinträchtigen.",
+                    overview: "A eficiência da comunicação oral é amplamente determinada pela nossa capacidade de produzir fala fluente. A fluência da fala pode ser afetada por disfluências de várias maneiras.",
+                    normalDisfluency: "Todos nós apresentamos fala disfluente às vezes. Repetimos palavras ou usamos interjeições como 'é', 'ah' entre outras. Quando algumas disfluências da fala persistem por mais tempo e se manifestam involuntariamente, chamamos essas disfluências de gagueira do desenvolvimento.",
+                    impact: "A gagueira não apenas inclui aspectos da fala disfluente, mas também pode causar tensão corporal e interferir na qualidade de vida da criança e da pessoa.",
                     signs: [
-                        "Lautwiederholung: 'Willst du Eeeeeis essen?'; 'Hast du den Huhuhuhund gesehen?'",
-                        "Silbenwiederholung: 'Ich mag Babababananen'. 'Die Kakakakkatze gehört meiner Tante.'",
-                        "Lautverlängerung: 'Gehehehe schnell weg'; 'Ich will Wassssser.'",
-                        "Blockierungen: 'Ich will (Pause) essen.'"
+                        "Repetição de sons: 'Você quer comeeeer sorvete?'; 'Você viu o caaaachorro?'",
+                        "Repetição de sílabas: 'Eu gosto de bananaaanas'. 'O gaaato pertence à minha tia.'",
+                        "Prolongamento de sons: 'Vaaai embora rápido'; 'Eu quero ááágua.'",
+                        "Bloqueios: 'Eu quero (pausa) comer.'"
                     ],
-                    strategies: "Verweigerungen, beispielsweise am Telefon zu sprechen, und Versuche, das Stottern zu verbergen, sind häufig beobachtete Strategien.",
-                    germanTerms: "In der ärztlichen Verschreibung sollte der Kinderarzt die Diagnose Stottern auf Deutsch angeben."
+                    strategies: "Recusas para falar ao telefone e tentativas de esconder a gagueira são estratégias frequentemente observadas.",
+                    germanTerms: "Na prescrição médica, o pediatra deve informar o diagnóstico de Gagueira (Stottern) em alemão."
                 }
             }
         ],
         contact: {
-            title: "Kontakt",
+            title: "Contato",
             address: "Gluckstraße 57, 22081 - Hamburg",
             phone: "+49 1514 6538687",
             email: "tcmunkes@gmail.com"
         },
         multilingualism: {
-            title: "Mehrsprachigkeit",
-            subtitle: "Workshop & Beratung",
-            description: "Die Erfahrung, meine Kinder zusammen mit meinem Mann in drei Sprachen zu erziehen, war sehr aufregend und bereichernd. Es gab viele Zeiten während der Entwicklung unserer Kinder, in denen wir uns unsicher fühlten und Fragen hatten, zum Beispiel über ihre mehrsprachige Sprach- und Sprachentwicklung und ihre Lese- und Schreibfähigkeiten in jeder der Sprachen. Es war nicht einfach für uns Eltern, unsere Kinder in drei Sprachen zu erziehen, jedoch waren wir uns immer bewusst, dass ZWEI SPRACHEN BESSER SIND ALS EINE!",
+            title: "Multilinguismo",
+            subtitle: "Workshop & Aconselhamento",
+            description: "A experiência de criar meus filhos em três línguas junto com meu marido tem sido muito emocionante e gratificante. Houve muitas vezes durante o desenvolvimento de nossos filhos em que nos sentimos inseguros e tivemos perguntas, por exemplo, sobre o desenvolvimento multilíngue da fala e linguagem deles e suas habilidades de leitura e escrita em cada uma das línguas. Não tem sido fácil para nós, pais, criar nossos filhos em três línguas, porém sempre estivemos cientes de que DUAS LÍNGUAS SÃO MELHORES DO QUE UMA!",
             questions: [
-                "Wird mein Kind von zu vielen Sprachen überfordert sein?",
-                "Sollte ich aufhören, meine Muttersprache zu sprechen, um die Landessprache zu unterstützen?",
-                "Warum will mein Kind seine/ihre Muttersprache nicht sprechen? Ist das nur eine Phase?",
-                "Ist es normal, dass mein Kind verschiedene Sprachen in einem Satz mischt?",
-                "Könnte mein Kind Schwierigkeiten in der Schule wegen der Mehrsprachigkeit haben?",
-                "Wie stimuliere ich die Sprach(en)entwicklung/den Fortschritt effektiv?",
-                "Was gilt als normal und was ist eine Behinderung im Sprachprozess?"
+                "Meu filho ficará sobrecarregado com muitas línguas?",
+                "Devo desistir de falar minha língua materna para apoiar a língua local?",
+                "Por que meu filho não quer falar sua/sua língua materna? Isso é apenas uma fase?",
+                "É normal que meu filho misture diferentes línguas em uma frase?",
+                "Meu filho poderia ter dificuldades na escola por causa do multilinguismo?",
+                "Como estimulo o desenvolvimento/progresso da(s) língua(s) de forma eficaz?",
+                "O que é considerado normal e o que é uma deficiência no processo de linguagem?"
             ]
         },
         pageContent: {
             "bilingual-multilingual-therapy": {
                 hero: {
-                    tagline: "Spezialisierte Therapie",
-                    title: "Zweisprachige oder Mehrsprachige Therapie",
-                    description: "Das Hauptziel meiner zweisprachigen und mehrsprachigen Therapie ist die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf besondere Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt.",
+                    tagline: "Terapia Especializada",
+                    title: "Terapia Bilíngue ou Multilíngue",
+                    description: "O objetivo principal da minha terapia bilíngue e multilíngue é o acolhimento do paciente através da sua língua materna. O vínculo Terapeuta-Paciente é estabelecido de forma especial quando o paciente percebe que é compreendido no que diz, pensa e sente.",
                     backgroundImage: "therapy.jpeg",
                     imagePosition: "center"
                 },
                 content: `
-          <h2>Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?</h2>
-          <p>Meine zweisprachige und mehrsprachige Therapie hat als Hauptziel die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf aufnehmende Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er SPRICHT, DENKT und FÜHLT!</p>
+          <h2>Qual o objetivo da minha terapia bilíngue/multilíngue?</h2>
+          <p>A minha terapia bilíngue e multilíngue tem como objetivo principal o acolhimento do paciente através da sua língua materna. O vínculo Terapeuta-Paciente é estabelecido de forma acolhedora quando o paciente percebe que é compreendido no que FALA, PENSA e SENTE!</p>
           
-          <p>Jeder Patient, der sich sicherer und aufgenommener fühlt, zeigt folglich eine bessere Motivation, was sich POSITIV auf seine therapeutische Prognose auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.</p>
+          <p>Todo paciente que se sente mais seguro e acolhido apresenta consequentemente uma melhor motivação, impactando POSITIVAMENTE no seu prognóstico terapêutico. Isto é sem dúvida a grande vantagem ou a 'Chave de Ouro' da terapia bilíngue ou multilíngue.</p>
 
-          <h2>Wie wird die zweisprachige/mehrsprachige Therapie durchgeführt?</h2>
-          <p>Für zweisprachige und mehrsprachige Patienten werden die Sprachen, die während der Therapie verwendet werden, entsprechend den Bedürfnissen jedes Patienten und seiner Familien bestimmt.</p>
+          <h2>Como é realizada a terapia bilíngue/multilíngue?</h2>
+          <p>Para pacientes bilíngues e multilíngues, as línguas que serão utilizadas durante a terapia serão determinadas de acordo com as necessidades de cada paciente e seus familiares.</p>
           
-          <p>Eltern, Familienmitglieder und Betreuer werden über Therapieprogramme und -methoden sowie Rehabilitationsziele informiert und können so die Therapie zu Hause unterstützen. Mit familiärer Zusammenarbeit können wir Therapieziele schneller erreichen.</p>
+          <p>Pais, familiares e responsáveis serão conscientizados sobre os programas e métodos de terapia, assim como objetivos da reabilitação, podendo desta forma apoiar a terapia em casa. Com a cooperação da família, podemos alcançar os objetivos da terapia mais rapidamente.</p>
 
-          <h2>Wie unterscheidet sich die zweisprachige/mehrsprachige Therapie?</h2>
-          <p>Die zweisprachige und mehrsprachige Therapie unterscheidet sich von gewöhnlichen Therapien, da sie einen Therapieplan anbietet, der die soziokulturellen und interkulturellen Aspekte jedes Patienten respektiert.</p>
+          <h2>Como a terapia bilíngue/multilíngue se diferencia?</h2>
+          <p>A terapia bilíngue e multilíngue se diferencia das terapias comuns, pois oferece um plano de terapia que respeita os aspectos socioculturais e interculturais de cada paciente.</p>
           
-          <p>In meiner Therapie werde ich auch internationale Sprach-Sprach-Methoden zusammen mit meinem Wissen über klinische Psychopädagogik verwenden.</p>
+          <p>Na minha terapia, também utilizarei métodos internacionais de fala e linguagem junto com meu conhecimento sobre psicopedagogia clínica.</p>
 
-          <h2>Was wird für die zweisprachige/mehrsprachige Therapie hier in Deutschland benötigt?</h2>
+          <h2>O que é necessário para a terapia bilíngue/multilíngue aqui na Alemanha?</h2>
           <ul>
-            <li>Gültige ärztliche Verordnung</li>
-            <li>Unterschrift und Stempel des Arztes (nicht der Assistenten) auf der Verordnung</li>
-            <li>Die ärztliche Verordnung muss Daten über die Diagnose und Sitzungszeit enthalten</li>
+            <li>Prescrição médica válida</li>
+            <li>Assinatura e carimbo do médico (não dos assistentes) na prescrição</li>
+            <li>A prescrição médica deve conter dados sobre o diagnóstico e tempo de sessão</li>
           </ul>
         `
             },
             "assessment": {
                 hero: {
-                    tagline: "Professionelle Bewertung",
-                    title: "Bewertung",
-                    description: "Differenzierte und spezialisierte Bewertung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung einzigartiger kultureller und sprachlicher Aspekte.",
+                    tagline: "Avaliação Profissional",
+                    title: "Avaliação",
+                    description: "Avaliação diferenciada e especializada para pacientes bilíngues e multilíngues, considerando aspectos culturais e linguísticos únicos.",
                     backgroundImage: "aconselhamento.jpeg",
                     imagePosition: "center"
                 },
                 content: `
-          <h2>Wie wird die Sprach-Sprach-Bewertung allgemein durchgeführt?</h2>
-          <p>Die Bewertung wird durch standardisierte Tests und Beobachtungen aller Sprach-Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.</p>
+          <h2>Como é realizada a avaliação de fala e linguagem em geral?</h2>
+          <p>A avaliação será realizada através de testes padronizados e observações de todas as áreas de Fala e Linguagem (vocabulário, gramática, leitura, escrita, fala, compreensão e fluência), se possível em todos os idiomas/línguas que o paciente se comunica.</p>
           
-          <p>Spezifische Tests zur Bewertung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.</p>
+          <p>Testes específicos para avaliar a deglutição e funcionalidade dos órgãos orofaciais também serão realizados quando necessário.</p>
 
-          <h2>Wie unterscheidet sich die zweisprachige/mehrsprachige Bewertung von einsprachigen Bewertungen?</h2>
-          <p>Die zweisprachige oder mehrsprachige Bewertung ist eine differenzierte Bewertung, da sie meistens keine standardisierten Tests enthält, die negativ in die klinischen Interpretationen jedes klinischen Zustands eingreifen können.</p>
+          <h2>Como a avaliação bilíngue/multilíngue difere das avaliações monolíngues?</h2>
+          <p>A avaliação bilíngue ou multilíngue é uma avaliação diferenciada, pois na maioria das vezes não incluirá testes padronizados, que podem interferir negativamente nas interpretações clínicas de cada condição clínica.</p>
           
-          <p><strong>Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden.</strong></p>
+          <p><strong>Crianças bilíngues e multilíngues não devem ser avaliadas com os mesmos testes usados para crianças monolíngues.</strong></p>
 
-          <p>Die Bewertung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Kulturelle Faktoren wie Herkunft der ausgesetzten Sprachen und familiäre Aspekte werden geschätzt.</p>
+          <p>A avaliação será realizada através de análise precisa de todo um contexto de desenvolvimento bilíngue e multilíngue. Fatores culturais como origem das línguas expostas e aspectos familiares serão valorizados.</p>
 
-          <h2>Wichtige Aspekte bei der Bewertung</h2>
-          <p>Situative Aspekte werden äußerst wichtig sein, um eine sicherere Diagnose von Sprach- und Sprachstörungen bei jedem Patienten zu erreichen:</p>
+          <h2>Aspectos importantes na avaliação</h2>
+          <p>Aspectos situacionais serão extremamente importantes para alcançar um diagnóstico mais seguro de distúrbios de fala e linguagem em cada paciente:</p>
           <ul>
-            <li>Datum des ersten Kontakts mit gesprochenen Sprachen</li>
-            <li>Tägliche Exposition gegenüber verschiedenen Sprachen</li>
-            <li>Mittel der Exposition gegenüber verschiedenen Sprachen</li>
-            <li>Dominante Sprache</li>
-            <li>Vollständige Analyse, wie Sprachen in der Schule, zu Hause und in der Umgebung jedes Patienten verwendet werden</li>
+            <li>Data do primeiro contato com as línguas faladas</li>
+            <li>Exposição diária a diferentes línguas</li>
+            <li>Meios de exposição a várias línguas</li>
+            <li>Língua dominante</li>
+            <li>Análise completa de como as línguas são usadas na escola, em casa e no ambiente de cada paciente</li>
           </ul>
         `
             },
             "counseling": {
                 hero: {
-                    tagline: "Familienunterstützung",
-                    title: "Beratung",
-                    description: "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers und Sprach- und Sprachstörungen.",
+                    tagline: "Suporte Familiar",
+                    title: "Aconselhamento",
+                    description: "Sessões de aconselhamento para famílias sobre desenvolvimento bilíngue, late talkers e distúrbios de fala e linguagem.",
                     backgroundImage: "counseling.jpeg",
                     imagePosition: "bottom"
                 },
                 content: `
-          <h2>Beratung # 1: Ihrem Kind helfen, zweisprachig oder mehrsprachig aufzuwachsen</h2>
-          <p><em>(Multibag im Material enthalten)</em></p>
-          <p>Diese Beratungssitzung wurde entwickelt, um klare, evidenzbasierte Anleitungen zu geben, wie Ihr Kind Sprache und Sprache in mehreren Sprachen entwickelt und wie Sie es zu Hause selbstbewusst unterstützen können.</p>
+          <h2>Aconselhamento # 1: Ajudando seu filho a crescer bilíngue ou multilíngue</h2>
+          <p><em>(Multibag incluída no material)</em></p>
+          <p>Esta sessão de aconselhamento foi projetada para fornecer orientações claras e baseadas em evidências sobre como seu filho desenvolve a fala e a linguagem em vários idiomas e como você pode apoiá-lo com confiança em casa.</p>
           
-          <p><strong>Einige häufig gestellte Fragen, die in dieser Beratung beantwortet werden:</strong></p>
+          <p><strong>Algumas perguntas frequentes respondidas neste aconselhamento:</strong></p>
           <ul>
-            <li>Kann mein Kind mehr als eine Sprache lernen, auch mit Schwierigkeiten?</li>
-            <li>Was ist normal in der zweisprachigen/mehrsprachigen Sprachentwicklung zu erwarten?</li>
-            <li>Wie kann ich zu Hause helfen? Welche Materialien und Spielzeuge sollte ich verwenden?</li>
-            <li>Wann sollte ich mir Sorgen machen? Was ist pathologisch?</li>
-            <li>Was ist mit Kindern mit besonderen Bedürfnissen, wie mehrere Sprachen stimulieren?</li>
+            <li>Meu filho pode aprender mais de um idioma, mesmo apresentando dificuldades?</li>
+            <li>O que é normal esperar no desenvolvimento da linguagem bilíngue/multilíngue?</li>
+            <li>Como posso ajudar em casa? Quais materiais e brinquedos devo usar?</li>
+            <li>Quando devo me preocupar? O que é patológico?</li>
+            <li>E as crianças com necessidades especiais, como estimular várias línguas?</li>
           </ul>
 
-          <h2>Beratung # 2: Zweisprachigkeit, Mehrsprachigkeit und Late Talkers</h2>
-          <p>Diese Beratungssitzung ist für Familien, die ein zweisprachiges/mehrsprachiges Kind mit Sprachverzögerung in mehr als einer Sprache großziehen.</p>
+          <h2>Aconselhamento # 2: Bilinguismo, Multilinguismo e Late Talkers</h2>
+          <p>Esta sessão de aconselhamento é para famílias que criam uma criança bilíngue/multilíngue com atraso na fala em mais de um idioma.</p>
           <ul>
-            <li>Wer ist ein Late Talker?</li>
-            <li>Kann ein Late Talker zweisprachig oder mehrsprachig werden?</li>
-            <li>Was ist normal bei einem zweisprachigen/mehrsprachigen Late Talker vs. was nicht?</li>
-            <li>Wann sich Sorgen machen?</li>
-            <li>Was können Eltern zu Hause tun?</li>
-            <li>Was ist mit Kindern mit besonderen Bedürfnissen?</li>
+            <li>Quem é um Late Talker?</li>
+            <li>Um Late Talker pode se tornar bilíngue ou multilíngue?</li>
+            <li>O que é normal em um Late Talker bilíngue/multilíngue vs. o que não é?</li>
+            <li>Quando se preocupar?</li>
+            <li>O que os pais podem fazer em casa?</li>
+            <li>E as crianças com necessidades especiais?</li>
           </ul>
 
-          <h2>Beratung # 3: Zweisprachigkeit/Mehrsprachigkeit und Sprach- und Sprachstörungen verstehen</h2>
-          <p>Diese Beratungssitzung ist für zweisprachige und mehrsprachige Familien, die Kinder mit jeder Art von Sprach- und Sprachveränderung haben und die besser verstehen möchten, wie mögliche Einschränkungen die Entwicklung von Zweisprachigkeit und Mehrsprachigkeit zu Hause, in der Schule und in der Umgebung beeinflussen werden.</p>
+          <h2>Aconselhamento # 3: Compreendendo bilinguismo/multilinguismo e distúrbios de fala e linguagem</h2>
+          <p>Esta sessão de aconselhamento é para famílias bilíngues e multilíngues que têm filhos com qualquer tipo de alteração de fala e linguagem e que querem entender melhor como possíveis limitações impactarão o desenvolvimento do bilinguismo e multilinguismo em casa, na escola e no ambiente.</p>
           <ul>
-            <li>Sprach- und Sprachstörungen bei zweisprachigen/mehrsprachigen Kindern</li>
-            <li>Wie zweisprachige und mehrsprachige Bewertung durchgeführt wird</li>
-            <li>Wie die Muttersprache beibehalten wird</li>
-            <li>Sprachunterstützung zu Hause, in der Schule und in der Gemeinschaft</li>
-            <li>Wann Hilfe suchen</li>
-            <li>Beruhigung für Eltern</li>
-            <li>Mythen vs. Fatos: Aufmerksamkeit auf Mythen und Wahrheiten in der zweisprachigen und mehrsprachigen Bildung richten</li>
+            <li>Distúrbios de fala e linguagem em crianças bilíngues/multilíngues</li>
+            <li>Como a avaliação bilíngue e multilíngue é realizada</li>
+            <li>Como manter a língua materna</li>
+            <li>Suporte linguístico em casa, na escola e na comunidade</li>
+            <li>Quando procurar ajuda</li>
+            <li>Tranquilização para os pais</li>
+            <li>Mitos vs. Fatos: Prestando atenção a mitos e verdades na educação bilíngue e multilíngue</li>
           </ul>
         `
             },
             "workshops": {
                 hero: {
-                    tagline: "Professionelle Schulung",
-                    title: "Workshops für Schulen und Lehrer",
-                    description: "Schulung für Pädagogen über zweisprachige Entwicklung, Identifizierung von Schwierigkeiten und Unterstützungsstrategien im Klassenzimmer.",
+                    tagline: "Treinamento Profissional",
+                    title: "Workshops para Escolas e Professores",
+                    description: "Capacitação para educadores sobre desenvolvimento bilíngue, identificação de dificuldades e estratégias de apoio em sala de aula.",
                     backgroundImage: "workshop.jpeg",
                     imagePosition: "top"
                 },
                 content: `
-          <h2>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprach- und Sprachentwicklung im Klassenzimmer"</h2>
-          <p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch identifiziert. Daher nicht für Sprachtherapie überwiesen. Lehrer lernen, normale und verzögerte Sprach- und Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p>
+          <h2>Workshop # 1: "Compreendendo e apoiando o desenvolvimento da fala e da linguagem bilíngue na sala de aula"</h2>
+          <p><strong>Objetivo do curso:</strong> Muitos alunos bilíngues e multilíngues são identificados erroneamente em termos de aprendizado e desenvolvimento de idiomas. Portanto, não encaminhado para terapia fonoaudiológica. Os professores aprenderão a reconhecer o desenvolvimento normal e atrasado da fala e da linguagem do estudante bilíngue.</p>
           
           <ul>
-            <li>Typische Phasen der zweisprachigen Kindersprachentwicklung verstehen.</li>
-            <li>Den Unterschied zwischen "normaler" Sprachentwicklung und Sprachstörung erkennen.</li>
-            <li>Warnzeichen für Sprach- oder Sprachverzögerungen bei zweisprachigen Schülern identifizieren.</li>
-            <li>Klassenzimmerstrategien anwenden, um zweisprachige Schüler effektiv zu unterstützen.</li>
+            <li>Compreender os estágios típicos do desenvolvimento de linguagem da criança bilíngue.</li>
+            <li>Reconhecer a diferença entre o desenvolvimento "normal" da linguagem e o distúrbio da linguagem.</li>
+            <li>Identificar sinais de alerta para atrasos de fala ou linguagem em alunos bilíngues.</li>
+            <li>Aplicar estratégias de sala de aula para apoiar alunos bilíngues de forma eficaz.</li>
           </ul>
 
-          <h2>Workshop # 2: "Die häufigsten Sprach- und Sprachstörungen in Schulen erkennen"</h2>
-          <p>Dieser Workshop richtet sich an Pädagogen, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, die die schulische Leistung der Schüler beeinträchtigen können.</p>
+          <h2>Workshop # 2: "Reconhecendo os distúrbios de fala e linguagem mais comuns nas escolas"</h2>
+          <p>Este workshop é destinado a educadores que desejam compreender melhor os principais distúrbios de comunicação que podem afetar o desempenho escolar dos alunos.</p>
           
           <ul>
-            <li>Überblick über Sprache, Sprache und Kommunikation</li>
-            <li>Unterschied zwischen Sprach- und Sprachstörungen</li>
-            <li>Rote Flaggen und Klassenzimmermanifestationen</li>
-            <li>Artikulationsstörungen (z.B.: Lispeln)</li>
-            <li>Phonologische Abweichungen</li>
-            <li>Kindliche Sprechapraxie (CAS)</li>
-            <li>Flüssigkeitsstörungen (z.B. Stottern)</li>
-            <li>Rezeptive Sprachstörungen (Schwierigkeiten beim Verstehen von Anweisungen, Wortschatz oder Fragen)</li>
-            <li>Expressive Sprachstörungen (begrenzter Wortschatz, Verwendung kurzer Phrasen, grammatische Probleme)</li>
-            <li>Pragmatische Sprachstörungen (Herausforderungen der sozialen Kommunikation)</li>
-            <li>Sprachverzögerung vs. Störung</li>
+            <li>Visão geral da fala, linguagem e comunicação</li>
+            <li>Diferença entre distúrbios de fala e linguagem</li>
+            <li>Bandeiras vermelhas e manifestações em sala de aula</li>
+            <li>Distúrbios da articulação (por exemplo: ceceio)</li>
+            <li>Desvios fonológicos</li>
+            <li>Apraxia de Fala na Infância (CAS)</li>
+            <li>Distúrbios da fluência (por exemplo, gagueira)</li>
+            <li>Distúrbios da linguagem receptiva (dificuldade em entender instruções, vocabulário ou perguntas)</li>
+            <li>Distúrbios da linguagem expressiva (vocabulário limitado, uso de frases curtas, problemas gramaticais)</li>
+            <li>Distúrbios pragmáticos da linguagem (desafios da comunicação social)</li>
+            <li>Atraso de linguagem vs. transtorno</li>
           </ul>
 
-          <h2>Workshop-Vorteile</h2>
-          <p>Unsere Workshops bieten Pädagogen praktische Werkzeuge, um:</p>
+          <h2>Benefícios dos Workshops</h2>
+          <p>Nossos workshops oferecem aos educadores ferramentas práticas para:</p>
           <ul>
-            <li><strong>Frühzeitig identifizieren</strong> mögliche Kommunikationsschwierigkeiten</li>
-            <li><strong>Strategien implementieren</strong> für Klassenzimmerunterstützung</li>
-            <li><strong>Verstehen</strong> die spezifischen Bedürfnisse zweisprachiger Schüler</li>
-            <li><strong>Effektiv zusammenarbeiten</strong> mit Sprachtherapeuten und Familien</li>
-            <li><strong>Inklusive Umgebungen schaffen</strong> die allen Schülern zugute kommen</li>
+            <li><strong>Identificar precocemente</strong> possíveis dificuldades de comunicação</li>
+            <li><strong>Implementar estratégias</strong> de apoio em sala de aula</li>
+            <li><strong>Compreender</strong> as necessidades específicas de alunos bilíngues</li>
+            <li><strong>Colaborar efetivamente</strong> com fonoaudiólogos e famílias</li>
+            <li><strong>Criar ambientes inclusivos</strong> que beneficiem todos os alunos</li>
           </ul>
         `
             }

@@ -360,7 +360,7 @@
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__button {
   color: var(--white);
-  background-color: var(--tertiary);
+  background-color: #4389c8cc;
   border-radius: 10px;
   align-items: center;
   gap: 1rem;
@@ -582,17 +582,15 @@
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetCard {
   backdrop-filter: blur(15px);
-  text-align: center;
   cursor: pointer;
   background: linear-gradient(135deg, #ffffff1f 0%, #ffffff14 50%, #ffffff0f 100%);
   border: 2px solid #fff3;
   border-radius: 16px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
   width: 100%;
   height: auto;
-  min-height: 140px;
   padding: 1rem;
   transition: all .4s cubic-bezier(.175, .885, .32, 1.275);
   display: flex;

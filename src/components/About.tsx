@@ -24,7 +24,7 @@ export default function About({ language }: AboutProps) {
 
             <div className={styles.imageContainer}>
               <div className={styles.placeholder}>
-                <img src="/tati.jpg" alt="Tatiana" />
+                <img src="/profile-blue.jpg" alt="Tatiana" />
               </div>
             </div>
 

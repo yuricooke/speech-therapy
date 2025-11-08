@@ -6,6 +6,10 @@
   font-size: $font-size-5xl;
   line-height: $line-height-tight;
   font-weight: $medium;
+
+  @media (max-width: 768px) {
+    font-size: $font-size-3xl;
+  }
 }
 
 @mixin heading-2 {
@@ -13,6 +17,10 @@
   font-size: $font-size-4xl;
   line-height: $line-height-snug;
   font-weight: $medium;
+
+  @media (max-width: 768px) {
+    font-size: $font-size-2xl;
+  }
 }
 
 @mixin heading-3 {
@@ -20,6 +28,10 @@
   font-size: $font-size-2xl;
   line-height: $line-height-normal;
   font-weight: $medium;
+
+  @media (max-width: 768px) {
+    font-size: $font-size-xl;
+  }
 }
 
 @mixin body-text {
@@ -27,6 +39,10 @@
   font-size: $font-size-base;
   line-height: $line-height-normal;
   font-weight: $regular;
+
+  @media (max-width: 768px) {
+    font-size: $font-size-sm;
+  }
 }
 
 @mixin quote-text {
@@ -35,6 +51,9 @@
   line-height: $line-height-normal;
   font-weight: $thin;
 
+  @media (max-width: 768px) {
+    font-size: $font-size-sm;
+  }
 }
 
 @mixin responsive-text($size, $line-height) {

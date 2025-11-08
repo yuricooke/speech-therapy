@@ -58,11 +58,14 @@
     .balaoContainer {
         display: flex;
         flex-direction: row;
-        gap: 1rem;
+        gap: 3rem;
+        @media (max-width: 992px) {
+            align-items: flex-end;
+        }
     }
 
     .logoText {
-       width: 40%;
+       width: 42%;
 
        margin-top: -6rem;
         margin-left: -1rem;
@@ -75,14 +78,19 @@
 
     .balao {
         margin-top: -9rem;
-        margin-left: -6rem;
+        margin-left: -5rem;
         width: 60%;
         height: 100%;
 
-        @media (max-width: 1200px) {
-            margin-top: -9rem;
+        @media (max-width: 992px) {
+            margin-top: -20%;
             margin-left: -0rem;
 
+        }
+
+        @media (max-width: 575px) {
+            margin-top: -25%;
+            margin-left: -1rem;
         }
     }
 
@@ -101,6 +109,10 @@
     .description {
 
         font-size: 1.25rem;
+
+        @media (max-width: 768px) {
+            font-size: 1rem;
+        }
     }
 
     .titleContainer {

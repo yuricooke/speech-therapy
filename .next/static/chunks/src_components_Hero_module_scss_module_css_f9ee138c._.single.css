@@ -57,12 +57,18 @@
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balaoContainer {
   flex-direction: row;
-  gap: 1rem;
+  gap: 3rem;
   display: flex;
 }
 
+@media (width <= 992px) {
+  .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balaoContainer {
+    align-items: flex-end;
+  }
+}
+
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__logoText {
-  width: 40%;
+  width: 42%;
   margin-top: -6rem;
   margin-left: -1rem;
 }
@@ -77,13 +83,20 @@
   width: 60%;
   height: 100%;
   margin-top: -9rem;
-  margin-left: -6rem;
+  margin-left: -5rem;
 }
 
-@media (width <= 1200px) {
+@media (width <= 992px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balao {
-    margin-top: -9rem;
+    margin-top: -20%;
     margin-left: 0;
+  }
+}
+
+@media (width <= 575px) {
+  .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balao {
+    margin-top: -25%;
+    margin-left: -1rem;
   }
 }
 
@@ -101,6 +114,12 @@
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__description {
   font-size: 1.25rem;
+}
+
+@media (width <= 768px) {
+  .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__description {
+    font-size: 1rem;
+  }
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__titleContainer {

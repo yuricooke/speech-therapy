@@ -78,10 +78,10 @@
 }
 
 .Products-module-scss-module__U43jna__products .Products-module-scss-module__U43jna__planetButton {
+  background: var(--primary-light);
   color: var(--white);
   cursor: pointer;
   backdrop-filter: blur(10px);
-  background: #fff3;
   border: 1px solid #ffffff4d;
   border-radius: 15px;
   padding: .3rem .8rem;

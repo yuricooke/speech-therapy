@@ -25,7 +25,7 @@ export default function Home() {
       setLanguage(savedLanguage);
     }
   }, []);
-  const [showTechDetails, setShowTechDetails] = useState(false);
+  // const [showTechDetails, setShowTechDetails] = useState(false);
   const [isGridVisible, setIsGridVisible] = useState(false);
 
   const toggleGrid = () => {

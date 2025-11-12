@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSubPage from '@/components/HeroSubPage';
 import Breadcrumb from '@/components/Breadcrumb';
-import TechDetails from '@/components/TechDetails';
+// import TechDetails from '@/components/TechDetails';
 import GridOverlay from '@/components/GridOverlay';
 import { siteContent } from '@/utils/content';
 import { Language } from '@/types';
@@ -16,7 +16,7 @@ interface ClientPageProps {
 }
 
 export default function ClientPage({ slug }: ClientPageProps) {
-  const [showTechDetails, setShowTechDetails] = useState(false);
+  // const [showTechDetails, setShowTechDetails] = useState(false);
   const [isGridVisible, setIsGridVisible] = useState(false);
   // Initialize with 'en' on both server and client to prevent hydration mismatch
   const [language, setLanguage] = useState<Language>('en');

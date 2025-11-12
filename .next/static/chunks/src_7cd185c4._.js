@@ -461,7 +461,7 @@ const siteContent = {
                     description: "Specialized therapy that welcomes the patient through their mother tongue, creating a special Therapist & Patient bond for better development.",
                     fullDescription: "What is the objective of my bilingual/multilingual therapy?<br><br>My bilingual and multilingual therapy has as its main objective welcoming the patient through their mother tongue. The Therapist & Patient bond is established in a welcoming way when the patient realizes they are understood in what they SPEAK, THINK and FEEL! Every patient who feels safer and more welcomed consequently presents better motivation, POSITIVELY impacting their therapeutic prognosis. This is undoubtedly the great advantage or the 'Golden Key' of bilingual or multilingual therapy.<br><br> How is bilingual/multilingual therapy performed?<br><br>For bilingual and multilingual patients, the languages that will be used during therapy will be determined according to the needs of each patient and their families. <br><br>Parents, family members and caregivers will be made aware of therapy programs and methods, as well as rehabilitation objectives, thus being able to support therapy at home. With family cooperation, we can achieve therapy objectives more quickly.",
                     slug: "bilingual-multilingual-therapy",
-                    heroImage: "therapy.jpeg"
+                    heroImage: "terapia.jpg"
                 },
                 {
                     title: "Assessment",
@@ -591,6 +591,52 @@ const siteContent = {
         },
         therapyServices: [
             {
+                id: "language",
+                title: "Language",
+                description: "Language development and multilingual support",
+                link: "/en/language",
+                detailedContent: {
+                    overview: "When your child communicates with you orally through words, they are using their verbal expressive language. If they use gestures or pointing, they are trying to communicate, but in a non-verbal way.",
+                    receptive: "When your child understands what is being said, they are using various receptive language skills to understand conversation and dialogue.",
+                    disorders: "When expressive language (verbal and non-verbal) and receptive language (comprehension) are not developing adequately, your child may present communication difficulties and possible disorders in both expressive and receptive language.",
+                    signs: [
+                        "Shows difficulties explaining desires and needs due to lack of vocabulary",
+                        "Is two years old and speaks less than 50 words",
+                        "Speaks isolated words or phrases with only two words",
+                        "Presents grammatical errors when trying to explain something",
+                        "Has difficulty sequencing ideas and putting them into a narrative",
+                        "Speaks only with certain people and in certain places; reluctant to communicate",
+                        "Has difficulty understanding what you say",
+                        "Has difficulties in social communication with friends at school",
+                        "Has difficulties understanding social communication rules (e.g.: respecting turns to speak, good eye contact, body language)"
+                    ],
+                    treatment: "If your child presents some of the signs mentioned above, you can request a prescription (Verordnung) from the pediatrician for speech therapy (Logopädische Behandlung).",
+                    germanTerms: "In Germany we call this condition Sprachentwicklungsstörung (Language Development Disorder) or Sprachentwicklungsverzögerung (Language Delay)."
+                }
+            },
+            {
+                id: "speech",
+                title: "Speech",
+                description: "Speech therapy for articulation and communication",
+                link: "/en/speech",
+                detailedContent: {
+                    overview: "Speech refers to the articulation of phonemes or sounds of words when your child communicates. Speech alterations can be phonetic and/or phonological.",
+                    phoneticAlterations: "Phonetic (articulatory) speech alterations are characterized by difficulty performing the correct movement of a specific phoneme. The child says 'suva', 'Socolate' instead of 'chuva', 'chocolate'.",
+                    phonologicalAlterations: "Phonological alterations involve difficulty or immaturity in phonological awareness of sounds. The child does not make proper auditory discrimination between sounds.",
+                    ageGuidelines: "Children should pronounce sounds correctly around 3 years and 6 months. We generally advise parents of bilingual and multilingual children to give a 6-month margin beyond the average age for speech sound acquisition.",
+                    developmentChart: {
+                        "1y6m": "/b/ ball; /m/ mommy",
+                        "2y": "/p/ daddy; /t/ turtle; /d/ finger; /n/ baby",
+                        "2y6m": "/k/ horse; /g/ cat; 'nh' truck",
+                        "3y": "/f/ fairy; /v/ cow; /s/ frog; /z/ zebra",
+                        "3y6m": "'ch' rain; 'x' pineapple; 'j' alligator, 'g' gelatin",
+                        "4y": "'r' (strong sound) rat",
+                        "5y": "'r' (soft sound) parrot"
+                    },
+                    germanTerms: "In the medical prescription, Speech Disorders should be mentioned in German as Aussprachstörung or Phonetische-Phonologische Störung."
+                }
+            },
+            {
                 id: "orofacial",
                 title: "Orofacial",
                 description: "Orofacial therapy for muscle function and coordination",
@@ -616,6 +662,27 @@ const siteContent = {
                     ],
                     treatment: "Treatment aims for body posture balance, as well as good mobility, strength, tone, and sensitivity of speech organs.",
                     germanTerms: "In the medical prescription it should be written in German: Myofunktionelle Störung."
+                }
+            },
+            {
+                id: "auditory",
+                title: "Auditory Processing",
+                description: "Evaluation and therapy for auditory processing disorders",
+                link: "/en/auditory-processing",
+                detailedContent: {
+                    overview: "Imagine for a minute the frustration of not understanding what is being said. Think that you have no hearing problem, hear perfectly, and are intelligent. Why can't you understand?",
+                    condition: "This is the frustration of patients with auditory processing disorder. The ears and brain are not synchronized, and the brain doesn't understand what is spoken.",
+                    problem: "Sound is not registered usefully and much auditory information is not processed correctly. Six basic skills may be prevented from developing adequately in auditory processing.",
+                    skills: [
+                        "Auditory attention and vigilance",
+                        "Auditory discrimination",
+                        "Auditory memory",
+                        "Auditory sequencing",
+                        "Auditory processing speed",
+                        "Auditory comprehension"
+                    ],
+                    importance: "Auditory processing disorder must be treated so children can have good communication with others, learn new information at school, and perform auditory tasks with fewer difficulties.",
+                    germanTerms: "In the medical prescription, the pediatrician should inform the diagnosis of Central Auditory Processing Disorder (Auditive Verarbeitungs- und Wahrnehmungsstörungen-AVWS) in German."
                 }
             },
             {
@@ -650,73 +717,6 @@ const siteContent = {
                         "Feels extremely satisfied, heavy, fatigued during meals"
                     ],
                     germanTerms: "In the medical prescription, the pediatrician should mention the diagnosis Dysphagia (Dysphagie) or Swallowing Disorder (Schluckstörung). For Selectivity and Food Refusal: Fütterstörung."
-                }
-            },
-            {
-                id: "auditory",
-                title: "Auditory Processing",
-                description: "Evaluation and therapy for auditory processing disorders",
-                link: "/en/auditory-processing",
-                detailedContent: {
-                    overview: "Imagine for a minute the frustration of not understanding what is being said. Think that you have no hearing problem, hear perfectly, and are intelligent. Why can't you understand?",
-                    condition: "This is the frustration of patients with auditory processing disorder. The ears and brain are not synchronized, and the brain doesn't understand what is spoken.",
-                    problem: "Sound is not registered usefully and much auditory information is not processed correctly. Six basic skills may be prevented from developing adequately in auditory processing.",
-                    skills: [
-                        "Auditory attention and vigilance",
-                        "Auditory discrimination",
-                        "Auditory memory",
-                        "Auditory sequencing",
-                        "Auditory processing speed",
-                        "Auditory comprehension"
-                    ],
-                    importance: "Auditory processing disorder must be treated so children can have good communication with others, learn new information at school, and perform auditory tasks with fewer difficulties.",
-                    germanTerms: "In the medical prescription, the pediatrician should inform the diagnosis of Central Auditory Processing Disorder (Auditive Verarbeitungs- und Wahrnehmungsstörungen-AVWS) in German."
-                }
-            },
-            {
-                id: "speech",
-                title: "Speech",
-                description: "Speech therapy for articulation and communication",
-                link: "/en/speech",
-                detailedContent: {
-                    overview: "Speech refers to the articulation of phonemes or sounds of words when your child communicates. Speech alterations can be phonetic and/or phonological.",
-                    phoneticAlterations: "Phonetic (articulatory) speech alterations are characterized by difficulty performing the correct movement of a specific phoneme. The child says 'suva', 'Socolate' instead of 'chuva', 'chocolate'.",
-                    phonologicalAlterations: "Phonological alterations involve difficulty or immaturity in phonological awareness of sounds. The child does not make proper auditory discrimination between sounds.",
-                    ageGuidelines: "Children should pronounce sounds correctly around 3 years and 6 months. We generally advise parents of bilingual and multilingual children to give a 6-month margin beyond the average age for speech sound acquisition.",
-                    developmentChart: {
-                        "1y6m": "/b/ ball; /m/ mommy",
-                        "2y": "/p/ daddy; /t/ turtle; /d/ finger; /n/ baby",
-                        "2y6m": "/k/ horse; /g/ cat; 'nh' truck",
-                        "3y": "/f/ fairy; /v/ cow; /s/ frog; /z/ zebra",
-                        "3y6m": "'ch' rain; 'x' pineapple; 'j' alligator, 'g' gelatin",
-                        "4y": "'r' (strong sound) rat",
-                        "5y": "'r' (soft sound) parrot"
-                    },
-                    germanTerms: "In the medical prescription, Speech Disorders should be mentioned in German as Aussprachstörung or Phonetische-Phonologische Störung."
-                }
-            },
-            {
-                id: "language",
-                title: "Language",
-                description: "Language development and multilingual support",
-                link: "/en/language",
-                detailedContent: {
-                    overview: "When your child communicates with you orally through words, they are using their verbal expressive language. If they use gestures or pointing, they are trying to communicate, but in a non-verbal way.",
-                    receptive: "When your child understands what is being said, they are using various receptive language skills to understand conversation and dialogue.",
-                    disorders: "When expressive language (verbal and non-verbal) and receptive language (comprehension) are not developing adequately, your child may present communication difficulties and possible disorders in both expressive and receptive language.",
-                    signs: [
-                        "Shows difficulties explaining desires and needs due to lack of vocabulary",
-                        "Is two years old and speaks less than 50 words",
-                        "Speaks isolated words or phrases with only two words",
-                        "Presents grammatical errors when trying to explain something",
-                        "Has difficulty sequencing ideas and putting them into a narrative",
-                        "Speaks only with certain people and in certain places; reluctant to communicate",
-                        "Has difficulty understanding what you say",
-                        "Has difficulties in social communication with friends at school",
-                        "Has difficulties understanding social communication rules (e.g.: respecting turns to speak, good eye contact, body language)"
-                    ],
-                    treatment: "If your child presents some of the signs mentioned above, you can request a prescription (Verordnung) from the pediatrician for speech therapy (Logopädische Behandlung).",
-                    germanTerms: "In Germany we call this condition Sprachentwicklungsstörung (Language Development Disorder) or Sprachentwicklungsverzögerung (Language Delay)."
                 }
             },
             {
@@ -765,7 +765,7 @@ const siteContent = {
                     tagline: "Specialized Therapy",
                     title: "Bilingual or Multilingual Therapy",
                     description: "The main objective of my bilingual and multilingual therapy is to welcome the patient through their mother tongue. The Therapist & Patient bond is established in a special way when the patient realizes they are understood in what they say, think and feel.",
-                    backgroundImage: "therapy.jpeg",
+                    backgroundImage: "terapia.jpg",
                     imagePosition: "center"
                 },
                 content: `
@@ -937,7 +937,7 @@ const siteContent = {
                     description: "Terapia especializada que acolhe o paciente através da sua língua materna, criando um vínculo especial Terapeuta & Paciente para melhor desenvolvimento.",
                     fullDescription: "Qual o objetivo da minha terapia bilíngue/multilíngue?<br><br>A minha terapia bilíngue e multilíngue tem como objetivo principal o acolhimento do paciente através da sua língua materna. O vínculo Terapeuta & Paciente é estabelecido de forma acolhedora quando o paciente percebe que é compreendido no que FALA, PENSA e SENTE! Todo paciente que se sente mais seguro e acolhido apresenta consequentemente uma melhor motivação, impactando POSITIVAMENTE no seu prognóstico terapêutico. Isto é sem dúvida a grande vantagem ou a 'Chave de Ouro' da terapia bilíngue ou multilíngue.<br><br> Como é realizada a terapia bilíngue/multilíngue?<br><br>Para pacientes bilíngues e multilíngues as línguas que serão utilizadas durante a terapia serão determinadas de acordo com as necessidades de cada paciente e seus familiares. <br><br>Pais, familiares e responsáveis serão conscientizados sobre os programas e métodos de terapia, assim como objetivos da reabilitação, podendo desta forma apoiar a terapia em casa. Com a cooperação familiar poderemos alcançar os objetivos de terapia mais rapidamente.<br><br>No que se diferencia a terapia bilíngue/multilíngue?<br><br>A terapia bilíngue e multilíngue se diferencia das terapias comuns, pois nesta será oferecido um plano de terapia respeitando os aspectos socioculturais e interculturais de cada paciente. Na minha terapia usarei também métodos internacionais de fala-linguagem juntamente com os meus conhecimentos da psicopedagogia clínica.<br><br>O que é necessário para a terapia bilíngue/multilíngue aqui na Alemanha?<br><br>• Prescrição médica válida;<br>• Assinatura e carimbo do médico (não dos assistentes) na prescrição;<br>• A prescrição médica deverá informar dados sobre o diagnóstico e tempo da sessão;",
                     slug: "bilingual-multilingual-therapy",
-                    heroImage: "therapy.jpeg"
+                    heroImage: "terapia.jpg"
                 },
                 {
                     title: "Avaliação",
@@ -1067,6 +1067,52 @@ const siteContent = {
         },
         therapyServices: [
             {
+                id: "language",
+                title: "Linguagem",
+                description: "Desenvolvimento da linguagem e suporte multilíngue",
+                link: "/pt/linguagem",
+                detailedContent: {
+                    overview: "Quando seu filho se comunica com você oralmente através de palavras, está usando sua linguagem expressiva verbal. Se usar gestos ou apontar, está tentando se comunicar, mas de forma não verbal.",
+                    receptive: "Quando seu filho entende o que está sendo dito, está usando várias habilidades de linguagem receptiva para entender conversas e diálogos.",
+                    disorders: "Quando a linguagem expressiva (verbal e não verbal) e a linguagem receptiva (compreensão) não estão se desenvolvendo adequadamente, seu filho pode apresentar dificuldades de comunicação e possíveis distúrbios tanto na linguagem expressiva quanto na receptiva.",
+                    signs: [
+                        "Mostra dificuldades para explicar desejos e necessidades devido à falta de vocabulário",
+                        "Tem dois anos de idade e fala menos de 50 palavras",
+                        "Fala palavras isoladas ou frases com apenas duas palavras",
+                        "Apresenta erros gramaticais ao tentar explicar algo",
+                        "Tem dificuldade para sequenciar ideias e colocá-las em uma narrativa",
+                        "Fala apenas com certas pessoas e em certos lugares; relutante em se comunicar",
+                        "Tem dificuldade para entender o que você diz",
+                        "Tem dificuldades na comunicação social com amigos na escola",
+                        "Tem dificuldades para entender regras de comunicação social (ex.: respeitar turnos para falar, bom contato visual, linguagem corporal)"
+                    ],
+                    treatment: "Se seu filho apresentar alguns dos sinais mencionados acima, você pode solicitar uma prescrição (Verordnung) do pediatra para terapia da fala (Logopädische Behandlung).",
+                    germanTerms: "Na Alemanha, chamamos essa condição de Sprachentwicklungsstörung (Distúrbio do Desenvolvimento da Linguagem) ou Sprachentwicklungsverzögerung (Atraso no Desenvolvimento da Linguagem)."
+                }
+            },
+            {
+                id: "speech",
+                title: "Fala",
+                description: "Terapia da fala para articulação e comunicação",
+                link: "/pt/fala",
+                detailedContent: {
+                    overview: "A fala refere-se à articulação de fonemas ou sons das palavras quando seu filho se comunica. As alterações da fala podem ser fonéticas e/ou fonológicas.",
+                    phoneticAlterations: "As alterações fonéticas (articulatórias) da fala são caracterizadas pela dificuldade de realizar o movimento correto de um fonema específico. A criança diz 'suva', 'Socolate' em vez de 'chuva', 'chocolate'.",
+                    phonologicalAlterations: "As alterações fonológicas envolvem dificuldade ou imaturidade na consciência fonológica dos sons. A criança não faz discriminação auditiva adequada entre os sons.",
+                    ageGuidelines: "As crianças devem pronunciar os sons corretamente por volta de 3 anos e 6 meses. Geralmente aconselhamos os pais de crianças bilíngues e multilíngues a dar uma margem de 6 meses além da idade média para a aquisição dos sons da fala.",
+                    developmentChart: {
+                        "1a6m": "/b/ bola; /m/ mamãe",
+                        "2a": "/p/ papai; /t/ tatu; /d/ dedo; /n/ nenê",
+                        "2a6m": "/k/ cavalo; /g/ gato; 'nh' caminhão",
+                        "3a": "/f/ fada; /v/ vaca; /s/ sapo; /z/ zebra",
+                        "3a6m": "'ch' chuva; 'x' abacaxi; 'j' jacaré, 'g' gelatina",
+                        "4a": "'r' (som forte) rato",
+                        "5a": "'r' (som suave) papagaio"
+                    },
+                    germanTerms: "Na prescrição médica, os Distúrbios da Fala devem ser mencionados em alemão como Aussprachstörung ou Phonetische-Phonologische Störung."
+                }
+            },
+            {
                 id: "orofacial",
                 title: "Orofacial",
                 description: "Terapia orofacial para função muscular e coordenação",
@@ -1092,6 +1138,27 @@ const siteContent = {
                     ],
                     treatment: "O tratamento visa o equilíbrio da postura corporal, bem como boa mobilidade, força, tônus e sensibilidade dos órgãos da fala.",
                     germanTerms: "Na prescrição médica deve ser escrito em alemão: Myofunktionelle Störung."
+                }
+            },
+            {
+                id: "auditory",
+                title: "Processamento Auditivo",
+                description: "Avaliação e terapia para distúrbios do processamento auditivo",
+                link: "/pt/processamento-auditivo",
+                detailedContent: {
+                    overview: "Imagine por um minuto a frustração de não entender o que está sendo dito. Pense que você não tem problema de audição, ouve perfeitamente e é inteligente. Por que você não consegue entender?",
+                    condition: "Esta é a frustração de pacientes com distúrbio do processamento auditivo. Os ouvidos e o cérebro não estão sincronizados, e o cérebro não entende o que é falado.",
+                    problem: "O som não é registrado de forma útil e muitas informações auditivas não são processadas corretamente. Seis habilidades básicas podem ser impedidas de se desenvolver adequadamente no processamento auditivo.",
+                    skills: [
+                        "Atenção e vigilância auditiva",
+                        "Discriminação auditiva",
+                        "Memória auditiva",
+                        "Sequenciamento auditivo",
+                        "Velocidade de processamento auditivo",
+                        "Compreensão auditiva"
+                    ],
+                    importance: "O distúrbio do processamento auditivo deve ser tratado para que as crianças possam ter boa comunicação com os outros, aprender novas informações na escola e realizar tarefas auditivas com menos dificuldades.",
+                    germanTerms: "Na prescrição médica, o pediatra deve informar o diagnóstico de Distúrbio do Processamento Auditivo Central (Auditive Verarbeitungs- und Wahrnehmungsstörungen-AVWS) em alemão."
                 }
             },
             {
@@ -1126,73 +1193,6 @@ const siteContent = {
                         "Sente-se extremamente satisfeito, pesado, fatigado durante as refeições"
                     ],
                     germanTerms: "Na prescrição médica, o pediatra deve mencionar o diagnóstico Disfagia (Dysphagie) ou Distúrbio de Deglutição (Schluckstörung). Para Seletividade e Recusa Alimentar: Fütterstörung."
-                }
-            },
-            {
-                id: "auditory",
-                title: "Processamento Auditivo",
-                description: "Avaliação e terapia para distúrbios do processamento auditivo",
-                link: "/pt/processamento-auditivo",
-                detailedContent: {
-                    overview: "Imagine por um minuto a frustração de não entender o que está sendo dito. Pense que você não tem problema de audição, ouve perfeitamente e é inteligente. Por que você não consegue entender?",
-                    condition: "Esta é a frustração de pacientes com distúrbio do processamento auditivo. Os ouvidos e o cérebro não estão sincronizados, e o cérebro não entende o que é falado.",
-                    problem: "O som não é registrado de forma útil e muitas informações auditivas não são processadas corretamente. Seis habilidades básicas podem ser impedidas de se desenvolver adequadamente no processamento auditivo.",
-                    skills: [
-                        "Atenção e vigilância auditiva",
-                        "Discriminação auditiva",
-                        "Memória auditiva",
-                        "Sequenciamento auditivo",
-                        "Velocidade de processamento auditivo",
-                        "Compreensão auditiva"
-                    ],
-                    importance: "O distúrbio do processamento auditivo deve ser tratado para que as crianças possam ter boa comunicação com os outros, aprender novas informações na escola e realizar tarefas auditivas com menos dificuldades.",
-                    germanTerms: "Na prescrição médica, o pediatra deve informar o diagnóstico de Distúrbio do Processamento Auditivo Central (Auditive Verarbeitungs- und Wahrnehmungsstörungen-AVWS) em alemão."
-                }
-            },
-            {
-                id: "speech",
-                title: "Fala",
-                description: "Terapia da fala para articulação e comunicação",
-                link: "/pt/fala",
-                detailedContent: {
-                    overview: "A fala refere-se à articulação de fonemas ou sons das palavras quando seu filho se comunica. As alterações da fala podem ser fonéticas e/ou fonológicas.",
-                    phoneticAlterations: "As alterações fonéticas (articulatórias) da fala são caracterizadas pela dificuldade de realizar o movimento correto de um fonema específico. A criança diz 'suva', 'Socolate' em vez de 'chuva', 'chocolate'.",
-                    phonologicalAlterations: "As alterações fonológicas envolvem dificuldade ou imaturidade na consciência fonológica dos sons. A criança não faz discriminação auditiva adequada entre os sons.",
-                    ageGuidelines: "As crianças devem pronunciar os sons corretamente por volta de 3 anos e 6 meses. Geralmente aconselhamos os pais de crianças bilíngues e multilíngues a dar uma margem de 6 meses além da idade média para a aquisição dos sons da fala.",
-                    developmentChart: {
-                        "1a6m": "/b/ bola; /m/ mamãe",
-                        "2a": "/p/ papai; /t/ tatu; /d/ dedo; /n/ nenê",
-                        "2a6m": "/k/ cavalo; /g/ gato; 'nh' caminhão",
-                        "3a": "/f/ fada; /v/ vaca; /s/ sapo; /z/ zebra",
-                        "3a6m": "'ch' chuva; 'x' abacaxi; 'j' jacaré, 'g' gelatina",
-                        "4a": "'r' (som forte) rato",
-                        "5a": "'r' (som suave) papagaio"
-                    },
-                    germanTerms: "Na prescrição médica, os Distúrbios da Fala devem ser mencionados em alemão como Aussprachstörung ou Phonetische-Phonologische Störung."
-                }
-            },
-            {
-                id: "language",
-                title: "Linguagem",
-                description: "Desenvolvimento da linguagem e suporte multilíngue",
-                link: "/pt/linguagem",
-                detailedContent: {
-                    overview: "Quando seu filho se comunica com você oralmente através de palavras, está usando sua linguagem expressiva verbal. Se usar gestos ou apontar, está tentando se comunicar, mas de forma não verbal.",
-                    receptive: "Quando seu filho entende o que está sendo dito, está usando várias habilidades de linguagem receptiva para entender conversas e diálogos.",
-                    disorders: "Quando a linguagem expressiva (verbal e não verbal) e a linguagem receptiva (compreensão) não estão se desenvolvendo adequadamente, seu filho pode apresentar dificuldades de comunicação e possíveis distúrbios tanto na linguagem expressiva quanto na receptiva.",
-                    signs: [
-                        "Mostra dificuldades para explicar desejos e necessidades devido à falta de vocabulário",
-                        "Tem dois anos de idade e fala menos de 50 palavras",
-                        "Fala palavras isoladas ou frases com apenas duas palavras",
-                        "Apresenta erros gramaticais ao tentar explicar algo",
-                        "Tem dificuldade para sequenciar ideias e colocá-las em uma narrativa",
-                        "Fala apenas com certas pessoas e em certos lugares; relutante em se comunicar",
-                        "Tem dificuldade para entender o que você diz",
-                        "Tem dificuldades na comunicação social com amigos na escola",
-                        "Tem dificuldades para entender regras de comunicação social (ex.: respeitar turnos para falar, bom contato visual, linguagem corporal)"
-                    ],
-                    treatment: "Se seu filho apresentar alguns dos sinais mencionados acima, você pode solicitar uma prescrição (Verordnung) do pediatra para terapia da fala (Logopädische Behandlung).",
-                    germanTerms: "Na Alemanha, chamamos essa condição de Sprachentwicklungsstörung (Distúrbio do Desenvolvimento da Linguagem) ou Sprachentwicklungsverzögerung (Atraso no Desenvolvimento da Linguagem)."
                 }
             },
             {
@@ -1241,7 +1241,7 @@ const siteContent = {
                     tagline: "Terapia Especializada",
                     title: "Terapia Bilíngue ou Multilíngue",
                     description: "O objetivo principal da minha terapia bilíngue e multilíngue é o acolhimento do paciente através da sua língua materna. O vínculo Terapeuta-Paciente é estabelecido de forma especial quando o paciente percebe que é compreendido no que diz, pensa e sente.",
-                    backgroundImage: "therapy.jpeg",
+                    backgroundImage: "terapia.jpg",
                     imagePosition: "center"
                 },
                 content: `
@@ -1413,7 +1413,7 @@ const siteContent = {
                     description: "Spezialisierte Therapie, die den Patienten durch seine Muttersprache aufnimmt und eine besondere Therapeut-Patient-Bindung für bessere Entwicklung schafft.",
                     fullDescription: "Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?<br><br>Meine zweisprachige und mehrsprachige Therapie hat als Hauptziel die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf aufnehmende Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er SPRICHT, DENKT und FÜHLT! Jeder Patient, der sich sicherer und aufgenommener fühlt, zeigt folglich eine bessere Motivation, was sich POSITIV auf seine therapeutische Prognose auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie. <br><br> Wie wird die zweisprachige/mehrsprachige Therapie durchgeführt?<br><br>Für zweisprachige und mehrsprachige Patienten werden die Sprachen, die während der Therapie verwendet werden, entsprechend den Bedürfnissen jedes Patienten und seiner Familien bestimmt. <br><br>Eltern, Familienmitglieder und Betreuer werden über Therapieprogramme und -methoden sowie Rehabilitationsziele informiert und können so die Therapie zu Hause unterstützen. Mit familiärer Zusammenarbeit können wir Therapieziele schneller erreichen. <br><br>Wie unterscheidet sich die zweisprachige/mehrsprachige Therapie?<br><br>Die zweisprachige und mehrsprachige Therapie unterscheidet sich von gewöhnlichen Therapien, da sie einen Therapieplan anbietet, der die soziokulturellen und interkulturellen Aspekte jedes Patienten respektiert. In meiner Therapie werde ich auch internationale Sprach-Sprach-Methoden zusammen mit meinem Wissen über klinische Psychopädagogik verwenden. <br><br>Was wird für die zweisprachige/mehrsprachige Therapie hier in Deutschland benötigt?<br><br>• Gültige ärztliche Verordnung;<br>• Unterschrift und Stempel des Arztes (nicht der Assistenten) auf der Verordnung;<br>• Die ärztliche Verordnung muss Daten über die Diagnose und Sitzungszeit enthalten;",
                     slug: "bilingual-multilingual-therapy",
-                    heroImage: "therapy.jpeg"
+                    heroImage: "terapia.jpg"
                 },
                 {
                     title: "Bewertung",
@@ -1543,6 +1543,52 @@ const siteContent = {
         },
         therapyServices: [
             {
+                id: "language",
+                title: "Sprache",
+                description: "Sprachentwicklung und mehrsprachige Unterstützung",
+                link: "/de/sprachentwicklung",
+                detailedContent: {
+                    overview: "Wenn Ihr Kind mündlich durch Worte mit Ihnen kommuniziert, verwendet es seine verbale expressive Sprache. Wenn es Gesten verwendet oder zeigt, versucht es zu kommunizieren, aber auf non-verbale Weise.",
+                    receptive: "Wenn Ihr Kind versteht, was gesagt wird, nutzt es verschiedene rezeptive Sprachfähigkeiten, um Gespräche und Dialoge zu verstehen.",
+                    disorders: "Wenn expressive Sprache (verbal und non-verbal) und rezeptive Sprache (Verständnis) sich nicht angemessen entwickeln, kann Ihr Kind Kommunikationsschwierigkeiten und mögliche Störungen zeigen.",
+                    signs: [
+                        "Zeigt Schwierigkeiten, Wünsche und Bedürfnisse aufgrund von Vokabelmangel zu erklären",
+                        "Ist zwei Jahre alt und spricht weniger als 50 Wörter",
+                        "Spricht isolierte Wörter oder Phrasen mit nur zwei Wörtern",
+                        "Zeigt grammatische Fehler beim Versuch, etwas zu erklären",
+                        "Hat Schwierigkeiten, Ideen zu sequenzieren und in eine Erzählung zu bringen",
+                        "Spricht nur mit bestimmten Personen und an bestimmten Orten; zögert zu kommunizieren",
+                        "Hat Schwierigkeiten zu verstehen, was Sie sagen",
+                        "Hat Schwierigkeiten in der sozialen Kommunikation mit Freunden in der Schule",
+                        "Hat Schwierigkeiten, soziale Kommunikationsregeln zu verstehen (z.B.: Gesprächsturnus respektieren, guter Augenkontakt, Körpersprache)"
+                    ],
+                    treatment: "Wenn Ihr Kind einige der oben genannten Anzeichen zeigt, können Sie beim Kinderarzt eine Verschreibung (Verordnung) für Sprachtherapie (Logopädische Behandlung) anfordern.",
+                    germanTerms: "In Deutschland nennen wir diesen Zustand Sprachentwicklungsstörung oder Sprachentwicklungsverzögerung."
+                }
+            },
+            {
+                id: "speech",
+                title: "Sprache",
+                description: "Sprachtherapie für Artikulation und Kommunikation",
+                link: "/de/sprache",
+                detailedContent: {
+                    overview: "Sprache bezieht sich auf die Artikulation von Phonemen oder Lauten von Wörtern, wenn Ihr Kind kommuniziert. Sprachveränderungen können phonetisch und/oder phonologisch sein.",
+                    phoneticAlterations: "Phonetische (artikulatorische) Sprachveränderungen sind durch Schwierigkeiten gekennzeichnet, die korrekte Bewegung eines bestimmten Phonems auszuführen. Das Kind sagt 'Suva', 'Socolate' anstatt 'Chuva', 'Chocolate'.",
+                    phonologicalAlterations: "Phonologische Veränderungen beinhalten Schwierigkeiten oder Unreife im phonologischen Bewusstsein dieser Laute. Das Kind macht keine angemessene auditive Diskrimination zwischen Lauten.",
+                    ageGuidelines: "Kinder sollten Laute korrekt um 3 Jahre und 6 Monate aussprechen. Wir raten Eltern von zweisprachigen und mehrsprachigen Kindern im Allgemeinen, eine Marge von 6 Monaten über das Durchschnittsalter hinaus zu geben.",
+                    developmentChart: {
+                        "1J6M": "/b/ Ball; /m/ Mama",
+                        "2J": "/p/ Papa; /t/ Tatu; /d/ Finger; /n/ Baby",
+                        "2J6M": "/k/ Pferd; /g/ Katze; 'nh' LKW",
+                        "3J": "/f/ Fee; /v/ Kuh; /s/ Frosch; /z/ Zebra",
+                        "3J6M": "'ch' Regen; 'x' Ananas; 'j' Alligator, 'g' Gelatine",
+                        "4J": "'r' (starker Klang) Ratte",
+                        "5J": "'r' (weicher Klang) Papagei"
+                    },
+                    germanTerms: "In der ärztlichen Verschreibung sollten Sprachstörungen auf Deutsch als Aussprachstörung oder Phonetische-Phonologische Störung erwähnt werden."
+                }
+            },
+            {
                 id: "orofacial",
                 title: "Orofazial",
                 description: "Orofaziale Therapie für Muskelfunktion und Koordination",
@@ -1568,6 +1614,27 @@ const siteContent = {
                     ],
                     treatment: "Die Behandlung zielt auf das Gleichgewicht der Körperhaltung sowie gute Beweglichkeit, Kraft, Tonus und Sensibilität der Sprechorgane ab.",
                     germanTerms: "In der ärztlichen Verschreibung sollte auf Deutsch geschrieben werden: Myofunktionelle Störung."
+                }
+            },
+            {
+                id: "auditory",
+                title: "Auditive Verarbeitung",
+                description: "Bewertung und Therapie für auditive Verarbeitungsstörungen",
+                link: "/de/auditive-verarbeitung",
+                detailedContent: {
+                    overview: "Stellen Sie sich für eine Minute die Frustration vor, nicht zu verstehen, was gesagt wird. Denken Sie auch daran, dass Sie kein Hörproblem haben, perfekt hören und intelligent sind. Warum können Sie nicht verstehen?",
+                    condition: "Das ist die Frustration von Patienten mit auditiver Verarbeitungsstörung. Die Ohren und das Gehirn sind nicht synchronisiert, und das Gehirn versteht nicht, was gesprochen wird.",
+                    problem: "Ton wird nicht nützlich registriert und viele auditive Informationen werden nicht korrekt verarbeitet. Sechs grundlegende Fähigkeiten können daran gehindert werden, sich in der auditiven Verarbeitung angemessen zu entwickeln.",
+                    skills: [
+                        "Auditive Aufmerksamkeit und Wachsamkeit",
+                        "Auditive Diskrimination",
+                        "Auditives Gedächtnis",
+                        "Auditive Sequenzierung",
+                        "Geschwindigkeit der auditiven Verarbeitung",
+                        "Auditives Verständnis"
+                    ],
+                    importance: "Auditive Verarbeitungsstörungen müssen behandelt werden, damit Kinder gute Kommunikation mit anderen haben, neue Informationen in der Schule lernen und auditive Aufgaben mit weniger Schwierigkeiten ausführen können.",
+                    germanTerms: "In der ärztlichen Verschreibung sollte der Kinderarzt die Diagnose Zentrale Auditive Verarbeitungs- und Wahrnehmungsstörungen (AVWS) auf Deutsch angeben."
                 }
             },
             {
@@ -1602,73 +1669,6 @@ const siteContent = {
                         "Fühlt sich extrem satt, schwer, müde während der Mahlzeiten"
                     ],
                     germanTerms: "In der ärztlichen Verschreibung sollte der Kinderarzt die Diagnose Dysphagie oder Schluckstörung auf Deutsch erwähnen. Bei Selektivität und Nahrungsverweigerung: Fütterstörung."
-                }
-            },
-            {
-                id: "auditory",
-                title: "Auditive Verarbeitung",
-                description: "Bewertung und Therapie für auditive Verarbeitungsstörungen",
-                link: "/de/auditive-verarbeitung",
-                detailedContent: {
-                    overview: "Stellen Sie sich für eine Minute die Frustration vor, nicht zu verstehen, was gesagt wird. Denken Sie auch daran, dass Sie kein Hörproblem haben, perfekt hören und intelligent sind. Warum können Sie nicht verstehen?",
-                    condition: "Das ist die Frustration von Patienten mit auditiver Verarbeitungsstörung. Die Ohren und das Gehirn sind nicht synchronisiert, und das Gehirn versteht nicht, was gesprochen wird.",
-                    problem: "Ton wird nicht nützlich registriert und viele auditive Informationen werden nicht korrekt verarbeitet. Sechs grundlegende Fähigkeiten können daran gehindert werden, sich in der auditiven Verarbeitung angemessen zu entwickeln.",
-                    skills: [
-                        "Auditive Aufmerksamkeit und Wachsamkeit",
-                        "Auditive Diskrimination",
-                        "Auditives Gedächtnis",
-                        "Auditive Sequenzierung",
-                        "Geschwindigkeit der auditiven Verarbeitung",
-                        "Auditives Verständnis"
-                    ],
-                    importance: "Auditive Verarbeitungsstörungen müssen behandelt werden, damit Kinder gute Kommunikation mit anderen haben, neue Informationen in der Schule lernen und auditive Aufgaben mit weniger Schwierigkeiten ausführen können.",
-                    germanTerms: "In der ärztlichen Verschreibung sollte der Kinderarzt die Diagnose Zentrale Auditive Verarbeitungs- und Wahrnehmungsstörungen (AVWS) auf Deutsch angeben."
-                }
-            },
-            {
-                id: "speech",
-                title: "Sprache",
-                description: "Sprachtherapie für Artikulation und Kommunikation",
-                link: "/de/sprache",
-                detailedContent: {
-                    overview: "Sprache bezieht sich auf die Artikulation von Phonemen oder Lauten von Wörtern, wenn Ihr Kind kommuniziert. Sprachveränderungen können phonetisch und/oder phonologisch sein.",
-                    phoneticAlterations: "Phonetische (artikulatorische) Sprachveränderungen sind durch Schwierigkeiten gekennzeichnet, die korrekte Bewegung eines bestimmten Phonems auszuführen. Das Kind sagt 'Suva', 'Socolate' anstatt 'Chuva', 'Chocolate'.",
-                    phonologicalAlterations: "Phonologische Veränderungen beinhalten Schwierigkeiten oder Unreife im phonologischen Bewusstsein dieser Laute. Das Kind macht keine angemessene auditive Diskrimination zwischen Lauten.",
-                    ageGuidelines: "Kinder sollten Laute korrekt um 3 Jahre und 6 Monate aussprechen. Wir raten Eltern von zweisprachigen und mehrsprachigen Kindern im Allgemeinen, eine Marge von 6 Monaten über das Durchschnittsalter hinaus zu geben.",
-                    developmentChart: {
-                        "1J6M": "/b/ Ball; /m/ Mama",
-                        "2J": "/p/ Papa; /t/ Tatu; /d/ Finger; /n/ Baby",
-                        "2J6M": "/k/ Pferd; /g/ Katze; 'nh' LKW",
-                        "3J": "/f/ Fee; /v/ Kuh; /s/ Frosch; /z/ Zebra",
-                        "3J6M": "'ch' Regen; 'x' Ananas; 'j' Alligator, 'g' Gelatine",
-                        "4J": "'r' (starker Klang) Ratte",
-                        "5J": "'r' (weicher Klang) Papagei"
-                    },
-                    germanTerms: "In der ärztlichen Verschreibung sollten Sprachstörungen auf Deutsch als Aussprachstörung oder Phonetische-Phonologische Störung erwähnt werden."
-                }
-            },
-            {
-                id: "language",
-                title: "Sprache",
-                description: "Sprachentwicklung und mehrsprachige Unterstützung",
-                link: "/de/sprachentwicklung",
-                detailedContent: {
-                    overview: "Wenn Ihr Kind mündlich durch Worte mit Ihnen kommuniziert, verwendet es seine verbale expressive Sprache. Wenn es Gesten verwendet oder zeigt, versucht es zu kommunizieren, aber auf non-verbale Weise.",
-                    receptive: "Wenn Ihr Kind versteht, was gesagt wird, nutzt es verschiedene rezeptive Sprachfähigkeiten, um Gespräche und Dialoge zu verstehen.",
-                    disorders: "Wenn expressive Sprache (verbal und non-verbal) und rezeptive Sprache (Verständnis) sich nicht angemessen entwickeln, kann Ihr Kind Kommunikationsschwierigkeiten und mögliche Störungen zeigen.",
-                    signs: [
-                        "Zeigt Schwierigkeiten, Wünsche und Bedürfnisse aufgrund von Vokabelmangel zu erklären",
-                        "Ist zwei Jahre alt und spricht weniger als 50 Wörter",
-                        "Spricht isolierte Wörter oder Phrasen mit nur zwei Wörtern",
-                        "Zeigt grammatische Fehler beim Versuch, etwas zu erklären",
-                        "Hat Schwierigkeiten, Ideen zu sequenzieren und in eine Erzählung zu bringen",
-                        "Spricht nur mit bestimmten Personen und an bestimmten Orten; zögert zu kommunizieren",
-                        "Hat Schwierigkeiten zu verstehen, was Sie sagen",
-                        "Hat Schwierigkeiten in der sozialen Kommunikation mit Freunden in der Schule",
-                        "Hat Schwierigkeiten, soziale Kommunikationsregeln zu verstehen (z.B.: Gesprächsturnus respektieren, guter Augenkontakt, Körpersprache)"
-                    ],
-                    treatment: "Wenn Ihr Kind einige der oben genannten Anzeichen zeigt, können Sie beim Kinderarzt eine Verschreibung (Verordnung) für Sprachtherapie (Logopädische Behandlung) anfordern.",
-                    germanTerms: "In Deutschland nennen wir diesen Zustand Sprachentwicklungsstörung oder Sprachentwicklungsverzögerung."
                 }
             },
             {
@@ -1717,7 +1717,7 @@ const siteContent = {
                     tagline: "Spezialisierte Therapie",
                     title: "Zweisprachige oder Mehrsprachige Therapie",
                     description: "Das Hauptziel meiner zweisprachigen und mehrsprachigen Therapie ist die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf besondere Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt.",
-                    backgroundImage: "therapy.jpeg",
+                    backgroundImage: "terapia.jpg",
                     imagePosition: "center"
                 },
                 content: `

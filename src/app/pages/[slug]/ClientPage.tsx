@@ -77,6 +77,7 @@ export default function ClientPage({ slug }: ClientPageProps) {
       <Footer language={language} />
 
       {/* Control Buttons */}
+      {/* 
       <div className={styles.controlButtons}>
         <button
           onClick={() => setShowTechDetails(true)}
@@ -98,6 +99,7 @@ export default function ClientPage({ slug }: ClientPageProps) {
         isVisible={showTechDetails} 
         onClose={() => setShowTechDetails(false)} 
       />
+        */}
 
       <GridOverlay isVisible={isGridVisible} onToggle={toggleGrid} />
     </>

@@ -1495,7 +1495,7 @@ a:hover {
   justify-content: start;
   align-items: center;
   max-width: 100dvw;
-  margin: 0;
+  margin: -1px 0 0;
   padding: 0;
   display: flex;
   overflow-x: hidden;

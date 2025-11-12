@@ -8,15 +8,15 @@
       }
 
       .st1 {
-        fill: #b2dee5;
+        fill: #fefaf1;
       }
 
       .st2 {
-        fill: #8697c5;
+        fill: #fefaf1;
       }
 
       .st3 {
-        fill: #31bbca;
+        fill: #fefaf1;
       }
 
       .st3, .st4, .st5, .st6 {
@@ -25,39 +25,39 @@
       }
 
       .st7 {
-        fill: #a5bee3;
+        fill: #fefaf1;
       }
 
       .st8 {
-        fill: #8da4d5;
+        fill: #fefaf1;
       }
 
       .st4 {
-        fill: #4389c8;
+        fill: #fefaf1;
       }
 
       .st9 {
-        fill: #80bdd7;
+        fill: #fefaf1;
       }
 
       .st10 {
-        fill: #99a2ca;
+        fill: #fefaf1;
       }
 
       .st5 {
-        fill: #b78ec1;
+        fill: #fefaf1;
       }
 
       .st11 {
-        fill: #dbcae3;
+        fill: #fefaf1;
       }
 
       .st12 {
-        fill: #fff;
+        fill: #fefaf1;
       }
 
       .st6 {
-        fill: #4561ad;
+        fill: #fefaf1;
         fill-opacity: .55;
       }
 

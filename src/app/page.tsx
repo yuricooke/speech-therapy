@@ -10,7 +10,7 @@ import About from '@/components/About';
 import Partnerships from '@/components/Partnerships';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import TechDetails from '@/components/TechDetails';
+// import TechDetails from '@/components/TechDetails';
 import GridOverlay from '@/components/GridOverlay';
 // Removed unused imports
 
@@ -54,6 +54,7 @@ export default function Home() {
       </main>
       
       {/* Fixed Buttons */}
+      {/* 
       <div style={{
         position: 'fixed',
         bottom: '20px',
@@ -63,7 +64,10 @@ export default function Home() {
         gap: '12px',
         zIndex: '1000'
       }}>
+
+        */}
         {/* Grid Toggle Button */}
+        {/* 
         <button
           onClick={toggleGrid}
           style={{
@@ -89,8 +93,10 @@ export default function Home() {
         >
           📐
         </button>
+            */}
 
         {/* Tech Details Toggle Button */}
+        {/* 
         <button
           onClick={() => setShowTechDetails(true)}
           style={{
@@ -119,12 +125,16 @@ export default function Home() {
           ⚙️
         </button>
       </div>
+            */}
 
       {/* Tech Details Modal */}
+
+      {/* Tech Details 
       <TechDetails 
         isVisible={showTechDetails} 
         onClose={() => setShowTechDetails(false)} 
       />
+      */}
 
       {/* Grid Overlay */}
       <GridOverlay isVisible={isGridVisible} onToggle={toggleGrid} />

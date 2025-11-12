@@ -9,7 +9,6 @@ import Breadcrumb from '@/components/Breadcrumb';
 import GridOverlay from '@/components/GridOverlay';
 import { siteContent } from '@/utils/content';
 import { Language } from '@/types';
-import styles from './page.module.scss';
 
 interface ClientPageProps {
   slug: string;

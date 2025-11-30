@@ -143,6 +143,12 @@
   cursor: grabbing;
 }
 
+@media (width <= 992px) {
+  .HeroSubPage-module-scss-module__B3uFia__hero .HeroSubPage-module-scss-module__B3uFia__sliderWrapper {
+    width: 100vw;
+  }
+}
+
 .HeroSubPage-module-scss-module__B3uFia__hero .HeroSubPage-module-scss-module__B3uFia__slider {
   gap: 1.5rem;
   padding-left: calc(3rem + 5%);

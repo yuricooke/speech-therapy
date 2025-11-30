@@ -499,6 +499,59 @@ const siteContent = {
             <li><strong>Create inclusive environments</strong> that benefit all students</li>
           </ul>
         `
+            },
+            "space": {
+                hero: {
+                    tagline: "Our Location",
+                    title: "Our Space",
+                    description: "A welcoming and professional environment designed to create a comfortable atmosphere for speech therapy sessions. Our clinic provides a safe space where patients feel understood and supported.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "Therapy Room"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Our Space"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Therapy Environment"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Professional Setting"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Comfortable Space"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Modern Clinic"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Welcome Area"
+                    }
+                ],
+                content: `
+          <h2>Welcome to Our Space</h2>
+          <p>Our clinic is thoughtfully designed to create a welcoming and comfortable environment for all our patients and their families. We understand that feeling safe and at ease is essential for effective therapy.</p>
+          
+          <p>Our space features modern therapy rooms equipped with appropriate materials and resources for speech and language therapy. Each room is designed to facilitate learning, communication, and development in a calm and supportive atmosphere.</p>
+
+          <h2>A Professional Yet Comfortable Environment</h2>
+          <p>We believe that the physical environment plays a crucial role in the therapeutic process. Our clinic is located in Hamburg, Germany, and offers a professional setting where patients of all ages feel welcomed and understood.</p>
+          
+          <p>Whether you're visiting for an assessment, therapy session, or counseling, our space is designed to support your journey towards better communication and language development.</p>
+
+          <h2>Our Location</h2>
+          <p>Located in the heart of Hamburg, our clinic is easily accessible and provides a convenient location for families in the area. We welcome patients from diverse cultural and linguistic backgrounds, creating an inclusive environment for multilingual therapy.</p>
+        `
             }
         }
     },
@@ -974,6 +1027,59 @@ const siteContent = {
             <li><strong>Colaborar efetivamente</strong> com fonoaudiólogos e famílias</li>
             <li><strong>Criar ambientes inclusivos</strong> que beneficiem todos os alunos</li>
           </ul>
+        `
+            },
+            "space": {
+                hero: {
+                    tagline: "Nossa Localização",
+                    title: "Nosso Espaço",
+                    description: "Um ambiente acolhedor e profissional, projetado para criar uma atmosfera confortável para as sessões de terapia de fala. Nossa clínica oferece um espaço seguro onde os pacientes se sentem compreendidos e apoiados.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "Sala de Terapia"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Nosso Espaço"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Ambiente Terapêutico"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Ambiente Profissional"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Espaço Confortável"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Clínica Moderna"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Área de Recepção"
+                    }
+                ],
+                content: `
+          <h2>Bem-vindo ao Nosso Espaço</h2>
+          <p>Nossa clínica foi cuidadosamente projetada para criar um ambiente acolhedor e confortável para todos os nossos pacientes e suas famílias. Entendemos que sentir-se seguro e à vontade é essencial para uma terapia eficaz.</p>
+          
+          <p>Nosso espaço conta com salas de terapia modernas, equipadas com materiais e recursos apropriados para terapia de fala e linguagem. Cada sala é projetada para facilitar o aprendizado, a comunicação e o desenvolvimento em uma atmosfera calma e acolhedora.</p>
+
+          <h2>Um Ambiente Profissional e Confortável</h2>
+          <p>Acreditamos que o ambiente físico desempenha um papel crucial no processo terapêutico. Nossa clínica está localizada em Hamburgo, Alemanha, e oferece um ambiente profissional onde pacientes de todas as idades se sentem bem-vindos e compreendidos.</p>
+          
+          <p>Seja para uma avaliação, sessão de terapia ou aconselhamento, nosso espaço foi projetado para apoiar sua jornada em direção a uma melhor comunicação e desenvolvimento da linguagem.</p>
+
+          <h2>Nossa Localização</h2>
+          <p>Localizada no coração de Hamburgo, nossa clínica é facilmente acessível e oferece uma localização conveniente para famílias da região. Recebemos pacientes de diversas origens culturais e linguísticas, criando um ambiente inclusivo para terapia multilíngue.</p>
         `
             }
         }
@@ -1451,6 +1557,59 @@ const siteContent = {
             <li><strong>Inklusive Umgebungen schaffen</strong> die allen Schülern zugute kommen</li>
           </ul>
         `
+            },
+            "space": {
+                hero: {
+                    tagline: "Unser Standort",
+                    title: "Unser Raum",
+                    description: "Eine einladende und professionelle Umgebung, die geschaffen wurde, um eine angenehme Atmosphäre für Sprachtherapiesitzungen zu schaffen. Unsere Klinik bietet einen sicheren Raum, in dem sich Patienten verstanden und unterstützt fühlen.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "Therapieraum"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Unser Raum"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Therapieumgebung"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Professionelle Umgebung"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Komfortabler Raum"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Moderne Klinik"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Empfangsbereich"
+                    }
+                ],
+                content: `
+          <h2>Willkommen in unserem Raum</h2>
+          <p>Unsere Klinik wurde sorgfältig gestaltet, um eine einladende und komfortable Umgebung für alle unsere Patienten und ihre Familien zu schaffen. Wir verstehen, dass es wichtig ist, sich sicher und wohl zu fühlen, damit die Therapie effektiv ist.</p>
+          
+          <p>Unser Raum verfügt über moderne Therapieräume, die mit angemessenen Materialien und Ressourcen für Sprach- und Sprachtherapie ausgestattet sind. Jeder Raum ist so gestaltet, dass er Lernen, Kommunikation und Entwicklung in einer ruhigen und unterstützenden Atmosphäre erleichtert.</p>
+
+          <h2>Eine professionelle und doch komfortable Umgebung</h2>
+          <p>Wir glauben, dass die physische Umgebung eine entscheidende Rolle im therapeutischen Prozess spielt. Unsere Klinik befindet sich in Hamburg, Deutschland, und bietet eine professionelle Umgebung, in der sich Patienten jeden Alters willkommen und verstanden fühlen.</p>
+          
+          <p>Egal, ob Sie zu einer Bewertung, Therapiesitzung oder Beratung kommen, unser Raum wurde entwickelt, um Ihre Reise zu besserer Kommunikation und Sprachentwicklung zu unterstützen.</p>
+
+          <h2>Unser Standort</h2>
+          <p>Im Herzen von Hamburg gelegen, ist unsere Klinik leicht erreichbar und bietet eine günstige Lage für Familien in der Region. Wir begrüßen Patienten aus verschiedenen kulturellen und sprachlichen Hintergründen und schaffen eine inklusive Umgebung für mehrsprachige Therapie.</p>
+        `
             }
         }
     }
@@ -1557,7 +1716,8 @@ async function generateStaticParams() {
         'bilingual-multilingual-therapy',
         'assessment',
         'counseling',
-        'workshops'
+        'workshops',
+        'space'
     ];
     return slugs.map((slug)=>({
             slug: slug
@@ -1578,7 +1738,7 @@ function DynamicPage({ params }) {
         slug: slug
     }, void 0, false, {
         fileName: "[project]/src/app/pages/[slug]/page.tsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 10
     }, this);
 }

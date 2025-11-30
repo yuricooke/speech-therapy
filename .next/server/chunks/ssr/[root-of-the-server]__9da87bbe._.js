@@ -1116,6 +1116,59 @@ const siteContent = {
             <li><strong>Create inclusive environments</strong> that benefit all students</li>
           </ul>
         `
+            },
+            "space": {
+                hero: {
+                    tagline: "Our Location",
+                    title: "Our Space",
+                    description: "A welcoming and professional environment designed to create a comfortable atmosphere for speech therapy sessions. Our clinic provides a safe space where patients feel understood and supported.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "Therapy Room"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Our Space"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Therapy Environment"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Professional Setting"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Comfortable Space"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Modern Clinic"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Welcome Area"
+                    }
+                ],
+                content: `
+          <h2>Welcome to Our Space</h2>
+          <p>Our clinic is thoughtfully designed to create a welcoming and comfortable environment for all our patients and their families. We understand that feeling safe and at ease is essential for effective therapy.</p>
+          
+          <p>Our space features modern therapy rooms equipped with appropriate materials and resources for speech and language therapy. Each room is designed to facilitate learning, communication, and development in a calm and supportive atmosphere.</p>
+
+          <h2>A Professional Yet Comfortable Environment</h2>
+          <p>We believe that the physical environment plays a crucial role in the therapeutic process. Our clinic is located in Hamburg, Germany, and offers a professional setting where patients of all ages feel welcomed and understood.</p>
+          
+          <p>Whether you're visiting for an assessment, therapy session, or counseling, our space is designed to support your journey towards better communication and language development.</p>
+
+          <h2>Our Location</h2>
+          <p>Located in the heart of Hamburg, our clinic is easily accessible and provides a convenient location for families in the area. We welcome patients from diverse cultural and linguistic backgrounds, creating an inclusive environment for multilingual therapy.</p>
+        `
             }
         }
     },
@@ -1591,6 +1644,59 @@ const siteContent = {
             <li><strong>Colaborar efetivamente</strong> com fonoaudiólogos e famílias</li>
             <li><strong>Criar ambientes inclusivos</strong> que beneficiem todos os alunos</li>
           </ul>
+        `
+            },
+            "space": {
+                hero: {
+                    tagline: "Nossa Localização",
+                    title: "Nosso Espaço",
+                    description: "Um ambiente acolhedor e profissional, projetado para criar uma atmosfera confortável para as sessões de terapia de fala. Nossa clínica oferece um espaço seguro onde os pacientes se sentem compreendidos e apoiados.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "Sala de Terapia"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Nosso Espaço"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Ambiente Terapêutico"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Ambiente Profissional"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Espaço Confortável"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Clínica Moderna"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Área de Recepção"
+                    }
+                ],
+                content: `
+          <h2>Bem-vindo ao Nosso Espaço</h2>
+          <p>Nossa clínica foi cuidadosamente projetada para criar um ambiente acolhedor e confortável para todos os nossos pacientes e suas famílias. Entendemos que sentir-se seguro e à vontade é essencial para uma terapia eficaz.</p>
+          
+          <p>Nosso espaço conta com salas de terapia modernas, equipadas com materiais e recursos apropriados para terapia de fala e linguagem. Cada sala é projetada para facilitar o aprendizado, a comunicação e o desenvolvimento em uma atmosfera calma e acolhedora.</p>
+
+          <h2>Um Ambiente Profissional e Confortável</h2>
+          <p>Acreditamos que o ambiente físico desempenha um papel crucial no processo terapêutico. Nossa clínica está localizada em Hamburgo, Alemanha, e oferece um ambiente profissional onde pacientes de todas as idades se sentem bem-vindos e compreendidos.</p>
+          
+          <p>Seja para uma avaliação, sessão de terapia ou aconselhamento, nosso espaço foi projetado para apoiar sua jornada em direção a uma melhor comunicação e desenvolvimento da linguagem.</p>
+
+          <h2>Nossa Localização</h2>
+          <p>Localizada no coração de Hamburgo, nossa clínica é facilmente acessível e oferece uma localização conveniente para famílias da região. Recebemos pacientes de diversas origens culturais e linguísticas, criando um ambiente inclusivo para terapia multilíngue.</p>
         `
             }
         }
@@ -2068,6 +2174,59 @@ const siteContent = {
             <li><strong>Inklusive Umgebungen schaffen</strong> die allen Schülern zugute kommen</li>
           </ul>
         `
+            },
+            "space": {
+                hero: {
+                    tagline: "Unser Standort",
+                    title: "Unser Raum",
+                    description: "Eine einladende und professionelle Umgebung, die geschaffen wurde, um eine angenehme Atmosphäre für Sprachtherapiesitzungen zu schaffen. Unsere Klinik bietet einen sicheren Raum, in dem sich Patienten verstanden und unterstützt fühlen.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "Therapieraum"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Unser Raum"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Therapieumgebung"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Professionelle Umgebung"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Komfortabler Raum"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Moderne Klinik"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Empfangsbereich"
+                    }
+                ],
+                content: `
+          <h2>Willkommen in unserem Raum</h2>
+          <p>Unsere Klinik wurde sorgfältig gestaltet, um eine einladende und komfortable Umgebung für alle unsere Patienten und ihre Familien zu schaffen. Wir verstehen, dass es wichtig ist, sich sicher und wohl zu fühlen, damit die Therapie effektiv ist.</p>
+          
+          <p>Unser Raum verfügt über moderne Therapieräume, die mit angemessenen Materialien und Ressourcen für Sprach- und Sprachtherapie ausgestattet sind. Jeder Raum ist so gestaltet, dass er Lernen, Kommunikation und Entwicklung in einer ruhigen und unterstützenden Atmosphäre erleichtert.</p>
+
+          <h2>Eine professionelle und doch komfortable Umgebung</h2>
+          <p>Wir glauben, dass die physische Umgebung eine entscheidende Rolle im therapeutischen Prozess spielt. Unsere Klinik befindet sich in Hamburg, Deutschland, und bietet eine professionelle Umgebung, in der sich Patienten jeden Alters willkommen und verstanden fühlen.</p>
+          
+          <p>Egal, ob Sie zu einer Bewertung, Therapiesitzung oder Beratung kommen, unser Raum wurde entwickelt, um Ihre Reise zu besserer Kommunikation und Sprachentwicklung zu unterstützen.</p>
+
+          <h2>Unser Standort</h2>
+          <p>Im Herzen von Hamburg gelegen, ist unsere Klinik leicht erreichbar und bietet eine günstige Lage für Familien in der Region. Wir begrüßen Patienten aus verschiedenen kulturellen und sprachlichen Hintergründen und schaffen eine inklusive Umgebung für mehrsprachige Therapie.</p>
+        `
             }
         }
     }
@@ -2157,7 +2316,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$car
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$wheel$2d$gestures$2f$dist$2f$embla$2d$carousel$2d$wheel$2d$gestures$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/embla-carousel-wheel-gestures/dist/embla-carousel-wheel-gestures.esm.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/utils/content.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/HeroSubPage.module.scss.module.css [app-ssr] (css module)");
-'use client';
+"use client";
 ;
 ;
 ;
@@ -2170,34 +2329,34 @@ function HeroSubPage({ language, customContent }) {
         ...defaultContent,
         ...customContent
     } : defaultContent;
-    // Sample images for slider - you can make this configurable later
-    const sliderImages = [
+    // Use custom slider images if provided, otherwise use default
+    const sliderImages = customContent?.sliderImages || [
         {
-            src: '/tati.jpg',
-            caption: 'Speech Therapy Session'
+            src: "/tati.jpg",
+            caption: "Speech Therapy Session"
         },
         {
-            src: '/kids.png',
-            caption: 'Children Learning'
+            src: "/kids.png",
+            caption: "Children Learning"
         },
         {
-            src: '/therapy.jpeg',
-            caption: 'Therapy Environment'
+            src: "/therapy.jpeg",
+            caption: "Therapy Environment"
         },
         {
-            src: '/workshop.jpeg',
-            caption: 'Workshop Activity'
+            src: "/workshop.jpeg",
+            caption: "Workshop Activity"
         }
     ];
     const [emblaRef, emblaApi] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$react$2f$esm$2f$embla$2d$carousel$2d$react$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])({
-        align: 'start',
+        align: "start",
         loop: false,
         dragFree: false,
-        containScroll: 'trimSnaps'
+        containScroll: "trimSnaps"
     }, [
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$wheel$2d$gestures$2f$dist$2f$embla$2d$carousel$2d$wheel$2d$gestures$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WheelGesturesPlugin"])({
-            forceWheelAxis: 'x'
-        }) // Enable touchpad/mouse wheel scroll
+            forceWheelAxis: "x"
+        })
     ]);
     const scrollPrev = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(()=>{
         if (emblaApi) emblaApi.scrollPrev();
@@ -2215,10 +2374,10 @@ function HeroSubPage({ language, customContent }) {
         const onSelect = ()=>{
             setSelectedIndex(emblaApi.selectedScrollSnap());
         };
-        emblaApi.on('select', onSelect);
+        emblaApi.on("select", onSelect);
         onSelect();
         return ()=>{
-            emblaApi.off('select', onSelect);
+            emblaApi.off("select", onSelect);
         };
     }, [
         emblaApi
@@ -2238,11 +2397,11 @@ function HeroSubPage({ language, customContent }) {
                                 alt: "Child in learning environment",
                                 role: "presentation",
                                 style: {
-                                    objectPosition: customContent?.imagePosition || 'center'
+                                    objectPosition: customContent?.imagePosition || "center"
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSubPage.tsx",
-                                lineNumber: 78,
+                                lineNumber: 87,
                                 columnNumber: 17
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].placeholder,
@@ -2253,40 +2412,40 @@ function HeroSubPage({ language, customContent }) {
                                             children: "Hero Image Placeholder"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 98,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
-                                            children: customContent?.title || 'Hero Title'
+                                            children: customContent?.title || "Hero Title"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 99,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 97,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSubPage.tsx",
-                                lineNumber: 87,
+                                lineNumber: 96,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                            lineNumber: 76,
+                            lineNumber: 85,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSubPage.tsx",
-                        lineNumber: 75,
+                        lineNumber: 84,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                    lineNumber: 74,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2303,7 +2462,7 @@ function HeroSubPage({ language, customContent }) {
                                             children: content.tagline
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -2311,13 +2470,13 @@ function HeroSubPage({ language, customContent }) {
                                             children: content.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 111,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2327,13 +2486,13 @@ function HeroSubPage({ language, customContent }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 113,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                            lineNumber: 99,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2354,7 +2513,7 @@ function HeroSubPage({ language, customContent }) {
                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].slideImage
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                            lineNumber: 113,
+                                                            lineNumber: 125,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("figcaption", {
@@ -2362,31 +2521,31 @@ function HeroSubPage({ language, customContent }) {
                                                             children: image.caption
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                            lineNumber: 118,
+                                                            lineNumber: 130,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 124,
                                                     columnNumber: 19
                                                 }, this)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].slideEmpty
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                lineNumber: 122,
+                                                lineNumber: 136,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HeroSubPage.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 122,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 121,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2399,23 +2558,23 @@ function HeroSubPage({ language, customContent }) {
                                             children: "‹"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 140,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sliderDots,
                                             children: sliderImages.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].dot} ${index === selectedIndex ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
+                                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].dot} ${index === selectedIndex ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].active : ""}`,
                                                     onClick: ()=>emblaApi?.scrollTo(index),
                                                     "aria-label": `Go to slide ${index + 1}`
                                                 }, index, false, {
                                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 149,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 133,
+                                            lineNumber: 147,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2425,19 +2584,19 @@ function HeroSubPage({ language, customContent }) {
                                             children: "›"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                            lineNumber: 108,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, this),
                         customContent?.content && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2449,12 +2608,12 @@ function HeroSubPage({ language, customContent }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSubPage.tsx",
-                                lineNumber: 159,
+                                lineNumber: 172,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                            lineNumber: 155,
+                            lineNumber: 171,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2477,26 +2636,26 @@ function HeroSubPage({ language, customContent }) {
                                                 fill: "currentColor"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                lineNumber: 177,
-                                                columnNumber: 15
+                                                lineNumber: 193,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 176,
-                                            columnNumber: 13
+                                            lineNumber: 186,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: content.cta.whatsapp
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 179,
-                                            columnNumber: 13
+                                            lineNumber: 198,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 170,
-                                    columnNumber: 11
+                                    lineNumber: 180,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "mailto:tcmunkes@gmail.com",
@@ -2517,8 +2676,8 @@ function HeroSubPage({ language, customContent }) {
                                                     strokeLinejoin: "round"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 186,
-                                                    columnNumber: 15
+                                                    lineNumber: 208,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("polyline", {
                                                     points: "22,6 12,13 2,6",
@@ -2528,129 +2687,49 @@ function HeroSubPage({ language, customContent }) {
                                                     strokeLinejoin: "round"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 187,
-                                                    columnNumber: 15
+                                                    lineNumber: 215,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 185,
-                                            columnNumber: 13
+                                            lineNumber: 201,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: content.cta.email
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 189,
-                                            columnNumber: 13
+                                            lineNumber: 223,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 181,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "#contact",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].button,
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            width: "24",
-                                            height: "24",
-                                            viewBox: "0 0 24 24",
-                                            fill: "none",
-                                            xmlns: "http://www.w3.org/2000/svg",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "3",
-                                                    y: "4",
-                                                    width: "18",
-                                                    height: "18",
-                                                    rx: "2",
-                                                    ry: "2",
-                                                    stroke: "currentColor",
-                                                    strokeWidth: "2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 196,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                                    x1: "16",
-                                                    y1: "2",
-                                                    x2: "16",
-                                                    y2: "6",
-                                                    stroke: "currentColor",
-                                                    strokeWidth: "2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 197,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                                    x1: "8",
-                                                    y1: "2",
-                                                    x2: "8",
-                                                    y2: "6",
-                                                    stroke: "currentColor",
-                                                    strokeWidth: "2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 198,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                                    x1: "3",
-                                                    y1: "10",
-                                                    x2: "21",
-                                                    y2: "10",
-                                                    stroke: "currentColor",
-                                                    strokeWidth: "2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/HeroSubPage.tsx",
-                                                    lineNumber: 199,
-                                                    columnNumber: 15
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 195,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: content.cta.schedule
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/HeroSubPage.tsx",
-                                            lineNumber: 201,
-                                            columnNumber: 13
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/HeroSubPage.tsx",
-                                    lineNumber: 191,
-                                    columnNumber: 11
+                                    lineNumber: 200,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HeroSubPage.tsx",
-                            lineNumber: 169,
-                            columnNumber: 9
+                            lineNumber: 179,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HeroSubPage.tsx",
-                    lineNumber: 98,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/HeroSubPage.tsx",
-            lineNumber: 73,
+            lineNumber: 82,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/HeroSubPage.tsx",
-        lineNumber: 72,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }
@@ -2953,7 +3032,8 @@ function ClientPage({ slug }) {
         description: pageData.hero.description,
         backgroundImage: pageData.hero.backgroundImage,
         imagePosition: pageData.hero.imagePosition,
-        content: pageData.content
+        content: pageData.content,
+        sliderImages: pageData.sliderImages // Pass sliderImages if defined
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -2962,7 +3042,7 @@ function ClientPage({ slug }) {
                 onLanguageChange: handleLanguageChange
             }, void 0, false, {
                 fileName: "[project]/src/app/pages/[slug]/ClientPage.tsx",
-                lineNumber: 62,
+                lineNumber: 63,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Breadcrumb$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2974,7 +3054,7 @@ function ClientPage({ slug }) {
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/pages/[slug]/ClientPage.tsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSubPage$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2982,14 +3062,14 @@ function ClientPage({ slug }) {
                 customContent: customContent
             }, void 0, false, {
                 fileName: "[project]/src/app/pages/[slug]/ClientPage.tsx",
-                lineNumber: 71,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 language: language
             }, void 0, false, {
                 fileName: "[project]/src/app/pages/[slug]/ClientPage.tsx",
-                lineNumber: 76,
+                lineNumber: 77,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GridOverlay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2997,7 +3077,7 @@ function ClientPage({ slug }) {
                 onToggle: toggleGrid
             }, void 0, false, {
                 fileName: "[project]/src/app/pages/[slug]/ClientPage.tsx",
-                lineNumber: 103,
+                lineNumber: 104,
                 columnNumber: 7
             }, this)
         ]

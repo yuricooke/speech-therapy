@@ -9,7 +9,8 @@ export async function generateStaticParams() {
     'bilingual-multilingual-therapy',
     'assessment', 
     'counseling',
-    'workshops'
+    'workshops',
+    'space'
   ];
   return slugs.map((slug) => ({
     slug: slug,

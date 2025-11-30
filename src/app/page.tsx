@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Overview from '@/components/Overview';
 import Products from '@/components/Products';
+import OurPlace from '@/components/OurPlace';
 import About from '@/components/About';
 import Partnerships from '@/components/Partnerships';
 import Contact from '@/components/Contact';
@@ -47,6 +48,7 @@ export default function Home() {
         <Hero language={language} />
         <Overview language={language} />
         <Products language={language} />
+        <OurPlace language={language} />
         <About language={language} />
         <Partnerships language={language} />
         <Contact language={language} />

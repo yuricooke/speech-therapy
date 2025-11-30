@@ -1,461 +1,465 @@
-@use '../styles/variables/colors' as *;
+@use "../styles/variables/colors" as *;
 
 .hero {
-    margin-top: 2rem;
-    padding: 0;
-    padding-bottom: 9rem;
+  margin-top: 2rem;
+  padding: 0;
+  padding-bottom: 9rem;
 
-    .image {
-        position: relative;
-        z-index: -1;
+  .image {
+    position: relative;
+    z-index: -1;
 
-        figure,
-        picture {
-            width: 100%;
-            height: 100%;
-            aspect-ratio: 1344/600;
+    figure,
+    picture {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1344/600;
 
-            @media (max-width: 1024px) {
-                aspect-ratio: 16/9;
-            }
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 1rem;
-        }
-
-        .placeholder {
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            border-radius: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px dashed rgba(26, 80, 119, 0.3);
-        }
-
-        .placeholderContent {
-            text-align: center;
-            color: var(--primary);
-            
-            span {
-                display: block;
-                font-size: 18px;
-                font-weight: 600;
-                margin-bottom: 8px;
-            }
-
-            small {
-                font-size: 14px;
-                opacity: 0.7;
-            }
-        }
+      @media (max-width: 1024px) {
+        aspect-ratio: 16/9;
+      }
     }
 
-    .content {
-        position: relative;
-        z-index: 2;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 3rem;
-        border-radius: 3rem;
-        bottom: 50%;
-        width: 70%;
-        left: 5%;
-        overflow-x: visible; // Allow slider to overflow to right
-
-        background-color: var(--white);
-        color: var(--gray-800);
-        margin-top: -15%;
-
-        @media (max-width: 992px) {
-            margin-top: 0;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            max-width: 100%;
-            padding: 1.5rem 1rem;
-            overflow-x: visible;
-        }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
     }
 
-    .tagline {
-        color: var(--text-primary );
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
+    .placeholder {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px dashed rgba(26, 80, 119, 0.3);
     }
 
-    .title {
-        color: var(--accent-text);
-        font-size: 3.5rem;
-        font-weight: 400;
-        line-height: 1.2;
-        margin-bottom: 1rem;
-      
-    }
+    .placeholderContent {
+      text-align: center;
+      color: var(--primary);
 
-    .description {
-        color: var(--gray-800);
-        font-size: 1.25rem;
-    }
-
-    .titleContainer {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        color: var(--gray-800);
-
-        gap: 1.5rem;
-    }
-
-    .sliderContainer {
-        margin: 2rem 0;
-        margin-left: calc(-3rem - 5%); // Align left with content padding
-        margin-right: calc(-50vw + 50%); // Allow overflow to right - last image will be cut
-        width: auto;
-        position: relative;
-
-        @media (max-width: 992px) {
-            margin-left: calc(-1rem - 1.5rem);
-            margin-right: calc(-50vw + 50%);
-        }
-    }
-
-    .sliderWrapper {
-        overflow: hidden; // Required for Embla
-        cursor: grab;
-        width: calc(100vw - 6rem);
-        border-radius: .75rem;
-
-        &:active {
-            cursor: grabbing;
-        }
-    }
-
-    .slider {
-        display: flex;
-        gap: 1.5rem;
-        padding-left: calc(3rem + 5%); // Match content padding to align first image with text
-        padding-right: 8rem; // Increased padding on right for last card margin
-
-        @media (max-width: 992px) {
-            padding-left: calc(1rem + 1.5rem);
-            padding-right: 4rem; // Increased padding for mobile
-        }
-    }
-
-    .slide {
-        flex: 0 0 auto;
-        width: 380px; // Reduced by 5% (from 400px)
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        border-radius: 12px;
-        overflow: hidden;
-        background: var(--white);
-        transition: transform 0.3s ease;
-
-        @media (max-width: 768px) {
-            width: 285px; // Reduced by 5% (from 300px)
-        }
-
-        @media (max-width: 480px) {
-            width: 237.5px; // Reduced by 5% (from 250px)
-        }
-    }
-
-    .slideEmpty {
-        flex: 0 0 auto;
-        width: 380px; // Same width as regular slides
-        height: 285px; // Match slide height
-        background: transparent; // Completely transparent/white
-        margin: 0;
-        border-radius: 12px;
-        pointer-events: none; // Don't interfere with interactions
-
-        @media (max-width: 768px) {
-            width: 285px;
-            height: 250px;
-        }
-
-        @media (max-width: 480px) {
-            width: 237.5px;
-            height: 200px;
-        }
-    }
-
-    .slideImage {
-        width: 100%;
-        height: 285px; // Reduced by 5% (from 300px)
-        object-fit: cover;
+      span {
         display: block;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
 
-        @media (max-width: 768px) {
-            height: 237.5px; // Reduced by 5% (from 250px)
-        }
-
-        @media (max-width: 480px) {
-            height: 190px; // Reduced by 5% (from 200px)
-        }
-    }
-
-    .slideCaption {
-        padding: 1rem;
-        color: var(--gray-800);
+      small {
         font-size: 14px;
-        text-align: center;
-        background: var(--white);
-        margin: 0;
-        font-style: italic;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    bottom: 50%;
+    width: 70%;
+    left: 5%;
+    overflow-x: visible; // Allow slider to overflow to right
+
+    background-color: var(--white);
+    color: var(--gray-800);
+    margin-top: -15%;
+
+    @media (max-width: 992px) {
+      margin-top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      max-width: 100%;
+      padding: 1.5rem 1rem;
+      overflow-x: visible;
+    }
+  }
+
+  .tagline {
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .title {
+    color: var(--accent-text);
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    color: var(--gray-800);
+    font-size: 1.25rem;
+  }
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    color: var(--gray-800);
+
+    gap: 1.5rem;
+  }
+
+  .sliderContainer {
+    margin: 2rem 0;
+    margin-left: calc(-3rem - 5%); // Align left with content padding
+    margin-right: calc(
+      -50vw + 50%
+    ); // Allow overflow to right - last image will be cut
+    width: auto;
+    position: relative;
+
+    @media (max-width: 992px) {
+      margin-left: calc(-1rem - 1.5rem);
+      margin-right: calc(-50vw + 50%);
+    }
+  }
+
+  .sliderWrapper {
+    overflow: hidden; // Required for Embla
+    cursor: grab;
+    width: calc(100vw - 6rem);
+    border-radius: 0.75rem;
+
+    &:active {
+      cursor: grabbing;
     }
 
-    .sliderControls {
-        display: flex;
-        align-items: center; // Align all items vertically centered
-        gap: 1.5rem;
-        margin-top: 1.5rem;
-        justify-content: center; // Centralize all controls
-        padding-left: calc(3rem + 5%); // Keep alignment with content
-        padding-right: calc(3rem + 5%); // Keep alignment with content
-        width: 70%; // Match content container width
+    @media (max-width: 992px) {
+      width: calc(100vw);
+    }
+  }
 
-        @media (max-width: 992px) {
-            padding-left: calc(1rem + 1.5rem);
-            padding-right: calc(1rem + 1.5rem);
-            width: 100%;
-        }
+  .slider {
+    display: flex;
+    gap: 1.5rem;
+    padding-left: calc(
+      3rem + 5%
+    ); // Match content padding to align first image with text
+    padding-right: 8rem; // Increased padding on right for last card margin
+
+    @media (max-width: 992px) {
+      padding-left: calc(1rem + 1.5rem);
+      padding-right: 4rem; // Increased padding for mobile
+    }
+  }
+
+  .slide {
+    flex: 0 0 auto;
+    width: 380px; // Reduced by 5% (from 400px)
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--white);
+    transition: transform 0.3s ease;
+
+    @media (max-width: 768px) {
+      width: 285px; // Reduced by 5% (from 300px)
     }
 
-    .sliderButton {
-        width: 36px; // Diminished size
-        height: 36px; // Diminished size
-        border-radius: 50%;
-        border: 2px solid var(--primary);
-        background: var(--white);
-        color: var(--primary);
-        font-size: 18px; // Diminished font size
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
-        line-height: 1;
+    @media (max-width: 480px) {
+      width: 237.5px; // Reduced by 5% (from 250px)
+    }
+  }
 
-        &:hover {
-            background: var(--primary);
-            color: var(--white);
-            transform: scale(1.1);
-        }
+  .slideEmpty {
+    flex: 0 0 auto;
+    width: 380px; // Same width as regular slides
+    height: 285px; // Match slide height
+    background: transparent; // Completely transparent/white
+    margin: 0;
+    border-radius: 12px;
+    pointer-events: none; // Don't interfere with interactions
 
-        &:active {
-            transform: scale(0.95);
-        }
+    @media (max-width: 768px) {
+      width: 285px;
+      height: 250px;
     }
 
-    .sliderDots {
-        display: flex;
-        align-items: center; // Align dots vertically centered
-        gap: 0.5rem;
-        justify-content: center; // Center dots horizontally
+    @media (max-width: 480px) {
+      width: 237.5px;
+      height: 200px;
+    }
+  }
+
+  .slideImage {
+    width: 100%;
+    height: 285px; // Reduced by 5% (from 300px)
+    object-fit: cover;
+    display: block;
+
+    @media (max-width: 768px) {
+      height: 237.5px; // Reduced by 5% (from 250px)
     }
 
-    .dot {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        border: none;
-        background: rgba($primary, 0.3);
-        cursor: pointer;
-        transition: all 0.3s ease;
-        padding: 0;
+    @media (max-width: 480px) {
+      height: 190px; // Reduced by 5% (from 200px)
+    }
+  }
 
-        &.active {
-            background: var(--primary);
-            transform: scale(1.2);
-        }
+  .slideCaption {
+    padding: 1rem;
+    color: var(--gray-800);
+    font-size: 14px;
+    text-align: center;
+    background: var(--white);
+    margin: 0;
+    font-style: italic;
+  }
 
-        &:hover {
-            background: rgba($primary, 0.6);
-        }
+  .sliderControls {
+    display: flex;
+    align-items: center; // Align all items vertically centered
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    justify-content: center; // Centralize all controls
+    padding-left: calc(3rem + 5%); // Keep alignment with content
+    padding-right: calc(3rem + 5%); // Keep alignment with content
+    width: 70%; // Match content container width
+
+    @media (max-width: 992px) {
+      padding-left: calc(1rem + 1.5rem);
+      padding-right: calc(1rem + 1.5rem);
+      width: 100%;
+    }
+  }
+
+  .sliderButton {
+    width: 36px; // Diminished size
+    height: 36px; // Diminished size
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    background: var(--white);
+    color: var(--primary);
+    font-size: 18px; // Diminished font size
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    line-height: 1;
+
+    &:hover {
+      background: var(--primary);
+      color: var(--white);
+      transform: scale(1.1);
     }
 
-    .cta {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 1rem;
-        width: 100%;
-        margin: 0 auto;
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  .sliderDots {
+    display: flex;
+    align-items: center; // Align dots vertically centered
+    gap: 0.5rem;
+    justify-content: center; // Center dots horizontally
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: rgba($primary, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+
+    &.active {
+      background: var(--primary);
+      transform: scale(1.2);
     }
 
-    .button {
-        color: var(--accent);
-        padding: 0.75rem 2rem;
-        border-radius: 10px;
-        background-color: var(--tertiary);
-        color: var(--white);
-        text-decoration: none;
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        transition: transform 0.3s ease;
+    &:hover {
+      background: rgba($primary, 0.6);
+    }
+  }
 
-        svg {
-            width: 24px;
-            height: 24px;
+  .cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+  }
 
-            path {
-                stroke: var(--white);
-                fill: transparent;
-            }
-        }
+  .button {
+    color: var(--accent);
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+    background-color: var(--tertiary);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.3s ease;
 
-        span {
-            white-space: nowrap;
-        }
+    svg {
+      width: 24px;
+      height: 24px;
 
-        &:hover {
-            background-color: transparent;
-            outline: 1px solid var(--text-tertiary);
-            color: var(--text-tertiary);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-
-            svg {
-                path {
-                    stroke: var(--text-tertiary);
-
-                }
-            }
-        }
-
-
-
-        @media (max-width: 1024px) {
-            padding-inline: 1rem;
-            padding-block: 0.5rem;
-
-        }
+      path {
+        stroke: var(--white);
+        fill: transparent;
+      }
     }
 
-    .contentBody {
-
-        h2 {
-            color: var(--accent-text);
-            font-size: 28px;
-            font-weight: 400;
-            margin: 48px 0 24px 0;
-            line-height: 1.3;
-
-            &:first-child {
-                margin-top: 0;
-            }
-        }
-
-        p {
-            color: var(--gray-800);
-            font-size: 16px;
-            line-height: 1.7;
-            margin-bottom: 24px;
-            text-align: justify;
-        }
-
-        ul {
-            margin: 24px 0;
-            padding-left: 24px;
-
-            li {
-                color: var(--gray-800);
-                font-size: 16px;
-                line-height: 1.7;
-                margin-bottom: 12px;
-                
-                &::marker {
-                    color: var(--primary);
-                }
-            }
-        }
-
-        ol {
-            margin: 24px 0;
-            padding-left: 24px;
-
-            li {
-                color: var(--gray-800);
-                font-size: 16px;
-                line-height: 1.7;
-                margin-bottom: 12px;
-                
-                &::marker {
-                    color: var(--primary);
-                    font-weight: 600;
-                }
-            }
-        }
-
-        strong {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        em {
-            color: var(--gray-800);
-            font-style: italic;
-        }
-
-        @media (max-width: 991px) {
-            padding: 32px;
-
-            h2 {
-                font-size: 24px;
-                margin: 32px 0 20px 0;
-            }
-
-            p {
-                font-size: 15px;
-            }
-
-            ul, ol {
-                li {
-                    font-size: 15px;
-                }
-            }
-        }
-
-        @media (max-width: 767px) {
-            padding: 24px;
-
-            h2 {
-                font-size: 20px;
-                margin: 24px 0 16px 0;
-            }
-
-            p {
-                font-size: 14px;
-                margin-bottom: 20px;
-            }
-
-            ul, ol {
-                padding-left: 20px;
-
-                li {
-                    font-size: 14px;
-                    margin-bottom: 10px;
-                }
-            }
-        }
+    span {
+      white-space: nowrap;
     }
-} 
+
+    &:hover {
+      background-color: transparent;
+      outline: 1px solid var(--text-tertiary);
+      color: var(--text-tertiary);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+      svg {
+        path {
+          stroke: var(--text-tertiary);
+        }
+      }
+    }
+
+    @media (max-width: 1024px) {
+      padding-inline: 1rem;
+      padding-block: 0.5rem;
+    }
+  }
+
+  .contentBody {
+    h2 {
+      color: var(--accent-text);
+      font-size: 28px;
+      font-weight: 400;
+      margin: 48px 0 24px 0;
+      line-height: 1.3;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    p {
+      color: var(--gray-800);
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 24px;
+      text-align: justify;
+    }
+
+    ul {
+      margin: 24px 0;
+      padding-left: 24px;
+
+      li {
+        color: var(--gray-800);
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 12px;
+
+        &::marker {
+          color: var(--primary);
+        }
+      }
+    }
+
+    ol {
+      margin: 24px 0;
+      padding-left: 24px;
+
+      li {
+        color: var(--gray-800);
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 12px;
+
+        &::marker {
+          color: var(--primary);
+          font-weight: 600;
+        }
+      }
+    }
+
+    strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    em {
+      color: var(--gray-800);
+      font-style: italic;
+    }
+
+    @media (max-width: 991px) {
+      padding: 32px;
+
+      h2 {
+        font-size: 24px;
+        margin: 32px 0 20px 0;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      ul,
+      ol {
+        li {
+          font-size: 15px;
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      padding: 24px;
+
+      h2 {
+        font-size: 20px;
+        margin: 24px 0 16px 0;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      ul,
+      ol {
+        padding-left: 20px;
+
+        li {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

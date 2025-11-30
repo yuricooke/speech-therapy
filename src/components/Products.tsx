@@ -81,9 +81,9 @@ export default function Products({ language }: ProductsProps) {
               </svg>
             </button>
             <div className={styles.modalHeader}>
-              <div className={styles.modalIcon}></div>
               <h2>{selectedService.title}</h2>
             </div>
+
             <div className={styles.modalBody}>
               {selectedService.detailedContent ? (
                 <div className={styles.detailedContent}>

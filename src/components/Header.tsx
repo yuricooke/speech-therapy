@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { Language } from '@/types';
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import styles from './Header.module.scss';
+import { Language } from "@/types";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import styles from "./Header.module.scss";
 
 interface HeaderProps {
   language: Language;
@@ -13,11 +13,12 @@ interface HeaderProps {
 export default function Header({ language, onLanguageChange }: HeaderProps) {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      
+
       // Show header when at top of page
       if (currentScrollY < 10) {
         setIsVisible(true);
@@ -28,46 +29,47 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
         // Show header when scrolling up
         setIsVisible(true);
       }
-      
+
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
+      setIsMobileMenuOpen(false); // Close mobile menu after navigation
     }
   };
 
   const getNavText = () => {
     switch (language) {
-      case 'pt':
+      case "pt":
         return {
-          home: 'Início',
-          about: 'Sobre',
-          services: 'Terapia',
-          partnerships: 'Aconselhamento',
-          contact: 'Contato'
+          home: "Início",
+          therapies: "Terapias & More",
+          space: "Nosso Espaço",
+          aboutMe: "Sobre Mim",
+          contact: "Contato",
         };
-      case 'de':
+      case "de":
         return {
-          home: 'Home',
-          about: 'Über mich',
-          services: 'Therapie',
-          partnerships: 'Beratung',
-          contact: 'Kontakt'
+          home: "Home",
+          therapies: "Therapies & More",
+          space: "Unser Raum",
+          aboutMe: "Über Mich",
+          contact: "Kontakt",
         };
       default:
         return {
-          home: 'Home',
-          about: 'About',
-          services: 'Therapy',
-          partnerships: 'Counselling',
-          contact: 'Contact'
+          home: "Home",
+          therapies: "Therapies & More",
+          space: "Our Space",
+          aboutMe: "About Me",
+          contact: "Contact",
         };
     }
   };
@@ -75,22 +77,41 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
   const navText = getNavText();
 
   return (
-    <header className={`${styles.header} ${isVisible ? styles.visible : styles.hidden}`}>
+    <header
+      className={`${styles.header} ${
+        isVisible ? styles.visible : styles.hidden
+      }`}
+    >
       <div className={`${styles.container} container`}>
         <div className={styles.wrapper}>
           {/* Logo */}
           <div className={styles.logo}>
             <Link href="/" className={styles.logoButton}>
-              <img src="/balao-sombra.svg" alt="Logo" className={styles.logoImage} />
+              <img
+                src="/balao-sombra.svg"
+                alt="Logo"
+                className={styles.logoImage}
+              />
             </Link>
           </div>
+
+          {/* Hamburger Menu Button (Mobile only) */}
+          <button
+            className={styles.mobileMenuToggle}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span className="material-symbols-outlined">
+              {isMobileMenuOpen ? "close" : "menu"}
+            </span>
+          </button>
 
           {/* Navigation */}
           <nav className={styles.nav}>
             <ul className={styles.navList}>
               <li>
                 <button
-                  onClick={() => scrollToSection('hero')}
+                  onClick={() => scrollToSection("hero")}
                   className={styles.navItem}
                 >
                   {navText.home}
@@ -98,31 +119,31 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection('about')}
+                  onClick={() => scrollToSection("about")}
                   className={styles.navItem}
                 >
-                  {navText.about}
+                  {navText.therapies}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection('products')}
+                  onClick={() => scrollToSection("products")}
                   className={styles.navItem}
                 >
-                  {navText.services}
+                  {navText.space}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection('partnerships')}
+                  onClick={() => scrollToSection("partnerships")}
                   className={styles.navItem}
                 >
-                  {navText.partnerships}
+                  {navText.aboutMe}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection('footer')}
+                  onClick={() => scrollToSection("footer")}
                   className={styles.navItem}
                 >
                   {navText.contact}
@@ -133,6 +154,7 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
 
           {/* Language Selector */}
           <div className={styles.languageSelector}>
+            <span className="material-symbols-outlined">language</span>
             <select
               value={language}
               onChange={(e) => onLanguageChange(e.target.value as Language)}
@@ -144,8 +166,72 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
               <option value="de">DE</option>
             </select>
           </div>
+
+          {/* Mobile Dropdown Menu */}
+          {isMobileMenuOpen && (
+            <div className={styles.mobileMenu}>
+              <nav className={styles.mobileNav}>
+                <ul className={styles.mobileNavList}>
+                  <li>
+                    <button
+                      onClick={() => scrollToSection("hero")}
+                      className={styles.mobileNavItem}
+                    >
+                      {navText.home}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => scrollToSection("about")}
+                      className={styles.mobileNavItem}
+                    >
+                      {navText.therapies}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => scrollToSection("products")}
+                      className={styles.mobileNavItem}
+                    >
+                      {navText.space}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => scrollToSection("partnerships")}
+                      className={styles.mobileNavItem}
+                    >
+                      {navText.aboutMe}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => scrollToSection("footer")}
+                      className={styles.mobileNavItem}
+                    >
+                      {navText.contact}
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+              {/* Language Selector in Mobile Menu */}
+              <div className={styles.mobileLanguageSelector}>
+                <span className="material-symbols-outlined">language</span>
+                <select
+                  value={language}
+                  onChange={(e) => onLanguageChange(e.target.value as Language)}
+                  className={styles.languageSelect}
+                  aria-label="Select language"
+                >
+                  <option value="en">EN</option>
+                  <option value="pt">PT</option>
+                  <option value="de">DE</option>
+                </select>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </header>
   );
-} 
+}

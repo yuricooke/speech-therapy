@@ -64,6 +64,7 @@
 @media (width <= 992px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balaoContainer {
     align-items: flex-end;
+    gap: 1rem;
   }
 }
 
@@ -88,20 +89,22 @@
 
 @media (width <= 992px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balao {
-    margin-top: -20%;
-    margin-left: 0;
+    width: 60%;
+    margin-top: -25%;
+    margin-left: -1rem;
   }
 }
 
 @media (width <= 575px) {
   .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__balao {
+    width: 60%;
     margin-top: -25%;
     margin-left: -1rem;
   }
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__tagline {
-  color: var(--indigo);
+  color: var(--text-indigo);
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 14px;
@@ -132,6 +135,7 @@
   color: var(--gray-800);
   flex-direction: column;
   gap: 1.5rem;
+  margin-top: 2rem;
   display: flex;
 }
 

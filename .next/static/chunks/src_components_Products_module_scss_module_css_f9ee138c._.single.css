@@ -378,6 +378,7 @@
   box-shadow: 0 20px 60px #0000004d, 0 0 40px rgba(var(--accent-rgb), .1);
   background: linear-gradient(135deg, #fffffff2 0%, #ffffffe6 100%);
   border-radius: 24px;
+  padding: 0 2rem 2rem;
   animation: .3s Products-module-scss-module__U43jna__slideUp;
   position: relative;
   overflow-y: auto;
@@ -406,14 +407,15 @@
 }
 
 .Products-module-scss-module__U43jna__modalHeader {
-  text-align: center;
-  padding: 2rem 2rem 1rem;
+  width: fit-content;
 }
 
 .Products-module-scss-module__U43jna__modalHeader h2 {
+  text-align: left;
   color: var(--primary);
-  margin: 1rem 0 0;
-  font-size: 1.5rem;
+  border-bottom: 2px solid var(--primary);
+  margin: 2rem 0 1rem;
+  font-size: 2rem;
 }
 
 .Products-module-scss-module__U43jna__modalIcon {
@@ -438,7 +440,6 @@
 
 .Products-module-scss-module__U43jna__modalBody {
   color: var(--gray-800);
-  padding: 0 2rem 2rem;
 }
 
 .Products-module-scss-module__U43jna__modalBody p {
@@ -543,7 +544,7 @@
 }
 
 .Products-module-scss-module__U43jna__contactButton {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  background-color: var(--tertiary);
   color: #fff;
   box-shadow: 0 4px 15px rgba(var(--accent-rgb), .3);
   border-radius: 25px;

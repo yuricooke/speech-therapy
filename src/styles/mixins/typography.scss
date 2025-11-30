@@ -1,5 +1,5 @@
-@use '../variables/fonts' as *;
-@use '../variables/breakpoints' as *;
+@use "../variables/fonts" as *;
+@use "../variables/breakpoints" as *;
 
 @mixin heading-1 {
   font-family: $font-heading;
@@ -52,7 +52,7 @@
   font-weight: $thin;
 
   @media (max-width: 768px) {
-    font-size: $font-size-sm;
+    font-size: 1.25rem;
   }
 }
 
@@ -63,4 +63,4 @@
   @media #{$mq-md-max} {
     font-size: calc($size * 0.875);
   }
-} 
+}

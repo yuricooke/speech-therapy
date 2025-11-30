@@ -1,5 +1,5 @@
 .header {
-  position: sticky; 
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -15,7 +15,6 @@
     transform: translateY(-100%);
   }
 }
-
 
 .wrapper {
   background-color: var(--white);
@@ -34,25 +33,15 @@
   @media (max-width: 768px) {
     padding: 0 15px;
     height: 60px;
+    position: relative;
   }
 }
 
-
 .logo {
-  width: 120px;
-  height: 50px;
+  width: auto;
+  height: 100%;
   display: flex;
   align-items: center;
-
-  @media (max-width: 768px) {
-    width: 100px;
-    height: 42px;
-  }
-
-  @media (max-width: 480px) {
-    width: 90px;
-    height: 38px;
-  }
 }
 
 .logoImage {
@@ -60,8 +49,6 @@
   height: 60px;
   object-fit: contain;
 }
-
-
 
 .logoButton {
   background: none;
@@ -78,7 +65,7 @@
   }
 
   &:focus {
-    outline: 2px solid #2f8c8a;
+    outline: 2px solid var(--white);
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -111,8 +98,8 @@
 .nav {
   flex: 1;
   display: flex;
-  justify-content: center;
-  margin: 0 40px;
+  justify-content: flex-start;
+  margin: 0 2rem;
 
   @media (max-width: 768px) {
     display: none; // Hide on mobile - could be replaced with hamburger menu
@@ -124,7 +111,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 30px;
+  gap: 1rem;
 
   @media (max-width: 1024px) {
     gap: 20px;
@@ -135,7 +122,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--text-blue);
+  color: var(--text-primary);
 
   font-size: 16px;
   font-weight: 500;
@@ -166,25 +153,45 @@
 
 .languageSelector {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-inline-start: 1rem;
+
+  border-left: 1px solid var(--primary-light);
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+    path {
+      stroke-width: 0.5px;
+      stroke: #2f8c8a;
+    }
+  }
 }
 
 .languageSelect {
-  padding: 8px 12px;
-  border: 2px solid #2f8c8a;
+  padding: 8px 0px;
+  border: none;
   border-radius: 6px;
-  background: white;
+  background-color: transparent;
   color: #2f8c8a;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  min-width: 60px;
 
   &:hover {
-    background: #2f8c8a;
-    color: white;
+    color: 1px solid var(--text-lilac);
+    // color: white;
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(47, 140, 138, 0.3);
   }
 
   &:focus {
@@ -199,25 +206,118 @@
   }
 }
 
-// Mobile menu styles (for future implementation)
+// Mobile menu styles
 @media (max-width: 768px) {
   .container {
     justify-content: space-between;
   }
-  
-  // Add mobile menu toggle button styles here if needed
+
   .mobileMenuToggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
     color: #2f8c8a;
-    
+    font-size: 28px;
+    z-index: 1;
+
+    &:focus {
+      outline: 2px solid #2f8c8a;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  }
+
+  .mobileMenu {
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    z-index: 999;
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .mobileNav {
+    width: 100%;
+  }
+
+  .mobileNavList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .mobileNavItem {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-blue);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    text-align: left;
+    width: 100%;
+
+    &:hover {
+      color: #2f8c8a;
+      background: rgba(47, 140, 138, 0.1);
+    }
+
     &:focus {
       outline: 2px solid #2f8c8a;
       outline-offset: 2px;
     }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+
+  .mobileLanguageSelector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--primary-light);
+
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .mobileMenuToggle {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: none;
   }
 }
 

@@ -118,7 +118,6 @@ gap: 1.25rem;
   }
 
 
-
   // Rays removed with the sun
 
   .floatingParticles {
@@ -433,6 +432,8 @@ gap: 1.25rem;
       0 0 40px rgba(var(--accent-rgb), 0.1);
     position: relative;
     animation: slideUp 0.3s ease;
+    padding: 0 2rem 2rem;
+
   }
 
   .modalClose {
@@ -458,13 +459,14 @@ gap: 1.25rem;
   }
 
   .modalHeader {
-    text-align: center;
-    padding: 2rem 2rem 1rem;
+    width: fit-content;
     
     h2 {
-      margin: 1rem 0 0;
+      text-align: left;
+      margin: 2rem 0 1rem;
       color: var(--primary);
-      font-size: 1.5rem;
+      font-size: 2rem;
+      border-bottom: 2px solid var(--primary);
     }
   }
 
@@ -493,7 +495,6 @@ gap: 1.25rem;
   }
 
   .modalBody {
-    padding: 0 2rem 2rem;
     color: var(--gray-800);
     
     p {
@@ -602,11 +603,8 @@ gap: 1.25rem;
   }
 
   .contactButton {
-    background: linear-gradient(
-      135deg, 
-      var(--accent) 0%, 
-      var(--accent-dark) 100%
-    );
+   
+    background-color: var(--tertiary);
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;

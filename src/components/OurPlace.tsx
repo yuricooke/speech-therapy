@@ -4,7 +4,6 @@ import { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures';
 import { Language } from '@/types';
-import { siteContent } from '@/utils/content';
 import styles from './OurPlace.module.scss';
 import Link from 'next/link';
 

@@ -13,8 +13,6 @@ interface OurPlaceProps {
 }
 
 export default function OurPlace({ language }: OurPlaceProps) {
-  const content = siteContent[language];
-
   // Images from selecao folder
   const sliderImages = [
     { src: '/selecao/IMG_5152.jpeg', alt: 'Space Image 1' },

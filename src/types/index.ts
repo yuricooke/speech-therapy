@@ -96,6 +96,7 @@ export interface Content {
         imagePosition?: string; // Control object-position of the hero image
       };
       content: string;
+      sliderImages?: Array<{ src: string; caption: string }>; // Optional slider images
     };
   };
 }

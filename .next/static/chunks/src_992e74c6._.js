@@ -3272,7 +3272,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$react$2f$esm$2f$embla$2d$carousel$2d$react$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/embla-carousel-react/esm/embla-carousel-react.esm.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$wheel$2d$gestures$2f$dist$2f$embla$2d$carousel$2d$wheel$2d$gestures$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/embla-carousel-wheel-gestures/dist/embla-carousel-wheel-gestures.esm.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$content$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/utils/content.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/OurPlace.module.scss.module.css [app-client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 ;
@@ -3283,10 +3282,8 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function OurPlace({ language }) {
     _s();
-    const content = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$content$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContent"][language];
     // Images from selecao folder
     const sliderImages = [
         {
@@ -3396,12 +3393,12 @@ function OurPlace({ language }) {
                         children: texts.title
                     }, void 0, false, {
                         fileName: "[project]/src/components/OurPlace.tsx",
-                        lineNumber: 90,
+                        lineNumber: 88,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 89,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3421,30 +3418,30 @@ function OurPlace({ language }) {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].slideImage
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OurPlace.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 97,
                                                 columnNumber: 19
                                             }, this)
                                         }, index, false, {
                                             fileName: "[project]/src/components/OurPlace.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].slideEmpty
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/OurPlace.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 105,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/OurPlace.tsx",
-                                lineNumber: 96,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 95,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3458,7 +3455,7 @@ function OurPlace({ language }) {
                                     children: "‹"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3469,12 +3466,12 @@ function OurPlace({ language }) {
                                             "aria-label": `Go to slide ${index + 1}`
                                         }, index, false, {
                                             fileName: "[project]/src/components/OurPlace.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 119,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 119,
+                                    lineNumber: 117,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3485,19 +3482,19 @@ function OurPlace({ language }) {
                                     children: "›"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 129,
+                                    lineNumber: 127,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 110,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 94,
+                    lineNumber: 92,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3508,23 +3505,23 @@ function OurPlace({ language }) {
                         children: texts.cta
                     }, void 0, false, {
                         fileName: "[project]/src/components/OurPlace.tsx",
-                        lineNumber: 142,
+                        lineNumber: 140,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 141,
+                    lineNumber: 139,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/OurPlace.tsx",
-            lineNumber: 88,
+            lineNumber: 86,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/OurPlace.tsx",
-        lineNumber: 87,
+        lineNumber: 85,
         columnNumber: 5
     }, this);
 }

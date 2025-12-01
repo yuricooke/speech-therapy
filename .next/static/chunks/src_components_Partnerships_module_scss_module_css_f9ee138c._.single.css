@@ -91,6 +91,12 @@
   height: 80px;
 }
 
+@media (width <= 768px) {
+  .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__verticalLine {
+    display: none;
+  }
+}
+
 .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__logoPlaceholder {
   background: var(--white);
   width: 120px;

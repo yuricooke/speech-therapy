@@ -2425,7 +2425,8 @@ function ContactForm({ language, onSubmitted }) {
         setIsSubmitting(true);
         setSubmitStatus("idle");
         try {
-            const response = await fetch("/api/contact", {
+            // Use trailing slash to match production route on Vercel
+            const response = await fetch("/api/contact/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -2461,7 +2462,7 @@ function ContactForm({ language, onSubmitted }) {
                         children: t.form.name
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 104,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2473,13 +2474,13 @@ function ContactForm({ language, onSubmitted }) {
                         required: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 105,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 103,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2490,7 +2491,7 @@ function ContactForm({ language, onSubmitted }) {
                         children: t.form.email
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 116,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2502,13 +2503,13 @@ function ContactForm({ language, onSubmitted }) {
                         required: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 117,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 115,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2519,7 +2520,7 @@ function ContactForm({ language, onSubmitted }) {
                         children: t.form.message
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 128,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2531,13 +2532,13 @@ function ContactForm({ language, onSubmitted }) {
                         required: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 129,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 127,
+                lineNumber: 128,
                 columnNumber: 7
             }, this),
             submitStatus === "success" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2545,7 +2546,7 @@ function ContactForm({ language, onSubmitted }) {
                 children: t.form.success
             }, void 0, false, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 140,
+                lineNumber: 141,
                 columnNumber: 9
             }, this),
             submitStatus === "error" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2553,7 +2554,7 @@ function ContactForm({ language, onSubmitted }) {
                 children: t.form.error
             }, void 0, false, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 144,
+                lineNumber: 145,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2563,13 +2564,13 @@ function ContactForm({ language, onSubmitted }) {
                 children: isSubmitting ? t.form.sending : t.form.send
             }, void 0, false, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 147,
+                lineNumber: 148,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ContactForm.tsx",
-        lineNumber: 102,
+        lineNumber: 103,
         columnNumber: 5
     }, this);
 }

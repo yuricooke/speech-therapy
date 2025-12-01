@@ -89,6 +89,10 @@
     height: 80px;
     background-color: var(--primary-light);
     border-radius: 999px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .logoPlaceholder {

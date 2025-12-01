@@ -125,13 +125,8 @@ export const metadata: Metadata = {
   category: "Healthcare",
   classification: "Speech Language Therapy Services",
   icons: {
-    icon: [
-      { url: "/baloes.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
-    ],
-    apple: [
-      { url: "/baloes.svg", type: "image/svg+xml" },
-    ],
+    icon: [{ url: "/baloes.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/baloes.svg", type: "image/svg+xml" }],
   },
   other: {
     "geo.region": "DE-HH",

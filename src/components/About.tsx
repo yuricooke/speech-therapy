@@ -55,28 +55,33 @@ export default function About({ language }: AboutProps) {
           <h3 className={styles.qualificationsTitle}>
             {language === 'en' ? 'Professional Qualifications' :
               language === 'pt' ? 'Qualificações Profissionais' :
-                'Berufliche Qualifikationen'}
+                language === 'es' ? 'Calificaciones Profesionales' :
+                  'Berufliche Qualifikationen'}
           </h3>
           <div className={styles.qualificationsList}>
             <div className={styles.qualificationItem}>
               <strong>25+ years</strong> {language === 'en' ? 'experience in multilingual therapy' :
                 language === 'pt' ? 'de experiência em terapia multilíngue' :
-                  'Erfahrung in mehrsprachiger Therapie'}
+                  language === 'es' ? 'de experiencia en terapia multilingüe' :
+                    'Erfahrung in mehrsprachiger Therapie'}
             </div>
             <div className={styles.qualificationItem}>
-              <strong>{language === 'en' ? 'Recognized' : language === 'pt' ? 'Reconhecida' : 'Anerkannt'}</strong> {language === 'en' ? 'by Hamburg Health Department' :
+              <strong>{language === 'en' ? 'Recognized' : language === 'pt' ? 'Reconhecida' : language === 'es' ? 'Reconocida' : 'Anerkannt'}</strong> {language === 'en' ? 'by Hamburg Health Department' :
                 language === 'pt' ? 'pelo Departamento de Saúde de Hamburgo' :
-                  'vom Hamburger Gesundheitsamt'}
+                  language === 'es' ? 'por el Departamento de Salud de Hamburgo' :
+                    'vom Hamburger Gesundheitsamt'}
             </div>
             <div className={styles.qualificationItem}>
-              <strong>{language === 'en' ? 'Fluent' : language === 'pt' ? 'Fluente' : 'Fließend'}</strong> {language === 'en' ? 'in German, Portuguese, and English' :
+              <strong>{language === 'en' ? 'Fluent' : language === 'pt' ? 'Fluente' : language === 'es' ? 'Fluida' : 'Fließend'}</strong> {language === 'en' ? 'in German, Portuguese, and English' :
                 language === 'pt' ? 'em Alemão, Português e Inglês' :
-                  'in Deutsch, Portugiesisch und Englisch'}
+                  language === 'es' ? 'en Alemán, Portugués, Inglés y Español' :
+                    'in Deutsch, Portugiesisch und Englisch'}
             </div>
             <div className={styles.qualificationItem}>
-              <strong>{language === 'en' ? 'International' : language === 'pt' ? 'Experiência' : 'Internationale'}</strong> {language === 'en' ? 'experience across 5 countries' :
+              <strong>{language === 'en' ? 'International' : language === 'pt' ? 'Experiência' : language === 'es' ? 'Experiencia' : 'Internationale'}</strong> {language === 'en' ? 'experience across 5 countries' :
                 language === 'pt' ? 'internacional em 5 países' :
-                  'Erfahrung in 5 Ländern'}
+                  language === 'es' ? 'internacional en 5 países' :
+                    'Erfahrung in 5 Ländern'}
             </div>
           </div>
         </div>
@@ -86,7 +91,8 @@ export default function About({ language }: AboutProps) {
             <h3 className={styles.experienceTitle}>
               {language === 'en' ? 'Professional Experience' :
                 language === 'pt' ? 'Experiência Profissional' :
-                  'Berufserfahrung'}
+                  language === 'es' ? 'Experiencia Profesional' :
+                    'Berufserfahrung'}
             </h3>
 
             <div className={styles.countriesTimeline}>

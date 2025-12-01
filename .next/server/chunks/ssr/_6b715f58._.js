@@ -1697,7 +1697,7 @@ const siteContent = {
     es: {
         hero: {
             tagline: "Logopeda Multilingüe",
-            title: "¡Dos Idiomas Son Mejores Que Uno!",
+            title: "Two Languages Are Better Than One!",
             description: "¡Bienvenido a mi clínica de terapia del habla bilingüe y multilingüe!<br><br> El objetivo principal de mis terapias es acoger a los pacientes a través de su lengua materna. El vínculo terapeuta-paciente se establece de manera especial cuando los pacientes se dan cuenta de que son comprendidos en lo que dicen, piensan y sienten. Cuando los pacientes se sienten más seguros y acogidos, muestran una mejor motivación, impactando directamente en su pronóstico terapéutico. <br><br> Esta es sin duda la gran ventaja o la 'Clave de Oro' de la terapia bilingüe o multilingüe.",
             cta: {
                 whatsapp: "WhatsApp",

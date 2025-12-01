@@ -14,6 +14,7 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
 
@@ -122,6 +123,33 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
 
   const navText = getNavText();
 
+  const languageOptions = {
+    en: { code: "EN", name: "English" },
+    pt: { code: "PT", name: "Português" },
+    de: { code: "DE", name: "Deutsch" },
+    es: { code: "ES", name: "Español" },
+  };
+
+  const handleLanguageChange = (newLanguage: Language) => {
+    onLanguageChange(newLanguage);
+    setIsLanguageDropdownOpen(false);
+  };
+
+  // Close language dropdown when clicking outside (desktop only)
+  useEffect(() => {
+    if (!isLanguageDropdownOpen) return;
+
+    const handleClickOutside = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest(`.${styles.languageSelector}`)) {
+        setIsLanguageDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isLanguageDropdownOpen]);
+
   return (
     <>
       <header
@@ -206,17 +234,31 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
             {/* Language Selector */}
             <div className={styles.languageSelector}>
               <span className="material-symbols-outlined">language</span>
-              <select
-                value={language}
-                onChange={(e) => onLanguageChange(e.target.value as Language)}
-                className={styles.languageSelect}
-                aria-label="Select language"
-              >
-                <option value="en">EN</option>
-                <option value="pt">PT</option>
-                <option value="de">DE</option>
-                <option value="es">ES</option>
-              </select>
+              <div className={styles.languageDropdown}>
+                <button
+                  className={styles.languageSelectButton}
+                  onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+                  aria-label="Select language"
+                >
+                  {languageOptions[language].code}
+                  <span className="material-symbols-outlined">
+                    {isLanguageDropdownOpen ? "expand_less" : "expand_more"}
+                  </span>
+                </button>
+                {isLanguageDropdownOpen && (
+                  <div className={styles.languageDropdownMenu}>
+                    {(Object.keys(languageOptions) as Language[]).map((lang) => (
+                      <button
+                        key={lang}
+                        className={`${styles.languageOption} ${language === lang ? styles.active : ""}`}
+                        onClick={() => handleLanguageChange(lang)}
+                      >
+                        {languageOptions[lang].name}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -282,13 +324,13 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
               <select
                 value={language}
                 onChange={(e) => onLanguageChange(e.target.value as Language)}
-                className={styles.languageSelect}
+                className={styles.languageSelectMobile}
                 aria-label="Select language"
               >
-                <option value="en">EN</option>
-                <option value="pt">PT</option>
-                <option value="de">DE</option>
-                <option value="es">ES</option>
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+                <option value="de">Deutsch</option>
+                <option value="es">Español</option>
               </select>
             </div>
           </div>

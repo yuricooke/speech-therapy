@@ -63,7 +63,7 @@ const siteContent = {
                 {
                     title: "Workshops for Schools and Teachers",
                     description: "Training for educators on bilingual development, identifying difficulties and classroom support strategies.",
-                    fullDescription: "<h3>Workshop # 1: \"Understanding and supporting bilingual speech and language development in the classroom\"</h3><p><strong>Course objective:</strong> Many bilingual and multilingual students are misidentified in terms of learning and language development. Therefore, not referred for speech therapy. Teachers will learn to recognize normal and delayed speech and language development in bilingual students.</p><ol><li>Understand typical stages of bilingual child language development.</li><li>Recognize the difference between \"normal\" language development and language disorder.</li><li>Identify warning signs for speech or language delays in bilingual students.</li><li>Apply classroom strategies to effectively support bilingual students.</li></ol><br><h3>Workshop # 2: \"Recognizing the most common speech and language disorders in schools\"</h3><p>This workshop is designed for educators who want to better understand the main communication disorders that can affect students' school performance.</p><ol><li>Overview of speech, language and communication</li><li>Difference between speech and language disorders</li><li>Red flags and classroom manifestations</li><li>Articulation disorders (e.g.: lisp)</li><li>Phonological deviations</li><li>Childhood Apraxia of Speech (CAS)</li><li>Fluency disorders (e.g., stuttering)</li><li>Receptive language disorders (difficulty understanding instructions, vocabulary or questions)</li><li>Expressive language disorders (limited vocabulary, use of short phrases, grammatical problems)</li><li>Pragmatic language disorders (social communication challenges)</li><li>Language delay vs. disorder</li></ol><br><h2>Workshop Benefits</h2><p>Our workshops provide educators with practical tools to:</p><ul><li><strong>Early identify</strong> possible communication difficulties</li><li><strong>Implement strategies</strong> for classroom support</li><li><strong>Understand</strong> the specific needs of bilingual students</li><li><strong>Collaborate effectively</strong> with speech therapists and families</li><li><strong>Create inclusive environments</strong> that benefit all students</li></ul>",
+                    fullDescription: '<h3>Workshop # 1: "Understanding and supporting bilingual speech and language development in the classroom"</h3><p><strong>Course objective:</strong> Many bilingual and multilingual students are misidentified in terms of learning and language development. Therefore, not referred for speech therapy. Teachers will learn to recognize normal and delayed speech and language development in bilingual students.</p><ol><li>Understand typical stages of bilingual child language development.</li><li>Recognize the difference between "normal" language development and language disorder.</li><li>Identify warning signs for speech or language delays in bilingual students.</li><li>Apply classroom strategies to effectively support bilingual students.</li></ol><br><h3>Workshop # 2: "Recognizing the most common speech and language disorders in schools"</h3><p>This workshop is designed for educators who want to better understand the main communication disorders that can affect students\' school performance.</p><ol><li>Overview of speech, language and communication</li><li>Difference between speech and language disorders</li><li>Red flags and classroom manifestations</li><li>Articulation disorders (e.g.: lisp)</li><li>Phonological deviations</li><li>Childhood Apraxia of Speech (CAS)</li><li>Fluency disorders (e.g., stuttering)</li><li>Receptive language disorders (difficulty understanding instructions, vocabulary or questions)</li><li>Expressive language disorders (limited vocabulary, use of short phrases, grammatical problems)</li><li>Pragmatic language disorders (social communication challenges)</li><li>Language delay vs. disorder</li></ol><br><h2>Workshop Benefits</h2><p>Our workshops provide educators with practical tools to:</p><ul><li><strong>Early identify</strong> possible communication difficulties</li><li><strong>Implement strategies</strong> for classroom support</li><li><strong>Understand</strong> the specific needs of bilingual students</li><li><strong>Collaborate effectively</strong> with speech therapists and families</li><li><strong>Create inclusive environments</strong> that benefit all students</li></ul>',
                     slug: "workshops",
                     heroImage: "workshop.jpeg"
                 }
@@ -357,6 +357,10 @@ const siteContent = {
           
           <p>Every patient who feels safer and more welcomed consequently presents better motivation, POSITIVELY impacting their therapeutic prognosis. This is undoubtedly the great advantage or the 'Golden Key' of bilingual or multilingual therapy.</p>
 
+          <div class="content-image">
+            <img src="/kids.png" alt="Bilingual therapy session" />
+          </div>
+
           <h2>How is bilingual/multilingual therapy performed?</h2>
           <p>For bilingual and multilingual patients, the languages that will be used during therapy will be determined according to the needs of each patient and their families.</p>
           
@@ -375,7 +379,7 @@ const siteContent = {
           </ul>
         `
             },
-            "assessment": {
+            assessment: {
                 hero: {
                     tagline: "Professional Assessment",
                     title: "Assessment",
@@ -407,7 +411,7 @@ const siteContent = {
           </ul>
         `
             },
-            "counseling": {
+            counseling: {
                 hero: {
                     tagline: "Family Support",
                     title: "Counseling",
@@ -453,7 +457,7 @@ const siteContent = {
           </ul>
         `
             },
-            "workshops": {
+            workshops: {
                 hero: {
                     tagline: "Professional Training",
                     title: "Workshops for Schools and Teachers",
@@ -500,13 +504,13 @@ const siteContent = {
           </ul>
         `
             },
-            "space": {
+            space: {
                 hero: {
-                    tagline: "Our Location",
+                    tagline: "Workspace",
                     title: "Our Space",
                     description: "A welcoming and professional environment designed to create a comfortable atmosphere for speech therapy sessions. Our clinic provides a safe space where patients feel understood and supported.",
                     backgroundImage: "selecao/IMG_5178.jpeg",
-                    imagePosition: "center"
+                    imagePosition: "bottom center"
                 },
                 sliderImages: [
                     {
@@ -550,7 +554,30 @@ const siteContent = {
           <p>Whether you're visiting for an assessment, therapy session, or counseling, our space is designed to support your journey towards better communication and language development.</p>
 
           <h2>Our Location</h2>
-          <p>Located in the heart of Hamburg, our clinic is easily accessible and provides a convenient location for families in the area. We welcome patients from diverse cultural and linguistic backgrounds, creating an inclusive environment for multilingual therapy.</p>
+          <p>Our clinic is conveniently located in the Wandsbek area of Hamburg, a vibrant commercial district with excellent public transport connections. The clinic is easily accessible by public transportation, making it convenient for families throughout the Hamburg region.</p>
+          
+          <p><strong>Public Transport:</strong> The nearest U-Bahn station is <strong>Wandsbek-Gartenstadt</strong> (U-Bahn line U1). Bus lines <strong>112, 172, and 262</strong> also serve the area, with stops close to the clinic. The location is well-connected to Hamburg's public transport network (HVV), ensuring easy access from various parts of the city.</p>
+          
+          <p>We welcome patients from diverse cultural and linguistic backgrounds, creating an inclusive environment for multilingual therapy in this accessible and well-connected location.</p>
+          
+          <div class="location-map">
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps?q=Auf+dem+K%C3%B6nigslande+96,+22047+Hamburg,+Germany&output=embed"
+                width="100%"
+                height="300"
+                style="border: 0; border-radius: 16px;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Location Map"
+              ></iframe>
+            </div>
+            <div class="address-info">
+              <p><strong>Auf dem Königslande 96</strong></p>
+              <p>22047 - Hamburg, Germany</p>
+            </div>
+          </div>
         `
             }
         }
@@ -592,7 +619,7 @@ const siteContent = {
                 {
                     title: "Workshops para Escolas e Professores",
                     description: "Capacitação para educadores sobre desenvolvimento bilíngue, identificação de dificuldades e estratégias de apoio em sala de aula.",
-                    fullDescription: "<h3>Workshop # 1: \"Compreendendo e apoiando o desenvolvimento da fala e da linguagem bilíngue na sala de aula\"</h3><p><strong>Objetivo do curso:</strong> Muitos alunos bilíngues e multilíngues são identificados erroneamente em termos de aprendizado e desenvolvimento de idiomas. Portanto, não encaminhado para terapia fonoaudiológica. Os professores aprenderão a reconhecer o desenvolvimento normal e atrasado da fala e da linguagem do estudante bilíngue.</p><ol><li>Compreender os estágios típicos do desenvolvimento de linguagem da criança bilíngue.</li><li>Reconheça a diferença entre o desenvolvimento \"normal\" da linguagem e o distúrbio da linguagem.</li><li>Identifique sinais de alerta para atrasos de fala ou linguagem em alunos bilíngues.</li><li>Aplique estratégias de sala de aula para apoiar alunos bilíngues de forma eficaz.</li></ol><br><h3>Workshop # 2: \"Reconhecendo os distúrbios de fala e linguagem mais comuns nas escolas\"</h3><p>Este workshop é destinado a educadores que desejam compreender melhor os principais distúrbios de comunicação que podem afetar o desempenho escolar dos alunos.</p><ol><li>Visão geral da fala, linguagem e comunicação</li><li>Diferença entre distúrbios de fala e linguagem</li><li>Bandeiras vermelhas e manifestações em sala de aula</li><li>Distúrbios da articulação (por exemplo: ceceio)</li><li>Desvio fonológicos</li><li>Apraxia de Fala na Infância (CAS)</li><li>Distúrbios da fluência (por exemplo, gagueira)</li><li>Distúrbios da linguagem receptiva (dificuldade em entender instruções, vocabulário ou perguntas)</li><li>Distúrbios da linguagem expressiva (vocabulário limitado, uso de frases curtas, problemas gramaticais)</li><li>Distúrbios pragmáticos da linguagem (desafios da comunicação social)</li><li>Atraso de linguagem vs. transtorno</li></ol><br><h2>Benefícios dos Workshops</h2><p>Nossos workshops oferecem aos educadores ferramentas práticas para:</p><ul><li><strong>Identificar precocemente</strong> possíveis dificuldades de comunicação</li><li><strong>Implementar estratégias</strong> de apoio em sala de aula</li><li><strong>Compreender</strong> as necessidades específicas de alunos bilíngues</li><li><strong>Colaborar efetivamente</strong> com fonoaudiólogos e famílias</li><li><strong>Criar ambientes inclusivos</strong> que beneficiem todos os alunos</li></ul>",
+                    fullDescription: '<h3>Workshop # 1: "Compreendendo e apoiando o desenvolvimento da fala e da linguagem bilíngue na sala de aula"</h3><p><strong>Objetivo do curso:</strong> Muitos alunos bilíngues e multilíngues são identificados erroneamente em termos de aprendizado e desenvolvimento de idiomas. Portanto, não encaminhado para terapia fonoaudiológica. Os professores aprenderão a reconhecer o desenvolvimento normal e atrasado da fala e da linguagem do estudante bilíngue.</p><ol><li>Compreender os estágios típicos do desenvolvimento de linguagem da criança bilíngue.</li><li>Reconheça a diferença entre o desenvolvimento "normal" da linguagem e o distúrbio da linguagem.</li><li>Identifique sinais de alerta para atrasos de fala ou linguagem em alunos bilíngues.</li><li>Aplique estratégias de sala de aula para apoiar alunos bilíngues de forma eficaz.</li></ol><br><h3>Workshop # 2: "Reconhecendo os distúrbios de fala e linguagem mais comuns nas escolas"</h3><p>Este workshop é destinado a educadores que desejam compreender melhor os principais distúrbios de comunicação que podem afetar o desempenho escolar dos alunos.</p><ol><li>Visão geral da fala, linguagem e comunicação</li><li>Diferença entre distúrbios de fala e linguagem</li><li>Bandeiras vermelhas e manifestações em sala de aula</li><li>Distúrbios da articulação (por exemplo: ceceio)</li><li>Desvio fonológicos</li><li>Apraxia de Fala na Infância (CAS)</li><li>Distúrbios da fluência (por exemplo, gagueira)</li><li>Distúrbios da linguagem receptiva (dificuldade em entender instruções, vocabulário ou perguntas)</li><li>Distúrbios da linguagem expressiva (vocabulário limitado, uso de frases curtas, problemas gramaticais)</li><li>Distúrbios pragmáticos da linguagem (desafios da comunicação social)</li><li>Atraso de linguagem vs. transtorno</li></ol><br><h2>Benefícios dos Workshops</h2><p>Nossos workshops oferecem aos educadores ferramentas práticas para:</p><ul><li><strong>Identificar precocemente</strong> possíveis dificuldades de comunicação</li><li><strong>Implementar estratégias</strong> de apoio em sala de aula</li><li><strong>Compreender</strong> as necessidades específicas de alunos bilíngues</li><li><strong>Colaborar efetivamente</strong> com fonoaudiólogos e famílias</li><li><strong>Criar ambientes inclusivos</strong> que beneficiem todos os alunos</li></ul>',
                     slug: "workshops",
                     heroImage: "workshop.jpeg"
                 }
@@ -886,6 +913,10 @@ const siteContent = {
           
           <p>Todo paciente que se sente mais seguro e acolhido apresenta consequentemente uma melhor motivação, impactando POSITIVAMENTE no seu prognóstico terapêutico. Isto é sem dúvida a grande vantagem ou a 'Chave de Ouro' da terapia bilíngue ou multilíngue.</p>
 
+          <div class="content-image">
+            <img src="/kids.png" alt="Sessão de terapia bilíngue" />
+          </div>
+
           <h2>Como é realizada a terapia bilíngue/multilíngue?</h2>
           <p>Para pacientes bilíngues e multilíngues, as línguas que serão utilizadas durante a terapia serão determinadas de acordo com as necessidades de cada paciente e seus familiares.</p>
           
@@ -904,7 +935,7 @@ const siteContent = {
           </ul>
         `
             },
-            "assessment": {
+            assessment: {
                 hero: {
                     tagline: "Avaliação Profissional",
                     title: "Avaliação",
@@ -936,7 +967,7 @@ const siteContent = {
           </ul>
         `
             },
-            "counseling": {
+            counseling: {
                 hero: {
                     tagline: "Suporte Familiar",
                     title: "Aconselhamento",
@@ -982,7 +1013,7 @@ const siteContent = {
           </ul>
         `
             },
-            "workshops": {
+            workshops: {
                 hero: {
                     tagline: "Treinamento Profissional",
                     title: "Workshops para Escolas e Professores",
@@ -1029,13 +1060,13 @@ const siteContent = {
           </ul>
         `
             },
-            "space": {
+            space: {
                 hero: {
-                    tagline: "Nossa Localização",
+                    tagline: "Ambiente de Trabalho",
                     title: "Nosso Espaço",
                     description: "Um ambiente acolhedor e profissional, projetado para criar uma atmosfera confortável para as sessões de terapia de fala. Nossa clínica oferece um espaço seguro onde os pacientes se sentem compreendidos e apoiados.",
                     backgroundImage: "selecao/IMG_5178.jpeg",
-                    imagePosition: "center"
+                    imagePosition: "bottom center"
                 },
                 sliderImages: [
                     {
@@ -1079,7 +1110,30 @@ const siteContent = {
           <p>Seja para uma avaliação, sessão de terapia ou aconselhamento, nosso espaço foi projetado para apoiar sua jornada em direção a uma melhor comunicação e desenvolvimento da linguagem.</p>
 
           <h2>Nossa Localização</h2>
-          <p>Localizada no coração de Hamburgo, nossa clínica é facilmente acessível e oferece uma localização conveniente para famílias da região. Recebemos pacientes de diversas origens culturais e linguísticas, criando um ambiente inclusivo para terapia multilíngue.</p>
+          <p>Nossa clínica está convenientemente localizada na área de Wandsbek, em Hamburgo, um distrito comercial vibrante com excelentes conexões de transporte público. A clínica é facilmente acessível por transporte público, tornando-se conveniente para famílias de toda a região de Hamburgo.</p>
+          
+          <p><strong>Transporte Público:</strong> A estação de U-Bahn mais próxima é <strong>Wandsbek-Gartenstadt</strong> (linha U1 do U-Bahn). As linhas de ônibus <strong>112, 172 e 262</strong> também atendem a área, com paradas próximas à clínica. A localização está bem conectada à rede de transporte público de Hamburgo (HVV), garantindo fácil acesso de várias partes da cidade.</p>
+          
+          <p>Recebemos pacientes de diversas origens culturais e linguísticas, criando um ambiente inclusivo para terapia multilíngue nesta localização acessível e bem conectada.</p>
+          
+          <div class="location-map">
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps?q=Auf+dem+K%C3%B6nigslande+96,+22047+Hamburg,+Germany&output=embed"
+                width="100%"
+                height="300"
+                style="border: 0; border-radius: 16px;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Location Map"
+              ></iframe>
+            </div>
+            <div class="address-info">
+              <p><strong>Auf dem Königslande 96</strong></p>
+              <p>22047 - Hamburgo, Alemanha</p>
+            </div>
+          </div>
         `
             }
         }
@@ -1121,7 +1175,7 @@ const siteContent = {
                 {
                     title: "Workshops für Schulen und Lehrer",
                     description: "Schulung für Pädagogen über zweisprachige Entwicklung, Identifizierung von Schwierigkeiten und Unterstützungsstrategien im Klassenzimmer.",
-                    fullDescription: "<h3>Workshop # 1: \"Verstehen und Unterstützen der zweisprachigen Sprach- und Sprachentwicklung im Klassenzimmer\"</h3><p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch identifiziert. Daher nicht für Sprachtherapie überwiesen. Lehrer lernen, normale und verzögerte Sprach- und Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p><ol><li>Typische Phasen der zweisprachigen Kindersprachentwicklung verstehen.</li><li>Den Unterschied zwischen \"normaler\" Sprachentwicklung und Sprachstörung erkennen.</li><li>Warnzeichen für Sprach- oder Sprachverzögerungen bei zweisprachigen Schülern identifizieren.</li><li>Klassenzimmerstrategien anwenden, um zweisprachige Schüler effektiv zu unterstützen.</li></ol><br><h3>Workshop # 2: \"Die häufigsten Sprach- und Sprachstörungen in Schulen erkennen\"</h3><p>Dieser Workshop ist für Pädagogen gedacht, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, die die schulische Leistung der Schüler beeinträchtigen können.</p><ol><li>Überblick über Sprache, Sprache und Kommunikation</li><li>Unterschied zwischen Sprach- und Sprachstörungen</li><li>Rote Flaggen und Klassenzimmermanifestationen</li><li>Artikulationsstörungen (z.B.: Lispeln)</li><li>Phonologische Abweichungen</li><li>Kindliche Sprechapraxie (CAS)</li><li>Flüssigkeitsstörungen (z.B. Stottern)</li><li>Rezeptive Sprachstörungen (Schwierigkeiten beim Verstehen von Anweisungen, Wortschatz oder Fragen)</li><li>Expressive Sprachstörungen (begrenzter Wortschatz, Verwendung kurzer Phrasen, grammatische Probleme)</li><li>Pragmatische Sprachstörungen (Herausforderungen der sozialen Kommunikation)</li><li>Sprachverzögerung vs. Störung</li></ol><br><h2>Workshop-Vorteile</h2><p>Unsere Workshops bieten Pädagogen praktische Werkzeuge, um:</p><ul><li><strong>Frühzeitig</strong> mögliche Kommunikationsschwierigkeiten zu identifizieren</li><li><strong>Strategien</strong> für Klassenzimmerunterstützung zu implementieren</li><li><strong>Verstehen</strong> der spezifischen Bedürfnisse zweisprachiger Schüler</li><li><strong>Effektiv zusammenarbeiten</strong> mit Sprachtherapeuten und Familien</li><li><strong>Inklusive Umgebungen</strong> zu schaffen, die allen Schülern zugute kommen</li></ul>",
+                    fullDescription: '<h3>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprach- und Sprachentwicklung im Klassenzimmer"</h3><p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch identifiziert. Daher nicht für Sprachtherapie überwiesen. Lehrer lernen, normale und verzögerte Sprach- und Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p><ol><li>Typische Phasen der zweisprachigen Kindersprachentwicklung verstehen.</li><li>Den Unterschied zwischen "normaler" Sprachentwicklung und Sprachstörung erkennen.</li><li>Warnzeichen für Sprach- oder Sprachverzögerungen bei zweisprachigen Schülern identifizieren.</li><li>Klassenzimmerstrategien anwenden, um zweisprachige Schüler effektiv zu unterstützen.</li></ol><br><h3>Workshop # 2: "Die häufigsten Sprach- und Sprachstörungen in Schulen erkennen"</h3><p>Dieser Workshop ist für Pädagogen gedacht, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, die die schulische Leistung der Schüler beeinträchtigen können.</p><ol><li>Überblick über Sprache, Sprache und Kommunikation</li><li>Unterschied zwischen Sprach- und Sprachstörungen</li><li>Rote Flaggen und Klassenzimmermanifestationen</li><li>Artikulationsstörungen (z.B.: Lispeln)</li><li>Phonologische Abweichungen</li><li>Kindliche Sprechapraxie (CAS)</li><li>Flüssigkeitsstörungen (z.B. Stottern)</li><li>Rezeptive Sprachstörungen (Schwierigkeiten beim Verstehen von Anweisungen, Wortschatz oder Fragen)</li><li>Expressive Sprachstörungen (begrenzter Wortschatz, Verwendung kurzer Phrasen, grammatische Probleme)</li><li>Pragmatische Sprachstörungen (Herausforderungen der sozialen Kommunikation)</li><li>Sprachverzögerung vs. Störung</li></ol><br><h2>Workshop-Vorteile</h2><p>Unsere Workshops bieten Pädagogen praktische Werkzeuge, um:</p><ul><li><strong>Frühzeitig</strong> mögliche Kommunikationsschwierigkeiten zu identifizieren</li><li><strong>Strategien</strong> für Klassenzimmerunterstützung zu implementieren</li><li><strong>Verstehen</strong> der spezifischen Bedürfnisse zweisprachiger Schüler</li><li><strong>Effektiv zusammenarbeiten</strong> mit Sprachtherapeuten und Familien</li><li><strong>Inklusive Umgebungen</strong> zu schaffen, die allen Schülern zugute kommen</li></ul>',
                     slug: "workshops",
                     heroImage: "workshop.jpeg"
                 }
@@ -1415,6 +1469,10 @@ const siteContent = {
           
           <p>Jeder Patient, der sich sicherer und aufgenommener fühlt, zeigt folglich eine bessere Motivation, was sich POSITIV auf seine therapeutische Prognose auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.</p>
 
+          <div class="content-image">
+            <img src="/kids.png" alt="Zweisprachige Therapiesitzung" />
+          </div>
+
           <h2>Wie wird die zweisprachige/mehrsprachige Therapie durchgeführt?</h2>
           <p>Für zweisprachige und mehrsprachige Patienten werden die Sprachen, die während der Therapie verwendet werden, entsprechend den Bedürfnissen jedes Patienten und seiner Familien bestimmt.</p>
           
@@ -1433,7 +1491,7 @@ const siteContent = {
           </ul>
         `
             },
-            "assessment": {
+            assessment: {
                 hero: {
                     tagline: "Professionelle Bewertung",
                     title: "Bewertung",
@@ -1465,7 +1523,7 @@ const siteContent = {
           </ul>
         `
             },
-            "counseling": {
+            counseling: {
                 hero: {
                     tagline: "Familienunterstützung",
                     title: "Beratung",
@@ -1511,7 +1569,7 @@ const siteContent = {
           </ul>
         `
             },
-            "workshops": {
+            workshops: {
                 hero: {
                     tagline: "Professionelle Schulung",
                     title: "Workshops für Schulen und Lehrer",
@@ -1558,13 +1616,13 @@ const siteContent = {
           </ul>
         `
             },
-            "space": {
+            space: {
                 hero: {
-                    tagline: "Unser Standort",
+                    tagline: "Arbeitsplatz",
                     title: "Unser Raum",
                     description: "Eine einladende und professionelle Umgebung, die geschaffen wurde, um eine angenehme Atmosphäre für Sprachtherapiesitzungen zu schaffen. Unsere Klinik bietet einen sicheren Raum, in dem sich Patienten verstanden und unterstützt fühlen.",
                     backgroundImage: "selecao/IMG_5178.jpeg",
-                    imagePosition: "center"
+                    imagePosition: "bottom center"
                 },
                 sliderImages: [
                     {
@@ -1608,7 +1666,30 @@ const siteContent = {
           <p>Egal, ob Sie zu einer Bewertung, Therapiesitzung oder Beratung kommen, unser Raum wurde entwickelt, um Ihre Reise zu besserer Kommunikation und Sprachentwicklung zu unterstützen.</p>
 
           <h2>Unser Standort</h2>
-          <p>Im Herzen von Hamburg gelegen, ist unsere Klinik leicht erreichbar und bietet eine günstige Lage für Familien in der Region. Wir begrüßen Patienten aus verschiedenen kulturellen und sprachlichen Hintergründen und schaffen eine inklusive Umgebung für mehrsprachige Therapie.</p>
+          <p>Unsere Klinik befindet sich günstig im Wandsbek-Bereich von Hamburg, einem lebendigen Geschäftsviertel mit ausgezeichneten öffentlichen Verkehrsverbindungen. Die Klinik ist mit öffentlichen Verkehrsmitteln leicht erreichbar und bietet eine bequeme Lage für Familien aus der gesamten Hamburger Region.</p>
+          
+          <p><strong>Öffentliche Verkehrsmittel:</strong> Die nächste U-Bahn-Station ist <strong>Wandsbek-Gartenstadt</strong> (U-Bahn-Linie U1). Die Buslinien <strong>112, 172 und 262</strong> bedienen ebenfalls die Gegend mit Haltestellen in der Nähe der Klinik. Der Standort ist gut an das öffentliche Verkehrsnetz von Hamburg (HVV) angebunden und gewährleistet einen einfachen Zugang aus verschiedenen Teilen der Stadt.</p>
+          
+          <p>Wir begrüßen Patienten aus verschiedenen kulturellen und sprachlichen Hintergründen und schaffen eine inklusive Umgebung für mehrsprachige Therapie an diesem zugänglichen und gut angebundenen Standort.</p>
+          
+          <div class="location-map">
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps?q=Auf+dem+K%C3%B6nigslande+96,+22047+Hamburg,+Germany&output=embed"
+                width="100%"
+                height="300"
+                style="border: 0; border-radius: 16px;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Location Map"
+              ></iframe>
+            </div>
+            <div class="address-info">
+              <p><strong>Auf dem Königslande 96</strong></p>
+              <p>22047 - Hamburg, Deutschland</p>
+            </div>
+          </div>
         `
             }
         }
@@ -1623,7 +1704,7 @@ const siteContent = {
  // ​
  // ​Tenho dois filhos que educo juntamente com meu marido nestas três línguas há mais de 20 anos. A
  // oportunidade de morar em vários países expandiu a nossa compreensão do verdadeiro significado de
- // uma integração na sociedade respeitando seus aspectos linguísticos e socioculturais. 
+ // uma integração na sociedade respeitando seus aspectos linguísticos e socioculturais.
  // 1. Hamburgo: Alemanha
  //  Two Languages Are Better Than One
  // Consultório de Terapia da Fala e Linguagem para Crianças e Adultos bilíngues e multilíngues

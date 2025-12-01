@@ -25,7 +25,7 @@
   color: var(--tertiary);
   margin: 0 0 1rem;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media (width <= 768px) {
@@ -36,12 +36,13 @@
 
 .OurPlace-module-scss-module__vaL5qW__description {
   color: var(--white);
+  margin-bottom: 0;
   font-size: 1.25rem;
 }
 
 .OurPlace-module-scss-module__vaL5qW__sliderContainer {
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
   position: relative;
 }
 

@@ -33,8 +33,17 @@
 
 @media (width <= 768px) {
   .Header-module-scss-module__t7BEda__wrapper {
-    height: 60px;
-    padding: 0 15px;
+    background-color: var(--white);
+    border-radius: 1rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    align-items: center;
+    width: fit-content;
+    height: 50px;
+    margin: 0 0 0 auto;
+    padding: 1rem .5rem;
+    display: flex;
     position: relative;
   }
 }
@@ -50,6 +59,13 @@
   object-fit: contain;
   width: 60px;
   height: 60px;
+}
+
+@media (width <= 768px) {
+  .Header-module-scss-module__t7BEda__logoImage {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .Header-module-scss-module__t7BEda__logoButton {
@@ -115,6 +131,7 @@
 }
 
 .Header-module-scss-module__t7BEda__navList {
+  white-space: nowrap;
   gap: 1rem;
   margin: 0;
   padding: 0;
@@ -221,7 +238,7 @@
   }
 
   .Header-module-scss-module__t7BEda__container {
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .Header-module-scss-module__t7BEda__mobileMenuToggle {
@@ -232,6 +249,7 @@
     border: none;
     justify-content: center;
     align-items: center;
+    margin-left: .5rem;
     padding: 8px;
     font-size: 28px;
     display: flex;

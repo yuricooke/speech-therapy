@@ -2,7 +2,6 @@
 
 import { Language } from "@/types";
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import styles from "./Header.module.scss";
 
@@ -53,6 +52,21 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
       document.body.style.overflow = "";
     }
   }, [isMobileMenuOpen]);
+
+  const scrollToTop = () => {
+    // If we're not on the home page, navigate to home first
+    if (pathname !== "/") {
+      router.push("/");
+      // Wait a bit for navigation, then scroll to top
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 100);
+    } else {
+      // Already on home page, just scroll to top
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    setIsMobileMenuOpen(false);
+  };
 
   const scrollToSection = (sectionId: string) => {
     // If we're not on the home page, navigate there with the hash
@@ -111,13 +125,17 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
           <div className={styles.wrapper}>
             {/* Logo */}
             <div className={styles.logo}>
-              <Link href="/#hero" className={styles.logoButton}>
+              <button
+                onClick={scrollToTop}
+                className={styles.logoButton}
+                aria-label="Go to top"
+              >
                 <img
                   src="/balao-sombra.svg"
                   alt="Logo"
                   className={styles.logoImage}
                 />
-              </Link>
+              </button>
             </div>
 
             {/* Hamburger Menu Button (Mobile only) */}

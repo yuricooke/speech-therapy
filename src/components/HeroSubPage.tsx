@@ -6,6 +6,7 @@ import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
 import { Language } from "@/types";
 import { siteContent } from "@/utils/content";
 import ContactModal from "./ContactModal";
+import ImageModal from "./ImageModal";
 import styles from "./HeroSubPage.module.scss";
 
 interface HeroSubPageProps {
@@ -26,6 +27,11 @@ export default function HeroSubPage({
   customContent,
 }: HeroSubPageProps) {
   const [isContactOpen, setIsContactOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<{
+    src: string;
+    alt: string;
+    caption?: string;
+  } | null>(null);
   const defaultContent = siteContent[language].hero;
   const content = customContent
     ? {
@@ -128,6 +134,13 @@ export default function HeroSubPage({
                       src={image.src}
                       alt={image.caption}
                       className={styles.slideImage}
+                      onClick={() =>
+                        setSelectedImage({ 
+                          src: image.src, 
+                          alt: image.caption,
+                          caption: image.caption
+                        })
+                      }
                     />
                     <figcaption className={styles.slideCaption}>
                       {image.caption}
@@ -236,6 +249,13 @@ export default function HeroSubPage({
         language={language}
         isOpen={isContactOpen}
         onClose={() => setIsContactOpen(false)}
+      />
+      <ImageModal
+        isOpen={!!selectedImage}
+        imageSrc={selectedImage?.src || ""}
+        imageAlt={selectedImage?.alt || ""}
+        imageCaption={selectedImage?.caption}
+        onClose={() => setSelectedImage(null)}
       />
     </section>
   );

@@ -133,6 +133,8 @@ export default function Partnerships({ language }: PartnershipsProps) {
       ? "Visit website"
       : language === "pt"
       ? "Visitar site"
+      : language === "es"
+      ? "Visitar sitio web"
       : "Website besuchen";
 
   return (
@@ -144,6 +146,8 @@ export default function Partnerships({ language }: PartnershipsProps) {
               ? "Partnerships"
               : language === "pt"
               ? "Parcerias"
+              : language === "es"
+              ? "Colaboraciones"
               : "Partnerschaften"}
           </h2>
           <p className={styles.subtitle}>
@@ -151,6 +155,8 @@ export default function Partnerships({ language }: PartnershipsProps) {
               ? "Collaborating with leading institutions to provide the best multilingual speech therapy services"
               : language === "pt"
               ? "Colaborando com instituições líderes para fornecer os melhores serviços de terapia de fala multilíngue"
+              : language === "es"
+              ? "Colaborando con instituciones líderes para brindar los mejores servicios de terapia del habla multilingüe"
               : "Zusammenarbeit mit führenden Institutionen zur Bereitstellung der besten Multilingual Speech Therapy Services"}
           </p>
         </div>

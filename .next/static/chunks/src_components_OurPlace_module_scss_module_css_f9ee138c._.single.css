@@ -54,6 +54,8 @@
 
 .OurPlace-module-scss-module__vaL5qW__sliderWrapper {
   cursor: grab;
+  touch-action: pan-y pinch-zoom;
+  -webkit-overflow-scrolling: touch;
   border-radius: .75rem;
   overflow: visible;
 }

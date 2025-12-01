@@ -4615,8 +4615,11 @@ function OurPlace({ language }) {
     const [emblaRef, emblaApi] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$react$2f$esm$2f$embla$2d$carousel$2d$react$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
         align: "start",
         loop: false,
-        dragFree: false,
-        containScroll: "trimSnaps"
+        dragFree: true,
+        containScroll: "trimSnaps",
+        watchDrag: true,
+        skipSnaps: false,
+        duration: 25
     }, [
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$wheel$2d$gestures$2f$dist$2f$embla$2d$carousel$2d$wheel$2d$gestures$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WheelGesturesPlugin"])({
             forceWheelAxis: "x"
@@ -4703,7 +4706,7 @@ function OurPlace({ language }) {
                             children: texts.title
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 105,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4711,13 +4714,13 @@ function OurPlace({ language }) {
                             children: texts.description
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 106,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 104,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4736,22 +4739,22 @@ function OurPlace({ language }) {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].slideImage
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OurPlace.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 118,
                                             columnNumber: 19
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/components/OurPlace.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 117,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/OurPlace.tsx",
-                                lineNumber: 112,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 111,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4765,7 +4768,7 @@ function OurPlace({ language }) {
                                     children: "‹"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4778,12 +4781,12 @@ function OurPlace({ language }) {
                                             "aria-label": `Go to slide ${index + 1}`
                                         }, index, false, {
                                             fileName: "[project]/src/components/OurPlace.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 138,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 136,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4794,19 +4797,19 @@ function OurPlace({ language }) {
                                     children: "›"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 145,
+                                    lineNumber: 148,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 124,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 110,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4817,23 +4820,23 @@ function OurPlace({ language }) {
                         children: texts.cta
                     }, void 0, false, {
                         fileName: "[project]/src/components/OurPlace.tsx",
-                        lineNumber: 158,
+                        lineNumber: 161,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 157,
+                    lineNumber: 160,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/OurPlace.tsx",
-            lineNumber: 103,
+            lineNumber: 106,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/OurPlace.tsx",
-        lineNumber: 102,
+        lineNumber: 105,
         columnNumber: 5
     }, this);
 }
@@ -5468,7 +5471,7 @@ function Partnerships({ language }) {
         isAutoplay,
         partnerships.length
     ]);
-    const visitWebsiteText = language === "en" ? "Visit website" : language === "pt" ? "Visitar site" : "Website besuchen";
+    const visitWebsiteText = language === "en" ? "Visit website" : language === "pt" ? "Visitar site" : language === "es" ? "Visitar sitio web" : "Website besuchen";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "partnerships",
         className: `section ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].partnerships}`,
@@ -5480,24 +5483,24 @@ function Partnerships({ language }) {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
-                            children: language === "en" ? "Partnerships" : language === "pt" ? "Parcerias" : "Partnerschaften"
+                            children: language === "en" ? "Partnerships" : language === "pt" ? "Parcerias" : language === "es" ? "Colaboraciones" : "Partnerschaften"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 142,
+                            lineNumber: 144,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].subtitle,
-                            children: language === "en" ? "Collaborating with leading institutions to provide the best multilingual speech therapy services" : language === "pt" ? "Colaborando com instituições líderes para fornecer os melhores serviços de terapia de fala multilíngue" : "Zusammenarbeit mit führenden Institutionen zur Bereitstellung der besten Multilingual Speech Therapy Services"
+                            children: language === "en" ? "Collaborating with leading institutions to provide the best multilingual speech therapy services" : language === "pt" ? "Colaborando com instituições líderes para fornecer os melhores serviços de terapia de fala multilíngue" : language === "es" ? "Colaborando con instituciones líderes para brindar los mejores servicios de terapia del habla multilingüe" : "Zusammenarbeit mit führenden Institutionen zur Bereitstellung der besten Multilingual Speech Therapy Services"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 149,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Partnerships.tsx",
-                    lineNumber: 141,
+                    lineNumber: 143,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5511,7 +5514,7 @@ function Partnerships({ language }) {
                             children: "‹"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 159,
+                            lineNumber: 165,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5532,19 +5535,19 @@ function Partnerships({ language }) {
                                                     alt: partner.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Partnerships.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 184,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Partnerships.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 183,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].verticalLine
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Partnerships.tsx",
-                                                lineNumber: 181,
+                                                lineNumber: 187,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5555,7 +5558,7 @@ function Partnerships({ language }) {
                                                         children: partner.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Partnerships.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 189,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5573,40 +5576,40 @@ function Partnerships({ language }) {
                                                                     children: "open_in_new"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Partnerships.tsx",
-                                                                    lineNumber: 191,
+                                                                    lineNumber: 197,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Partnerships.tsx",
-                                                            lineNumber: 185,
+                                                            lineNumber: 191,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Partnerships.tsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 190,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Partnerships.tsx",
-                                                lineNumber: 182,
+                                                lineNumber: 188,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Partnerships.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 182,
                                         columnNumber: 17
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/src/components/Partnerships.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 181,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 167,
+                            lineNumber: 173,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5616,13 +5619,13 @@ function Partnerships({ language }) {
                             children: "›"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 205,
+                            lineNumber: 211,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Partnerships.tsx",
-                    lineNumber: 158,
+                    lineNumber: 164,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5633,23 +5636,23 @@ function Partnerships({ language }) {
                             "aria-label": `Go to slide ${index + 1}`
                         }, index, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 216,
+                            lineNumber: 222,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Partnerships.tsx",
-                    lineNumber: 214,
+                    lineNumber: 220,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Partnerships.tsx",
-            lineNumber: 140,
+            lineNumber: 142,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Partnerships.tsx",
-        lineNumber: 139,
+        lineNumber: 141,
         columnNumber: 5
     }, this);
 }

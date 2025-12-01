@@ -124,6 +124,15 @@ export const metadata: Metadata = {
   },
   category: "Healthcare",
   classification: "Speech Language Therapy Services",
+  icons: {
+    icon: [
+      { url: "/baloes.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
+    ],
+    apple: [
+      { url: "/baloes.svg", type: "image/svg+xml" },
+    ],
+  },
   other: {
     "geo.region": "DE-HH",
     "geo.placename": "Hamburg",
@@ -255,15 +264,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link
-          rel="icon"
-          href="/favicon.ico"
-          type="image/x-icon"
-          sizes="16x16"
-        />
-
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

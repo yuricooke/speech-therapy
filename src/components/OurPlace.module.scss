@@ -52,6 +52,8 @@
   overflow: visible;
   cursor: grab;
   border-radius: 0.75rem;
+  touch-action: pan-y pinch-zoom;
+  -webkit-overflow-scrolling: touch;
   // width: 100%;
 
   @media (max-width: 768px) {

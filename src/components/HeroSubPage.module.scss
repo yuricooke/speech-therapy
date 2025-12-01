@@ -151,6 +151,8 @@
     cursor: grab;
     width: calc(100vw - 6rem);
     border-radius: 0.75rem;
+    touch-action: pan-y pinch-zoom;
+    -webkit-overflow-scrolling: touch;
 
     &:active {
       cursor: grabbing;

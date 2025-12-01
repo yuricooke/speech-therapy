@@ -27,8 +27,11 @@ export default function OurPlace({ language }: OurPlaceProps) {
     {
       align: "start",
       loop: false,
-      dragFree: false,
+      dragFree: true,
       containScroll: "trimSnaps",
+      watchDrag: true,
+      skipSnaps: false,
+      duration: 25,
     },
     [WheelGesturesPlugin({ forceWheelAxis: "x" })]
   );

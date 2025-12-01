@@ -52,11 +52,14 @@ export default function HeroSubPage({
     {
       align: "start",
       loop: false,
-      dragFree: false, // Changed to false for better snap alignment
-      containScroll: "trimSnaps", // Ensure proper alignment at edges
+      dragFree: true,
+      containScroll: "trimSnaps",
+      watchDrag: true,
+      skipSnaps: false,
+      duration: 25,
     },
     [
-      WheelGesturesPlugin({ forceWheelAxis: "x" }), // Enable touchpad/mouse wheel scroll
+      WheelGesturesPlugin({ forceWheelAxis: "x" }),
     ]
   );
 

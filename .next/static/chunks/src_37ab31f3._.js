@@ -2291,8 +2291,8 @@ function ContactForm({ language, onSubmitted }) {
         setIsSubmitting(true);
         setSubmitStatus("idle");
         try {
-            // Use trailing slash to match production route on Vercel
-            const response = await fetch("/api/contact/", {
+            // Chama a API REST do Next.js (sem barra final)
+            const response = await fetch("/api/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

@@ -1,14 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // Removido output: 'export' para permitir API routes e server functions na Vercel
   images: {
     unoptimized: true,
   },
-  // Se seu repositório se chama "speech-therapy-site", use:
-  // basePath: '/speech-therapy-site',
-  // Se for o repositório principal (username.github.io), deixe comentado:
-  // basePath: '',
   trailingSlash: true,
 };
 

@@ -176,6 +176,14 @@ function Header({ language, onLanguageChange }) {
                     aboutMe: "Über Mich",
                     contact: "Kontakt"
                 };
+            case "es":
+                return {
+                    home: "Inicio",
+                    therapies: "Terapias & More",
+                    space: "Nuestro Espacio",
+                    aboutMe: "Sobre Mí",
+                    contact: "Contacto"
+                };
             default:
                 return {
                     home: "Home",
@@ -208,17 +216,17 @@ function Header({ language, onLanguageChange }) {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].logoImage
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 141,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Header.tsx",
-                                    lineNumber: 128,
+                                    lineNumber: 136,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 127,
+                                lineNumber: 135,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -230,12 +238,12 @@ function Header({ language, onLanguageChange }) {
                                     children: isMobileMenuOpen ? "close" : "menu"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Header.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 155,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 142,
+                                lineNumber: 150,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -250,21 +258,6 @@ function Header({ language, onLanguageChange }) {
                                                 children: navText.home
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
-                                                lineNumber: 156,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 155,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                onClick: ()=>scrollToSection("overview"),
-                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navItem,
-                                                children: navText.therapies
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Header.tsx",
                                                 lineNumber: 164,
                                                 columnNumber: 19
                                             }, this)
@@ -275,9 +268,9 @@ function Header({ language, onLanguageChange }) {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                onClick: ()=>scrollToSection("our-space"),
+                                                onClick: ()=>scrollToSection("overview"),
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navItem,
-                                                children: navText.space
+                                                children: navText.therapies
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
                                                 lineNumber: 172,
@@ -290,9 +283,9 @@ function Header({ language, onLanguageChange }) {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                onClick: ()=>scrollToSection("about"),
+                                                onClick: ()=>scrollToSection("our-space"),
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navItem,
-                                                children: navText.aboutMe
+                                                children: navText.space
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
                                                 lineNumber: 180,
@@ -305,9 +298,9 @@ function Header({ language, onLanguageChange }) {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                onClick: ()=>scrollToSection("contact"),
+                                                onClick: ()=>scrollToSection("about"),
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navItem,
-                                                children: navText.contact
+                                                children: navText.aboutMe
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
                                                 lineNumber: 188,
@@ -317,16 +310,31 @@ function Header({ language, onLanguageChange }) {
                                             fileName: "[project]/src/components/Header.tsx",
                                             lineNumber: 187,
                                             columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                onClick: ()=>scrollToSection("contact"),
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navItem,
+                                                children: navText.contact
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Header.tsx",
+                                                lineNumber: 196,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Header.tsx",
+                                            lineNumber: 195,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Header.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 162,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 153,
+                                lineNumber: 161,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -337,7 +345,7 @@ function Header({ language, onLanguageChange }) {
                                         children: "language"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 200,
+                                        lineNumber: 208,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -351,7 +359,7 @@ function Header({ language, onLanguageChange }) {
                                                 children: "EN"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
-                                                lineNumber: 207,
+                                                lineNumber: 215,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -359,7 +367,7 @@ function Header({ language, onLanguageChange }) {
                                                 children: "PT"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
-                                                lineNumber: 208,
+                                                lineNumber: 216,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -367,35 +375,43 @@ function Header({ language, onLanguageChange }) {
                                                 children: "DE"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Header.tsx",
-                                                lineNumber: 209,
+                                                lineNumber: 217,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                value: "es",
+                                                children: "ES"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Header.tsx",
+                                                lineNumber: 218,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 201,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 199,
+                                lineNumber: 207,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 125,
+                        lineNumber: 133,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Header.tsx",
-                    lineNumber: 124,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 119,
+                lineNumber: 127,
                 columnNumber: 7
             }, this),
             isMobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -417,12 +433,12 @@ function Header({ language, onLanguageChange }) {
                                             children: navText.home
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 229,
+                                            lineNumber: 238,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 228,
+                                        lineNumber: 237,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -432,12 +448,12 @@ function Header({ language, onLanguageChange }) {
                                             children: navText.therapies
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 237,
+                                            lineNumber: 246,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 236,
+                                        lineNumber: 245,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -447,12 +463,12 @@ function Header({ language, onLanguageChange }) {
                                             children: navText.space
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 245,
+                                            lineNumber: 254,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 244,
+                                        lineNumber: 253,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -462,12 +478,12 @@ function Header({ language, onLanguageChange }) {
                                             children: navText.aboutMe
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 253,
+                                            lineNumber: 262,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 252,
+                                        lineNumber: 261,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -477,23 +493,23 @@ function Header({ language, onLanguageChange }) {
                                             children: navText.contact
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 261,
+                                            lineNumber: 270,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
-                                        lineNumber: 260,
+                                        lineNumber: 269,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 227,
+                                lineNumber: 236,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Header.tsx",
-                            lineNumber: 226,
+                            lineNumber: 235,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -504,7 +520,7 @@ function Header({ language, onLanguageChange }) {
                                     children: "language"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Header.tsx",
-                                    lineNumber: 272,
+                                    lineNumber: 281,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -518,7 +534,7 @@ function Header({ language, onLanguageChange }) {
                                             children: "EN"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 279,
+                                            lineNumber: 288,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -526,7 +542,7 @@ function Header({ language, onLanguageChange }) {
                                             children: "PT"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 280,
+                                            lineNumber: 289,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -534,30 +550,38 @@ function Header({ language, onLanguageChange }) {
                                             children: "DE"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Header.tsx",
-                                            lineNumber: 281,
+                                            lineNumber: 290,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                            value: "es",
+                                            children: "ES"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Header.tsx",
+                                            lineNumber: 291,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Header.tsx",
-                                    lineNumber: 273,
+                                    lineNumber: 282,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Header.tsx",
-                            lineNumber: 271,
+                            lineNumber: 280,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Header.tsx",
-                    lineNumber: 222,
+                    lineNumber: 231,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 218,
+                lineNumber: 227,
                 columnNumber: 9
             }, this)
         ]
@@ -2240,6 +2264,562 @@ const siteContent = {
         `
             }
         }
+    },
+    es: {
+        hero: {
+            tagline: "Logopeda Multilingüe",
+            title: "¡Dos Idiomas Son Mejores Que Uno!",
+            description: "¡Bienvenido a mi clínica de terapia del habla bilingüe y multilingüe!<br><br> El objetivo principal de mis terapias es acoger a los pacientes a través de su lengua materna. El vínculo terapeuta-paciente se establece de manera especial cuando los pacientes se dan cuenta de que son comprendidos en lo que dicen, piensan y sienten. Cuando los pacientes se sienten más seguros y acogidos, muestran una mejor motivación, impactando directamente en su pronóstico terapéutico. <br><br> Esta es sin duda la gran ventaja o la 'Clave de Oro' de la terapia bilingüe o multilingüe.",
+            cta: {
+                whatsapp: "WhatsApp",
+                email: "Correo",
+                schedule: "Reservar"
+            }
+        },
+        overview: {
+            items: [
+                {
+                    title: "Terapia Bilingüe o Multilingüe",
+                    description: "Terapia especializada que acoge al paciente a través de su lengua materna, creando un vínculo especial Terapeuta-Paciente para un mejor desarrollo.",
+                    fullDescription: "¿Cuál es el objetivo de mi terapia bilingüe/multilingüe?<br><br>Mi terapia bilingüe y multilingüe tiene como objetivo principal acoger al paciente a través de su lengua materna. El vínculo Terapeuta-Paciente se establece de manera acogedora cuando el paciente se da cuenta de que es comprendido en lo que HABLA, PIENSA y SIENTE! Todo paciente que se siente más seguro y acogido presenta en consecuencia una mejor motivación, impactando POSITIVAMENTE en su pronóstico terapéutico. Esta es sin duda la gran ventaja o la 'Clave de Oro' de la terapia bilingüe o multilingüe.<br><br> ¿Cómo se realiza la terapia bilingüe/multilingüe?<br><br>Para pacientes bilingües y multilingües, los idiomas que se utilizarán durante la terapia se determinarán según las necesidades de cada paciente y sus familias. <br><br>Los padres, familiares y cuidadores serán informados sobre los programas y métodos de terapia, así como los objetivos de rehabilitación, pudiendo así apoyar la terapia en casa. Con la cooperación familiar, podemos alcanzar los objetivos de la terapia más rápidamente.<br><br>¿En qué se diferencia la terapia bilingüe/multilingüe?<br><br>La terapia bilingüe y multilingüe se diferencia de las terapias comunes, ya que ofrecerá un plan de terapia que respeta los aspectos socioculturales e interculturales de cada paciente. En mi terapia también utilizaré métodos internacionales de habla y lenguaje junto con mi conocimiento de psicopedagogía clínica.<br><br>¿Qué se necesita para la terapia bilingüe/multilingüe aquí en Alemania?<br><br>• Prescripción médica válida;<br>• Firma y sello del médico (no de los asistentes) en la prescripción;<br>• La prescripción médica debe proporcionar datos sobre el diagnóstico y el tiempo de sesión;",
+                    slug: "bilingual-multilingual-therapy",
+                    heroImage: "terapia.jpg"
+                },
+                {
+                    title: "Evaluación",
+                    description: "Evaluación diferenciada y especializada para pacientes bilingües y multilingües, considerando aspectos culturales y lingüísticos únicos.",
+                    fullDescription: "¿Cómo se realiza la evaluación del habla y el lenguaje en general?<br><br> La evaluación se realizará mediante pruebas estandarizadas y observaciones de todas las áreas del Habla-Lenguaje (vocabulario, gramática, lectura, escritura, habla, comprensión y fluidez), si es posible en todos los idiomas/lenguas en los que el paciente se comunica.<br><br>También se realizarán pruebas específicas para evaluar la deglución y funcionalidad de los órganos orofaciales cuando sea necesario.<br><br> ¿En qué se diferencia la evaluación bilingüe/multilingüe de las evaluaciones monolingües?<br><br>La evaluación bilingüe o multilingüe es una evaluación diferenciada, ya que en su mayoría no incluirá pruebas estandarizadas, que pueden interferir negativamente en las interpretaciones clínicas de cada condición clínica. Los niños bilingües y multilingües no deben ser evaluados con las mismas pruebas utilizadas para niños monolingües. La evaluación se realizará mediante un análisis preciso de todo un contexto de desarrollo bilingüe y multilingüe. Se valorarán factores culturales como el origen de los idiomas expuestos y aspectos familiares.",
+                    slug: "assessment",
+                    heroImage: "assessment.jpg"
+                },
+                {
+                    title: "Asesoramiento",
+                    description: "Sesiones de asesoramiento para familias sobre desarrollo bilingüe, hablantes tardíos y trastornos del habla y el lenguaje.",
+                    fullDescription: "<h3>Asesoramiento # 1: Ayudando a tu hijo a crecer bilingüe o multilingüe</h3><p><em>(Multibag incluida en el material)</em></p><p>Esta sesión de asesoramiento fue diseñada para proporcionar orientación clara y basada en evidencia sobre cómo tu hijo desarrolla el habla y el lenguaje en múltiples idiomas y cómo puedes apoyarlo con confianza en casa.</p><p><strong>Algunas preguntas frecuentes respondidas en este asesoramiento:</strong></p><ol><li>¿Mi hijo puede aprender más de un idioma, incluso con dificultades?</li><li>¿Qué es normal esperar en el desarrollo del lenguaje bilingüe/multilingüe?</li><li>¿Cómo puedo ayudar en casa? ¿Qué materiales y juguetes debo usar?</li><li>¿Cuándo debo preocuparme? ¿Qué es patológico?</li><li>¿Qué pasa con los niños con necesidades especiales, cómo estimular múltiples idiomas?</li></ol><br><h3>Asesoramiento # 2: Bilingüismo, Multilingüismo y Hablantes Tardíos</h3><p>Esta sesión de asesoramiento es para familias que crían un niño bilingüe/multilingüe con retraso en el habla en más de un idioma.</p><ol><li>¿Quién es un Hablante Tardío?</li><li>¿Un Hablante Tardío puede volverse bilingüe o multilingüe?</li><li>¿Qué es normal en un Hablante Tardío bilingüe/multilingüe vs. qué no lo es?</li><li>¿Cuándo preocuparse?</li><li>¿Qué pueden hacer los padres en casa?</li><li>¿Qué pasa con los niños con necesidades especiales?</li></ol><br><h3>Asesoramiento # 3: Entendiendo el bilingüismo/multilingüismo y los trastornos del habla y el lenguaje</h3><p>Esta sesión de asesoramiento es para familias bilingües y multilingües que tienen hijos con cualquier tipo de alteración del habla y el lenguaje y que quieren entender mejor cómo las posibles limitaciones impactarán el desarrollo del bilingüismo y multilingüismo en casa, en la escuela y en el entorno.</p><ol><li>Trastornos del habla y el lenguaje en niños bilingües/multilingües</li><li>Cómo se realiza la evaluación bilingüe y multilingüe</li><li>Cómo mantener la lengua materna</li><li>Apoyo lingüístico en casa, escuela y comunidad</li><li>Cuándo buscar ayuda</li><li>Tranquilidad para los padres</li><li>Mitos vs. Hechos: Prestando atención a mitos y verdades en la educación bilingüe y multilingüe</li></ol>",
+                    slug: "counseling",
+                    heroImage: "counseling.jpeg"
+                },
+                {
+                    title: "Talleres para Escuelas y Maestros",
+                    description: "Capacitación para educadores sobre desarrollo bilingüe, identificación de dificultades y estrategias de apoyo en el aula.",
+                    fullDescription: '<h3>Taller # 1: "Entendiendo y apoyando el desarrollo del habla y lenguaje bilingüe en el aula"</h3><p><strong>Objetivo del curso:</strong> Muchos estudiantes bilingües y multilingües son identificados incorrectamente en términos de aprendizaje y desarrollo del lenguaje. Por lo tanto, no son derivados para terapia del habla. Los maestros aprenderán a reconocer el desarrollo normal y retrasado del habla y lenguaje en estudiantes bilingües.</p><ol><li>Entender las etapas típicas del desarrollo del lenguaje del niño bilingüe.</li><li>Reconocer la diferencia entre el desarrollo "normal" del lenguaje y el trastorno del lenguaje.</li><li>Identificar señales de advertencia para retrasos del habla o lenguaje en estudiantes bilingües.</li><li>Aplicar estrategias en el aula para apoyar efectivamente a estudiantes bilingües.</li></ol><br><h3>Taller # 2: "Reconociendo los trastornos del habla y lenguaje más comunes en las escuelas"</h3><p>Este taller está diseñado para educadores que quieren entender mejor los principales trastornos de comunicación que pueden afectar el rendimiento escolar de los estudiantes.</p><ol><li>Resumen del habla, lenguaje y comunicación</li><li>Diferencia entre trastornos del habla y lenguaje</li><li>Señales de alerta y manifestaciones en el aula</li><li>Trastornos de articulación (ej: ceceo)</li><li>Desviaciones fonológicas</li><li>Apraxia del Habla Infantil (CAS)</li><li>Trastornos de fluidez (ej: tartamudez)</li><li>Trastornos del lenguaje receptivo (dificultad para entender instrucciones, vocabulario o preguntas)</li><li>Trastornos del lenguaje expresivo (vocabulario limitado, uso de frases cortas, problemas gramaticales)</li><li>Trastornos pragmáticos del lenguaje (desafíos de comunicación social)</li><li>Retraso del lenguaje vs. trastorno</li></ol><br><h2>Beneficios de los Talleres</h2><p>Nuestros talleres proporcionan a los educadores herramientas prácticas para:</p><ul><li><strong>Identificar temprano</strong> posibles dificultades de comunicación</li><li><strong>Implementar estrategias</strong> de apoyo en el aula</li><li><strong>Entender</strong> las necesidades específicas de estudiantes bilingües</li><li><strong>Colaborar efectivamente</strong> con logopedas y familias</li><li><strong>Crear entornos inclusivos</strong> que beneficien a todos los estudiantes</li></ul>',
+                    slug: "workshops",
+                    heroImage: "workshop.jpeg"
+                }
+            ]
+        },
+        products: {
+            title: "Servicios de Terapia",
+            subtitle: "Servicios integrales de terapia del habla y lenguaje multilingüe"
+        },
+        about: {
+            title: "Sobre Mí",
+            name: "Tatiana Cooke Munkes",
+            description: "Soy logopeda multilingüe reconocida por las autoridades del departamento de salud del estado de Hamburgo, Alemania. Tengo 30 años de experiencia profesional adquirida en Brasil, Inglaterra, Suiza, USA y Alemania, como logopeda y psicopedagoga. Ofrezco evaluación, terapia y asesoramiento en portugués, alemán, inglés y español para familias bilingües y multilingües.",
+            experience: "Más de 30 años de experiencia en terapia y educación multilingüe",
+            personalNote: "Tengo dos hijos que he estado educando junto con mi esposo en estos tres idiomas durante más de 20 años. La oportunidad de vivir en varios países expandió nuestra comprensión del verdadero significado de la integración en la sociedad respetando sus aspectos lingüísticos y socioculturales.",
+            countries: [
+                {
+                    id: 1,
+                    country: "Alemania",
+                    location: "Hamburgo",
+                    period: "Actual",
+                    flag: "🇩🇪",
+                    isActive: true,
+                    experiences: [
+                        {
+                            company: "Two Languages Are Better Than One",
+                            position: "Clínica de Terapia del Habla y Lenguaje para Niños y Adultos Bilingües y Multilingües",
+                            description: "Terapias bilingües y multilingües para estudiantes con dificultades de comunicación oral, lectura y escritura."
+                        },
+                        {
+                            company: "ISH - International School of Hamburg",
+                            position: "Logopeda",
+                            description: "Terapias bilingües y multilingües para estudiantes con dificultades de comunicación oral, lectura y escritura."
+                        },
+                        {
+                            company: "Clínica de Terapia del Habla Karen Grosstück",
+                            position: "Logopeda Domiciliaria",
+                            description: "Terapia domiciliaria para pacientes geriátricos con dificultades del habla, lenguaje y deglución debido a problemas neurológicos y parálisis cerebral."
+                        }
+                    ]
+                },
+                {
+                    id: 2,
+                    country: "Suiza",
+                    location: "Zug",
+                    period: "Anterior",
+                    flag: "🇨🇭",
+                    isActive: false,
+                    experiences: [
+                        {
+                            company: "Work & Life (International Kindergarten)",
+                            position: "Logopeda",
+                            description: "Terapia para niños bilingües y multilingües con dificultades del habla y lenguaje."
+                        }
+                    ]
+                },
+                {
+                    id: 3,
+                    country: "Inglaterra",
+                    location: "Birmingham",
+                    period: "Anterior",
+                    flag: "🇬🇧",
+                    isActive: false,
+                    experiences: [
+                        {
+                            company: "Fox Hollies School (Escuela de Necesidades Especiales)",
+                            position: "Formación en Logopedia",
+                            description: "Formación en el sector de terapia del habla y lenguaje con estudiantes con dificultades especiales."
+                        }
+                    ]
+                },
+                {
+                    id: 4,
+                    country: "USA",
+                    location: "New York City",
+                    period: "Anterior",
+                    flag: "🇺🇸",
+                    isActive: false,
+                    experiences: [
+                        {
+                            company: "New York Eye & Ear Infirmary Hospital",
+                            position: "Formación en Terapia Bilingüe",
+                            description: "Formación en el sector bilingüe de terapia del habla y lenguaje (Inglés y Español)."
+                        }
+                    ]
+                },
+                {
+                    id: 5,
+                    country: "Brasil",
+                    location: "Río de Janeiro & Espírito Santo",
+                    period: "Anterior",
+                    flag: "🇧🇷",
+                    isActive: false,
+                    experiences: [
+                        {
+                            company: "A.B.B.R Asociación Brasileña Benéfica de Rehabilitación",
+                            position: "Logopeda (Río de Janeiro)",
+                            description: "Terapia del habla y lenguaje para adultos y niños con trastornos neurológicos. Terapia y asesoramiento psicopedagógico a padres."
+                        },
+                        {
+                            company: "C.R.E.F.E.S. Centro de Rehabilitación Física del Estado de Espírito Santo",
+                            position: "Logopeda (Espírito Santo)",
+                            description: "Terapia para adultos con trastornos neurológicos: afasia, disartria y disfagias; Terapia para niños con parálisis cerebral y otros trastornos neurológicos."
+                        }
+                    ]
+                }
+            ]
+        },
+        therapyServices: [
+            {
+                id: "language",
+                title: "Lenguaje",
+                description: "Desarrollo del lenguaje y apoyo multilingüe",
+                link: "/es/lenguaje",
+                detailedContent: {
+                    overview: "Cuando tu hijo se comunica contigo oralmente a través de palabras, está usando su lenguaje expresivo verbal. Si usa gestos o señala, está tratando de comunicarse, pero de manera no verbal.",
+                    receptive: "Cuando tu hijo entiende lo que se dice, está usando varias habilidades de lenguaje receptivo para entender conversaciones y diálogos.",
+                    disorders: "Cuando el lenguaje expresivo (verbal y no verbal) y el lenguaje receptivo (comprensión) no se están desarrollando adecuadamente, tu hijo puede presentar dificultades de comunicación y posibles trastornos tanto en el lenguaje expresivo como en el receptivo.",
+                    signs: [
+                        "Muestra dificultades para explicar deseos y necesidades debido a la falta de vocabulario",
+                        "Tiene dos años de edad y habla menos de 50 palabras",
+                        "Habla palabras aisladas o frases con solo dos palabras",
+                        "Presenta errores gramaticales al intentar explicar algo",
+                        "Tiene dificultad para secuenciar ideas y ponerlas en una narrativa",
+                        "Habla solo con ciertas personas y en ciertos lugares; reacio a comunicarse",
+                        "Tiene dificultad para entender lo que dices",
+                        "Tiene dificultades en la comunicación social con amigos en la escuela",
+                        "Tiene dificultades para entender reglas de comunicación social (ej: respetar turnos para hablar, buen contacto visual, lenguaje corporal)"
+                    ],
+                    treatment: "Si tu hijo presenta algunos de los signos mencionados anteriormente, puedes solicitar una prescripción (Verordnung) del pediatra para terapia del habla (Logopädische Behandlung).",
+                    germanTerms: "En Alemania llamamos a esta condición Sprachentwicklungsstörung (Trastorno del Desarrollo del Lenguaje) o Sprachentwicklungsverzögerung (Retraso en el Desarrollo del Lenguaje)."
+                }
+            },
+            {
+                id: "speech",
+                title: "Habla",
+                description: "Terapia del habla para articulación y comunicación",
+                link: "/es/habla",
+                detailedContent: {
+                    overview: "El habla se refiere a la articulación de fonemas o sonidos de las palabras cuando tu hijo se comunica. Las alteraciones del habla pueden ser fonéticas y/o fonológicas.",
+                    phoneticAlterations: "Las alteraciones fonéticas (articulatorias) del habla se caracterizan por la dificultad para realizar el movimiento correcto de un fonema específico. El niño dice 'suva', 'Socolate' en lugar de 'chuva', 'chocolate'.",
+                    phonologicalAlterations: "Las alteraciones fonológicas involucran dificultad o inmadurez en la conciencia fonológica de los sonidos. El niño no hace discriminación auditiva adecuada entre los sonidos.",
+                    ageGuidelines: "Los niños deben pronunciar los sonidos correctamente alrededor de los 3 años y 6 meses. Generalmente aconsejamos a los padres de niños bilingües y multilingües que den un margen de 6 meses más allá de la edad promedio para la adquisición de los sonidos del habla.",
+                    developmentChart: {
+                        "1y6m": "/b/ bola; /m/ mamá",
+                        "2y": "/p/ papá; /t/ tatu; /d/ dedo; /n/ bebé",
+                        "2y6m": "/k/ caballo; /g/ gato; 'nh' camión",
+                        "3y": "/f/ hada; /v/ vaca; /s/ sapo; /z/ cebra",
+                        "3y6m": "'ch' lluvia; 'x' piña; 'j' jacaré, 'g' gelatina",
+                        "4y": "'r' (sonido fuerte) ratón",
+                        "5y": "'r' (sonido suave) loro"
+                    },
+                    germanTerms: "En la prescripción médica, los Trastornos del Habla deben mencionarse en alemán como Aussprachstörung o Phonetische-Phonologische Störung."
+                }
+            },
+            {
+                id: "orofacial",
+                title: "Orofacial",
+                description: "Terapia orofacial para función muscular y coordinación",
+                link: "/es/orofacial",
+                detailedContent: {
+                    overview: "Los órganos del habla (cara, labios, lengua, dientes, paladar, maxila, mandíbula) son responsables del funcionamiento adecuado de las funciones primarias: respiración y deglución, así como de la función secundaria: habla.",
+                    disorders: "Cuando estos órganos presentan alguna alteración en su estructura y funcionalidad, pueden ocurrir dificultades en la deglución, respiración y habla.",
+                    commonIssues: [
+                        "Mala posición de la lengua dentro de la cavidad oral",
+                        "Lengua posicionada amplia en la parte inferior de la boca y ligeramente hacia adelante (protrusa)",
+                        "Respiración bucal como consecuencia",
+                        "Proyección de la lengua al tragar o hablar"
+                    ],
+                    signs: [
+                        "Respiración bucal y labios abiertos la mayor parte del tiempo",
+                        "Ronquidos, apnea, problemas de sueño debido a respiración bucal y labios abiertos",
+                        "Dificultades para cerrar los labios durante la deglución",
+                        "Movimientos limitados de la lengua",
+                        "Alteraciones en los arcos dentales, dientes y mandíbula",
+                        "Dificultades para masticar y tragar con el posicionamiento adecuado de labios y lengua",
+                        "Salivación excesiva y saliva por encima de los 2 años",
+                        "Proyección de la lengua durante el habla"
+                    ],
+                    treatment: "El tratamiento apunta al equilibrio de la postura corporal, así como buena movilidad, fuerza, tono y sensibilidad de los órganos del habla.",
+                    germanTerms: "En la prescripción médica debe escribirse en alemán: Myofunktionelle Störung."
+                }
+            },
+            {
+                id: "auditory",
+                title: "Procesamiento Auditivo",
+                description: "Evaluación y terapia para trastornos del procesamiento auditivo",
+                link: "/es/procesamiento-auditivo",
+                detailedContent: {
+                    overview: "Imagina por un minuto la frustración de no entender lo que se está diciendo. Piensa que no tienes problema de audición, oyes perfectamente y eres inteligente. ¿Por qué no puedes entender?",
+                    condition: "Esta es la frustración de pacientes con trastorno del procesamiento auditivo. Los oídos y el cerebro no están sincronizados, y el cerebro no entiende lo que se habla.",
+                    problem: "El sonido no se registra de manera útil y mucha información auditiva no se procesa correctamente. Seis habilidades básicas pueden verse impedidas de desarrollarse adecuadamente en el procesamiento auditivo.",
+                    skills: [
+                        "Atención y vigilancia auditiva",
+                        "Discriminación auditiva",
+                        "Memoria auditiva",
+                        "Secuenciación auditiva",
+                        "Velocidad de procesamiento auditivo",
+                        "Comprensión auditiva"
+                    ],
+                    importance: "El trastorno del procesamiento auditivo debe tratarse para que los niños puedan tener buena comunicación con otros, aprender nueva información en la escuela y realizar tareas auditivas con menos dificultades.",
+                    germanTerms: "En la prescripción médica, el pediatra debe informar el diagnóstico de Trastorno del Procesamiento Auditivo Central (Auditive Verarbeitungs- und Wahrnehmungsstörungen-AVWS) en alemán."
+                }
+            },
+            {
+                id: "swallowing",
+                title: "Deglución y Alimentación",
+                description: "Evaluación y tratamiento de trastornos de deglución y alimentación",
+                link: "/es/deglucion-alimentacion",
+                detailedContent: {
+                    overview: "La disfagia o dificultad para tragar alimentos líquidos, pastosos o sólidos puede ocurrir en bebés, niños, adolescentes y adultos. También encontramos casos de selectividad y rechazo de alimentos.",
+                    risks: [
+                        "Falta de aumento de peso y crecimiento",
+                        "Deshidratación y desnutrición",
+                        "Alimentos y líquidos aspirados a las vías aéreas (pulmones)",
+                        "Neumonía y otras enfermedades respiratorias"
+                    ],
+                    selectivity: "La selectividad y rechazo de alimentos pueden estar asociados con dolor, frustración, vergüenza, desinterés por los alimentos, dificultades sensoriales y falta de apetito.",
+                    signs: [
+                        "Tiene problemas con la succión y deglución durante la lactancia",
+                        "Llora, se irrita durante las comidas",
+                        "Duerme durante la lactancia; se cansa fácilmente al succionar",
+                        "Tensa el cuerpo alterando la postura de la columna durante la alimentación",
+                        "Tiene dificultades respiratorias al comer y beber",
+                        "Se niega a comer y beber",
+                        "Come solo algunas consistencias",
+                        "Tarda mucho tiempo en comer",
+                        "Mantiene residuos de comida en la cavidad oral",
+                        "Tiene problemas para masticar; masticación unilateral",
+                        "Presenta atragantamiento, tos o reflejo nauseoso",
+                        "Produce mucha saliva, o los líquidos gotean de la boca o nariz",
+                        "Presenta cambios en la voz durante o después de las comidas",
+                        "Ocurrencia de vómitos y necesidad de escupir durante las comidas",
+                        "Se siente extremadamente satisfecho, pesado, fatigado durante las comidas"
+                    ],
+                    germanTerms: "En la prescripción médica, el pediatra debe mencionar el diagnóstico Disfagia (Dysphagie) o Trastorno de Deglución (Schluckstörung). Para Selectividad y Rechazo de Alimentos: Fütterstörung."
+                }
+            },
+            {
+                id: "stuttering",
+                title: "Tartamudez",
+                description: "Tratamiento para tartamudez y trastornos de fluidez",
+                link: "/es/tartamudez",
+                detailedContent: {
+                    overview: "La eficiencia de la comunicación oral está en gran medida determinada por nuestra capacidad de producir habla fluente. La fluidez del habla puede verse afectada por disfluencias de varias maneras.",
+                    normalDisfluency: "Todos presentamos habla disfluente a veces. Repetimos palabras o usamos interjecciones como 'eh', 'ah' entre otras. Cuando algunas disfluencias del habla persisten por más tiempo y se manifiestan involuntariamente, llamamos a estas disfluencias tartamudez del desarrollo.",
+                    impact: "La tartamudez no solo incluye aspectos del habla disfluente, sino que también puede causar tensión corporal e interferir con la calidad de vida del niño y la persona.",
+                    signs: [
+                        "Repetición de sonidos: '¿Quieres comeeeeer helado?'; '¿Viste el peeeerro?'",
+                        "Repetición de sílabas: 'Me gustan las pláátanos'. 'El gaato pertenece a mi tía.'",
+                        "Prolongación de sonidos: 'Vaaai rápido'; 'Quiero ááágua.'",
+                        "Bloqueos: 'Quiero (pausa) comer.'"
+                    ],
+                    strategies: "Las negativas a hablar por teléfono y los intentos de ocultar la tartamudez son estrategias frecuentemente observadas.",
+                    germanTerms: "En la prescripción médica, el pediatra debe informar el diagnóstico de Tartamudez (Stottern) en alemán."
+                }
+            }
+        ],
+        contact: {
+            title: "Contacto",
+            address: "Gluckstraße 57, 22081 - Hamburg",
+            phone: "+49 1514 6538687",
+            email: "tcmunkes@gmail.com"
+        },
+        multilingualism: {
+            title: "Multilingüismo",
+            subtitle: "Taller y Asesoramiento",
+            description: "La experiencia de criar a mis hijos en tres idiomas junto con mi esposo ha sido muy emocionante y gratificante. Hubo muchas veces durante el desarrollo de nuestros hijos en las que nos sentimos inseguros y tuvimos preguntas, por ejemplo, sobre el desarrollo multilingüe de su habla y lenguaje y sus habilidades de lectura y escritura en cada uno de los idiomas. No ha sido fácil para nosotros, los padres, criar a nuestros hijos en tres idiomas, sin embargo, siempre hemos estado conscientes de que ¡DOS IDIOMAS SON MEJORES QUE UNO!",
+            questions: [
+                "¿Mi hijo estará sobrecargado con muchos idiomas?",
+                "¿Debo renunciar a hablar mi lengua materna para apoyar el idioma local?",
+                "¿Por qué mi hijo no quiere hablar su/su lengua materna? ¿Es solo una fase?",
+                "¿Es normal que mi hijo mezcle diferentes idiomas en una frase?",
+                "¿Mi hijo podría tener dificultades en la escuela debido al multilingüismo?",
+                "¿Cómo estimulo el desarrollo/progreso del/los idioma(s) de manera efectiva?",
+                "¿Qué se considera normal y qué es una deficiencia en el proceso del lenguaje?"
+            ]
+        },
+        pageContent: {
+            "bilingual-multilingual-therapy": {
+                hero: {
+                    tagline: "Terapia Especializada",
+                    title: "Terapia Bilingüe o Multilingüe",
+                    description: "El objetivo principal de mi terapia bilingüe y multilingüe es acoger al paciente a través de su lengua materna. El vínculo Terapeuta-Paciente se establece de manera especial cuando el paciente se da cuenta de que es comprendido en lo que dice, piensa y siente.",
+                    backgroundImage: "terapia.jpg",
+                    imagePosition: "center"
+                },
+                content: `
+          <h2>¿Cuál es el objetivo de mi terapia bilingüe/multilingüe?</h2>
+          <p>Mi terapia bilingüe y multilingüe tiene como objetivo principal acoger al paciente a través de su lengua materna. El vínculo Terapeuta-Paciente se establece de manera acogedora cuando el paciente se da cuenta de que es comprendido en lo que HABLA, PIENSA y SIENTE!</p>
+          
+          <p>Todo paciente que se siente más seguro y acogido presenta en consecuencia una mejor motivación, impactando POSITIVAMENTE en su pronóstico terapéutico. Esta es sin duda la gran ventaja o la 'Clave de Oro' de la terapia bilingüe o multilingüe.</p>
+
+          <div class="content-image">
+            <img src="/kids.png" alt="Sesión de terapia bilingüe" />
+          </div>
+
+          <h2>¿Cómo se realiza la terapia bilingüe/multilingüe?</h2>
+          <p>Para pacientes bilingües y multilingües, los idiomas que se utilizarán durante la terapia se determinarán según las necesidades de cada paciente y sus familias.</p>
+          
+          <p>Los padres, familiares y cuidadores serán informados sobre los programas y métodos de terapia, así como los objetivos de rehabilitación, pudiendo así apoyar la terapia en casa. Con la cooperación familiar, podemos alcanzar los objetivos de la terapia más rápidamente.</p>
+
+          <h2>¿En qué se diferencia la terapia bilingüe/multilingüe?</h2>
+          <p>La terapia bilingüe y multilingüe se diferencia de las terapias comunes, ya que ofrecerá un plan de terapia que respeta los aspectos socioculturales e interculturales de cada paciente.</p>
+          
+          <p>En mi terapia también utilizaré métodos internacionales de habla y lenguaje junto con mi conocimiento de psicopedagogía clínica.</p>
+
+          <h2>¿Qué se necesita para la terapia bilingüe/multilingüe aquí en Alemania?</h2>
+          <ul>
+            <li>Prescripción médica válida</li>
+            <li>Firma y sello del médico (no de los asistentes) en la prescripción</li>
+            <li>La prescripción médica debe proporcionar datos sobre el diagnóstico y el tiempo de sesión</li>
+          </ul>
+        `
+            },
+            assessment: {
+                hero: {
+                    tagline: "Evaluación Profesional",
+                    title: "Evaluación",
+                    description: "Evaluación diferenciada y especializada para pacientes bilingües y multilingües, considerando aspectos culturales y lingüísticos únicos.",
+                    backgroundImage: "assessment.jpg",
+                    imagePosition: "center"
+                },
+                content: `
+          <h2>¿Cómo se realiza la evaluación del habla y el lenguaje en general?</h2>
+          <p>La evaluación se realizará mediante pruebas estandarizadas y observaciones de todas las áreas del Habla-Lenguaje (vocabulario, gramática, lectura, escritura, habla, comprensión y fluidez), si es posible en todos los idiomas/lenguas en los que el paciente se comunica.</p>
+          
+          <p>También se realizarán pruebas específicas para evaluar la deglución y funcionalidad de los órganos orofaciales cuando sea necesario.</p>
+
+          <h2>¿En qué se diferencia la evaluación bilingüe/multilingüe de las evaluaciones monolingües?</h2>
+          <p>La evaluación bilingüe o multilingüe es una evaluación diferenciada, ya que en su mayoría no incluirá pruebas estandarizadas, que pueden interferir negativamente en las interpretaciones clínicas de cada condición clínica.</p>
+          
+          <p><strong>Los niños bilingües y multilingües no deben ser evaluados con las mismas pruebas utilizadas para niños monolingües.</strong></p>
+
+          <p>La evaluación se realizará mediante un análisis preciso de todo un contexto de desarrollo bilingüe y multilingüe. Se valorarán factores culturales como el origen de los idiomas expuestos y aspectos familiares.</p>
+
+          <h2>Aspectos importantes en la evaluación</h2>
+          <p>Los aspectos situacionales serán extremadamente importantes para alcanzar un diagnóstico más seguro de trastornos del habla y lenguaje en cada paciente:</p>
+          <ul>
+            <li>Fecha del primer contacto con los idiomas hablados</li>
+            <li>Exposición diaria a diferentes idiomas</li>
+            <li>Medios de exposición a varios idiomas</li>
+            <li>Idioma dominante</li>
+            <li>Análisis completo de cómo se usan los idiomas en la escuela, en casa y en el entorno de cada paciente</li>
+          </ul>
+        `
+            },
+            counseling: {
+                hero: {
+                    tagline: "Apoyo Familiar",
+                    title: "Asesoramiento",
+                    description: "Sesiones de asesoramiento para familias sobre desarrollo bilingüe, hablantes tardíos y trastornos del habla y el lenguaje.",
+                    backgroundImage: "counseling.jpeg",
+                    imagePosition: "bottom"
+                },
+                content: `
+          <h2>Asesoramiento # 1: Ayudando a tu hijo a crecer bilingüe o multilingüe</h2>
+          <p><em>(Multibag incluida en el material)</em></p>
+          <p>Esta sesión de asesoramiento fue diseñada para proporcionar orientación clara y basada en evidencia sobre cómo tu hijo desarrolla el habla y el lenguaje en múltiples idiomas y cómo puedes apoyarlo con confianza en casa.</p>
+          
+          <p><strong>Algunas preguntas frecuentes respondidas en este asesoramiento:</strong></p>
+          <ol>
+            <li>¿Mi hijo puede aprender más de un idioma, incluso con dificultades?</li>
+            <li>¿Qué es normal esperar en el desarrollo del lenguaje bilingüe/multilingüe?</li>
+            <li>¿Cómo puedo ayudar en casa? ¿Qué materiales y juguetes debo usar?</li>
+            <li>¿Cuándo debo preocuparme? ¿Qué es patológico?</li>
+            <li>¿Qué pasa con los niños con necesidades especiales, cómo estimular múltiples idiomas?</li>
+          </ol>
+
+          <h2>Asesoramiento # 2: Bilingüismo, Multilingüismo y Hablantes Tardíos</h2>
+          <p>Esta sesión de asesoramiento es para familias que crían un niño bilingüe/multilingüe con retraso en el habla en más de un idioma.</p>
+          <ol>
+            <li>¿Quién es un Hablante Tardío?</li>
+            <li>¿Un Hablante Tardío puede volverse bilingüe o multilingüe?</li>
+            <li>¿Qué es normal en un Hablante Tardío bilingüe/multilingüe vs. qué no lo es?</li>
+            <li>¿Cuándo preocuparse?</li>
+            <li>¿Qué pueden hacer los padres en casa?</li>
+            <li>¿Qué pasa con los niños con necesidades especiales?</li>
+          </ol>
+
+          <h2>Asesoramiento # 3: Entendiendo el bilingüismo/multilingüismo y los trastornos del habla y el lenguaje</h2>
+          <p>Esta sesión de asesoramiento es para familias bilingües y multilingües que tienen hijos con cualquier tipo de alteración del habla y el lenguaje y que quieren entender mejor cómo las posibles limitaciones impactarán el desarrollo del bilingüismo y multilingüismo en casa, en la escuela y en el entorno.</p>
+          <ol>
+            <li>Trastornos del habla y el lenguaje en niños bilingües/multilingües</li>
+            <li>Cómo se realiza la evaluación bilingüe y multilingüe</li>
+            <li>Cómo mantener la lengua materna</li>
+            <li>Apoyo lingüístico en casa, escuela y comunidad</li>
+            <li>Cuándo buscar ayuda</li>
+            <li>Tranquilidad para los padres</li>
+            <li>Mitos vs. Hechos: Prestando atención a mitos y verdades en la educación bilingüe y multilingüe</li>
+          </ol>
+        `
+            },
+            workshops: {
+                hero: {
+                    tagline: "Formación Profesional",
+                    title: "Talleres para Escuelas y Maestros",
+                    description: "Capacitación para educadores sobre desarrollo bilingüe, identificación de dificultades y estrategias de apoyo en el aula.",
+                    backgroundImage: "workshop.jpeg",
+                    imagePosition: "top"
+                },
+                content: `
+          <h2>Taller # 1: "Entendiendo y apoyando el desarrollo del habla y lenguaje bilingüe en el aula"</h2>
+          <p><strong>Objetivo del curso:</strong> Muchos estudiantes bilingües y multilingües son identificados incorrectamente en términos de aprendizaje y desarrollo del lenguaje. Por lo tanto, no son derivados para terapia del habla. Los maestros aprenderán a reconocer el desarrollo normal y retrasado del habla y lenguaje en estudiantes bilingües.</p>
+          
+          <ol>
+            <li>Entender las etapas típicas del desarrollo del lenguaje del niño bilingüe.</li>
+            <li>Reconocer la diferencia entre el desarrollo "normal" del lenguaje y el trastorno del lenguaje.</li>
+            <li>Identificar señales de advertencia para retrasos del habla o lenguaje en estudiantes bilingües.</li>
+            <li>Aplicar estrategias en el aula para apoyar efectivamente a estudiantes bilingües.</li>
+          </ol>
+
+          <h2>Taller # 2: "Reconociendo los trastornos del habla y lenguaje más comunes en las escuelas"</h2>
+          <p>Este taller está diseñado para educadores que quieren entender mejor los principales trastornos de comunicación que pueden afectar el rendimiento escolar de los estudiantes.</p>
+          
+          <ol>
+            <li>Resumen del habla, lenguaje y comunicación</li>
+            <li>Diferencia entre trastornos del habla y lenguaje</li>
+            <li>Señales de alerta y manifestaciones en el aula</li>
+            <li>Trastornos de articulación (ej: ceceo)</li>
+            <li>Desviaciones fonológicas</li>
+            <li>Apraxia del Habla Infantil (CAS)</li>
+            <li>Trastornos de fluidez (ej: tartamudez)</li>
+            <li>Trastornos del lenguaje receptivo (dificultad para entender instrucciones, vocabulario o preguntas)</li>
+            <li>Trastornos del lenguaje expresivo (vocabulario limitado, uso de frases cortas, problemas gramaticales)</li>
+            <li>Trastornos pragmáticos del lenguaje (desafíos de comunicación social)</li>
+            <li>Retraso del lenguaje vs. trastorno</li>
+          </ol>
+
+          <h2>Beneficios de los Talleres</h2>
+          <p>Nuestros talleres proporcionan a los educadores herramientas prácticas para:</p>
+          <ul>
+            <li><strong>Identificar temprano</strong> posibles dificultades de comunicación</li>
+            <li><strong>Implementar estrategias</strong> de apoyo en el aula</li>
+            <li><strong>Entender</strong> las necesidades específicas de estudiantes bilingües</li>
+            <li><strong>Colaborar efectivamente</strong> con logopedas y familias</li>
+            <li><strong>Crear entornos inclusivos</strong> que beneficien a todos los estudiantes</li>
+          </ul>
+        `
+            },
+            space: {
+                hero: {
+                    tagline: "Lugar de Trabajo",
+                    title: "Nuestro Espacio",
+                    description: "Un entorno acogedor y profesional diseñado para crear una atmósfera cómoda para las sesiones de terapia del habla. Nuestra clínica ofrece un espacio seguro donde los pacientes se sienten comprendidos y apoyados.",
+                    backgroundImage: "selecao/IMG_5178.jpeg",
+                    imagePosition: "bottom center"
+                },
+                sliderImages: [
+                    {
+                        src: "/selecao/IMG_5152.jpeg",
+                        caption: "¡Bienvenido!"
+                    },
+                    {
+                        src: "/selecao/IMG_5169.jpeg",
+                        caption: "Sala de espera"
+                    },
+                    {
+                        src: "/selecao/IMG_5172.jpeg",
+                        caption: "Ambiente acogedor"
+                    },
+                    {
+                        src: "/selecao/IMG_5178.jpeg",
+                        caption: "Área de juegos en la sala de espera"
+                    },
+                    {
+                        src: "/selecao/IMG_5181.jpeg",
+                        caption: "Sala de la compañera"
+                    },
+                    {
+                        src: "/selecao/IMG_5216.jpeg",
+                        caption: "Sala de terapia"
+                    },
+                    {
+                        src: "/selecao/IMG_5247.jpeg",
+                        caption: "Tatiana Cooke Munkes"
+                    }
+                ],
+                content: `
+          <h2>Bienvenido a Nuestro Espacio</h2>
+          <p>Nuestra clínica ha sido cuidadosamente diseñada para crear un entorno acogedor y cómodo para todos nuestros pacientes y sus familias. Entendemos que sentirse seguro y a gusto es esencial para una terapia efectiva.</p>
+          
+          <p>Nuestro espacio cuenta con salas de terapia modernas equipadas con materiales y recursos apropiados para terapia del habla y lenguaje. Cada sala está diseñada para facilitar el aprendizaje, la comunicación y el desarrollo en una atmósfera tranquila y de apoyo.</p>
+
+          <h2>Un Entorno Profesional pero Cómodo</h2>
+          <p>Creemos que el entorno físico juega un papel crucial en el proceso terapéutico. Nuestra clínica está ubicada en Hamburgo, Alemania, y ofrece un entorno profesional donde pacientes de todas las edades se sienten acogidos y comprendidos.</p>
+          
+          <p>Ya sea que vengas para una evaluación, sesión de terapia o asesoramiento, nuestro espacio está diseñado para apoyar tu viaje hacia una mejor comunicación y desarrollo del lenguaje.</p>
+
+          <h2>Nuestra Ubicación</h2>
+          <p>Nuestra clínica está convenientemente ubicada en el área de Wandsbek, en Hamburgo, un distrito comercial vibrante con excelentes conexiones de transporte público. La clínica es fácilmente accesible en transporte público, lo que la hace conveniente para familias de toda la región de Hamburgo.</p>
+          
+          <p><strong>Transporte Público:</strong> La estación de U-Bahn más cercana es <strong>Wandsbek-Gartenstadt</strong> (línea U1 del U-Bahn). Las líneas de autobús <strong>112, 172 y 262</strong> también sirven la zona, con paradas cerca de la clínica. La ubicación está bien conectada a la red de transporte público de Hamburgo (HVV), garantizando fácil acceso desde varias partes de la ciudad.</p>
+          
+          <p>Recibimos pacientes de diversos orígenes culturales y lingüísticos, creando un entorno inclusivo para terapia multilingüe en esta ubicación accesible y bien conectada.</p>
+          
+          <div class="location-map">
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps?q=Auf+dem+K%C3%B6nigslande+96,+22047+Hamburg,+Germany&output=embed"
+                width="100%"
+                height="300"
+                style="border: 0; border-radius: 16px;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Location Map"
+              ></iframe>
+            </div>
+            <div class="address-info">
+              <p><strong>Auf dem Königslande 96</strong></p>
+              <p>22047 - Hamburgo, Alemania</p>
+            </div>
+          </div>
+        `
+            }
+        }
     }
 }; // para ABOUT ME, Substituir por uma timeline com:
  // Sou fonoaudióloga / terapeuta da fala multilíngue reconhecida pelas autoridades do departamento de
@@ -2380,6 +2960,17 @@ function ContactForm({ language, onSubmitted }) {
                 success: "Vielen Dank! Ihre Nachricht wurde gesendet.",
                 error: "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
             }
+        },
+        es: {
+            form: {
+                name: "Nombre",
+                email: "Correo electrónico",
+                message: "Mensaje",
+                send: "Enviar",
+                sending: "Enviando...",
+                success: "¡Gracias! Tu mensaje ha sido enviado.",
+                error: "Algo salió mal. Por favor, inténtalo de nuevo."
+            }
         }
     };
     const t = translations[language];
@@ -2431,7 +3022,7 @@ function ContactForm({ language, onSubmitted }) {
                         children: t.form.name
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 105,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2443,13 +3034,13 @@ function ContactForm({ language, onSubmitted }) {
                         required: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 106,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 104,
+                lineNumber: 115,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2460,7 +3051,7 @@ function ContactForm({ language, onSubmitted }) {
                         children: t.form.email
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 117,
+                        lineNumber: 128,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2472,13 +3063,13 @@ function ContactForm({ language, onSubmitted }) {
                         required: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 118,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 116,
+                lineNumber: 127,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2489,7 +3080,7 @@ function ContactForm({ language, onSubmitted }) {
                         children: t.form.message
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 129,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2501,13 +3092,13 @@ function ContactForm({ language, onSubmitted }) {
                         required: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactForm.tsx",
-                        lineNumber: 130,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 128,
+                lineNumber: 139,
                 columnNumber: 7
             }, this),
             submitStatus === "success" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2515,7 +3106,7 @@ function ContactForm({ language, onSubmitted }) {
                 children: t.form.success
             }, void 0, false, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 141,
+                lineNumber: 152,
                 columnNumber: 9
             }, this),
             submitStatus === "error" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2523,7 +3114,7 @@ function ContactForm({ language, onSubmitted }) {
                 children: t.form.error
             }, void 0, false, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 145,
+                lineNumber: 156,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2533,13 +3124,13 @@ function ContactForm({ language, onSubmitted }) {
                 children: isSubmitting ? t.form.sending : t.form.send
             }, void 0, false, {
                 fileName: "[project]/src/components/ContactForm.tsx",
-                lineNumber: 148,
+                lineNumber: 159,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ContactForm.tsx",
-        lineNumber: 103,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 }
@@ -2606,6 +3197,13 @@ function ContactModal({ language, isOpen, onClose }) {
             emailLabel: "E-Mail",
             copy: "Kopieren",
             copied: "Kopiert!"
+        },
+        es: {
+            title: "¡Ponte en contacto!",
+            text: "Envía tu mensaje usando el formulario a continuación o, si prefieres, copia la dirección de correo electrónico y escríbeme desde tu propia aplicación de correo.",
+            emailLabel: "Correo electrónico",
+            copy: "Copiar",
+            copied: "¡Copiado!"
         }
     };
     const t = translations[language];
@@ -2627,7 +3225,7 @@ function ContactModal({ language, isOpen, onClose }) {
                     children: "×"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ContactModal.tsx",
-                    lineNumber: 81,
+                    lineNumber: 88,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2638,14 +3236,14 @@ function ContactModal({ language, isOpen, onClose }) {
                             children: t.title
                         }, void 0, false, {
                             fileName: "[project]/src/components/ContactModal.tsx",
-                            lineNumber: 91,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: t.text
                         }, void 0, false, {
                             fileName: "[project]/src/components/ContactModal.tsx",
-                            lineNumber: 92,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2659,7 +3257,7 @@ function ContactModal({ language, isOpen, onClose }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ContactModal.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2667,7 +3265,7 @@ function ContactModal({ language, isOpen, onClose }) {
                                     children: EMAIL
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ContactModal.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2681,32 +3279,32 @@ function ContactModal({ language, isOpen, onClose }) {
                                             children: "content_copy"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ContactModal.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: copyStatus === "copied" ? t.copied : t.copy
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ContactModal.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ContactModal.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 104,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ContactModal.tsx",
-                            lineNumber: 94,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ContactModal.tsx",
-                    lineNumber: 90,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2717,28 +3315,28 @@ function ContactModal({ language, isOpen, onClose }) {
                             language: language
                         }, void 0, false, {
                             fileName: "[project]/src/components/ContactModal.tsx",
-                            lineNumber: 112,
+                            lineNumber: 119,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactModal.tsx",
-                        lineNumber: 111,
+                        lineNumber: 118,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ContactModal.tsx",
-                    lineNumber: 110,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ContactModal.tsx",
-            lineNumber: 74,
+            lineNumber: 81,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ContactModal.tsx",
-        lineNumber: 73,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 }
@@ -3977,6 +4575,12 @@ function OurPlace({ language }) {
                     description: "Unser Raum ist ein besonderer Ort, der Ihnen eine unvergessliche Erfahrung bietet.",
                     cta: "Mehr sehen"
                 };
+            case "es":
+                return {
+                    title: "Nuestro Espacio",
+                    description: "Nuestro espacio es un lugar especial que te ofrece una experiencia inolvidable.",
+                    cta: "Ver más"
+                };
             default:
                 return {
                     title: "Our Space",
@@ -4000,7 +4604,7 @@ function OurPlace({ language }) {
                             children: texts.title
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 98,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4008,13 +4612,13 @@ function OurPlace({ language }) {
                             children: texts.description
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 99,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 97,
+                    lineNumber: 104,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4033,22 +4637,22 @@ function OurPlace({ language }) {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].slideImage
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OurPlace.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 115,
                                             columnNumber: 19
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/components/OurPlace.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 114,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/OurPlace.tsx",
-                                lineNumber: 105,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 104,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4062,7 +4666,7 @@ function OurPlace({ language }) {
                                     children: "‹"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4075,12 +4679,12 @@ function OurPlace({ language }) {
                                             "aria-label": `Go to slide ${index + 1}`
                                         }, index, false, {
                                             fileName: "[project]/src/components/OurPlace.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 135,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 126,
+                                    lineNumber: 133,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4091,19 +4695,19 @@ function OurPlace({ language }) {
                                     children: "›"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurPlace.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 145,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/OurPlace.tsx",
-                            lineNumber: 117,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 103,
+                    lineNumber: 110,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4114,23 +4718,23 @@ function OurPlace({ language }) {
                         children: texts.cta
                     }, void 0, false, {
                         fileName: "[project]/src/components/OurPlace.tsx",
-                        lineNumber: 151,
+                        lineNumber: 158,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurPlace.tsx",
-                    lineNumber: 150,
+                    lineNumber: 157,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/OurPlace.tsx",
-            lineNumber: 96,
+            lineNumber: 103,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/OurPlace.tsx",
-        lineNumber: 95,
+        lineNumber: 102,
         columnNumber: 5
     }, this);
 }
@@ -5006,6 +5610,29 @@ function Contact({ language }) {
                 success: "Vielen Dank! Ihre Nachricht wurde gesendet.",
                 error: "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
             }
+        },
+        es: {
+            mainTitle: "¡Contáctanos y visítanos!",
+            title: "Contacto",
+            address: "Auf dem Königslande 96",
+            city: "22047 - Hamburgo",
+            phone: "Tel: +49 1514 6538687",
+            email: "tcmunkes@gmail.com",
+            instagram: "Instagram",
+            transport: {
+                title: "Transporte Público",
+                bus: "Líneas de Autobús",
+                subway: "Estación de Metro"
+            },
+            form: {
+                name: "Nombre",
+                email: "Correo electrónico",
+                message: "Mensaje",
+                send: "Enviar",
+                sending: "Enviando...",
+                success: "¡Gracias! Tu mensaje ha sido enviado.",
+                error: "Algo salió mal. Por favor, inténtalo de nuevo."
+            }
         }
     };
     const t = translations[language];
@@ -5022,7 +5649,7 @@ function Contact({ language }) {
                     children: t.mainTitle
                 }, void 0, false, {
                     fileName: "[project]/src/components/Contact.tsx",
-                    lineNumber: 94,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5046,12 +5673,12 @@ function Contact({ language }) {
                                         title: "Location Map"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Contact.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 122,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Contact.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 121,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5073,17 +5700,17 @@ function Contact({ language }) {
                                                             fill: "currentColor"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 121,
+                                                            lineNumber: 144,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Contact.tsx",
-                                                        lineNumber: 114,
+                                                        lineNumber: 137,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 136,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5093,7 +5720,7 @@ function Contact({ language }) {
                                                             children: t.address
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 151,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5101,19 +5728,19 @@ function Contact({ language }) {
                                                             children: t.city
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 129,
+                                                            lineNumber: 152,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 150,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Contact.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 135,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5135,17 +5762,17 @@ function Contact({ language }) {
                                                                     fill: "currentColor"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                                    lineNumber: 143,
+                                                                    lineNumber: 166,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Contact.tsx",
-                                                                lineNumber: 136,
+                                                                lineNumber: 159,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 135,
+                                                            lineNumber: 158,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5153,13 +5780,13 @@ function Contact({ language }) {
                                                             children: t.phone
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 149,
+                                                            lineNumber: 172,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 157,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5178,17 +5805,17 @@ function Contact({ language }) {
                                                                     fill: "currentColor"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                                    lineNumber: 160,
+                                                                    lineNumber: 183,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Contact.tsx",
-                                                                lineNumber: 153,
+                                                                lineNumber: 176,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 152,
+                                                            lineNumber: 175,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5196,13 +5823,13 @@ function Contact({ language }) {
                                                             children: t.email
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 166,
+                                                            lineNumber: 189,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 174,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5221,17 +5848,17 @@ function Contact({ language }) {
                                                                     fill: "currentColor"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                                    lineNumber: 177,
+                                                                    lineNumber: 200,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Contact.tsx",
-                                                                lineNumber: 170,
+                                                                lineNumber: 193,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 169,
+                                                            lineNumber: 192,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5242,31 +5869,31 @@ function Contact({ language }) {
                                                             children: t.instagram
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Contact.tsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 206,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Contact.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 191,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Contact.tsx",
-                                            lineNumber: 133,
+                                            lineNumber: 156,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Contact.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 134,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Contact.tsx",
-                            lineNumber: 97,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5275,29 +5902,29 @@ function Contact({ language }) {
                                 language: language
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Contact.tsx",
-                                lineNumber: 220,
+                                lineNumber: 243,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Contact.tsx",
-                            lineNumber: 219,
+                            lineNumber: 242,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Contact.tsx",
-                    lineNumber: 95,
+                    lineNumber: 118,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Contact.tsx",
-            lineNumber: 93,
+            lineNumber: 116,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Contact.tsx",
-        lineNumber: 92,
+        lineNumber: 115,
         columnNumber: 5
     }, this);
 }
@@ -5332,7 +5959,26 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$
 ;
 ;
 ;
-function Footer({}) {
+function Footer({ language }) {
+    const translations = {
+        en: {
+            copyright: "All rights reserved.",
+            credentials: "Recognized by the Health Department of Hamburg, Germany"
+        },
+        pt: {
+            copyright: "Todos os direitos reservados.",
+            credentials: "Reconhecido pelo Departamento de Saúde de Hamburgo, Alemanha"
+        },
+        de: {
+            copyright: "Alle Rechte vorbehalten.",
+            credentials: "Anerkannt vom Gesundheitsamt Hamburg, Deutschland"
+        },
+        es: {
+            copyright: "Todos los derechos reservados.",
+            credentials: "Reconocido por el Departamento de Salud de Hamburgo, Alemania"
+        }
+    };
+    const t = translations[language];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         id: "footer",
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].footer,
@@ -5353,22 +5999,22 @@ function Footer({}) {
                                     alt: "Logo"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer.tsx",
-                                lineNumber: 19,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.tsx",
-                            lineNumber: 18,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.tsx",
-                        lineNumber: 17,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5380,52 +6026,53 @@ function Footer({}) {
                                     children: [
                                         "© ",
                                         new Date().getFullYear(),
-                                        " Tatiana Cooke Munkes Speech Therapy. All rights reserved."
+                                        " Tatiana Cooke Munkes Speech Therapy. ",
+                                        t.copyright
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer.tsx",
-                                lineNumber: 27,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].credentials,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "Recognized by the Health Department of Hamburg, Germany"
+                                    children: t.credentials
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer.tsx",
-                                lineNumber: 30,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Footer.tsx",
-                        lineNumber: 26,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Footer.tsx",
-                lineNumber: 15,
+                lineNumber: 36,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Footer.tsx",
-            lineNumber: 14,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Footer.tsx",
-        lineNumber: 13,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
@@ -5616,7 +6263,7 @@ function Home() {
                 onLanguageChange: handleLanguageChange
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 74,
+                lineNumber: 75,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -5625,62 +6272,62 @@ function Home() {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 76,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Overview$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 77,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 78,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 79,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 80,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 81,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contact$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 82,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 83,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 75,
+                lineNumber: 76,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GridOverlay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -5688,7 +6335,7 @@ function Home() {
                 onToggle: toggleGrid
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 170,
+                lineNumber: 171,
                 columnNumber: 7
             }, this)
         ]

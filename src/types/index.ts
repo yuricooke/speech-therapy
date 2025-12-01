@@ -1,4 +1,4 @@
-export type Language = 'en' | 'pt' | 'de';
+export type Language = 'en' | 'pt' | 'de' | 'es';
 
 export interface TherapyService {
   id: string;

@@ -25,7 +25,7 @@ export default function Home() {
 
     // 1) User preference (localStorage) – highest priority
     const savedLanguage = localStorage.getItem('selectedLanguage') as Language;
-    if (savedLanguage && ['en', 'pt', 'de'].includes(savedLanguage)) {
+    if (savedLanguage && ['en', 'pt', 'de', 'es'].includes(savedLanguage)) {
       setLanguage(savedLanguage);
       return;
     }
@@ -43,6 +43,7 @@ export default function Home() {
 
         if (langCode.startsWith('pt')) return 'pt';
         if (langCode.startsWith('de')) return 'de';
+        if (langCode.startsWith('es')) return 'es';
         if (langCode.startsWith('en')) return 'en';
         return null;
       }, null);

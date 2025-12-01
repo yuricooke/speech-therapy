@@ -65,6 +65,13 @@ export default function ContactModal({
       copy: "Kopieren",
       copied: "Kopiert!",
     },
+    es: {
+      title: "¡Ponte en contacto!",
+      text: "Envía tu mensaje usando el formulario a continuación o, si prefieres, copia la dirección de correo electrónico y escríbeme desde tu propia aplicación de correo.",
+      emailLabel: "Correo electrónico",
+      copy: "Copiar",
+      copied: "¡Copiado!",
+    },
   };
 
   const t = translations[language];

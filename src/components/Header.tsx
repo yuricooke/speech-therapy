@@ -101,6 +101,14 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
           aboutMe: "Über Mich",
           contact: "Kontakt",
         };
+      case "es":
+        return {
+          home: "Inicio",
+          therapies: "Terapias & More",
+          space: "Nuestro Espacio",
+          aboutMe: "Sobre Mí",
+          contact: "Contacto",
+        };
       default:
         return {
           home: "Home",
@@ -207,6 +215,7 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
                 <option value="en">EN</option>
                 <option value="pt">PT</option>
                 <option value="de">DE</option>
+                <option value="es">ES</option>
               </select>
             </div>
           </div>
@@ -279,6 +288,7 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
                 <option value="en">EN</option>
                 <option value="pt">PT</option>
                 <option value="de">DE</option>
+                <option value="es">ES</option>
               </select>
             </div>
           </div>

@@ -79,6 +79,13 @@ export default function OurPlace({ language }: OurPlaceProps) {
             "Unser Raum ist ein besonderer Ort, der Ihnen eine unvergessliche Erfahrung bietet.",
           cta: "Mehr sehen",
         };
+      case "es":
+        return {
+          title: "Nuestro Espacio",
+          description:
+            "Nuestro espacio es un lugar especial que te ofrece una experiencia inolvidable.",
+          cta: "Ver más",
+        };
       default:
         return {
           title: "Our Space",

@@ -79,6 +79,29 @@ export default function Contact({ language }: ContactProps) {
         error: "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
       },
     },
+    es: {
+      mainTitle: "¡Contáctanos y visítanos!",
+      title: "Contacto",
+      address: "Auf dem Königslande 96",
+      city: "22047 - Hamburgo",
+      phone: "Tel: +49 1514 6538687",
+      email: "tcmunkes@gmail.com",
+      instagram: "Instagram",
+      transport: {
+        title: "Transporte Público",
+        bus: "Líneas de Autobús",
+        subway: "Estación de Metro",
+      },
+      form: {
+        name: "Nombre",
+        email: "Correo electrónico",
+        message: "Mensaje",
+        send: "Enviar",
+        sending: "Enviando...",
+        success: "¡Gracias! Tu mensaje ha sido enviado.",
+        error: "Algo salió mal. Por favor, inténtalo de nuevo.",
+      },
+    },
   };
 
   const t = translations[language];

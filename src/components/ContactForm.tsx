@@ -57,6 +57,17 @@ export default function ContactForm({
         error: "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
       },
     },
+    es: {
+      form: {
+        name: "Nombre",
+        email: "Correo electrónico",
+        message: "Mensaje",
+        send: "Enviar",
+        sending: "Enviando...",
+        success: "¡Gracias! Tu mensaje ha sido enviado.",
+        error: "Algo salió mal. Por favor, inténtalo de nuevo.",
+      },
+    },
   };
 
   const t = translations[language];

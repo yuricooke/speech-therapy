@@ -23,7 +23,7 @@ export default function ClientPage({ slug }: ClientPageProps) {
   // Load language from localStorage after hydration
   useEffect(() => {
     const savedLanguage = localStorage.getItem('selectedLanguage') as Language;
-    if (savedLanguage && ['en', 'pt', 'de'].includes(savedLanguage)) {
+    if (savedLanguage && ['en', 'pt', 'de', 'es'].includes(savedLanguage)) {
       setLanguage(savedLanguage);
     }
   }, []);

@@ -16,7 +16,8 @@ export default function Breadcrumb({ language, items }: BreadcrumbProps) {
   const homeLabels: Record<Language, string> = {
     pt: 'Início',
     en: 'Home',
-    de: 'Startseite'
+    de: 'Startseite',
+    es: 'Inicio'
   };
 
   return (

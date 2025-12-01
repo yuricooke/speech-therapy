@@ -563,13 +563,12 @@
           &::after {
             width: 10px;
             height: 10px;
-            bottom: -20px;
           }
 
           &.active::after {
             width: 14px;
             height: 14px;
-            bottom: -22px;
+            bottom: -11px;
           }
 
           .countryFlag {

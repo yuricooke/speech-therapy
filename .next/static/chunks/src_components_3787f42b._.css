@@ -2764,13 +2764,12 @@
   .About-module-scss-module__TqVY0W__about .About-module-scss-module__TqVY0W__experienceSection .About-module-scss-module__TqVY0W__countriesTimeline .About-module-scss-module__TqVY0W__countryItem:after {
     width: 10px;
     height: 10px;
-    bottom: -20px;
   }
 
   .About-module-scss-module__TqVY0W__about .About-module-scss-module__TqVY0W__experienceSection .About-module-scss-module__TqVY0W__countriesTimeline .About-module-scss-module__TqVY0W__countryItem.About-module-scss-module__TqVY0W__active:after {
     width: 14px;
     height: 14px;
-    bottom: -22px;
+    bottom: -11px;
   }
 
   .About-module-scss-module__TqVY0W__about .About-module-scss-module__TqVY0W__experienceSection .About-module-scss-module__TqVY0W__countriesTimeline .About-module-scss-module__TqVY0W__countryItem .About-module-scss-module__TqVY0W__countryFlag {

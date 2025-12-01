@@ -3842,7 +3842,7 @@ function Overview({ language }) {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Overview$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].cardFooter,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: `btn ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Overview$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].readMoreBtn}`,
-                                            children: language === "pt" ? "Ler mais" : language === "en" ? "Read more" : "Mehr lesen"
+                                            children: language === "pt" ? "Ler mais" : language === "en" ? "Read more" : language === "es" ? "Leer más" : "Mehr lesen"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Overview.tsx",
                                             lineNumber: 51,
@@ -4006,7 +4006,7 @@ function Products({ language }) {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].planetButton,
-                                                    children: language === 'en' ? 'Explore' : language === 'pt' ? 'Explorar' : 'Erkunden'
+                                                    children: language === 'en' ? 'Explore' : language === 'pt' ? 'Explorar' : language === 'es' ? 'Explorar' : 'Erkunden'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
                                                     lineNumber: 38,
@@ -4031,13 +4031,6 @@ function Products({ language }) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].floatingParticles,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].particle
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Products.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 13
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].particle
                                     }, void 0, false, {
@@ -4170,11 +4163,18 @@ function Products({ language }) {
                                         fileName: "[project]/src/components/Products.tsx",
                                         lineNumber: 69,
                                         columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].particle
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Products.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Products.tsx",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -4213,17 +4213,17 @@ function Products({ language }) {
                                     strokeLinejoin: "round"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products.tsx",
-                                lineNumber: 79,
+                                lineNumber: 80,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products.tsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4232,12 +4232,12 @@ function Products({ language }) {
                                 children: selectedService.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products.tsx",
-                                lineNumber: 84,
+                                lineNumber: 85,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products.tsx",
-                            lineNumber: 83,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4252,12 +4252,12 @@ function Products({ language }) {
                                                 children: selectedService.detailedContent.overview
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 92,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 91,
                                             columnNumber: 19
                                         }, this),
                                         selectedService.detailedContent.disorders && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4267,20 +4267,20 @@ function Products({ language }) {
                                                     children: "Disorders"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 97,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: typeof selectedService.detailedContent.disorders === 'string' ? selectedService.detailedContent.disorders : ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 98,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 96,
                                             columnNumber: 21
                                         }, this),
                                         selectedService.detailedContent.signs && Array.isArray(selectedService.detailedContent.signs) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4290,7 +4290,7 @@ function Products({ language }) {
                                                     children: "Signs to Watch For:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 104,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4299,18 +4299,18 @@ function Products({ language }) {
                                                             children: sign
                                                         }, index, false, {
                                                             fileName: "[project]/src/components/Products.tsx",
-                                                            lineNumber: 106,
+                                                            lineNumber: 107,
                                                             columnNumber: 28
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 104,
+                                                    lineNumber: 105,
                                                     columnNumber: 46
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 103,
                                             columnNumber: 21
                                         }, this),
                                         selectedService.detailedContent.risks && Array.isArray(selectedService.detailedContent.risks) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4320,7 +4320,7 @@ function Products({ language }) {
                                                     children: "Associated Risks:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 115,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4329,18 +4329,18 @@ function Products({ language }) {
                                                             children: risk
                                                         }, index, false, {
                                                             fileName: "[project]/src/components/Products.tsx",
-                                                            lineNumber: 117,
+                                                            lineNumber: 118,
                                                             columnNumber: 28
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 116,
                                                     columnNumber: 46
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 114,
                                             columnNumber: 21
                                         }, this),
                                         selectedService.detailedContent.skills && Array.isArray(selectedService.detailedContent.skills) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4350,7 +4350,7 @@ function Products({ language }) {
                                                     children: "Key Skills Addressed:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 126,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4359,18 +4359,18 @@ function Products({ language }) {
                                                             children: skill
                                                         }, index, false, {
                                                             fileName: "[project]/src/components/Products.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 129,
                                                             columnNumber: 28
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 127,
                                                     columnNumber: 46
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 124,
+                                            lineNumber: 125,
                                             columnNumber: 21
                                         }, this),
                                         selectedService.detailedContent.developmentChart && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4380,7 +4380,7 @@ function Products({ language }) {
                                                     children: "Development Timeline:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 137,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4395,7 +4395,7 @@ function Products({ language }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Products.tsx",
-                                                                    lineNumber: 140,
+                                                                    lineNumber: 141,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 " ",
@@ -4403,18 +4403,18 @@ function Products({ language }) {
                                                             ]
                                                         }, age, true, {
                                                             fileName: "[project]/src/components/Products.tsx",
-                                                            lineNumber: 139,
+                                                            lineNumber: 140,
                                                             columnNumber: 27
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 138,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 136,
                                             columnNumber: 21
                                         }, this),
                                         selectedService.detailedContent.treatment && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4424,20 +4424,20 @@ function Products({ language }) {
                                                     children: "Treatment Approach:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 150,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: typeof selectedService.detailedContent.treatment === 'string' ? selectedService.detailedContent.treatment : ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 151,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 149,
                                             columnNumber: 21
                                         }, this),
                                         selectedService.detailedContent.germanTerms && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4447,7 +4447,7 @@ function Products({ language }) {
                                                     children: "Medical Terminology:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 156,
+                                                    lineNumber: 157,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4455,25 +4455,25 @@ function Products({ language }) {
                                                     children: typeof selectedService.detailedContent.germanTerms === 'string' ? selectedService.detailedContent.germanTerms : ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products.tsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 158,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 156,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Products.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 90,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: selectedService.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 163,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4483,7 +4483,7 @@ function Products({ language }) {
                                             children: language === 'en' ? 'Ready to start? Contact us to schedule your consultation.' : language === 'pt' ? 'Pronto para começar? Entre em contato para agendar sua consulta.' : 'Bereit anzufangen? Kontaktieren Sie uns, um Ihre Beratung zu vereinbaren.'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 167,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4492,30 +4492,30 @@ function Products({ language }) {
                                             children: language === 'en' ? 'Contact via WhatsApp' : language === 'pt' ? 'Contato via WhatsApp' : 'Kontakt über WhatsApp'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Products.tsx",
-                                            lineNumber: 171,
+                                            lineNumber: 172,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Products.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 166,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Products.tsx",
-                            lineNumber: 87,
+                            lineNumber: 88,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products.tsx",
-                    lineNumber: 77,
+                    lineNumber: 78,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Products.tsx",
-                lineNumber: 76,
+                lineNumber: 77,
                 columnNumber: 9
             }, this)
         ]
@@ -6439,6 +6439,29 @@ function Home() {
         // 3) Fallback: keep 'en'
         }
     }["Home.useEffect"], []);
+    // Force scroll to exact top on page load (especially for iOS)
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Home.useEffect": ()=>{
+            if ("TURBOPACK compile-time falsy", 0) {
+                "TURBOPACK unreachable";
+            }
+            // Force scroll to absolute top
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            // Also handle after a small delay to ensure iOS respects it
+            const timer = setTimeout({
+                "Home.useEffect.timer": ()=>{
+                    window.scrollTo(0, 0);
+                    document.documentElement.scrollTop = 0;
+                    document.body.scrollTop = 0;
+                }
+            }["Home.useEffect.timer"], 100);
+            return ({
+                "Home.useEffect": ()=>clearTimeout(timer)
+            })["Home.useEffect"];
+        }
+    }["Home.useEffect"], []);
     // const [showTechDetails, setShowTechDetails] = useState(false);
     const [isGridVisible, setIsGridVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const toggleGrid = ()=>{
@@ -6458,7 +6481,7 @@ function Home() {
                 onLanguageChange: handleLanguageChange
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 75,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -6467,62 +6490,62 @@ function Home() {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 77,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Overview$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 78,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 79,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OurPlace$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 80,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 81,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 82,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contact$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 83,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         language: language
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 84,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 76,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GridOverlay$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6530,13 +6553,13 @@ function Home() {
                 onToggle: toggleGrid
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 171,
+                lineNumber: 190,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s(Home, "vlkDpGwKUTz3n8p8P90cmasSBtU=");
+_s(Home, "+LGCDpDyEUflyBqz/FvB8JEerTk=");
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");

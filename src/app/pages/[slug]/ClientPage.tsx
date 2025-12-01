@@ -27,6 +27,25 @@ export default function ClientPage({ slug }: ClientPageProps) {
       setLanguage(savedLanguage);
     }
   }, []);
+
+  // Force scroll to exact top on page load (especially for iOS)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
+    // Force scroll to absolute top
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    
+    // Also handle after a small delay to ensure iOS respects it
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
   
   const toggleGrid = () => {
     setIsGridVisible(!isGridVisible);

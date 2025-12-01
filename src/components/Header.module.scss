@@ -7,6 +7,13 @@
   transition: all 0.3s ease;
   padding: 16px 0;
 
+  @media (max-width: 768px) {
+    position: fixed;
+    top: 0;
+    padding: 0.75rem 1rem;
+    z-index: 1001;
+  }
+
   &.visible {
     transform: translateY(0);
   }
@@ -164,7 +171,7 @@
 
   @media (max-width: 1024px) {
     font-size: 14px;
-    padding: 6px 10px;
+    padding: 6px 4px;
   }
 }
 
@@ -303,8 +310,13 @@
 
 // Mobile menu styles
 @media (max-width: 768px) {
+  .header {
+    padding: 0;
+  }
+
   .container {
     justify-content: flex-end;
+    padding: 0.75rem 1rem;
   }
 
   .mobileMenuToggle {

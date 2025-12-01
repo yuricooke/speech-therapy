@@ -53,6 +53,8 @@ export default function Overview({ language }: OverviewProps) {
                         ? "Ler mais"
                         : language === "en"
                         ? "Read more"
+                        : language === "es"
+                        ? "Leer más"
                         : "Mehr lesen"}
                     </span>
                   </div>

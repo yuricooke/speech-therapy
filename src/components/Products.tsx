@@ -38,6 +38,7 @@ export default function Products({ language }: ProductsProps) {
                   <button className={styles.planetButton}>
                     {language === 'en' ? 'Explore' :
                      language === 'pt' ? 'Explorar' :
+                     language === 'es' ? 'Explorar' :
                      'Erkunden'}
                   </button>
                 </div>

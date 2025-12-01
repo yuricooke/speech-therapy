@@ -5,6 +5,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
 import { Language } from "@/types";
 import { siteContent } from "@/utils/content";
+import ContactModal from "./ContactModal";
 import styles from "./HeroSubPage.module.scss";
 
 interface HeroSubPageProps {
@@ -24,6 +25,7 @@ export default function HeroSubPage({
   language,
   customContent,
 }: HeroSubPageProps) {
+  const [isContactOpen, setIsContactOpen] = useState(false);
   const defaultContent = siteContent[language].hero;
   const content = customContent
     ? {
@@ -36,7 +38,7 @@ export default function HeroSubPage({
   const sliderImages = customContent?.sliderImages || [
     { src: "/tati.jpg", caption: "Speech Therapy Session" },
     { src: "/kids.png", caption: "Children Learning" },
-    { src: "/therapy.jpeg", caption: "Therapy Environment" },
+    { src: "/terapia.jpg", caption: "Therapy Environment" },
     { src: "/workshop.jpeg", caption: "Workshop Activity" },
   ];
 
@@ -197,7 +199,11 @@ export default function HeroSubPage({
               </svg>
               <span>{content.cta.whatsapp}</span>
             </a>
-            <a href="mailto:tcmunkes@gmail.com" className={styles.button}>
+            <button
+              type="button"
+              className={styles.button}
+              onClick={() => setIsContactOpen(true)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -221,10 +227,16 @@ export default function HeroSubPage({
                 />
               </svg>
               <span>{content.cta.email}</span>
-            </a>
+            </button>
           </div>
         </div>
       </div>
+
+      <ContactModal
+        language={language}
+        isOpen={isContactOpen}
+        onClose={() => setIsContactOpen(false)}
+      />
     </section>
   );
 }

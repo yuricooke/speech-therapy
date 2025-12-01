@@ -4,6 +4,7 @@
   margin-top: 2rem;
   padding: 0;
   padding-bottom: 9rem;
+  overflow-x: hidden;
 
   .image {
     position: relative;
@@ -94,7 +95,7 @@
 
   .title {
     color: var(--accent-text);
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -135,7 +136,7 @@
   }
 
   .sliderWrapper {
-    overflow: hidden; // Required for Embla
+    overflow: visible; // Allow cards to bleed to the right
     cursor: grab;
     width: calc(100vw - 6rem);
     border-radius: 0.75rem;
@@ -153,7 +154,7 @@
     display: flex;
     gap: 1.5rem;
     padding-left: calc(
-      3rem + 5%
+      3rem + 3.5%
     ); // Match content padding to align first image with text
     padding-right: 8rem; // Increased padding on right for last card margin
 
@@ -308,12 +309,13 @@
   }
 
   .button {
-    color: var(--accent);
     padding: 0.75rem 2rem;
     border-radius: 10px;
     background-color: var(--tertiary);
     color: var(--white);
     text-decoration: none;
+    border: none;
+    outline: none;
     font-size: 1rem;
     display: flex;
     align-items: center;
@@ -336,7 +338,6 @@
 
     &:hover {
       background-color: transparent;
-      outline: 1px solid var(--text-tertiary);
       color: var(--text-tertiary);
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -346,6 +347,11 @@
           stroke: var(--text-tertiary);
         }
       }
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--text-tertiary);
+      outline-offset: 2px;
     }
 
     @media (max-width: 1024px) {
@@ -419,7 +425,7 @@
     }
 
     @media (max-width: 991px) {
-      padding: 32px;
+      //   padding: 32px;
 
       h2 {
         font-size: 24px;
@@ -439,7 +445,7 @@
     }
 
     @media (max-width: 767px) {
-      padding: 24px;
+      //   padding: 24px;
 
       h2 {
         font-size: 20px;

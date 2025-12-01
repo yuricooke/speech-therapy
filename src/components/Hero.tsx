@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { Language } from "@/types";
 import { siteContent } from "@/utils/content";
+import ContactModal from "./ContactModal";
 import styles from "./Hero.module.scss";
 
 interface HeroProps {
@@ -16,6 +18,7 @@ interface HeroProps {
 }
 
 export default function Hero({ language, customContent }: HeroProps) {
+  const [isContactOpen, setIsContactOpen] = useState(false);
   const defaultContent = siteContent[language].hero;
   const content = customContent
     ? {
@@ -84,7 +87,11 @@ export default function Hero({ language, customContent }: HeroProps) {
               </svg>
               <span>{content.cta.whatsapp}</span>
             </a>
-            <a href="mailto:tcmunkes@gmail.com" className={styles.button}>
+            <button
+              type="button"
+              className={styles.button}
+              onClick={() => setIsContactOpen(true)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -108,13 +115,19 @@ export default function Hero({ language, customContent }: HeroProps) {
                 />
               </svg>
               <span>{content.cta.email}</span>
-            </a>
+            </button>
           </div>
         </div>
         <div className="divider">
           <img src="/divider.svg" alt="Divider" />
         </div>
       </div>
+
+      <ContactModal
+        language={language}
+        isOpen={isContactOpen}
+        onClose={() => setIsContactOpen(false)}
+      />
     </section>
   );
 }

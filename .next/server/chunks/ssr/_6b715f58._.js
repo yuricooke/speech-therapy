@@ -511,31 +511,31 @@ const siteContent = {
                 sliderImages: [
                     {
                         src: "/selecao/IMG_5152.jpeg",
-                        caption: "Therapy Room"
+                        caption: "Welcome!"
                     },
                     {
                         src: "/selecao/IMG_5169.jpeg",
-                        caption: "Our Space"
+                        caption: "Waiting Area"
                     },
                     {
                         src: "/selecao/IMG_5172.jpeg",
-                        caption: "Therapy Environment"
+                        caption: "Comfortable Environment"
                     },
                     {
                         src: "/selecao/IMG_5178.jpeg",
-                        caption: "Professional Setting"
+                        caption: "Play Area in waiting area"
                     },
                     {
                         src: "/selecao/IMG_5181.jpeg",
-                        caption: "Comfortable Space"
+                        caption: "Partner's room"
                     },
                     {
                         src: "/selecao/IMG_5216.jpeg",
-                        caption: "Modern Clinic"
+                        caption: "Therapy room"
                     },
                     {
                         src: "/selecao/IMG_5247.jpeg",
-                        caption: "Welcome Area"
+                        caption: "Tatiana Cooke Munkes"
                     }
                 ],
                 content: `
@@ -1040,31 +1040,31 @@ const siteContent = {
                 sliderImages: [
                     {
                         src: "/selecao/IMG_5152.jpeg",
-                        caption: "Sala de Terapia"
+                        caption: "Bem-vindo!"
                     },
                     {
                         src: "/selecao/IMG_5169.jpeg",
-                        caption: "Nosso Espaço"
+                        caption: "Sala de espera"
                     },
                     {
                         src: "/selecao/IMG_5172.jpeg",
-                        caption: "Ambiente Terapêutico"
+                        caption: "Ambiente aconchegante"
                     },
                     {
                         src: "/selecao/IMG_5178.jpeg",
-                        caption: "Ambiente Profissional"
+                        caption: "Área de brincadeiras na sala de espera"
                     },
                     {
                         src: "/selecao/IMG_5181.jpeg",
-                        caption: "Espaço Confortável"
+                        caption: "Sala da parceira"
                     },
                     {
                         src: "/selecao/IMG_5216.jpeg",
-                        caption: "Clínica Moderna"
+                        caption: "Sala de terapia"
                     },
                     {
                         src: "/selecao/IMG_5247.jpeg",
-                        caption: "Área de Recepção"
+                        caption: "Tatiana Cooke Munkes"
                     }
                 ],
                 content: `
@@ -1569,31 +1569,31 @@ const siteContent = {
                 sliderImages: [
                     {
                         src: "/selecao/IMG_5152.jpeg",
-                        caption: "Therapieraum"
+                        caption: "Willkommen!"
                     },
                     {
                         src: "/selecao/IMG_5169.jpeg",
-                        caption: "Unser Raum"
+                        caption: "Wartebereich"
                     },
                     {
                         src: "/selecao/IMG_5172.jpeg",
-                        caption: "Therapieumgebung"
+                        caption: "Gemütliche Umgebung"
                     },
                     {
                         src: "/selecao/IMG_5178.jpeg",
-                        caption: "Professionelle Umgebung"
+                        caption: "Spielecke im Wartebereich"
                     },
                     {
                         src: "/selecao/IMG_5181.jpeg",
-                        caption: "Komfortabler Raum"
+                        caption: "Partnerraum"
                     },
                     {
                         src: "/selecao/IMG_5216.jpeg",
-                        caption: "Moderne Klinik"
+                        caption: "Therapieraum"
                     },
                     {
                         src: "/selecao/IMG_5247.jpeg",
-                        caption: "Empfangsbereich"
+                        caption: "Tatiana Cooke Munkes"
                     }
                 ],
                 content: `

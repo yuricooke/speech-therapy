@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useCallback, useEffect, useState } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures';
-import { Language } from '@/types';
-import styles from './OurPlace.module.scss';
-import Link from 'next/link';
+import { useCallback, useEffect, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
+import { Language } from "@/types";
+import styles from "./OurPlace.module.scss";
+import Link from "next/link";
 
 interface OurPlaceProps {
   language: Language;
@@ -14,23 +14,24 @@ interface OurPlaceProps {
 export default function OurPlace({ language }: OurPlaceProps) {
   // Images from selecao folder
   const sliderImages = [
-    { src: '/selecao/IMG_5152.jpeg', alt: 'Space Image 1' },
-    { src: '/selecao/IMG_5169.jpeg', alt: 'Space Image 2' },
-    { src: '/selecao/IMG_5172.jpeg', alt: 'Space Image 3' },
-    { src: '/selecao/IMG_5178.jpeg', alt: 'Space Image 4' },
-    { src: '/selecao/IMG_5181.jpeg', alt: 'Space Image 5' },
-    { src: '/selecao/IMG_5216.jpeg', alt: 'Space Image 6' },
-    { src: '/selecao/IMG_5247.jpeg', alt: 'Space Image 7' },
+    { src: "/selecao/IMG_5152.jpeg", alt: "Space Image 1" },
+    { src: "/selecao/IMG_5169.jpeg", alt: "Space Image 2" },
+    { src: "/selecao/IMG_5172.jpeg", alt: "Space Image 3" },
+    { src: "/selecao/IMG_5178.jpeg", alt: "Space Image 4" },
+    { src: "/selecao/IMG_5181.jpeg", alt: "Space Image 5" },
+    { src: "/selecao/IMG_5216.jpeg", alt: "Space Image 6" },
+    { src: "/selecao/IMG_5247.jpeg", alt: "Space Image 7" },
   ];
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ 
-    align: 'start',
-    loop: false,
-    dragFree: false,
-    containScroll: 'trimSnaps',
-  }, [
-    WheelGesturesPlugin({ forceWheelAxis: 'x' })
-  ]);
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    {
+      align: "start",
+      loop: false,
+      dragFree: false,
+      containScroll: "trimSnaps",
+    },
+    [WheelGesturesPlugin({ forceWheelAxis: "x" })]
+  );
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -41,6 +42,7 @@ export default function OurPlace({ language }: OurPlaceProps) {
   }, [emblaApi]);
 
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [snapCount, setSnapCount] = useState(sliderImages.length);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -49,31 +51,40 @@ export default function OurPlace({ language }: OurPlaceProps) {
       setSelectedIndex(emblaApi.selectedScrollSnap());
     };
 
-    emblaApi.on('select', onSelect);
+    const snaps = emblaApi.scrollSnapList();
+    setSnapCount(snaps.length);
+
+    emblaApi.on("select", onSelect);
     onSelect();
 
     return () => {
-      emblaApi.off('select', onSelect);
+      emblaApi.off("select", onSelect);
     };
   }, [emblaApi]);
 
   // Get translations for title and CTA
   const getTexts = () => {
     switch (language) {
-      case 'pt':
+      case "pt":
         return {
-          title: 'Nosso Espaço',
-          cta: 'Veja mais',
+          title: "Nosso Espaço",
+          description:
+            "Conheça nosso espaço e as facilidades que oferecemos para você.",
+          cta: "Veja mais",
         };
-      case 'de':
+      case "de":
         return {
-          title: 'Unser Raum',
-          cta: 'Mehr sehen',
+          title: "Unser Raum",
+          description:
+            "Unser Raum ist ein besonderer Ort, der Ihnen eine unvergessliche Erfahrung bietet.",
+          cta: "Mehr sehen",
         };
       default:
         return {
-          title: 'Our Space',
-          cta: 'See more',
+          title: "Our Space",
+          description:
+            "Our Space is a special place that offers you an unforgettable experience.",
+          cta: "See more",
         };
     }
   };
@@ -85,6 +96,7 @@ export default function OurPlace({ language }: OurPlaceProps) {
       <div className={`${styles.wrapper} container`}>
         <div className={styles.header}>
           <h2 className={styles.title}>{texts.title}</h2>
+          <p className={styles.description}>{texts.description}</p>
         </div>
 
         {/* Image Slider */}
@@ -100,8 +112,6 @@ export default function OurPlace({ language }: OurPlaceProps) {
                   />
                 </figure>
               ))}
-              {/* Empty card for spacing at the end */}
-              <div className={styles.slideEmpty}></div>
             </div>
           </div>
           <div className={styles.sliderControls}>
@@ -114,10 +124,12 @@ export default function OurPlace({ language }: OurPlaceProps) {
               ‹
             </button>
             <div className={styles.sliderDots}>
-              {sliderImages.map((_, index) => (
+              {Array.from({ length: snapCount }).map((_, index) => (
                 <button
                   key={index}
-                  className={`${styles.dot} ${index === selectedIndex ? styles.active : ''}`}
+                  className={`${styles.dot} ${
+                    index === selectedIndex ? styles.active : ""
+                  }`}
                   onClick={() => emblaApi?.scrollTo(index)}
                   aria-label={`Go to slide ${index + 1}`}
                 />
@@ -127,7 +139,7 @@ export default function OurPlace({ language }: OurPlaceProps) {
               className={styles.sliderButton}
               onClick={scrollNext}
               aria-label="Next slide"
-              disabled={selectedIndex === sliderImages.length - 1}
+              disabled={selectedIndex === snapCount - 1}
             >
               ›
             </button>
@@ -144,4 +156,3 @@ export default function OurPlace({ language }: OurPlaceProps) {
     </section>
   );
 }
-

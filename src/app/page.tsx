@@ -19,12 +19,40 @@ export default function Home() {
   // Initialize with 'en' on both server and client to prevent hydration mismatch
   const [language, setLanguage] = useState<Language>('en');
   
-  // Load language from localStorage after hydration
+  // Load language preference after hydration
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    // 1) User preference (localStorage) – highest priority
     const savedLanguage = localStorage.getItem('selectedLanguage') as Language;
     if (savedLanguage && ['en', 'pt', 'de'].includes(savedLanguage)) {
       setLanguage(savedLanguage);
+      return;
     }
+
+    // 2) Browser / device language (includes country, e.g. pt-BR, de-DE)
+    const browserLangs = (navigator.languages && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language]) as string[];
+
+    const detected = browserLangs
+      .map((l) => l?.toLowerCase())
+      .reduce<Language | null>((acc, langCode) => {
+        if (acc) return acc;
+        if (!langCode) return null;
+
+        if (langCode.startsWith('pt')) return 'pt';
+        if (langCode.startsWith('de')) return 'de';
+        if (langCode.startsWith('en')) return 'en';
+        return null;
+      }, null);
+
+    if (detected) {
+      setLanguage(detected);
+      return;
+    }
+
+    // 3) Fallback: keep 'en'
   }, []);
   // const [showTechDetails, setShowTechDetails] = useState(false);
   const [isGridVisible, setIsGridVisible] = useState(false);

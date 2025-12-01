@@ -1,12 +1,11 @@
-@use '../styles/variables/colors' as *;
+@use "../styles/variables/colors" as *;
 
 .partnerships {
-  background: linear-gradient(180deg, var(--white) 25%, rgba($beige, 0.4) 100%);;
+  background: linear-gradient(180deg, var(--white) 25%, rgba($beige, 0.4) 100%);
   padding-inline: 3rem;
-  
+
   .header {
     margin-bottom: 1rem;
-
   }
 
   .title {
@@ -19,7 +18,6 @@
     font-size: 1.2rem;
     color: var(--accent);
     max-width: 700px;
-
   }
 
   .sliderWrapper {
@@ -64,7 +62,7 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    
+
     &::-webkit-scrollbar {
       display: none;
     }
@@ -86,19 +84,30 @@
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
   }
 
+  .verticalLine {
+    width: 2px;
+    height: 80px;
+    background-color: var(--primary-light);
+    border-radius: 999px;
+  }
+
   .logoPlaceholder {
     flex-shrink: 0;
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, var(--primary), var(--accent));
+    background: var(--white);
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      display: block;
+    }
   }
 
   .partnerInfo {
@@ -116,13 +125,28 @@
     color: var(--accent);
     font-size: 1rem;
     font-weight: 500;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+
+      .material-symbols-outlined {
+        font-size: 18px;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .dots {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-
   }
 
   .dot {
@@ -169,7 +193,7 @@
       padding: 1.5rem;
       border-radius: 8px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      
+
       strong {
         color: var(--primary);
         display: block;
@@ -216,7 +240,6 @@
     .logoPlaceholder {
       width: 100px;
       height: 100px;
-      font-size: 1.5rem;
       margin: 0 auto;
     }
 
@@ -228,4 +251,4 @@
       font-size: 0.9rem;
     }
   }
-} 
+}

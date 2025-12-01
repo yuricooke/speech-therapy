@@ -2,6 +2,7 @@
 .OurPlace-module-scss-module__vaL5qW__ourPlace {
   background-color: var(--blue-dark);
   padding: 4rem 0;
+  overflow-x: hidden;
 }
 
 @media (width <= 768px) {
@@ -12,14 +13,7 @@
 
 .OurPlace-module-scss-module__vaL5qW__wrapper {
   flex-direction: column;
-  gap: 2rem;
   display: flex;
-}
-
-@media (width <= 768px) {
-  .OurPlace-module-scss-module__vaL5qW__wrapper {
-    gap: 1.5rem;
-  }
 }
 
 .OurPlace-module-scss-module__vaL5qW__header {
@@ -29,7 +23,7 @@
 
 .OurPlace-module-scss-module__vaL5qW__title {
   color: var(--tertiary);
-  margin: 0;
+  margin: 0 0 1rem;
   font-size: 2.5rem;
   font-weight: 400;
 }
@@ -38,6 +32,11 @@
   .OurPlace-module-scss-module__vaL5qW__title {
     font-size: 2rem;
   }
+}
+
+.OurPlace-module-scss-module__vaL5qW__description {
+  color: var(--white);
+  font-size: 1.25rem;
 }
 
 .OurPlace-module-scss-module__vaL5qW__sliderContainer {
@@ -55,8 +54,7 @@
 .OurPlace-module-scss-module__vaL5qW__sliderWrapper {
   cursor: grab;
   border-radius: .75rem;
-  width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 @media (width <= 768px) {
@@ -113,29 +111,6 @@
   .OurPlace-module-scss-module__vaL5qW__slide {
     width: 200px;
     min-width: 200px;
-  }
-}
-
-.OurPlace-module-scss-module__vaL5qW__slideEmpty {
-  pointer-events: none;
-  background: none;
-  flex: none;
-  width: 280px;
-  height: 420px;
-  margin: 0;
-}
-
-@media (width <= 768px) {
-  .OurPlace-module-scss-module__vaL5qW__slideEmpty {
-    width: 240px;
-    height: 360px;
-  }
-}
-
-@media (width <= 480px) {
-  .OurPlace-module-scss-module__vaL5qW__slideEmpty {
-    width: 200px;
-    height: 300px;
   }
 }
 
@@ -251,7 +226,6 @@
 
 .OurPlace-module-scss-module__vaL5qW__dot.OurPlace-module-scss-module__vaL5qW__active {
   background: var(--white);
-  transform: scale(1.3);
 }
 
 .OurPlace-module-scss-module__vaL5qW__dot:hover {
@@ -267,7 +241,7 @@
 .OurPlace-module-scss-module__vaL5qW__ctaButton {
   background-color: var(--tertiary);
   color: var(--white);
-  border-radius: 25px;
+  border-radius: 1rem;
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
   font-weight: 600;

@@ -60,6 +60,7 @@
       width: 100%;
       max-width: 100%;
       padding: 1.5rem 1rem;
+      border-radius: 1.5rem;
     }
   }
 
@@ -148,12 +149,13 @@
   }
 
   .button {
-    color: var(--accent);
     padding: 0.75rem 2rem;
     border-radius: 10px;
     background-color: rgba($accent, 0.8);
     color: var(--white);
     text-decoration: none;
+    border: none;
+    outline: none;
     font-size: 1rem;
     display: flex;
     align-items: center;
@@ -176,7 +178,6 @@
 
     &:hover {
       background-color: transparent;
-      outline: 1px solid var(--text-tertiary);
       color: var(--text-tertiary);
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -186,6 +187,11 @@
           stroke: var(--text-tertiary);
         }
       }
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--text-tertiary);
+      outline-offset: 2px;
     }
 
     @media (max-width: 1024px) {

@@ -1,7 +1,7 @@
 @use "../styles/variables/colors" as *;
 
 .hero {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0;
   background-image: linear-gradient(
     to bottom,
@@ -9,6 +9,10 @@
     var(--quaternary-light) 90%,
     var(--quaternary-light) 100%
   );
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 
   .image {
     position: relative;

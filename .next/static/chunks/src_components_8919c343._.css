@@ -818,9 +818,15 @@
 
 /* [project]/src/components/HeroSubPage.module.scss.module.css [app-client] (css) */
 .HeroSubPage-module-scss-module__B3uFia__hero {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0 0 9rem;
   overflow-x: hidden;
+}
+
+@media (width <= 768px) {
+  .HeroSubPage-module-scss-module__B3uFia__hero {
+    margin-top: 0;
+  }
 }
 
 .HeroSubPage-module-scss-module__B3uFia__hero .HeroSubPage-module-scss-module__B3uFia__image {
@@ -918,6 +924,12 @@
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.2;
+}
+
+@media (width <= 768px) {
+  .HeroSubPage-module-scss-module__B3uFia__hero .HeroSubPage-module-scss-module__B3uFia__title {
+    font-size: 2rem;
+  }
 }
 
 .HeroSubPage-module-scss-module__B3uFia__hero .HeroSubPage-module-scss-module__B3uFia__description {

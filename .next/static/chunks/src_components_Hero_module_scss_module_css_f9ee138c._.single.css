@@ -1,8 +1,14 @@
 /* [project]/src/components/Hero.module.scss.module.css [app-client] (css) */
 .Hero-module-scss-module__lXQcIW__hero {
   background-image: linear-gradient(to bottom, var(--white) 75%, var(--quaternary-light) 90%, var(--quaternary-light) 100%);
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0;
+}
+
+@media (width <= 768px) {
+  .Hero-module-scss-module__lXQcIW__hero {
+    margin-top: 0;
+  }
 }
 
 .Hero-module-scss-module__lXQcIW__hero .Hero-module-scss-module__lXQcIW__image {

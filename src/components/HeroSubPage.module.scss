@@ -1,10 +1,14 @@
 @use "../styles/variables/colors" as *;
 
 .hero {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0;
   padding-bottom: 9rem;
   overflow-x: hidden;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 
   .image {
     position: relative;
@@ -99,6 +103,10 @@
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
 
   .description {

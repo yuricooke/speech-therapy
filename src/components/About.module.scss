@@ -157,8 +157,8 @@
   }
 
   .noteText {
-    @include quote-text;
     color: var(--text-indigo);
+    @include quote-text;
   }
 
   .qualifications {

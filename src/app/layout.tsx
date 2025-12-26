@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 // Base URL - atualize com seu domínio real quando disponível
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://yourdomain.com";
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.speechtherapyhamburg.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -125,8 +125,14 @@ export const metadata: Metadata = {
   category: "Healthcare",
   classification: "Speech Language Therapy Services",
   icons: {
-    icon: [{ url: "/baloes.svg", type: "image/svg+xml" }],
-    apple: [{ url: "/baloes.svg", type: "image/svg+xml" }],
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: [{ url: "/favicon.ico" }],
   },
   other: {
     "geo.region": "DE-HH",
@@ -259,6 +265,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Favicon links for better Google compatibility */}
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+        
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

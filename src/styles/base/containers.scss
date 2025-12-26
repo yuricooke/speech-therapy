@@ -1,3 +1,4 @@
+@use 'sass:math';
 @use '../variables/breakpoints' as *;
 
 .container {
@@ -62,8 +63,8 @@
 		// Column widths 1-12 (base)
 		@for $i from 1 through 12 {
 			.col-#{$i} {
-				flex: 0 0 percentage($i / 12);
-				max-width: percentage($i / 12);
+				flex: 0 0 math.percentage(math.div($i, 12));
+				max-width: math.percentage(math.div($i, 12));
 			}
 		}
 
@@ -71,8 +72,8 @@
 		@media #{$mq-sm-min} {
 			@for $i from 1 through 12 {
 				.col-sm-#{$i} {
-					flex: 0 0 percentage($i / 12);
-					max-width: percentage($i / 12);
+					flex: 0 0 math.percentage(math.div($i, 12));
+					max-width: math.percentage(math.div($i, 12));
 				}
 			}
 			.col-sm-auto {
@@ -86,8 +87,8 @@
 		@media #{$mq-md-min} {
 			@for $i from 1 through 12 {
 				.col-md-#{$i} {
-					flex: 0 0 percentage($i / 12);
-					max-width: percentage($i / 12);
+					flex: 0 0 math.percentage(math.div($i, 12));
+					max-width: math.percentage(math.div($i, 12));
 				}
 			}
 			.col-md-auto {
@@ -101,8 +102,8 @@
 		@media #{$mq-lg-min} {
 			@for $i from 1 through 12 {
 				.col-lg-#{$i} {
-					flex: 0 0 percentage($i / 12);
-					max-width: percentage($i / 12);
+					flex: 0 0 math.percentage(math.div($i, 12));
+					max-width: math.percentage(math.div($i, 12));
 				}
 			}
 			.col-lg-auto {
@@ -116,8 +117,8 @@
 		@media #{$mq-xl-min} {
 			@for $i from 1 through 12 {
 				.col-xl-#{$i} {
-					flex: 0 0 percentage($i / 12);
-					max-width: percentage($i / 12);
+					flex: 0 0 math.percentage(math.div($i, 12));
+					max-width: math.percentage(math.div($i, 12));
 				}
 			}
 			.col-xl-auto {
@@ -131,8 +132,8 @@
 		@media #{$mq-2xl-min} {
 			@for $i from 1 through 12 {
 				.col-2xl-#{$i} {
-					flex: 0 0 percentage($i / 12);
-					max-width: percentage($i / 12);
+					flex: 0 0 math.percentage(math.div($i, 12));
+					max-width: math.percentage(math.div($i, 12));
 				}
 			}
 			.col-2xl-auto {
@@ -146,8 +147,8 @@
 		@media #{$mq-3xl-min} {
 			@for $i from 1 through 12 {
 				.col-3xl-#{$i} {
-					flex: 0 0 percentage($i / 12);
-					max-width: percentage($i / 12);
+					flex: 0 0 math.percentage(math.div($i, 12));
+					max-width: math.percentage(math.div($i, 12));
 				}
 			}
 			.col-3xl-auto {
@@ -160,7 +161,7 @@
 		// Offset classes - base
 		@for $i from 0 through 11 {
 			.offset-#{$i} {
-				margin-left: percentage($i / 12);
+				margin-left: math.percentage(math.div($i, 12));
 			}
 		}
 
@@ -168,7 +169,7 @@
 		@media #{$mq-sm-min} {
 			@for $i from 0 through 11 {
 				.offset-sm-#{$i} {
-					margin-left: percentage($i / 12);
+					margin-left: math.percentage(math.div($i, 12));
 				}
 			}
 		}
@@ -177,7 +178,7 @@
 		@media #{$mq-md-min} {
 			@for $i from 0 through 11 {
 				.offset-md-#{$i} {
-					margin-left: percentage($i / 12);
+					margin-left: math.percentage(math.div($i, 12));
 				}
 			}
 		}
@@ -186,7 +187,7 @@
 		@media #{$mq-lg-min} {
 			@for $i from 0 through 11 {
 				.offset-lg-#{$i} {
-					margin-left: percentage($i / 12);
+					margin-left: math.percentage(math.div($i, 12));
 				}
 			}
 		}
@@ -195,7 +196,7 @@
 		@media #{$mq-xl-min} {
 			@for $i from 0 through 11 {
 				.offset-xl-#{$i} {
-					margin-left: percentage($i / 12);
+					margin-left: math.percentage(math.div($i, 12));
 				}
 			}
 		}
@@ -204,7 +205,7 @@
 		@media #{$mq-2xl-min} {
 			@for $i from 0 through 11 {
 				.offset-2xl-#{$i} {
-					margin-left: percentage($i / 12);
+					margin-left: math.percentage(math.div($i, 12));
 				}
 			}
 		}
@@ -213,7 +214,7 @@
 		@media #{$mq-3xl-min} {
 			@for $i from 0 through 11 {
 				.offset-3xl-#{$i} {
-					margin-left: percentage($i / 12);
+					margin-left: math.percentage(math.div($i, 12));
 				}
 			}
 		}

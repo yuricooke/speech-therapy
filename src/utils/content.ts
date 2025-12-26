@@ -1221,7 +1221,7 @@ export const siteContent: SiteContent = {
           description:
             "Differenzierte und spezialisierte Untersuchung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung jeweiligen kultureller und sprachlicher Aspekte.",
           fullDescription:
-            "Wie wird die Sprach-Untersuchung allgemein durchgeführt?<br><br> Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.<br><br>Spezifische Tests zur Bewertung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.<br><br> Wie unterscheidet sich die zweisprachige/mehrsprachige Untersuchung von einsprachigen Untersuchungen?<br><br>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte Untersuchung. Standardisierte Tests haben hier nur eine eingeschränkte Anwendbarkeit. Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden. Die Untersuchung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Die Herkunft der vom dem Patienten verwendeten Sprachen mit ihren kulturellen und familiäre Aspekten werden berücksichtigt. Situative Aspekte, wie Zeitpunkt des ersten Kontakts mit einer gesprochenen Sprache, tägliche Interaktionen mit verschiedenen Sprachen, dominante Sprache sowie eine vollständige Analyse, wie Sprachen in der Schule, zu Hause und in der Umgebung jedes Patienten verwendet werden, sind äußerst wichtig. Dies ermöglicht eine sicherere Diagnose von Sprach- und Sprachstörungen bei jedem Patienten zu etablieren.",
+            "Wie wird die Sprach-Untersuchung allgemein durchgeführt?<br><br> Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.<br><br>Spezifische Tests zur Untersuchung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.<br><br> Wie unterscheidet sich die zweisprachige/mehrsprachige Untersuchung von einsprachigen Untersuchungen?<br><br>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte Untersuchung. Standardisierte Tests haben hier nur eine eingeschränkte Anwendbarkeit. Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden. Die Untersuchung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Die Herkunft der vom dem Patienten verwendeten Sprachen mit ihren kulturellen und familiäre Aspekten werden berücksichtigt. Situative Aspekte, wie Zeitpunkt des ersten Kontakts mit einer gesprochenen Sprache, tägliche Interaktionen mit verschiedenen Sprachen, dominante Sprache sowie eine vollständige Analyse, wie Sprachen in der Schule, zu Hause und in der Umgebung jedes Patienten verwendet werden, sind äußerst wichtig. Dies ermöglicht eine sicherere Diagnose von Sprach- und Sprachstörungen bei jedem Patienten zu etablieren.",
           slug: "assessment",
           heroImage: "assessment.jpg",
         },
@@ -1454,7 +1454,7 @@ export const siteContent: SiteContent = {
         id: "auditory",
         title: "Auditive Verarbeitung",
         description:
-          "Bewertung und Therapie für auditive Verarbeitungsstörungen",
+          "Untersuchung und Therapie für auditive Verarbeitungsstörungen",
         link: "/de/auditive-verarbeitung",
         detailedContent: {
           overview:
@@ -1481,7 +1481,7 @@ export const siteContent: SiteContent = {
         id: "swallowing",
         title: "Schlucken & Ernährung",
         description:
-          "Bewertung und Behandlung von Schluck- und Fütterungsstörungen",
+          "Untersuchung und Behandlung von Schluck- und Fütterungsstörungen",
         link: "/de/schlucken-ernaehrung",
         detailedContent: {
           overview:
@@ -1601,27 +1601,27 @@ export const siteContent: SiteContent = {
       },
       assessment: {
         hero: {
-          tagline: "Professionelle Bewertung",
-          title: "Bewertung",
+          tagline: "Professionelle Untersuchung",
+          title: "Untersuchung",
           description:
-            "Differenzierte und spezialisierte Bewertung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung einzigartiger kultureller und sprachlicher Aspekte.",
+            "Differenzierte und spezialisierte Untersuchung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung einzigartiger kultureller und sprachlicher Aspekte.",
           backgroundImage: "assessment.jpg",
           imagePosition: "center",
         },
         content: `
-          <h2>Wie wird die Sprach-Sprach-Bewertung allgemein durchgeführt?</h2>
-          <p>Die Bewertung wird durch standardisierte Tests und Beobachtungen aller Sprach-Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.</p>
+          <h2>Wie wird die Sprach-Sprach-Untersuchung allgemein durchgeführt?</h2>
+          <p>Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.</p>
           
-          <p>Spezifische Tests zur Bewertung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.</p>
+          <p>Spezifische Tests zur Untersuchung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.</p>
 
-          <h2>Wie unterscheidet sich die zweisprachige/mehrsprachige Bewertung von einsprachigen Bewertungen?</h2>
-          <p>Die zweisprachige oder mehrsprachige Bewertung ist eine differenzierte Bewertung, da sie meistens keine standardisierten Tests enthält, die negativ in die klinischen Interpretationen jedes klinischen Zustands eingreifen können.</p>
+          <h2>Wie unterscheidet sich die zweisprachige/mehrsprachige Untersuchung von einsprachigen Untersuchungen?</h2>
+          <p>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte Untersuchung, da sie meistens keine standardisierten Tests enthält, die negativ in die klinischen Interpretationen jedes klinischen Zustands eingreifen können.</p>
           
           <p><strong>Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden.</strong></p>
 
-          <p>Die Bewertung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Kulturelle Faktoren wie Herkunft der ausgesetzten Sprachen und familiäre Aspekte werden geschätzt.</p>
+          <p>Die Untersuchung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Kulturelle Faktoren wie Herkunft der ausgesetzten Sprachen und familiäre Aspekte werden geschätzt.</p>
 
-          <h2>Wichtige Aspekte bei der Bewertung</h2>
+          <h2>Wichtige Aspekte bei der Untersuchung</h2>
           <p>Situative Aspekte werden äußerst wichtig sein, um eine sicherere Diagnose von Sprach- und Sprachstörungen bei jedem Patienten zu erreichen:</p>
           <ul>
             <li>Datum des ersten Kontakts mit gesprochenen Sprachen</li>
@@ -1670,7 +1670,7 @@ export const siteContent: SiteContent = {
           <p>Diese Beratungssitzung ist für zweisprachige und mehrsprachige Familien, die Kinder mit jeder Art von Sprach- und Sprachveränderung haben und die besser verstehen möchten, wie mögliche Einschränkungen die Entwicklung von Zweisprachigkeit und Mehrsprachigkeit zu Hause, in der Schule und in der Umgebung beeinflussen werden.</p>
           <ul>
             <li>Sprach- und Sprachstörungen bei zweisprachigen/mehrsprachigen Kindern</li>
-            <li>Wie zweisprachige und mehrsprachige Bewertung durchgeführt wird</li>
+            <li>Wie zweisprachige und mehrsprachige Untersuchung durchgeführt wird</li>
             <li>Wie die Muttersprache beibehalten wird</li>
             <li>Sprachunterstützung zu Hause, in der Schule und in der Gemeinschaft</li>
             <li>Wann Hilfe suchen</li>
@@ -1757,7 +1757,7 @@ export const siteContent: SiteContent = {
           <h2>Eine professionelle und doch komfortable Umgebung</h2>
           <p>Wir glauben, dass die physische Umgebung eine entscheidende Rolle im therapeutischen Prozess spielt. Unsere Klinik befindet sich in Hamburg, Deutschland, und bietet eine professionelle Umgebung, in der sich Patienten jeden Alters willkommen und verstanden fühlen.</p>
           
-          <p>Egal, ob Sie zu einer Bewertung, Therapiesitzung oder Beratung kommen, unser Raum wurde entwickelt, um Ihre Reise zu besserer Kommunikation und Sprachentwicklung zu unterstützen.</p>
+          <p>Egal, ob Sie zu einer Untersuchung, Therapiesitzung oder Beratung kommen, unser Raum wurde entwickelt, um Ihre Reise zu besserer Kommunikation und Sprachentwicklung zu unterstützen.</p>
 
           <h2>Unser Standort</h2>
           <p>Unsere Klinik befindet sich günstig im Wandsbek-Bereich von Hamburg, einem lebendigen Geschäftsviertel mit ausgezeichneten öffentlichen Verkehrsverbindungen. Die Klinik ist mit öffentlichen Verkehrsmitteln leicht erreichbar und bietet eine bequeme Lage für Familien aus der gesamten Hamburger Region.</p>

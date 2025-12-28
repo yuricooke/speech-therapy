@@ -40,7 +40,7 @@ export const siteContent: SiteContent = {
           fullDescription:
             "<h3>Counseling # 1: Helping your child grow bilingual or multilingual</h3><p><em>(Multibag included in material)</em></p><p>This counseling session was designed to provide clear, evidence-based guidance on how your child develops speech and language in multiple languages and how you can confidently support them at home.</p><p><strong>Some frequently asked questions answered in this counseling:</strong></p><ol><li>Can my child learn more than one language, even with difficulties?</li><li>What is normal to expect in bilingual/multilingual language development?</li><li>How can I help at home? What materials and toys should I use?</li><li>When should I worry? What is pathological?</li><li>What about children with special needs, how to stimulate multiple languages?</li></ol><br><h3>Counseling # 2: Bilingualism, Multilingualism and Late Talkers</h3><p>This counseling session is for families raising a bilingual/multilingual child with speech delay in more than one language.</p><ol><li>Who is a Late Talker?</li><li>Can a Late Talker become bilingual or multilingual?</li><li>What is normal in a bilingual/multilingual Late Talker vs. what is not?</li><li>When to worry?</li><li>What can parents do at home?</li><li>What about children with special needs?</li></ol><br><h3>Counseling # 3: Understanding bilingualism/multilingualism and speech and language disorders</h3><p>This counseling session is for bilingual and multilingual families who have children with any type of speech and language alteration and who want to better understand how possible limitations will impact the development of bilingualism and multilingualism at home, in school and in the environment.</p><ol><li>Speech and language disorders in bilingual/multilingual children</li><li>How bilingual and multilingual assessment is performed</li><li>How to maintain the mother tongue</li><li>Language support at home, school and community</li><li>When to seek help</li><li>Reassurance for parents</li><li>Myths vs. Facts: Paying attention to myths and truths in bilingual and multilingual education</li></ol>",
           slug: "counseling",
-          heroImage: "counseling.jpeg",
+          heroImage: "consell2.jpeg",
         },
         {
           title: "Workshops for Schools and Teachers",
@@ -447,8 +447,8 @@ export const siteContent: SiteContent = {
           title: "Counseling",
           description:
             "Counseling sessions for families about bilingual development, late talkers and speech and language disorders.",
-          backgroundImage: "counseling.jpeg",
-          imagePosition: "bottom",
+          backgroundImage: "consell2.jpeg",
+          imagePosition: "center",
         },
         content: `
           <h2>Counseling # 1: Helping your child grow bilingual or multilingual</h2>
@@ -636,7 +636,7 @@ export const siteContent: SiteContent = {
           fullDescription:
             "<h3>Aconselhamento # 1: Ajudando seu filho a crescer bilíngue ou multilíngue</h3><p><em>(Multibag incluída no material)</em></p><p>Esta sessão de aconselhamento foi projetada para fornecer orientações claras e baseadas em evidências sobre como seu filho desenvolve a fala e a linguagem em vários idiomas e como você pode apoiá-lo com confiança em casa.</p><p><strong>Algumas perguntas frequentes respondidas neste aconselhamento:</strong></p><ol><li>Meu filho pode aprender mais de um idioma, mesmo apresentando dificuldades?</li><li>O que é normal esperar no desenvolvimento da linguagem bilíngue/multilíngue?</li><li>Como posso ajudar em casa? Quais materiais e brinquedos devo usar?</li><li>Quando devo me preocupar? O que é patológico?</li><li>E as crianças com necessidades especiais, como estimular várias línguas?</li></ol><br><h3>Aconselhamento # 2: Bilinguismo, Multilinguismo e Late Talkers</h3><p>Esta sessão de aconselhamento é para famílias que criam uma criança bilíngue/multilíngue com atraso na fala em mais de um idioma.</p><ol><li>Quem é um Late Talker?</li><li>Um Late Talker pode se tornar bilíngue ou multilíngue?</li><li>O que é normal em um Late Talker bilíngue / multilíngue X o que não é?</li><li>Quando se preocupar?</li><li>O que os pais podem fazer em casa?</li><li>E as crianças com necessidades especiais?</li></ol><br><h3>Aconselhamento # 3: Compreendendo o bilinguismo/multilinguismo e os distúrbios da fala e da linguagem</h3><p>Esta sessão de aconselhamento destina-se a famílias bilíngues e multilíngues, que têm filhos com qualquer tipo de alteração da fala e da linguagem e que pretendem compreender melhor como as possíveis limitações irão impactar o desenvolvimento do bilinguismo e do multilinguismo dentro de casa, em ambiente escolar e no ambiente.</p><ol><li>Distúrbios da fala e da linguagem em crianças bilíngues/multilíngues</li><li>Como é realizada a avaliação bilíngue e multilíngue</li><li>Como manter a língua materna</li><li>Linguagem de apoio em casa, na escola e na comunidade</li><li>Quando procurar ajuda</li><li>Tranquilidade para os pais</li><li>Mitos vs. Fatos: Prestar atenção nos mitos e nas verdades da educação bilíngue e multilíngue</li></ol>",
           slug: "counseling",
-          heroImage: "counseling.jpeg",
+          heroImage: "consell2.jpeg",
         },
         {
           title: "Workshops para Escolas e Professores",
@@ -1043,8 +1043,8 @@ export const siteContent: SiteContent = {
           title: "Aconselhamento",
           description:
             "Sessões de aconselhamento para famílias sobre desenvolvimento bilíngue, late talkers e distúrbios de fala e linguagem.",
-          backgroundImage: "counseling.jpeg",
-          imagePosition: "bottom",
+          backgroundImage: "consell2.jpeg",
+          imagePosition: "center",
         },
         content: `
           <h2>Aconselhamento # 1: Ajudando seu filho a crescer bilíngue ou multilíngue</h2>
@@ -1198,7 +1198,7 @@ export const siteContent: SiteContent = {
       tagline: "Mehrsprachige Sprachtherapeutin",
       title: "Two Languages Are Better Than One!",
       description:
-        "Herzlich willkommen zu den Therapien meiner zweisprachigen und mehrsprachigen Klinik!<br><br> Das Hauptziel meiner Therapien ist der Zugang zu dem Patienten über seiner Muttersprache. Die Therapeut-Patient-Bindung wird auf besondere Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt. Wenn sich der Patient sicher und aufgenommen fühlt, zeigt er folglich eine gesteigerte Motivation, was sich direkt auf seine therapeutische Prognose auswirkt. <br><br> Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.",
+        "Herzlich willkommen zu den Therapien meiner zweisprachigen und mehrsprachigen Klinik!<br><br> Das Hauptziel meiner Therapien ist der Zugang zu dem Patienten über seiner Muttersprache. Die Therapeut-Patient-Bindung wird aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt. Wenn sich der Patient sicher und aufgenommen fühlt, zeigt er folglich eine gesteigerte Motivation, was sich positiv auf den Erfolg der therapeutischen Behandlung auswirkt. <br><br> Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.",
       cta: {
         whatsapp: "WhatsApp",
         email: "E-Mail",
@@ -1212,7 +1212,7 @@ export const siteContent: SiteContent = {
           description:
             "Spezialisierte Therapie, die den Patienten über seine Muttersprache aufnimmt und eine besondere Therapeut-Patient-Bindung für bessere Entwicklung schafft.",
           fullDescription:
-            "Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?<br><br>Meine zweisprachige und mehrsprachige Therapie hat als Hauptziel die Aufnahme des Patienten über seine Muttersprache. Die Therapeut-Patient-Bindung wird aufgebaut, wenn der Patient erkennt, dass er in dem verstanden wird, was er SPRICHT, DENKT und FÜHLT! Jeder Patient, der sich sicher und aufgenommen fühlt, zeigt eine gesteigerte Motivation, was sich POSITIV auf seine therapeutische Prognose auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie. <br><br> Wie wird die zweisprachige/mehrsprachige Therapie durchgeführt?<br><br>Für zweisprachige und mehrsprachige Patienten werden die Sprachen, die während der Therapie verwendet werden, entsprechend den Bedürfnissen jedes Patienten und seiner Familien bestimmt. <br><br>Eltern, Familienmitglieder und Betreuer werden über Therapieprogramme und -methoden sowie Rehabilitationsziele informiert und können so die Therapie zu Hause zusätzlich unterstützen. Durch die familiärer Unterstützung können wir Therapieziele schneller erreichen. <br><br>Wie unterscheidet sich die zweisprachige/mehrsprachige Therapie?<br><br>Die zweisprachige und mehrsprachige Therapie unterscheidet sich von gewöhnlichen Therapien, da sie einen Therapieplan anbietet, der die soziokulturellen und interkulturellen Aspekte jedes Patienten berücksichtigt. In meiner Therapie werde ich internationale Sprach-Methoden zusammen mit meinem Wissen über klinische Psychopädagogik verwenden. <br><br>Was wird für die zweisprachige/mehrsprachige Therapie hier in Deutschland benötigt?<br><br>• Gültige ärztliche Verordnung;<br>• Unterschrift und Stempel des Arztes (nicht der Assistenten) auf der Verordnung;<br>• Die ärztliche Verordnung muss Daten über die Diagnose und Sitzungszeit enthalten;",
+            "Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?<br><br>Meine zweisprachige und mehrsprachige Therapie hat als Hauptziel die Aufnahme des Patienten über seine Muttersprache. Die Therapeut-Patient-Bindung wird aufgebaut, wenn der Patient erkennt, dass er in dem verstanden wird, was er SPRICHT, DENKT und FÜHLT! Jeder Patient, der sich sicher und aufgenommen fühlt, zeigt eine gesteigerte Motivation, was sich POSITIV auf den Erfolg der therapeutischen Behandlung auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie. <br><br> Wie wird die zweisprachige/mehrsprachige Therapie durchgeführt?<br><br>Für zweisprachige und mehrsprachige Patienten werden die Sprachen, die während der Therapie verwendet werden, entsprechend den Bedürfnissen jedes Patienten und seiner Familien bestimmt. <br><br>Eltern, Familienmitglieder und Betreuer werden über Therapieprogramme und -methoden sowie Rehabilitationsziele informiert und können so die Therapie zu Hause zusätzlich unterstützen. Durch die familiärer Unterstützung können wir Therapieziele schneller erreichen. <br><br>Wie unterscheidet sich die zweisprachige/mehrsprachige Therapie?<br><br>Die zweisprachige und mehrsprachige Therapie unterscheidet sich von gewöhnlichen Therapien, da sie einen Therapieplan anbietet, der die soziokulturellen und interkulturellen Aspekte jedes Patienten berücksichtigt. In meiner Therapie werde ich internationale Sprach-Methoden zusammen mit meinem Wissen über klinische Psychopädagogik verwenden. <br><br>Was wird für die zweisprachige/mehrsprachige Therapie hier in Deutschland benötigt?<br><br>• Gültige ärztliche Verordnung;<br>• Unterschrift und Stempel des Arztes (nicht der Assistenten) auf der Verordnung;<br>• Die ärztliche Verordnung muss Daten über die Diagnose und Sitzungszeit enthalten;",
           slug: "bilingual-multilingual-therapy",
           heroImage: "terapia.jpg",
         },
@@ -1221,25 +1221,25 @@ export const siteContent: SiteContent = {
           description:
             "Differenzierte und spezialisierte Untersuchung für zweisprachige und mehrsprachige Patienten unter Berücksichtigung jeweiligen kultureller und sprachlicher Aspekte.",
           fullDescription:
-            "Wie wird die Sprach-Untersuchung allgemein durchgeführt?<br><br> Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.<br><br>Spezifische Tests zur Untersuchung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.<br><br> Wie unterscheidet sich die zweisprachige/mehrsprachige Untersuchung von einsprachigen Untersuchungen?<br><br>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte Untersuchung. Standardisierte Tests haben hier nur eine eingeschränkte Anwendbarkeit. Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden. Die Untersuchung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Die Herkunft der vom dem Patienten verwendeten Sprachen mit ihren kulturellen und familiäre Aspekten werden berücksichtigt. Situative Aspekte, wie Zeitpunkt des ersten Kontakts mit einer gesprochenen Sprache, tägliche Interaktionen mit verschiedenen Sprachen, dominante Sprache sowie eine vollständige Analyse, wie Sprachen in der Schule, zu Hause und in der Umgebung jedes Patienten verwendet werden, sind äußerst wichtig. Dies ermöglicht eine sicherere Diagnose von Sprach- und Sprachstörungen bei jedem Patienten zu etablieren.",
+            "Wie wird die Sprach-Untersuchung allgemein durchgeführt?<br><br> Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.<br><br>Spezifische Tests zur Untersuchung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.<br><br> Wie unterscheidet sich die zweisprachige/mehrsprachige Untersuchung von einsprachigen Untersuchungen?<br><br>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte Untersuchung. Standardisierte Tests haben hier nur eine eingeschränkte Anwendbarkeit. Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden. Die Untersuchung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Die Herkunft der vom dem Patienten verwendeten Sprachen mit ihren kulturellen und familiäre Aspekten werden berücksichtigt. Situative Aspekte, wie Zeitpunkt des ersten Kontakts mit einer gesprochenen Sprache, tägliche Interaktionen mit verschiedenen Sprachen, dominante Sprache sowie eine vollständige Analyse, wie Sprachen in der Schule, zu Hause und in der Umgebung jedes Patienten verwendet werden, sind äußerst wichtig. Dies ermöglicht eine sicherere Diagnose der Sprachstörungen bei jedem Patienten zu etablieren.",
           slug: "assessment",
           heroImage: "assessment.jpg",
         },
         {
           title: "Beratung",
           description:
-            "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers und Sprach- und Sprachstörungen.",
+            "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers und Sprach- und Sprechstörungen.",
           fullDescription:
-            "<h3>Beratung # 1: Ihrem Kind helfen, zweisprachig oder mehrsprachig aufzuwachsen</h3><p><em>(Multibag im Material enthalten)</em></p><p>Diese Beratungssitzung wurde entwickelt, um klare, evidenzbasierte Anleitungen zu geben, wie Ihr Kind Sprache und Sprache in mehreren Sprachen entwickelt und wie Sie es zu Hause selbstbewusst unterstützen können.</p><p><strong>Einige häufig gestellte Fragen, die in dieser Beratung beantwortet werden:</strong></p><ol><li>Kann mein Kind mehr als eine Sprache lernen, auch mit Schwierigkeiten?</li><li>Was ist normal in der zweisprachigen/mehrsprachigen Sprachentwicklung zu erwarten?</li><li>Wie kann ich zu Hause helfen? Welche Materialien und Spielzeuge sollte ich verwenden?</li><li>Wann sollte ich mir Sorgen machen? Was ist pathologisch?</li><li>Was ist mit Kindern mit besonderen Bedürfnissen, wie mehrere Sprachen stimulieren?</li></ol><br><h3>Beratung # 2: Zweisprachigkeit, Mehrsprachigkeit und Late Talkers</h3><p>Diese Beratungssitzung ist für Familien, die ein zweisprachiges/mehrsprachiges Kind mit Sprachverzögerung in mehr als einer Sprache großziehen.</p><ol><li>Wer ist ein Late Talker?</li><li>Kann ein Late Talker zweisprachig oder mehrsprachig werden?</li><li>Was ist normal bei einem zweisprachigen/mehrsprachigen Late Talker vs. was nicht?</li><li>Wann sich Sorgen machen?</li><li>Was können Eltern zu Hause tun?</li><li>Was ist mit Kindern mit besonderen Bedürfnissen?</li></ol><br><h3>Beratung # 3: Zweisprachigkeit/Mehrsprachigkeit und Sprach- und Sprachstörungen verstehen</h3><p>Diese Beratungssitzung ist für zweisprachige und mehrsprachige Familien, die Kinder mit der Herausforderung von Sprachveränderung haben. Mit dieser Beratung wird das Verständnis vermittelt, wie mögliche Einschränkungen die Entwicklung von Zweisprachigkeit und Mehrsprachigkeit in dem Umfled erkannt und adressiert werden können.</p><ol><li>Sprachstörungen bei zweisprachigen/mehrsprachigen Kindern</li><li>Wie zweisprachige und mehrsprachige Untersuchung durchgeführt wird</li><li>Wie die Muttersprache beibehalten wird</li><li>Sprachunterstützung zu Hause, in der Schule und in der Gemeinschaft</li><li>Wann Hilfe suchen</li><li>Rückversicherung für Eltern</li><li>Mythen vs. Fakten: Differenzierung zwischen Mythen und Wahrheiten in der zweisprachigen und mehrsprachigen Bildung</li></ol>",
+            "<h3>Beratung # 1: Ihrem Kind helfen, zweisprachig oder mehrsprachig aufzuwachsen</h3><p><em>(Multibag im Material enthalten)</em></p><p>Diese Beratungssitzung wurde entwickelt, um klare, evidenzbasierte Anleitungen zu geben, wie Ihr Kind Fähigkeiten der Handhabung mehreren Sprachen entwickeln kann, und wie Sie dies zu Hause selbstständig und strukturiertunterstützen können.</p><p><strong>Einige häufig gestellte Fragen, die in dieser Beratung beantwortet werden:</strong></p><ol><li>Kann mein Kind mehr als eine Sprache lernen, auch mit Schwierigkeiten?</li><li>Was ist normal in der zweisprachigen/mehrsprachigen Sprachentwicklung zu erwarten?</li><li>Wie kann ich zu Hause helfen? Welche Materialien und Spielzeuge sollte ich verwenden?</li><li>Wann sollte ich mir Sorgen machen? Was ist pathologisch?</li><li>Was ist mit Kindern mit besonderen Bedürfnissen, wie mehrere Sprachen stimulieren?</li></ol><br><h3>Beratung # 2: Zweisprachigkeit, Mehrsprachigkeit und Late Talkers</h3><p>Diese Beratungssitzung ist für Familien, die ein zweisprachiges/mehrsprachiges Kind mit Sprachverzögerung in mehr als einer Sprache großziehen.</p><ol><li>Wer ist ein Late Talker?</li><li>Kann ein Late Talker zweisprachig oder mehrsprachig werden?</li><li>Was ist normal bei einem zweisprachigen/mehrsprachigen Late Talker vs. was nicht?</li><li>Wann sich Sorgen machen?</li><li>Was können Eltern zu Hause tun?</li><li>Was ist mit Kindern mit besonderen Bedürfnissen?</li></ol><br><h3>Beratung # 3: Zweisprachigkeit/Mehrsprachigkeit, Sprachverzögerung und Sprachstörungen verstehen</h3><p>Diese Beratungssitzung ist für zweisprachige und mehrsprachige Familien, die Kinder mit der Herausforderung von Sprachveränderung haben. Mit dieser Beratung wird das Verständnis vermittelt, wie mögliche Einschränkungen die Entwicklung von Zweisprachigkeit und Mehrsprachigkeit in dem Umfled erkannt und adressiert werden können.</p><ol><li>Sprachstörungen bei zweisprachigen/mehrsprachigen Kindern</li><li>Wie zweisprachige und mehrsprachige Untersuchung durchgeführt wird</li><li>Wie die Muttersprache beibehalten wird</li><li>Sprachunterstützung zu Hause, in der Schule und in der Gemeinschaft</li><li>Wann Hilfe suchen</li><li>Rückversicherung für Eltern</li><li>Mythen vs. Fakten: Differenzierung zwischen Mythen und Wahrheiten in der zweisprachigen und mehrsprachigen Bildung</li></ol>",
           slug: "counseling",
-          heroImage: "counseling.jpeg",
+          heroImage: "consell2.jpeg",
         },
         {
           title: "Workshops für Schulen und Lehrer",
           description:
             "Schulung für Pädagogen zum Thema zweisprachige Entwicklung einschließlich der Identifizierung von Schwierigkeiten und Unterstützungsstrategien im Klassenzimmer.",
           fullDescription:
-            '<h3>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprachentwicklung im Klassenzimmer"</h3><p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch beurteilt. Diese Schüler werden nicht oder zu spät in die Sprachtherapie überwiesen. In diesem Workshop lernen Lehrer normale und verzögerte Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p><ol><li>Typische Phasen der zweisprachigen Kindersprachentwicklung verstehen.</li><li>Den Unterschied zwischen "normaler" Sprachentwicklung und Sprachstörung erkennen.</li><li>Warnzeichen für Sprachverzögerungen bei zweisprachigen Schülern identifizieren.</li><li>Klassenzimmerstrategien anwenden, um zweisprachige Schüler effektiv zu unterstützen.</li></ol><br><h3>Workshop # 2: "Die häufigsten Sprachstörungen in Schulen erkennen"</h3><p>Dieser Workshop ist für Pädagogen gedacht, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, welche die schulische Leistung der Schüler beeinträchtigen können.</p><ol><li>Überblick über Sprache und Kommunikation</li><li>Unterschied zwischen Sprachverzögerung und Sprachstörungen</li><li>Rote Flaggen und Klassenzimmermanifestationen</li><li>Artikulationsstörungen (z.B.: Lispeln)</li><li>Phonologische Abweichungen</li><li>Kindliche Sprechapraxie (CAS)</li><li>Flüssigkeitsstörungen (z.B. Stottern)</li><li>Rezeptive Sprachstörungen (Schwierigkeiten beim Verstehen von Anweisungen, Wortschatz oder Fragen)</li><li>Expressive Sprachstörungen (begrenzter Wortschatz, Verwendung kurzer Phrasen, grammatische Probleme)</li><li>Pragmatische Sprachstörungen (Herausforderungen der sozialen Kommunikation)</li><li>Sprachverzögerung vs. Störung</li></ol><br><h2>Workshop-Vorteile</h2><p>Unsere Workshops bieten Pädagogen praktische Werkzeuge, um:</p><ul><li><strong>Frühzeitig</strong> mögliche Kommunikationsschwierigkeiten zu identifizieren</li><li><strong>Strategien</strong> für Klassenzimmerunterstützung zu implementieren</li><li><strong>Verstehen</strong> der spezifischen Bedürfnisse zweisprachiger Schüler</li><li><strong>Effektiv zusammenarbeiten</strong> mit Sprachtherapeuten und Familien</li><li><strong>Inklusive Umgebungen</strong> zu schaffen, die allen Schülern zugute kommen</li></ul>',
+            '<h3>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprachentwicklung im Klassenzimmer"</h3><p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch beurteilt. Diese Schüler werden nicht oder zu spät in die Sprachtherapie überwiesen. In diesem Workshop lernen Lehrer normale und verzögerte Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p><ol><li>Typische Phasen der zweisprachigen Kindersprachentwicklung verstehen.</li><li>Den Unterschied zwischen "normaler" Sprachentwicklung und Sprachstörung erkennen.</li><li>Warnzeichen für Sprachverzögerungen bei zweisprachigen Schülern erkennen.</li><li>Klassenzimmerstrategien anwenden, um zweisprachige Schüler effektiv zu unterstützen.</li></ol><br><h3>Workshop # 2: "Die häufigsten Sprachstörungen in Schulen erkennen"</h3><p>Dieser Workshop ist für Pädagogen gedacht, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, welche die schulische Leistung der Schüler beeinträchtigen können.</p><ol><li>Überblick über Sprache und Kommunikation</li><li>Unterschied zwischen Sprachverzögerung und Sprachstörungen</li><li>Rote Flaggen und Klassenzimmermanifestationen</li><li>Artikulationsstörungen (z.B.: Lispeln)</li><li>Phonologische Abweichungen</li><li>Kindliche Sprechapraxie (CAS)</li><li>Flüssigkeitsstörungen (z.B. Stottern)</li><li>Rezeptive Sprachstörungen (Schwierigkeiten beim Verstehen von Anweisungen, Wortschatz oder Fragen)</li><li>Expressive Sprachstörungen (begrenzter Wortschatz, Verwendung kurzer Phrasen, grammatische Probleme)</li><li>Pragmatische Sprachstörungen (Herausforderungen der sozialen Kommunikation)</li><li>Sprachverzögerung vs. Störung</li></ol><br><h2>Workshop-Vorteile</h2><p>Unsere Workshops bieten Pädagogen praktische Werkzeuge, um:</p><ul><li><strong>Frühzeitig</strong> mögliche Kommunikationsschwierigkeiten zu erkennen</li><li><strong>Strategien</strong> für Klassenzimmerunterstützung zu implementieren</li><li><strong>Verstehen</strong> der spezifischen Bedürfnisse zweisprachiger Schüler</li><li><strong>Effektiv zusammenarbeiten</strong> mit Sprachtherapeuten und Familien</li><li><strong>Inklusive Umgebungen</strong> zu schaffen, die allen Schülern zugute kommen</li></ul>',
           slug: "workshops",
           heroImage: "workshop.jpeg",
         },
@@ -1247,7 +1247,7 @@ export const siteContent: SiteContent = {
     },
     products: {
       title: "Therapie-Services",
-      subtitle: "Umfassende mehrsprachige Sprach- und Sprachtherapie-Services",
+      subtitle: "Umfassender mehrsprachiger Sprachtherapie-Services",
     },
     about: {
       title: "Über Mich",
@@ -1348,7 +1348,7 @@ export const siteContent: SiteContent = {
                 "A.B.B.R Brasilianische Wohlfahrts-Rehabilitationsvereinigung",
               position: "Sprachtherapeutin (Rio de Janeiro)",
               description:
-                "Sprach- und Sprachtherapie für Erwachsene und Kinder mit neurologischen Störungen. Therapie und psychopädagogische Beratung für Eltern.",
+                "Sprach- und Sprechherapie für Erwachsene und Kinder mit neurologischen Störungen. Therapie und psychopädagogische Beratung für Eltern.",
             },
             {
               company:
@@ -1373,7 +1373,7 @@ export const siteContent: SiteContent = {
           receptive:
             "Wenn Ihr Kind versteht, was gesagt wird, nutzt es verschiedene rezeptive Sprachfähigkeiten, um Gespräche und Dialoge zu verstehen.",
           disorders:
-            "Wenn expressive Sprache (verbal und non-verbal) und rezeptive Sprache (Verständnis) sich nicht angemessen entwickeln, kann Ihr Kind Kommunikationsschwierigkeiten und mögliche Störungen zeigen.",
+            "Wenn expressive Sprache (verbal und non-verbal) und rezeptive Sprache (Verständnis) sich nicht angemessen entwickeln, kann Ihr Kind Kommunikationsschwierigkeiten und -störungen zeigen.",
           signs: [
             "Zeigt Schwierigkeiten, Wünsche und Bedürfnisse aufgrund von Vokabelmangel zu erklären",
             "Ist zwei Jahre alt und spricht weniger als 50 Wörter",
@@ -1435,7 +1435,7 @@ export const siteContent: SiteContent = {
             "Zungenprojektion beim Schlucken oder Sprechen",
           ],
           signs: [
-            "Mundatmung und offene Lippen die meiste Zeit",
+            "Mundatmung und die meiste Zeit offene Lippen",
             "Schnarchen, Apnoe, Schlafprobleme aufgrund von Mundatmung und offenen Lippen",
             "Schwierigkeiten beim Verschließen der Lippen während des Schluckens",
             "Begrenzte Zungenbewegungen",
@@ -1496,9 +1496,9 @@ export const siteContent: SiteContent = {
             "Selektivität und Nahrungsverweigerung können mit Schmerzen, Frustration, Verlegenheit, Nahrungsdesinteresse, sensorischen Schwierigkeiten und Appetitlosigkeit verbunden sein.",
           signs: [
             "Hat Probleme beim Saugen und Schlucken während des Stillens",
-            "Weint, wird während der Mahlzeiten gereizt",
+            "Weint; wirkt während der Mahlzeiten gereizt",
             "Schläft während des Stillens; wird beim Saugen an der Brust oder Flasche leicht müde",
-            "Spannt den Körper an und verändert die Wirbelsäulenhaltung während der Fütterung",
+            "Spannt den Körper an und verändert die Haltung während der Fütterung",
             "Hat Atemprobleme beim Essen und Trinken",
             "Verweigert zu essen und zu trinken",
             "Isst nur bestimmte Konsistenzen",
@@ -1550,7 +1550,7 @@ export const siteContent: SiteContent = {
       title: "Mehrsprachigkeit",
       subtitle: "Workshop & Beratung",
       description:
-        "Die Erfahrung, meine Kinder zusammen mit meinem Mann in drei Sprachen zu erziehen, war sehr aufregend und bereichernd. Es gab viele Zeiten während der Entwicklung unserer Kinder, in denen wir uns unsicher fühlten und Fragen hatten, zum Beispiel über ihre mehrsprachige Sprach- und Sprachentwicklung und ihre Lese- und Schreibfähigkeiten in jeder der Sprachen. Es war nicht einfach für uns Eltern, unsere Kinder in drei Sprachen zu erziehen, jedoch waren wir uns immer bewusst, dass ZWEI SPRACHEN BESSER SIND ALS EINE!",
+        "Die Erfahrung, meine Kinder zusammen mit meinem Mann in drei Sprachen zu erziehen, war sehr aufregend und bereichernd. Es gab viele Zeiten während der Entwicklung unserer Kinder, in denen wir uns unsicher fühlten und Fragen hatten, zum Beispiel über ihre mehrsprachige Sprach- und Sprechentwicklung und ihre Lese- und Schreibfähigkeiten in jeder der Sprachen. Es war nicht einfach für uns Eltern, unsere Kinder in drei Sprachen zu erziehen, jedoch waren wir uns immer bewusst, dass ZWEI SPRACHEN BESSER SIND ALS EINE!",
       questions: [
         "Wird mein Kind von zu vielen Sprachen überfordert sein?",
         "Sollte ich aufhören, meine Muttersprache zu sprechen, um die Landessprache zu unterstützen?",
@@ -1567,15 +1567,15 @@ export const siteContent: SiteContent = {
           tagline: "Spezialisierte Therapie",
           title: "Zweisprachige oder Mehrsprachige Therapie",
           description:
-            "Das Hauptziel meiner zweisprachigen und mehrsprachigen Therapie ist die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf besondere Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt.",
+            "Das Hauptziel meiner zweisprachigen und mehrsprachigen Therapie ist die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt.",
           backgroundImage: "terapia.jpg",
           imagePosition: "center",
         },
         content: `
           <h2>Was ist das Ziel meiner zweisprachigen/mehrsprachigen Therapie?</h2>
-          <p>Meine zweisprachige und mehrsprachige Therapie hat als Hauptziel die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird auf aufnehmende Weise aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er SPRICHT, DENKT und FÜHLT!</p>
+          <p>Meine zweisprachige und mehrsprachige Therapie hat als Hauptziel die Aufnahme des Patienten durch seine Muttersprache. Die Therapeut-Patient-Bindung wird aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er SPRICHT, DENKT und FÜHLT!</p>
           
-          <p>Jeder Patient, der sich sicherer und aufgenommener fühlt, zeigt folglich eine bessere Motivation, was sich POSITIV auf seine therapeutische Prognose auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.</p>
+          <p>Jeder Patient, der sich sicher und aufgenommen fühlt, zeigt eine gesteigerte Motivation, was sich POSITIV auf den Erfolg der therapeutischen Behandlung auswirkt. Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.</p>
 
           <div class="content-image">
             <img src="/kids.png" alt="Zweisprachige Therapiesitzung" />
@@ -1587,9 +1587,9 @@ export const siteContent: SiteContent = {
           <p>Eltern, Familienmitglieder und Betreuer werden über Therapieprogramme und -methoden sowie Rehabilitationsziele informiert und können so die Therapie zu Hause unterstützen. Mit familiärer Zusammenarbeit können wir Therapieziele schneller erreichen.</p>
 
           <h2>Wie unterscheidet sich die zweisprachige/mehrsprachige Therapie?</h2>
-          <p>Die zweisprachige und mehrsprachige Therapie unterscheidet sich von gewöhnlichen Therapien, da sie einen Therapieplan anbietet, der die soziokulturellen und interkulturellen Aspekte jedes Patienten respektiert.</p>
+          <p>Die zweisprachige und mehrsprachige Therapie unterscheidet sich von der gewöhnlichen Therapie, indem sie einen Therapieplan anbietet, der die soziokulturellen und interkulturellen Aspekte jedes Patienten berücksichtigt.</p>
           
-          <p>In meiner Therapie werde ich auch internationale Sprach-Sprach-Methoden zusammen mit meinem Wissen über klinische Psychopädagogik verwenden.</p>
+          <p>In meiner Therapie werde ich auch internationale Sprach-Methoden zusammen mit meinem Wissen über klinische Psychopädagogik verwenden.</p>
 
           <h2>Was wird für die zweisprachige/mehrsprachige Therapie hier in Deutschland benötigt?</h2>
           <ul>
@@ -1609,20 +1609,20 @@ export const siteContent: SiteContent = {
           imagePosition: "center",
         },
         content: `
-          <h2>Wie wird die Sprach-Sprach-Untersuchung allgemein durchgeführt?</h2>
-          <p>Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.</p>
+          <h2>Wie wird die Sprach-Untersuchung allgemein durchgeführt?</h2>
+          <p>Die Untersuchung wird durch standardisierte Tests und Beobachtungen aller Sprach-Bereiche (Wortschatz, Grammatik, Lesen, Schreiben, Sprechen, Verständnis und Flüssigkeit) durchgeführt, wenn möglich in allen Sprachen/Idiomen, in denen der Patient kommuniziert.</p>
           
           <p>Spezifische Tests zur Untersuchung des Schluckens und der Funktionalität der orofazialen Organe werden ebenfalls bei Bedarf durchgeführt.</p>
 
           <h2>Wie unterscheidet sich die zweisprachige/mehrsprachige Untersuchung von einsprachigen Untersuchungen?</h2>
-          <p>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte Untersuchung, da sie meistens keine standardisierten Tests enthält, die negativ in die klinischen Interpretationen jedes klinischen Zustands eingreifen können.</p>
+          <p>Die zweisprachige oder mehrsprachige Untersuchung ist eine differenzierte und individuelle Untersuchung. Standardisierte Tests sind hier meist unzureichenden, um den klinischen Zustand vollständig und korrekt zu erfassen.</p>
           
           <p><strong>Zweisprachige und mehrsprachige Kinder sollten nicht mit denselben Tests bewertet werden, die für einsprachige Kinder verwendet werden.</strong></p>
 
-          <p>Die Untersuchung wird durch präzise Analyse eines gesamten zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Kulturelle Faktoren wie Herkunft der ausgesetzten Sprachen und familiäre Aspekte werden geschätzt.</p>
+          <p>Die Untersuchung wird durch präzise Analyse eines vollständigen zweisprachigen und mehrsprachigen Entwicklungskontexts durchgeführt. Kulturelle Faktoren wie Herkunft der ausgesetzten Sprachen und familiäre Aspekte werden berücksichtigt.</p>
 
           <h2>Wichtige Aspekte bei der Untersuchung</h2>
-          <p>Situative Aspekte werden äußerst wichtig sein, um eine sicherere Diagnose von Sprach- und Sprachstörungen bei jedem Patienten zu erreichen:</p>
+          <p>Situative Aspekte werden äußerst wichtig sein, um eine sicherere Diagnose von Sprach- und Sprechstörungen bei jedem Patienten zu erreichen:</p>
           <ul>
             <li>Datum des ersten Kontakts mit gesprochenen Sprachen</li>
             <li>Tägliche Exposition gegenüber verschiedenen Sprachen</li>
@@ -1637,14 +1637,14 @@ export const siteContent: SiteContent = {
           tagline: "Familienunterstützung",
           title: "Beratung",
           description:
-            "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers und Sprach- und Sprachstörungen.",
-          backgroundImage: "counseling.jpeg",
-          imagePosition: "bottom",
+            "Beratungssitzungen für Familien über zweisprachige Entwicklung, Late Talkers, Sprachverzögerungen und Sprachstörungen.",
+          backgroundImage: "consell2.jpeg",
+          imagePosition: "center",
         },
         content: `
           <h2>Beratung # 1: Ihrem Kind helfen, zweisprachig oder mehrsprachig aufzuwachsen</h2>
           <p><em>(Multibag im Material enthalten)</em></p>
-          <p>Diese Beratungssitzung wurde entwickelt, um klare, evidenzbasierte Anleitungen zu geben, wie Ihr Kind Sprache und Sprache in mehreren Sprachen entwickelt und wie Sie es zu Hause selbstbewusst unterstützen können.</p>
+          <p>Diese Beratungssitzung wurde entwickelt, um klare, evidenzbasierte Anleitungen zu geben, wie Ihr Kind Fähigkeiten der Handhabung mehreren Sprachen entwickeln kann, und wie Sie dies zu Hause selbstständig und strukturiertunterstützen können.</p>
           
           <p><strong>Einige häufig gestellte Fragen, die in dieser Beratung beantwortet werden:</strong></p>
           <ul>
@@ -1666,10 +1666,10 @@ export const siteContent: SiteContent = {
             <li>Was ist mit Kindern mit besonderen Bedürfnissen?</li>
           </ul>
 
-          <h2>Beratung # 3: Zweisprachigkeit/Mehrsprachigkeit und Sprach- und Sprachstörungen verstehen</h2>
-          <p>Diese Beratungssitzung ist für zweisprachige und mehrsprachige Familien, die Kinder mit jeder Art von Sprach- und Sprachveränderung haben und die besser verstehen möchten, wie mögliche Einschränkungen die Entwicklung von Zweisprachigkeit und Mehrsprachigkeit zu Hause, in der Schule und in der Umgebung beeinflussen werden.</p>
+          <h2>Beratung # 3: Zweisprachigkeit/Mehrsprachigkeit, Sprachverzögerungen und Sprachstörungen verstehen</h2>
+          <p>Diese Beratungssitzung ist für zweisprachige und mehrsprachige Familien, die Kinder mit jeder Art von Sprachveränderung haben und die besser verstehen möchten, wie mögliche Einschränkungen die Entwicklung von Zweisprachigkeit und Mehrsprachigkeit zu Hause, in der Schule und in der Umgebung beeinflussen werden.</p>
           <ul>
-            <li>Sprach- und Sprachstörungen bei zweisprachigen/mehrsprachigen Kindern</li>
+            <li>Sprachverzögerung- und Sprachstörungen bei zweisprachigen/mehrsprachigen Kindern</li>
             <li>Wie zweisprachige und mehrsprachige Untersuchung durchgeführt wird</li>
             <li>Wie die Muttersprache beibehalten wird</li>
             <li>Sprachunterstützung zu Hause, in der Schule und in der Gemeinschaft</li>
@@ -1689,22 +1689,22 @@ export const siteContent: SiteContent = {
           imagePosition: "top",
         },
         content: `
-          <h2>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprach- und Sprachentwicklung im Klassenzimmer"</h2>
-          <p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch identifiziert. Daher nicht für Sprachtherapie überwiesen. Lehrer lernen, normale und verzögerte Sprach- und Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p>
+          <h2>Workshop # 1: "Verstehen und Unterstützen der zweisprachigen Sprachentwicklung im Klassenzimmer"</h2>
+          <p><strong>Kursziel:</strong> Viele zweisprachige und mehrsprachige Schüler werden in Bezug auf Lernen und Sprachentwicklung falsch beurteilt. Daher nicht für Sprachtherapie überwiesen. Lehrer lernen, normale und verzögerte Sprachentwicklung bei zweisprachigen Schülern zu erkennen.</p>
           
           <ul>
             <li>Typische Phasen der zweisprachigen Kindersprachentwicklung verstehen.</li>
             <li>Den Unterschied zwischen "normaler" Sprachentwicklung und Sprachstörung erkennen.</li>
-            <li>Warnzeichen für Sprach- oder Sprachverzögerungen bei zweisprachigen Schülern identifizieren.</li>
+            <li>Warnzeichen für Sprachverzögerungen bei zweisprachigen Schülern erkennen.</li>
             <li>Klassenzimmerstrategien anwenden, um zweisprachige Schüler effektiv zu unterstützen.</li>
           </ul>
 
-          <h2>Workshop # 2: "Die häufigsten Sprach- und Sprachstörungen in Schulen erkennen"</h2>
-          <p>Dieser Workshop richtet sich an Pädagogen, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, die die schulische Leistung der Schüler beeinträchtigen können.</p>
+          <h2>Workshop # 2: "Die häufigsten Sprachstörungen in Schulen erkennen"</h2>
+          <p>Dieser Workshop richtet sich an Pädagogen, die die wichtigsten Kommunikationsstörungen besser verstehen möchten, welche die schulische Leistung der Schüler beeinträchtigen können.</p>
           
           <ul>
-            <li>Überblick über Sprache, Sprache und Kommunikation</li>
-            <li>Unterschied zwischen Sprach- und Sprachstörungen</li>
+            <li>Überblick über Sprache und Kommunikation</li>
+            <li>Unterschied zwischen Sprachverzögerung und Sprachstörungen</li>
             <li>Rote Flaggen und Klassenzimmermanifestationen</li>
             <li>Artikulationsstörungen (z.B.: Lispeln)</li>
             <li>Phonologische Abweichungen</li>
@@ -1752,7 +1752,7 @@ export const siteContent: SiteContent = {
           <h2>Willkommen in unserem Raum</h2>
           <p>Unsere Klinik wurde sorgfältig gestaltet, um eine einladende und komfortable Umgebung für alle unsere Patienten und ihre Familien zu schaffen. Wir verstehen, dass es wichtig ist, sich sicher und wohl zu fühlen, damit die Therapie effektiv ist.</p>
           
-          <p>Unser Raum verfügt über moderne Therapieräume, die mit angemessenen Materialien und Ressourcen für Sprach- und Sprachtherapie ausgestattet sind. Jeder Raum ist so gestaltet, dass er Lernen, Kommunikation und Entwicklung in einer ruhigen und unterstützenden Atmosphäre erleichtert.</p>
+          <p>Unser Raum verfügt über moderne Therapieräume, die mit angemessenen Materialien und Ressourcen für Sprachtherapie ausgestattet sind. Jeder Raum ist so gestaltet, dass er Lernen, Kommunikation und Entwicklung in einer ruhigen und unterstützenden Atmosphäre erleichtert.</p>
 
           <h2>Eine professionelle und doch komfortable Umgebung</h2>
           <p>Wir glauben, dass die physische Umgebung eine entscheidende Rolle im therapeutischen Prozess spielt. Unsere Klinik befindet sich in Hamburg, Deutschland, und bietet eine professionelle Umgebung, in der sich Patienten jeden Alters willkommen und verstanden fühlen.</p>
@@ -1827,7 +1827,7 @@ export const siteContent: SiteContent = {
           fullDescription:
             "<h3>Asesoramiento # 1: Ayudando a tu hijo a crecer bilingüe o multilingüe</h3><p><em>(Multibag incluida en el material)</em></p><p>Esta sesión de asesoramiento fue diseñada para proporcionar orientación clara y basada en evidencia sobre cómo tu hijo desarrolla el habla y el lenguaje en múltiples idiomas y cómo puedes apoyarlo con confianza en casa.</p><p><strong>Algunas preguntas frecuentes respondidas en este asesoramiento:</strong></p><ol><li>¿Mi hijo puede aprender más de un idioma, incluso con dificultades?</li><li>¿Qué es normal esperar en el desarrollo del lenguaje bilingüe/multilingüe?</li><li>¿Cómo puedo ayudar en casa? ¿Qué materiales y juguetes debo usar?</li><li>¿Cuándo debo preocuparme? ¿Qué es patológico?</li><li>¿Qué pasa con los niños con necesidades especiales, cómo estimular múltiples idiomas?</li></ol><br><h3>Asesoramiento # 2: Bilingüismo, Multilingüismo y Hablantes Tardíos</h3><p>Esta sesión de asesoramiento es para familias que crían un niño bilingüe/multilingüe con retraso en el habla en más de un idioma.</p><ol><li>¿Quién es un Hablante Tardío?</li><li>¿Un Hablante Tardío puede volverse bilingüe o multilingüe?</li><li>¿Qué es normal en un Hablante Tardío bilingüe/multilingüe vs. qué no lo es?</li><li>¿Cuándo preocuparse?</li><li>¿Qué pueden hacer los padres en casa?</li><li>¿Qué pasa con los niños con necesidades especiales?</li></ol><br><h3>Asesoramiento # 3: Entendiendo el bilingüismo/multilingüismo y los trastornos del habla y el lenguaje</h3><p>Esta sesión de asesoramiento es para familias bilingües y multilingües que tienen hijos con cualquier tipo de alteración del habla y el lenguaje y que quieren entender mejor cómo las posibles limitaciones impactarán el desarrollo del bilingüismo y multilingüismo en casa, en la escuela y en el entorno.</p><ol><li>Trastornos del habla y el lenguaje en niños bilingües/multilingües</li><li>Cómo se realiza la evaluación bilingüe y multilingüe</li><li>Cómo mantener la lengua materna</li><li>Apoyo lingüístico en casa, escuela y comunidad</li><li>Cuándo buscar ayuda</li><li>Tranquilidad para los padres</li><li>Mitos vs. Hechos: Prestando atención a mitos y verdades en la educación bilingüe y multilingüe</li></ol>",
           slug: "counseling",
-          heroImage: "counseling.jpeg",
+          heroImage: "consell2.jpeg",
         },
         {
           title: "Talleres para Escuelas y Maestros",
@@ -2235,8 +2235,8 @@ export const siteContent: SiteContent = {
           title: "Asesoramiento",
           description:
             "Sesiones de asesoramiento para familias sobre desarrollo bilingüe, hablantes tardíos y trastornos del habla y el lenguaje.",
-          backgroundImage: "counseling.jpeg",
-          imagePosition: "bottom",
+          backgroundImage: "consell2.jpeg",
+          imagePosition: "center",
         },
         content: `
           <h2>Asesoramiento # 1: Ayudando a tu hijo a crecer bilingüe o multilingüe</h2>

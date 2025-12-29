@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/pages/bilingual-multilingual-therapy":{},"/pages/assessment":{},"/pages/counseling":{},"/pages/workshops":{},"/pages/space":{}},"dynamicRoutes":{"/pages/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/pages/[slug]","routeRegex":"^\\/pages\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"b517259f0f82e47afe338e3c64909a95","previewModeSigningKey":"164e8b90baf89bba959bce6c03927bb68fc2a032aeb4a9689869d2119016f5ed","previewModeEncryptionKey":"e8717b7d486fd4d465cc11186aa5831d03dd08763490efb5b19fd3f293331c49"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "311b99c24fd2894e51c4625206c34a13",
+    "previewModeSigningKey": "6521b6e4270fd63d84f5cd97a23254e49937d288ea1b2cf026195e26035e4e7e",
+    "previewModeEncryptionKey": "7c7b13667d8fb22c7cf53410cb4a2da6f70cca6d203238597e29dd06533690e8"
+  }
+}

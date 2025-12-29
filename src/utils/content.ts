@@ -1195,7 +1195,7 @@ export const siteContent: SiteContent = {
   },
   de: {
     hero: {
-      tagline: "Mehrsprachige Sprachtherapeutin",
+      tagline: "Mehrsprachige Logopädin",
       title: "Two Languages Are Better Than One!",
       description:
         "Herzlich willkommen zu den Therapien meiner zweisprachigen und mehrsprachigen Klinik!<br><br> Das Hauptziel meiner Therapien ist der Zugang zu dem Patienten über seiner Muttersprache. Die Therapeut-Patient-Bindung wird aufgebaut, wenn der Patient merkt, dass er in dem verstanden wird, was er sagt, denkt und fühlt. Wenn sich der Patient sicher und aufgenommen fühlt, zeigt er folglich eine gesteigerte Motivation, was sich positiv auf den Erfolg der therapeutischen Behandlung auswirkt. <br><br> Dies ist zweifellos der große Vorteil oder der 'Goldene Schlüssel' der zweisprachigen oder mehrsprachigen Therapie.",
@@ -1253,7 +1253,7 @@ export const siteContent: SiteContent = {
       title: "Über Mich",
       name: "Tatiana Cooke Munkes",
       description:
-        "Ich bin eine mehrsprachige Sprachtherapeutin, mit staatlicher Anerkennung durch die Gesundheitsbehörden des Bundeslandes Hamburg, Deutschland. Ich habe 30+ Jahre Berufserfahrung als Sprachtherapeutin und Psychopädagogin in Brasilien, England, der Schweiz, den Vereinigten Staaten und Deutschland gesammelt. Ich biete Untersuchung, Therapie und Beratung in Portugiesisch, Deutsch und Englisch für zweisprachige und mehrsprachige Familien an.",
+        "Ich bin eine mehrsprachige Logopädin, mit staatlicher Anerkennung durch die Gesundheitsbehörden des Bundeslandes Hamburg, Deutschland. Ich habe 30+ Jahre Berufserfahrung als Logopädin und Psychopädagogin in Brasilien, England, der Schweiz, den Vereinigten Staaten und Deutschland gesammelt. Ich biete Untersuchung, Therapie und Beratung in Portugiesisch, Deutsch und Englisch für zweisprachige und mehrsprachige Familien an.",
       experience: "30+ Jahre Erfahrung in mehrsprachiger Therapie und Bildung",
       personalNote:
         "Ich habe zwei Kinder, die ich zusammen mit meinem Mann seit Jahren in diesen drei Sprachen erziehe. Die Gelegenheit, in mehreren Ländern zu leben, erweiterte unser Verständnis für die Herausforderung der Integration in eine Gesellschaft. Entscheidend für eine erfolgreiche Integration ist Sprache und Kommunikation unter Beachtung soziokultureller Aspekte.",
@@ -1275,13 +1275,13 @@ export const siteContent: SiteContent = {
             },
             {
               company: "ISH - International School of Hamburg",
-              position: "Sprachtherapeutin",
+              position: "Logopädin",
               description:
                 "Zweisprachige und mehrsprachige Therapien für Studenten mit mündlichen Kommunikations-, Lese- und Schreibschwierigkeiten.",
             },
             {
               company: "Karen Grosstück Sprachtherapie-Klinik",
-              position: "Hausbesuch Sprachtherapeutin",
+              position: "Hausbesuch Logopädin",
               description:
                 "Haustherapie für Senioren mit Sprech- und Schluckbeschwerden aufgrund neurologischer Probleme und Zerebralparese.",
             },
@@ -1297,7 +1297,7 @@ export const siteContent: SiteContent = {
           experiences: [
             {
               company: "Work & Life (International Kindergarten)",
-              position: "Sprachtherapeutin",
+              position: "Logopädin",
               description:
                 "Therapie für zweisprachige und mehrsprachige Kinder mit Sprach- und Sprechschwierigkeiten.",
             },
@@ -1346,14 +1346,14 @@ export const siteContent: SiteContent = {
             {
               company:
                 "A.B.B.R Brasilianische Wohlfahrts-Rehabilitationsvereinigung",
-              position: "Sprachtherapeutin (Rio de Janeiro)",
+              position: "Logopädin (Rio de Janeiro)",
               description:
                 "Sprach- und Sprechherapie für Erwachsene und Kinder mit neurologischen Störungen. Therapie und psychopädagogische Beratung für Eltern.",
             },
             {
               company:
                 "C.R.E.F.E.S. Zentrum für körperliche Rehabilitation des Staates Espírito Santo",
-              position: "Sprachtherapeutin (Espírito Santo)",
+              position: "Logopädin (Espírito Santo)",
               description:
                 "Therapie für Erwachsene mit neurologischen Störungen: Aphasie, Dysarthrie und Dysphagie; Therapie für Kinder mit Zerebralparese und anderen neurologischen Störungen.",
             },

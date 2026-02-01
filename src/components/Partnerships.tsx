@@ -12,6 +12,7 @@ interface PartnerItem {
   name: string;
   href: string;
   logoSrc: string;
+  description?: string;
 }
 
 export default function Partnerships({ language }: PartnershipsProps) {
@@ -27,6 +28,32 @@ export default function Partnerships({ language }: PartnershipsProps) {
       logoSrc: "/partners/dbl-logo-claim.svg",
     },
     {
+      name: "Autismus Deutschland e.V.",
+      href: "https://www.autismus.de",
+      logoSrc: "/partners/autismus_logo290.png",
+      description:
+        language === "en"
+          ? "Federal Association for the Promotion of People with Autism"
+          : language === "pt"
+          ? "Associação Federal para a Promoção de Pessoas com Autismo"
+          : language === "es"
+          ? "Asociación Federal para la Promoción de Personas con Autismo"
+          : "Bundesverband zur Förderung von Menschen mit Autismus",
+    },
+    {
+      name: "FMKS e.V.",
+      href: "https://www.fmks.eu",
+      logoSrc: "/partners/Logo_Fusszeile.png",
+      description:
+        language === "en"
+          ? "Early Multilingualism at Daycare Centers and Schools"
+          : language === "pt"
+          ? "Multilinguismo Precoce em Creches e Escolas"
+          : language === "es"
+          ? "Multilingüismo Temprano en Guarderías y Escuelas"
+          : "Frühe Mehrsprachigkeit an Kitas und Schulen",
+    },
+    {
       name: "Therapy Collective",
       href: "https://www.therapycollective.de",
       logoSrc: "/partners/TherapyCollectiveLogo.avif",
@@ -35,11 +62,6 @@ export default function Partnerships({ language }: PartnershipsProps) {
       name: "Elblingua",
       href: "https://www.elblingua.de",
       logoSrc: "/partners/logo_completo_bold.avif",
-    },
-    {
-      name: "Twinkl",
-      href: "https://www.twinkl.de",
-      logoSrc: "/partners/twinkl_logo_cropped_300px.png",
     },
   ];
 
@@ -187,6 +209,11 @@ export default function Partnerships({ language }: PartnershipsProps) {
                   <div className={styles.verticalLine} />
                   <div className={styles.partnerInfo}>
                     <h3 className={styles.partnerName}>{partner.name}</h3>
+                    {partner.description && (
+                      <p className={styles.partnerDescription}>
+                        {partner.description}
+                      </p>
+                    )}
                     <p className={styles.partnerCategory}>
                       <a
                         href={partner.href}

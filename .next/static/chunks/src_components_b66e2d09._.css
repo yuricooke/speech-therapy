@@ -3173,6 +3173,14 @@
   font-weight: 600;
 }
 
+.Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerDescription {
+  color: var(--text-primary);
+  opacity: .8;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .Partnerships-module-scss-module__3pKPxG__partnerships .Partnerships-module-scss-module__3pKPxG__partnerCategory {
   color: var(--accent);
   font-size: 1rem;

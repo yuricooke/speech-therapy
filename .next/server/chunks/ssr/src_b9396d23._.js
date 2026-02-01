@@ -5203,6 +5203,7 @@ __turbopack_context__.v({
   "material-symbols-outlined": "Partnerships-module-scss-module__3pKPxG__material-symbols-outlined",
   "partnerCard": "Partnerships-module-scss-module__3pKPxG__partnerCard",
   "partnerCategory": "Partnerships-module-scss-module__3pKPxG__partnerCategory",
+  "partnerDescription": "Partnerships-module-scss-module__3pKPxG__partnerDescription",
   "partnerInfo": "Partnerships-module-scss-module__3pKPxG__partnerInfo",
   "partnerName": "Partnerships-module-scss-module__3pKPxG__partnerName",
   "partnerships": "Partnerships-module-scss-module__3pKPxG__partnerships",
@@ -5241,6 +5242,18 @@ function Partnerships({ language }) {
             logoSrc: "/partners/dbl-logo-claim.svg"
         },
         {
+            name: "Autismus Deutschland e.V.",
+            href: "https://www.autismus.de",
+            logoSrc: "/partners/autismus_logo290.png",
+            description: language === "en" ? "Federal Association for the Promotion of People with Autism" : language === "pt" ? "Associação Federal para a Promoção de Pessoas com Autismo" : language === "es" ? "Asociación Federal para la Promoción de Personas con Autismo" : "Bundesverband zur Förderung von Menschen mit Autismus"
+        },
+        {
+            name: "FMKS e.V.",
+            href: "https://www.fmks.eu",
+            logoSrc: "/partners/Logo_Fusszeile.png",
+            description: language === "en" ? "Early Multilingualism at Daycare Centers and Schools" : language === "pt" ? "Multilinguismo Precoce em Creches e Escolas" : language === "es" ? "Multilingüismo Temprano en Guarderías y Escuelas" : "Frühe Mehrsprachigkeit an Kitas und Schulen"
+        },
+        {
             name: "Therapy Collective",
             href: "https://www.therapycollective.de",
             logoSrc: "/partners/TherapyCollectiveLogo.avif"
@@ -5249,11 +5262,6 @@ function Partnerships({ language }) {
             name: "Elblingua",
             href: "https://www.elblingua.de",
             logoSrc: "/partners/logo_completo_bold.avif"
-        },
-        {
-            name: "Twinkl",
-            href: "https://www.twinkl.de",
-            logoSrc: "/partners/twinkl_logo_cropped_300px.png"
         }
     ];
     const stopAutoplay = ()=>{
@@ -5342,7 +5350,7 @@ function Partnerships({ language }) {
                             children: language === "en" ? "Partnerships" : language === "pt" ? "Parcerias" : language === "es" ? "Colaboraciones" : "Partnerschaften"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 144,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5350,13 +5358,13 @@ function Partnerships({ language }) {
                             children: language === "en" ? "Collaborating with leading institutions to provide the best multilingual speech therapy services" : language === "pt" ? "Colaborando com instituições líderes para fornecer os melhores serviços de terapia de fala multilíngue" : language === "es" ? "Colaborando con instituciones líderes para brindar los mejores servicios de terapia del habla multilingüe" : "Zusammenarbeit mit führenden Institutionen zur Bereitstellung der besten Multilingual Speech Therapy Services"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 153,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Partnerships.tsx",
-                    lineNumber: 143,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5370,7 +5378,7 @@ function Partnerships({ language }) {
                             children: "‹"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 165,
+                            lineNumber: 187,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5391,19 +5399,19 @@ function Partnerships({ language }) {
                                                     alt: partner.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Partnerships.tsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 206,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Partnerships.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 205,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].verticalLine
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Partnerships.tsx",
-                                                lineNumber: 187,
+                                                lineNumber: 209,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5414,8 +5422,16 @@ function Partnerships({ language }) {
                                                         children: partner.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Partnerships.tsx",
-                                                        lineNumber: 189,
+                                                        lineNumber: 211,
                                                         columnNumber: 21
+                                                    }, this),
+                                                    partner.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].partnerDescription,
+                                                        children: partner.description
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Partnerships.tsx",
+                                                        lineNumber: 213,
+                                                        columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Partnerships$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].partnerCategory,
@@ -5432,40 +5448,40 @@ function Partnerships({ language }) {
                                                                     children: "open_in_new"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Partnerships.tsx",
-                                                                    lineNumber: 197,
+                                                                    lineNumber: 224,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Partnerships.tsx",
-                                                            lineNumber: 191,
+                                                            lineNumber: 218,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Partnerships.tsx",
-                                                        lineNumber: 190,
+                                                        lineNumber: 217,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Partnerships.tsx",
-                                                lineNumber: 188,
+                                                lineNumber: 210,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Partnerships.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 204,
                                         columnNumber: 17
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/src/components/Partnerships.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 203,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 173,
+                            lineNumber: 195,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5475,13 +5491,13 @@ function Partnerships({ language }) {
                             children: "›"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 211,
+                            lineNumber: 238,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Partnerships.tsx",
-                    lineNumber: 164,
+                    lineNumber: 186,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5492,23 +5508,23 @@ function Partnerships({ language }) {
                             "aria-label": `Go to slide ${index + 1}`
                         }, index, false, {
                             fileName: "[project]/src/components/Partnerships.tsx",
-                            lineNumber: 222,
+                            lineNumber: 249,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Partnerships.tsx",
-                    lineNumber: 220,
+                    lineNumber: 247,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Partnerships.tsx",
-            lineNumber: 142,
+            lineNumber: 164,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Partnerships.tsx",
-        lineNumber: 141,
+        lineNumber: 163,
         columnNumber: 5
     }, this);
 }

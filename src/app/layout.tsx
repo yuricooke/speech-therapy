@@ -84,7 +84,7 @@ export const metadata: Metadata = {
       "Professional multilingual speech language therapy services in Hamburg. Specialized in bilingual and multilingual therapy, assessment, and counseling in German, Portuguese, and English. 30+ years of experience.",
     images: [
       {
-        url: `${baseUrl}/thumbnail.png`,
+        url: `${baseUrl}/thumb.png`,
         width: 1200,
         height: 630,
         alt: "Tatiana Cooke Munkes - Multilingual Speech Language Therapist",
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
     title: "Multilingual Speech Language Therapy | Hamburg",
     description:
       "Professional multilingual speech language therapy services in Hamburg, Germany. Specialized in bilingual and multilingual therapy.",
-    images: [`${baseUrl}/thumbnail.png`],
+    images: [`${baseUrl}/thumb.png`],
   },
   alternates: {
     canonical: baseUrl,
@@ -137,8 +137,8 @@ export const metadata: Metadata = {
   other: {
     "geo.region": "DE-HH",
     "geo.placename": "Hamburg",
-    "geo.position": "53.5511;9.9937",
-    ICBM: "53.5511, 9.9937",
+    "geo.position": "53.5815352;10.0843647",
+    ICBM: "53.5815352, 10.0843647",
   },
 };
 
@@ -158,20 +158,20 @@ export default function RootLayout({
       "Professional multilingual speech language therapy services in Hamburg, Germany",
     url: baseUrl,
     logo: `${baseUrl}/logo.svg`,
-    image: `${baseUrl}/thumbnail.png`,
+    image: `${baseUrl}/thumb.png`,
     telephone: "+4915146538687",
     email: "tcmunkes@gmail.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Gluckstraße 57",
+      streetAddress: "Auf dem Königslande 96",
       addressLocality: "Hamburg",
-      postalCode: "22081",
+      postalCode: "22047",
       addressCountry: "DE",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "53.5511",
-      longitude: "9.9937",
+      latitude: "53.5815352",
+      longitude: "10.0843647",
     },
     areaServed: {
       "@type": "City",

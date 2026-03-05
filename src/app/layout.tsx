@@ -84,7 +84,7 @@ export const metadata: Metadata = {
       "Professional multilingual speech language therapy services in Hamburg. Specialized in bilingual and multilingual therapy, assessment, and counseling in German, Portuguese, and English. 30+ years of experience.",
     images: [
       {
-        url: `${baseUrl}/thumb.png`,
+        url: `${baseUrl}/media.jpg`,
         width: 1200,
         height: 630,
         alt: "Tatiana Cooke Munkes - Multilingual Speech Language Therapist",
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
     title: "Multilingual Speech Language Therapy | Hamburg",
     description:
       "Professional multilingual speech language therapy services in Hamburg, Germany. Specialized in bilingual and multilingual therapy.",
-    images: [`${baseUrl}/thumb.png`],
+    images: [`${baseUrl}/media.jpg`],
   },
   alternates: {
     canonical: baseUrl,
@@ -158,7 +158,7 @@ export default function RootLayout({
       "Professional multilingual speech language therapy services in Hamburg, Germany",
     url: baseUrl,
     logo: `${baseUrl}/logo.svg`,
-    image: `${baseUrl}/thumb.png`,
+    image: `${baseUrl}/media.jpg`,
     telephone: "+4915146538687",
     email: "tcmunkes@gmail.com",
     address: {

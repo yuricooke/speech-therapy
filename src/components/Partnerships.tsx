@@ -54,11 +54,6 @@ export default function Partnerships({ language }: PartnershipsProps) {
           : "Frühe Mehrsprachigkeit an Kitas und Schulen",
     },
     {
-      name: "Therapy Collective",
-      href: "https://www.therapycollective.de",
-      logoSrc: "/partners/TherapyCollectiveLogo.avif",
-    },
-    {
       name: "Elblingua",
       href: "https://www.elblingua.de",
       logoSrc: "/partners/logo_completo_bold.avif",

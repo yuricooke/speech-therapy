@@ -160,12 +160,12 @@ export default function Partnerships({ language }: PartnershipsProps) {
         <div className={styles.header}>
           <h2 className={styles.title}>
             {language === "en"
-              ? "Partnerships"
+              ? "Membership"
               : language === "pt"
-              ? "Parcerias"
+              ? "Filiações"
               : language === "es"
-              ? "Colaboraciones"
-              : "Partnerschaften"}
+              ? "Membresía"
+              : "Mitgliedschaft"}
           </h2>
           <p className={styles.subtitle}>
             {language === "en"
